@@ -34,10 +34,10 @@ function getAllTips(): Tip[] {
   if (!fs.existsSync(dataDir)) {
     return [];
   }
-  
+
   const files = fs.readdirSync(dataDir).filter(f => f.endsWith('_tips.json'));
   const allTips: Tip[] = [];
-  
+
   for (const file of files) {
     try {
       const data = fs.readFileSync(path.join(dataDir, file), 'utf-8');
@@ -47,22 +47,20 @@ function getAllTips(): Tip[] {
       // Skip invalid files
     }
   }
-  
-  return allTips.sort((a, b) => 
-    new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
-  );
+
+  return allTips.sort((a, b) => b.id.localeCompare(a.id));
 }
 
 // GET all tips (optionally filtered by category)
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const category = searchParams.get('category');
-  
+
   if (category) {
     const tips = readTipsByCategory(category);
     return NextResponse.json(tips);
   }
-  
+
   const allTips = getAllTips();
   return NextResponse.json(allTips);
 }
@@ -72,18 +70,18 @@ export async function POST(request: Request) {
   const body = await request.json();
   const category = body.category || 'general';
   const tips = readTipsByCategory(category);
-  
+
   const newTip: Tip = {
     id: Date.now().toString(),
     category: category,
     title: body.title,
+    summary: body.summary || '',
     content: body.content,
     thumbnail: body.thumbnail || '',
-    created_at: new Date().toISOString(),
   };
-  
+
   tips.push(newTip);
   writeTipsByCategory(category, tips);
-  
+
   return NextResponse.json(newTip, { status: 201 });
 }

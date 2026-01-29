@@ -8,7 +8,7 @@ export default function TipsPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [editingTip, setEditingTip] = useState<Tip | null>(null);
-  const [formData, setFormData] = useState({ title: '', content: '', category: 'tesla', thumbnail: '' });
+  const [formData, setFormData] = useState({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deletingTip, setDeletingTip] = useState<Tip | null>(null);
@@ -33,13 +33,19 @@ export default function TipsPage() {
 
   const handleAdd = () => {
     setEditingTip(null);
-    setFormData({ title: '', content: '', category: 'tesla', thumbnail: '' });
+    setFormData({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '' });
     setShowModal(true);
   };
 
   const handleEdit = (tip: Tip) => {
     setEditingTip(tip);
-    setFormData({ title: tip.title, content: tip.content, category: tip.category, thumbnail: tip.thumbnail || '' });
+    setFormData({
+      title: tip.title,
+      summary: tip.summary || '',
+      content: tip.content,
+      category: tip.category,
+      thumbnail: tip.thumbnail || ''
+    });
     setShowModal(true);
   };
 
@@ -50,7 +56,7 @@ export default function TipsPage() {
 
   const handleDeleteConfirm = async () => {
     if (!deletingTip) return;
-    
+
     try {
       await fetch(`/api/tips/${deletingTip.id}`, { method: 'DELETE' });
       await fetchTips();
@@ -89,13 +95,6 @@ export default function TipsPage() {
     }
   };
 
-  const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('ko-KR', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    });
-  };
 
   const getCategoryLabel = (value: string) => {
     const category = TIP_CATEGORIES.find(c => c.value === value);
@@ -163,7 +162,7 @@ export default function TipsPage() {
                   <th>ID</th>
                   <th>카테고리</th>
                   <th>제목</th>
-                  <th>작성일</th>
+                  <th>요약</th>
                   <th style={{ width: '120px' }}>관리</th>
                 </tr>
               </thead>
@@ -175,7 +174,7 @@ export default function TipsPage() {
                       <span className="badge badge-success">{getCategoryLabel(tip.category)}</span>
                     </td>
                     <td style={{ fontWeight: 500 }}>{tip.title}</td>
-                    <td style={{ color: '#64748b' }}>{formatDate(tip.created_at)}</td>
+                    <td style={{ fontSize: '0.875rem', color: '#475569' }}>{tip.summary}</td>
                     <td>
                       <div style={{ display: 'flex', gap: '0.5rem' }}>
                         <button
@@ -240,6 +239,17 @@ export default function TipsPage() {
                   />
                 </div>
                 <div className="form-group">
+                  <label htmlFor="summary" className="form-label">요약</label>
+                  <input
+                    type="text"
+                    id="summary"
+                    className="form-input"
+                    value={formData.summary}
+                    onChange={(e) => setFormData({ ...formData, summary: e.target.value })}
+                    placeholder="팁 요약을 입력하세요"
+                  />
+                </div>
+                <div className="form-group">
                   <label htmlFor="content" className="form-label">내용</label>
                   <textarea
                     id="content"
@@ -262,10 +272,10 @@ export default function TipsPage() {
                   />
                   {formData.thumbnail && (
                     <div style={{ marginTop: '0.5rem' }}>
-                      <img 
-                        src={formData.thumbnail} 
-                        alt="썸네일 미리보기" 
-                        style={{ maxWidth: '200px', maxHeight: '120px', borderRadius: '4px', objectFit: 'cover' }} 
+                      <img
+                        src={formData.thumbnail}
+                        alt="썸네일 미리보기"
+                        style={{ maxWidth: '200px', maxHeight: '120px', borderRadius: '4px', objectFit: 'cover' }}
                       />
                     </div>
                   )}

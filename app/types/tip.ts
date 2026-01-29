@@ -2,9 +2,9 @@ export interface Tip {
   id: string;
   category: string;
   title: string;
+  summary: string;
   content: string;
   thumbnail?: string;
-  created_at: string;
 }
 
 // 기본 카테고리 목록
