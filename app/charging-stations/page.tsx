@@ -17,6 +17,7 @@ export default function ChargingStationsPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deletingStation, setDeletingStation] = useState<ChargingStation | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetchStations();
@@ -106,6 +107,12 @@ export default function ChargingStationsPage() {
     }
   };
 
+  const filteredStations = stations.filter((station) => {
+    if (!searchQuery) return true;
+    const q = searchQuery.toLowerCase();
+    return station.name.toLowerCase().includes(q) || station.address.toLowerCase().includes(q);
+  });
+
   if (isLoading) {
     return (
       <div className="loading-container" style={{ minHeight: '400px' }}>
@@ -117,15 +124,32 @@ export default function ChargingStationsPage() {
 
   return (
     <div>
+      {/* Search */}
+      <div style={{ marginBottom: '1rem' }}>
+        <input
+          type="text"
+          className="form-input"
+          placeholder="명칭 또는 주소로 검색..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          style={{ maxWidth: '400px' }}
+        />
+      </div>
+
       <div className="card">
         <div className="card-header">
-          <h2 className="card-title">전기차 충전소 위치 관리</h2>
+          <h2 className="card-title">
+            전기차 충전소 위치 관리
+            <span style={{ fontSize: '0.875rem', fontWeight: 400, marginLeft: '0.5rem', color: '#64748b' }}>
+              ({filteredStations.length}개{searchQuery && ` / 전체 ${stations.length}개`})
+            </span>
+          </h2>
           <button className="btn btn-primary" onClick={handleAdd}>
             + 새 충전소 추가
           </button>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
-          {stations.length === 0 ? (
+          {filteredStations.length === 0 ? (
             <div className="empty-state">
               <div className="empty-state-icon">⚡</div>
               <h3>등록된 충전소가 없습니다</h3>
@@ -146,7 +170,7 @@ export default function ChargingStationsPage() {
                 </tr>
               </thead>
               <tbody>
-                {stations.map((station) => (
+                {filteredStations.map((station) => (
                   <tr key={station.id}>
                     <td style={{ fontWeight: 500 }}>{station.name}</td>
                     <td style={{ color: '#64748b' }}>{station.address}</td>

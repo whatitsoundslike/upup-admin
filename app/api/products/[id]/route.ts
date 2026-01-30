@@ -6,7 +6,7 @@ import { Product } from '@/app/types/product';
 const dataDir = path.join(process.cwd(), 'data');
 
 function getFilePath(category: string): string {
-  return path.join(dataDir, `${category}_products.json`);
+  return path.join(dataDir, `${category}_shop.json`);
 }
 
 function readProductsByCategory(category: string): Product[] {
@@ -30,23 +30,23 @@ function findProductById(id: string): { product: Product; category: string } | n
   if (!fs.existsSync(dataDir)) {
     return null;
   }
-  
-  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('_products.json'));
-  
+
+  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('_shop.json'));
+
   for (const file of files) {
     try {
       const data = fs.readFileSync(path.join(dataDir, file), 'utf-8');
       const products: Product[] = JSON.parse(data);
       const product = products.find(p => p.id === id);
       if (product) {
-        const category = file.replace('_products.json', '');
+        const category = file.replace('_shop.json', '');
         return { product, category };
       }
     } catch {
       // Skip invalid files
     }
   }
-  
+
   return null;
 }
 
@@ -57,11 +57,11 @@ export async function GET(
 ) {
   const { id } = await params;
   const result = findProductById(id);
-  
+
   if (!result) {
     return NextResponse.json({ error: 'Product not found' }, { status: 404 });
   }
-  
+
   return NextResponse.json(result.product);
 }
 
@@ -74,21 +74,21 @@ export async function PUT(
     const { id } = await params;
     const body = await request.json();
     const result = findProductById(id);
-    
+
     if (!result) {
       return NextResponse.json({ error: 'Product not found' }, { status: 404 });
     }
-    
+
     const oldCategory = result.category;
     const newCategory = body.category || oldCategory;
-    
+
     // If category changed, move the product to the new file
     if (oldCategory !== newCategory) {
       // Remove from old file
       let oldProducts = readProductsByCategory(oldCategory);
       oldProducts = oldProducts.filter(p => p.id !== id);
       writeProductsByCategory(oldCategory, oldProducts);
-      
+
       // Add to new file
       const newProducts = readProductsByCategory(newCategory);
       const updatedProduct: Product = {
@@ -103,13 +103,13 @@ export async function PUT(
       };
       newProducts.push(updatedProduct);
       writeProductsByCategory(newCategory, newProducts);
-      
+
       return NextResponse.json(updatedProduct);
     } else {
       // Update in same file
       const products = readProductsByCategory(oldCategory);
       const index = products.findIndex(p => p.id === id);
-      
+
       products[index] = {
         ...products[index],
         name: body.name,
@@ -119,7 +119,7 @@ export async function PUT(
         link: body.link,
         order: body.order,
       };
-      
+
       writeProductsByCategory(oldCategory, products);
       return NextResponse.json(products[index]);
     }
@@ -135,14 +135,14 @@ export async function DELETE(
 ) {
   const { id } = await params;
   const result = findProductById(id);
-  
+
   if (!result) {
     return NextResponse.json({ error: 'Product not found' }, { status: 404 });
   }
-  
+
   let products = readProductsByCategory(result.category);
   products = products.filter(p => p.id !== id);
   writeProductsByCategory(result.category, products);
-  
+
   return NextResponse.json({ success: true });
 }

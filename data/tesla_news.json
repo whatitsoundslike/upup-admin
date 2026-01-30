@@ -1,5 +1,7 @@
 [
   {
+    "id": "f3194085-7ac3-4405-afea-2b0ecef82789",
+    "category": "tesla",
     "source": "동아일보",
     "title": "‘로켓-AI-로봇’ 묶는 머스크… 美中 ‘AI 우주전쟁’ 서막",
     "link": "https://n.news.naver.com/mnews/article/020/0003693869?sid=105",
@@ -8,6 +10,8 @@
     "published_at": "2026-01-31T01:42:00+09:00"
   },
   {
+    "id": "ac11652e-44e9-4efa-bd59-fe5d8d6fcd0b",
+    "category": "tesla",
     "source": "조선일보",
     "title": "삼성SDI, 美기업과 배터리 공급 계약… ‘테슬라와 3조’ 추정",
     "link": "https://n.news.naver.com/mnews/article/023/0003956321?sid=101",
@@ -16,6 +20,8 @@
     "published_at": "2026-01-31T00:44:00+09:00"
   },
   {
+    "id": "cfa0083e-2522-4698-9fbd-46a124742c44",
+    "category": "tesla",
     "source": "조선일보",
     "title": "갑을 관계 역전될까… AI에게 존댓말 쓰는 사람들",
     "link": "https://n.news.naver.com/mnews/article/023/0003956274?sid=102",
@@ -24,6 +30,8 @@
     "published_at": "2026-01-31T00:32:00+09:00"
   },
   {
+    "id": "d0e2bcf5-d7df-48e2-ac5f-1a509a8b3dd4",
+    "category": "tesla",
     "source": "한국경제",
     "title": "[토요칼럼] 피크아웃 포비아 넘은 '오천피 코리아'",
     "link": "https://n.news.naver.com/mnews/article/015/0005244951?sid=110",
@@ -32,6 +40,8 @@
     "published_at": "2026-01-31T00:24:00+09:00"
   },
   {
+    "id": "04aa39a7-cd10-4336-a49b-6339d10816ce",
+    "category": "tesla",
     "source": "finomy",
     "title": "로봇·산업용·협동로봇 관련주, '웃음' 한라캐스트·협진·와이투솔루...",
     "link": "http://www.finomy.com/news/articleView.html?idxno=248836",
@@ -40,6 +50,8 @@
     "published_at": "2026-01-31T00:20:00+09:00"
   },
   {
+    "id": "7b63340d-323d-4617-ae25-0f426aa0284a",
+    "category": "tesla",
     "source": "문화일보",
     "title": "“李정부 고위직들 테슬라 몰빵…당장 팔게하라” 주진우 비판",
     "link": "https://n.news.naver.com/mnews/article/021/0002767814?sid=100",
@@ -48,6 +60,8 @@
     "published_at": "2026-01-31T00:13:00+09:00"
   },
   {
+    "id": "9ff6eeca-fa14-4f83-9c9e-7009d3f50453",
+    "category": "tesla",
     "source": "조선일보",
     "title": "[사설] 서학개미 탓 하더니 정작 자신들이 서학개미",
     "link": "https://n.news.naver.com/mnews/article/023/0003956268?sid=110",
@@ -56,6 +70,8 @@
     "published_at": "2026-01-31T00:11:00+09:00"
   },
   {
+    "id": "e961700c-8369-4bf3-a47e-58dacfd1f8be",
+    "category": "tesla",
     "source": "finomy",
     "title": "시스템반도체 관련주, '함박웃음' SFA반도체·리노공업·이미지스·미래...",
     "link": "http://www.finomy.com/news/articleView.html?idxno=248834",
@@ -64,6 +80,8 @@
     "published_at": "2026-01-31T00:10:00+09:00"
   },
   {
+    "id": "56ad6b76-ba9d-4a86-8799-fb68ab4e30e3",
+    "category": "tesla",
     "source": "finomy",
     "title": "HBM(고대역폭메모리) 관련주, '웃음꽃' 한화비전·미래반도체·윈팩·와...",
     "link": "http://www.finomy.com/news/articleView.html?idxno=248833",
@@ -72,6 +90,8 @@
     "published_at": "2026-01-31T00:06:00+09:00"
   },
   {
+    "id": "92baf0d4-f3f4-47e6-a9b7-5299bd3f304f",
+    "category": "tesla",
     "source": "서울경제",
     "title": "[사설] 獨, 성장률 저하에 노동유연화… 우리도 머뭇댈 때 아니다",
     "link": "https://n.news.naver.com/mnews/article/011/0004585069?sid=110",
@@ -80,6 +100,8 @@
     "published_at": "2026-01-31T00:06:00+09:00"
   },
   {
+    "id": "5c0db128-66a2-4831-b72a-af5265470ce1",
+    "category": "tesla",
     "source": "전자신문",
     "title": "오픈AI, 4분기 상장 전망…아마존 72조원 투자 협상",
     "link": "https://n.news.naver.com/mnews/article/030/0003395106?sid=105",
@@ -88,6 +110,8 @@
     "published_at": "2026-01-31T00:00:00+09:00"
   },
   {
+    "id": "46d5a5ad-a8b7-46a3-b08d-05816a4ccdb2",
+    "category": "tesla",
     "source": "topstarnews",
     "title": "미국 뉴욕증시 하락 출발…고점 부담·인플레 경계에 약세 확대",
     "link": "https://www.topstarnews.net/news/articleView.html?idxno=15949503",
@@ -96,6 +120,8 @@
     "published_at": "2026-01-30T23:42:00+09:00"
   },
   {
+    "id": "6a7e93a2-3753-4fdc-ba5a-c87ff6884ccf",
+    "category": "tesla",
     "source": "동아일보",
     "title": "[사설]실패가 자산인 사회, 창업 국가로 가는 지름길",
     "link": "https://n.news.naver.com/mnews/article/020/0003693859?sid=110",
@@ -104,14 +130,18 @@
     "published_at": "2026-01-30T23:31:00+09:00"
   },
   {
+    "id": "1a9e4ca7-f9b6-46e3-98a1-e1521d045549",
+    "category": "tesla",
     "source": "greened",
     "title": "BYD와 정면승부 피하는 테슬라…전기차 전쟁에서 벗어나 로봇으로",
     "link": "https://www.greened.kr/news/articleView.html?idxno=336431",
-    "thumbnail": null,
+    "thumbnail": "",
     "description": "테슬라 휴머노이드 로봇, 옵티머스 테슬라가 모델 S와 모델 X 생산 중단을 예고했다. 단순한 판매 라인업 조정이 아닌, 중국 전기차 업체들과의 경쟁 구도에서 한 발 물러서겠다는 전략적 판단이 깔려 있다는 분석이... ",
     "published_at": "2026-01-30T22:13:00+09:00"
   },
   {
+    "id": "32342207-342a-4d84-8dc5-98685079ba97",
+    "category": "tesla",
     "source": "매일경제",
     "title": "로켓·로봇·AI 제국 세우는 머스크…스페이스X, xAI, 테슬라 합병하나",
     "link": "https://n.news.naver.com/mnews/article/009/0005630131?sid=105",
@@ -120,6 +150,8 @@
     "published_at": "2026-01-30T22:12:00+09:00"
   },
   {
+    "id": "25965fd5-190e-4c2e-a9bf-91f2139090bc",
+    "category": "tesla",
     "source": "문화일보",
     "title": "자율주행 택시, 학교 앞서 어린이 치었다…청문회 여는 美상원",
     "link": "https://n.news.naver.com/mnews/article/021/0002767807?sid=104",
@@ -128,6 +160,8 @@
     "published_at": "2026-01-30T22:10:00+09:00"
   },
   {
+    "id": "081ff71a-81ff-4340-b67e-4cb6f2de9784",
+    "category": "tesla",
     "source": "tvchosun",
     "title": "현대차 \"실전 검증 중\", 테슬라 \"차 대신 로봇\"…빨라지는 로봇 노동력...",
     "link": "https://n.news.naver.com/mnews/article/448/0000587442?sid=101",
@@ -136,6 +170,8 @@
     "published_at": "2026-01-30T21:39:00+09:00"
   },
   {
+    "id": "70fb208c-a327-4fc4-8f8e-c27f565a35e4",
+    "category": "tesla",
     "source": "topstarnews",
     "title": "머스크, 스페이스X·테슬라·xAI 초대형 합병 검토…상장 앞두고 '1조 달...",
     "link": "https://www.topstarnews.net/news/articleView.html?idxno=15949439",
@@ -144,14 +180,8 @@
     "published_at": "2026-01-30T21:30:00+09:00"
   },
   {
-    "source": "문화일보",
-    "title": "“재산 385억 이찬진 금감원장 포트폴리오 따라해볼까”",
-    "link": "https://n.news.naver.com/mnews/article/021/0002767803?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/021/2026/01/30/0002767803_001_20260130212914084.jpg?type=w800",
-    "description": "리커젼파마슈티컬스, 테슬라, 애플 등 해외주식도 각각 수천만 원어치 보유하고 있는 것으로 파악됐다.... 이 원장은 또 테슬라(66주·약 4000만 원), 애플(100주·약 3700만 원), 록히드마틴(20주·1700만 원) 등에도... ",
-    "published_at": "2026-01-30T21:29:00+09:00"
-  },
-  {
+    "id": "f3a5b566-9b62-4a9f-9a5f-82b17a9aba14",
+    "category": "tesla",
     "source": "tvchosun",
     "title": "[따져보니] 李 '국장' 강조에도…고위직은 '美 주식' 사랑?",
     "link": "https://n.news.naver.com/mnews/article/448/0000587431?sid=100",
@@ -160,6 +190,8 @@
     "published_at": "2026-01-30T21:19:00+09:00"
   },
   {
+    "id": "b4cef8e2-828c-4d5d-924d-74bca26bdafd",
+    "category": "tesla",
     "source": "조선일보",
     "title": "삼성SDI, 美기업과 배터리 공급 계약… ‘테슬라와 3조’ 추정",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdC11dUJvQktmZXZKVTFHcDNtY2tWdXlhazZ2VVo0VXNINDZEQ2VlcE04OVY2N1pyY3ZHYUdrSFFxdXA5TWZ4b3hKSm1pN1NDOFMya25jWkFUQ0RZYVdPaWptSDJFdWgxY2tHNWpNTnR5TmlwS2J2M3ZZWC1fOXZPSS1HU1VWbllnUGw2TkZEZ9IBowFBVV95cUxNUXZqS29EaG5OQ1hQSTBJQzJaNW4xSXdtWmVMcXVHdzZWbkc5b3I1RDdCaWVnMU5xLWExeEZ5X3FSeml4WHpzcTJGREpHNlI2Y1hhNEFBaDVyenBZNk96VHNDRVYxVFB3dVVsNTlaSXVxalhLVzFIdkNwZWxzekp6aTJaY3ZMOElaaVotNDFWSllVTExyeVZmUlFwZTFoeUYzOTNv?oc=5",
@@ -168,6 +200,8 @@
     "published_at": "2026-01-30T15:44:00+00:00"
   },
   {
+    "id": "d1f216e0-1d22-4b74-bdc1-7f0c91dfec03",
+    "category": "tesla",
     "source": "문화일보",
     "title": "“李정부 고위직들 테슬라 몰빵…당장 팔게하라” 주진우 비판",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAySXdtN1dIaXYzQ3QxZDNTalluSlBGbW5LNTlxRzBfUm5YZFFxcFhybnBJUHkzaTBhU2dEN0p2VlRNWkVIb2RBVU1SNUlCMVdv?oc=5",
@@ -176,6 +210,8 @@
     "published_at": "2026-01-30T15:12:13+00:00"
   },
   {
+    "id": "e742df09-4b73-4315-b220-82bae9d83f8f",
+    "category": "tesla",
     "source": "녹색경제신문",
     "title": "BYD와 정면승부 피하는 테슬라…전기차 전쟁에서 벗어나 로봇으로",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14TWlnRS00bFVIOU02WjhxU1FfOUxoTy1hb3pLZ2Y1Zmw5SVRsbmpMMWxyYWU1QzVsVjItS3M3SXAxMXRaLTZQLXBBVU1pNjF2MUpic1dTSmxTalJVQVhBeFNoUzVBSzJI?oc=5",
@@ -184,6 +220,8 @@
     "published_at": "2026-01-30T13:13:16+00:00"
   },
   {
+    "id": "bf9b0725-8397-4365-91cf-ca7b2c0d2032",
+    "category": "tesla",
     "source": "네이트",
     "title": "로켓·로봇·AI 제국 세우는 머스크…스페이스X, xAI, 테슬라 합병하나",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBDTDZhWWFLQzZNekhUdDFsMmZLUGtRdFQzQ1JCU1QtRHZmNVN2SE9uZUNXaFkzdzRJX095b21GNmlUT2ZDMzdmMG1QOTN6OExpN3RoUG04bkFrSkNVakF1aW5kcVVSUUhGZlhVanJhRkpWZUk0Q0VpQQ?oc=5",
@@ -192,6 +230,8 @@
     "published_at": "2026-01-30T13:12:00+00:00"
   },
   {
+    "id": "24be0608-b88d-4ada-a17f-a79dbf97ac03",
+    "category": "tesla",
     "source": "뉴스스페이스",
     "title": "[빅테크칼럼] 삼성SDI, 테슬라 ESS LFP '3조 잭팟'…美 시장 탈중국 물결 타고 K배터리 부상",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MNnhSRktVYVZwRHMxWmNqSmVqcnBaZnlxeUEtTVpKSDJ0a1hpSHJ4SUtPNHB2UWVrb21xVUR2ejBkR2gyOXB4VkpWUTNxNGxfRnNXLXFJeG1vWWRUdGIzMQ?oc=5",
@@ -200,6 +240,8 @@
     "published_at": "2026-01-30T12:20:27+00:00"
   },
   {
+    "id": "2bb428a5-04f7-49de-b39c-f6943085febd",
+    "category": "tesla",
     "source": "네이트",
     "title": "테슬라·엔비디아 거친 자율주행 기술 리더…박민우 현대차그룹 AVP본부장 [CEO 라운지]",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vV3F4U1JUMmhWbUJlT2lxblVRQmhuNlNZWXVsQWg1RlcxNTcxZktodUM0R0ptOHJ6YTQtSUdMcFFVSFZGejJiTE1RV0hSTXpsRG9v?oc=5",
@@ -208,6 +250,8 @@
     "published_at": "2026-01-30T12:01:00+00:00"
   },
   {
+    "id": "ea5ae2d4-ccdb-4d41-a076-c4cbf622d96f",
+    "category": "tesla",
     "source": "Vietnam.vn",
     "title": "억만장자 머스크는 스페이스X를 테슬라 또는 xAI와 합병하는 방안을 검토 중이다.",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbVJSaDJaWDBoRkZaak1pQkNOVXIxNG12a2hTaENJSGdLaS1XSkZiT2M4QkxlNzE2S1RXSWVCWUt3ZDd3cWd2Z3ZYS3haNEhEQmJaa3VQb1Q0aEwtSDd3d1VfTERPUjFraWpUbjRHYkxmRnVZaExNbVEwc0ZER3hDVWpGcktRS3Bm?oc=5",
@@ -216,6 +260,8 @@
     "published_at": "2026-01-30T11:44:05+00:00"
   },
   {
+    "id": "80098466-2c83-4516-be77-7f70f60c4403",
+    "category": "tesla",
     "source": "전자신문",
     "title": "머스크 스페이스X, 테슬라·xAI와 합병 추진",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9FLUVLcmRuZnRfUFg2OFplZVdaMW1KZC1RZWxWWmd5TGZlTUVlREFWUWFlWkhEOWE2UTlmRWtQZVdqVm5zUFQ3dmY4ZkFuUQ?oc=5",
@@ -224,6 +270,18 @@
     "published_at": "2026-01-30T10:29:07+00:00"
   },
   {
+    "id": "2265fa82-f705-41c0-a799-5d602c8684be",
+    "category": "tesla",
+    "source": "Автомобильный портал 32CARS.RU",
+    "title": "테슬라 모델 S 대체 모델 추천: 루시드 에어, BMW i7, 메르세데스 EQS",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ0YtbHBQeDhSWmVsUC1JTjdpa3lDSE1VUXZTMk5Lc19ySFJuZS1kc2pETi05QUptRG5kelkyQXM5THRXTmFQejR0RnhSRVNNQlRfTEJOM3JpbDhmOWtwdHFwX3EwdTIzelBrSGluU09hbUZpeW9FbHRLUlZfOEpzZ0VfYjVvZnRKMjlIdmtpRGhWODVJU0RTOFhrTUpUM1BVR0xjcjJlZDA2WHlZM3E00gGzAUFVX3lxTE00UDFZRFkwTnVrdkM0MHdTVjNocmFBbnl6Mm9lRFU5dmZUQUtITmdtcTZaenE2dUVNRXQ4X3hiRGJ0eWF4MDFwNC04b3oxZnhSQVZyVm5scE1aNFhyVkFlQ0ZDbVFfaWNBblBBUzdtWkowX2xYT3dBSG1QN2JxMlVSZ0I0RjVUQ3p3bGxtekZMS1JIMFd3VF9sR3pLRzBrS2FGT05lVDJiOWdidExrM0ZYbkZr?oc=5",
+    "thumbnail": "",
+    "description": "테슬라 모델 S 대체 모델 추천: 루시드 에어, BMW i7, 메르세데스 EQS&nbsp;&nbsp;Автомобильный портал 32CARS.RU",
+    "published_at": "2026-01-30T10:21:30+00:00"
+  },
+  {
+    "id": "7f72052f-e902-4915-b5a4-f2910f993d61",
+    "category": "tesla",
     "source": "디일렉",
     "title": "스페이스X, IPO 전에 xAI 합병 추진할 듯…테슬라와의 합병 소문도",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55M05POWh1bkVvUS1kTWZpLTAwM1V1NEJlMzJvT1VuaDBiMF9aVzRvSlM2ZnNZalBkY1Q0LVNTVWhwTGhXVG1yeWNUME4tUnFRVWdENFd3ZWZzZWNNaW43NEIycTlxQQ?oc=5",
@@ -232,6 +290,8 @@
     "published_at": "2026-01-30T09:58:59+00:00"
   },
   {
+    "id": "d3805b3d-b32a-4fb4-b878-5294ef5016ca",
+    "category": "tesla",
     "source": "뉴스와",
     "title": "도로에서 더는 못 본다… 테슬라 상징 ‘이 모델’ 역사 속으로",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpZ01XUFkyalpFWGNGcUs3T253X01SaWV6WWZCQTk2WjJSVzZRTnZ5Vm9iSzI2dVF2X1VRdUJZLWE5ek9ZSUR0NFdBeWNXaUhyYlJoa09HT3hpLVdHdmpSV3FtM0JnWkEyQ3d6YnM0bUI1a1c0Zm9sYw?oc=5",
@@ -240,6 +300,8 @@
     "published_at": "2026-01-30T09:05:32+00:00"
   },
   {
+    "id": "b6f44d90-3f12-48be-8f04-92a380da2d8d",
+    "category": "tesla",
     "source": "Benzinga",
     "title": "댄 아이브스 “피지컬 AI의 시대…테슬라·엔비디아가 판도 바꾼다”",
     "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOR0JTSXdaWWZsLVBkYUJwR0tBSFJUV3Z5UUtXaS1UY2RmdXFpTFJtWHZwZXBXSDVKY1F1V21qZ3NiVWh4WFBIenZWcmxjOUJZLXZMUkpROU9UZW8xdUFKQkR5NHhvVjFlaUY4dktlaXZTdDJsamh5elREZXBiN19KRVJrMTl1XzkxMUhZM05CVkMyZzNhaEdxVmdZQzJCdUxYQlpPa254Y1FlYm1jbDF6TUhQdDhBX3RkNGZfc1prQ1NYSEE5aXV2bEVmNGR0MjN4OXhCTVlmT0VySXNVTkZXU0NGWTVRUHM2RHRycU40a2h1YTlRaEktall1RGdBUkdKR21IZGp2dE9JUnBKT1h3eGptUjNYV0E1VUQwaEFMQ2JLRWt2NmJRSTVFQWY2dmZvdTBYX09fT2dUaGM?oc=5",
@@ -248,6 +310,8 @@
     "published_at": "2026-01-30T09:04:29+00:00"
   },
   {
+    "id": "97db8c9d-45aa-4c57-a201-4316788f6466",
+    "category": "tesla",
     "source": "매일경제",
     "title": "휴머노이드 공장 전환 선언한 테슬라, 韓에선 불가능한 현실 [사설]",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HMXRadmpzY3cyNFF2SE0ySHIzOTlzY1JKTWU2aDhOYXltdXdFM0QwX3dnWnRZQXQ4aWdlUUx3cHFpMkdkRnFuTEpYZHJtbWIzbk1lMjNfSQ?oc=5",
@@ -256,6 +320,8 @@
     "published_at": "2026-01-30T08:35:06+00:00"
   },
   {
+    "id": "2e732aca-7523-4221-a5d0-fdc96dff638e",
+    "category": "tesla",
     "source": "헬로티",
     "title": "테슬라, 첫 연간 매출 감소… 중국 전기차 공세 속 로봇으로 선회",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fZURkZjhaTkNrckpLU3lQekgwVE5RalFQbjBMLVg4bjQxQXJTZ1NkeURYejNZMzhsSENKaGdVLUNPVEoxRDV5X3VMNjFWVFJ2cnp0NkZibkhmSlFhVHJ3?oc=5",
@@ -264,6 +330,8 @@
     "published_at": "2026-01-30T08:29:11+00:00"
   },
   {
+    "id": "08f1b8e9-95b6-47fb-a400-19693f6e316c",
+    "category": "tesla",
     "source": "국민일보",
     "title": "삼성SDI, 美서 신규 배터리 공급 계약…테슬라 ESS용 추정",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tZHB4dlptaVBJcWxsVDJzdWNZVnR3MVE5ZnVtTVlRYXdndFhGamhsVnlZdGEzZmNXVlhBa2pCc2JLbEJ3RHdlQi1VVkgyLTJ1Szd1SFl4RnJhZ1R0TWozSEVwcU5vRjTSAWxBVV95cUxONlNfNVlOVWVmZGdMOG4wYW0zQXhYbTg4ZGtsVjRBekRjd09iOEVkSUg2Y0YwUGd0YkpheVF1aG5tUnFaLWFQOHNHZ2taX2ZEUGZhNFZHRVhjam45NWRLLUhjT3AwaEI0YVFUNXo?oc=5",
@@ -272,6 +340,8 @@
     "published_at": "2026-01-30T08:02:00+00:00"
   },
   {
+    "id": "7d387bea-23e2-4bff-8f76-15127b5d881e",
+    "category": "tesla",
     "source": "디지털투데이",
     "title": "[데일리픽] 미국발 '급진적 통화 리셋' 가설…테슬라, 전기차 넘어 로봇으로",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTnNORjZXQTFfcXhSQ3YzeENuNENfUjJhRXZqd2FnSG96SWJwZkFXSWl6UWUxeHNYYjhWODBOaGFwQllDV3RvT3VTOHpLUDNMXy0yenlNWDBndDcxODJnM0NDV2VsM3hpUE12Q2hGRFk4Z1U?oc=5",
@@ -280,6 +350,8 @@
     "published_at": "2026-01-30T08:00:00+00:00"
   },
   {
+    "id": "a455ba77-f44f-4446-8682-b56daf75c833",
+    "category": "tesla",
     "source": "딜사이트",
     "title": "삼성SDI, 테슬라와 3조 ESS용 배터리 공급",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIUEVDQkV3MVFoTFpLNU96STJkUG82cDdQQ0RSRmxUTmt0MWQ5R2x4NDlDZlZfT1prU3ctT01wZ2N3NzR2aGxBLWJJcmVKSUtwSG51ZU5HN2w?oc=5",
@@ -288,6 +360,8 @@
     "published_at": "2026-01-30T07:34:24+00:00"
   },
   {
+    "id": "9fafbfe1-5184-40c6-a1f1-4cc7d2015d5a",
+    "category": "tesla",
     "source": "Investing.com 한국어",
     "title": "스페이스X, 테슬라·xAI 합병 검토···머스크 ‘우주·AI 제국’ 구상 가속 By 투데이코리아",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VMHRNVjdwc05SSEVVbHdJVUItSF9FOXo4ZFg1NUFvUDlMVWpFb2hLbThnb3lmbXJvcWJwcGJ3YjR3dGd3a24wZjVoY18tTXUyUzhHemJlNGhPbDlTTUl3ZHNYQldVODkwRjFtc2hMcTg?oc=5",
@@ -296,6 +370,8 @@
     "published_at": "2026-01-30T07:33:00+00:00"
   },
   {
+    "id": "7a04714c-f06b-4c23-a4c4-54612f7d2bc4",
+    "category": "tesla",
     "source": "스트레이트뉴스",
     "title": "삼성SDI, 美서 ESS용 배터리 공급 계약 체결…테슬라로 추정",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XYnJxMTFXOVBHV2x5M2h0M1hTWkhpVnpfZkJhLTR3NXFCWnVCTTdqTG1wLXdTajBIM1V1aU56b1FxYVQ4eXJEQzVaaW03MlRTZVRETFZweVJkZXl4blo2b2N1YXhrUDl5ekloWk54MjZpaWvSAXdBVV95cUxNTERXOXlVMFdVdFJYQ3FfZUhUN3VvQm9rVUs2V3V3bUtKbURLQ1VBQXZwMEhYQ1g1bFc5bV9odVNXX2pQS3JxcExhWmRTN0ttdWhDdVptM1ZqdE9QUzV3N0taamNmaXdVc3J4TkJadm1hU1lQUm5XNA?oc=5",
@@ -304,19 +380,13 @@
     "published_at": "2026-01-30T07:26:51+00:00"
   },
   {
+    "id": "d8d8c500-ed52-4a53-9fed-05617ae73aa9",
+    "category": "tesla",
     "source": "뉴시스",
     "title": "삼성SDI, 美서 배터리 공급 계약…\"테슬라 ESS용 유력\"",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Jc0JjUk9mOVgwdU5KNlQwdTBaeWo0UGZ3Mk9VYkd0d1daVXhSUWZtdDZadWlULVhqcm9hU21WVUFJZU5nY1Jjd3dSaFp6UnVlUGZWbi1rV0NZSlZFeVRoetIBeEFVX3lxTE1DeE5JeGdDVmlCc05ueFdGSkFORFEwSTJZNnhNN1hZUEV3cDlKT1hzVm1ZOXloTnhNaHpXOWIyaFpGMXJCOC1TbHZ3UWVaUVZJUmJQNjlNWlZELWhCTmRDOU9KVG56ajFubExrRkZZdmFudWtuZHdMSw?oc=5",
     "thumbnail": "",
     "description": "삼성SDI, 美서 배터리 공급 계약…\"테슬라 ESS용 유력\"&nbsp;&nbsp;뉴시스",
     "published_at": "2026-01-30T07:24:24+00:00"
-  },
-  {
-    "source": "지디넷코리아",
-    "title": "삼성SDI, 美서 배터리 신규 수주…테슬라 ESS 10GWh 추정",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wTzNOYlc2OV9OdFA3bDdtYnZtVVkxT1hUSmhBTkJHQlpiVlNzQTcxbWhwZEZCZC0zVlZtemUxcHBhOVUzUTNOT1EtYWlxZTdXX21IeTNR?oc=5",
-    "thumbnail": "",
-    "description": "삼성SDI, 美서 배터리 신규 수주…테슬라 ESS 10GWh 추정&nbsp;&nbsp;지디넷코리아",
-    "published_at": "2026-01-30T07:19:01+00:00"
   }
 ]

@@ -77,6 +77,7 @@ def fetch_gsheet_as_json(sheet_url, keyword):
     for row in reader:
         # Clean up keys and values if needed (e.g. stripping whitespace)
         clean_row = {k.strip(): v for k, v in row.items() if k is not None}
+        clean_row['category'] = keyword
         
         # Skip rows where 'name' field is empty
         if 'name' in clean_row and clean_row['name'].strip():

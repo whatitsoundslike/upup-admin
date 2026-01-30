@@ -9,20 +9,22 @@ export default function ProductsPage() {
   const [showModal, setShowModal] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [filterCategory, setFilterCategory] = useState<string>('');
-  
+
   const [formData, setFormData] = useState({
+    id: '',
     name: '',
     price: '',
     thumbnail: '',
     deliverType: '',
     link: '',
-    order: '1',
+    order: '0',
     category: 'tesla',
   });
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deletingProduct, setDeletingProduct] = useState<Product | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetchProducts();
@@ -44,6 +46,7 @@ export default function ProductsPage() {
   const handleAdd = () => {
     setEditingProduct(null);
     setFormData({
+      id: '',
       name: '',
       price: '',
       thumbnail: '',
@@ -58,6 +61,7 @@ export default function ProductsPage() {
   const handleEdit = (product: Product) => {
     setEditingProduct(product);
     setFormData({
+      id: product.id,
       name: product.name,
       price: product.price,
       thumbnail: product.thumbnail,
@@ -76,7 +80,7 @@ export default function ProductsPage() {
 
   const handleDeleteConfirm = async () => {
     if (!deletingProduct) return;
-    
+
     try {
       await fetch(`/api/products/${deletingProduct.id}`, { method: 'DELETE' });
       await fetchProducts();
@@ -120,6 +124,11 @@ export default function ProductsPage() {
     return category ? category.label : value;
   };
 
+  const filteredProducts = products.filter((product) => {
+    if (!searchQuery) return true;
+    return product.name.toLowerCase().includes(searchQuery.toLowerCase());
+  });
+
   if (isLoading) {
     return (
       <div className="loading-container" style={{ minHeight: '400px' }}>
@@ -131,6 +140,18 @@ export default function ProductsPage() {
 
   return (
     <div>
+      {/* Search */}
+      <div style={{ marginBottom: '1rem' }}>
+        <input
+          type="text"
+          className="form-input"
+          placeholder="상품명으로 검색..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          style={{ maxWidth: '400px' }}
+        />
+      </div>
+
       {/* Category Filter */}
       <div style={{ marginBottom: '1.5rem', display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
         <button
@@ -165,7 +186,7 @@ export default function ProductsPage() {
           </button>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
-          {products.length === 0 ? (
+          {filteredProducts.length === 0 ? (
             <div className="empty-state">
               <div className="empty-state-icon">🛒</div>
               <h3>등록된 상품이 없습니다</h3>
@@ -178,7 +199,7 @@ export default function ProductsPage() {
             <table className="data-table">
               <thead>
                 <tr>
-                  <th style={{ width: '60px' }}>순서</th>
+                  <th style={{ width: '60px' }}>ID</th>
                   <th style={{ width: '80px' }}>이미지</th>
                   <th>카테고리</th>
                   <th>상품명</th>
@@ -187,14 +208,14 @@ export default function ProductsPage() {
                 </tr>
               </thead>
               <tbody>
-                {products.map((product) => (
+                {filteredProducts.map((product) => (
                   <tr key={product.id}>
-                    <td style={{ textAlign: 'center', color: '#64748b' }}>{product.order}</td>
+                    <td style={{ textAlign: 'center', color: '#64748b' }}>{product.id}</td>
                     <td>
-                      <img 
-                        src={product.thumbnail} 
-                        alt={product.name} 
-                        style={{ width: '40px', height: '40px', borderRadius: '4px', objectFit: 'cover', background: '#f1f5f9' }} 
+                      <img
+                        src={product.thumbnail}
+                        alt={product.name}
+                        style={{ width: '40px', height: '40px', borderRadius: '4px', objectFit: 'cover', background: '#f1f5f9' }}
                       />
                     </td>
                     <td>
@@ -203,17 +224,17 @@ export default function ProductsPage() {
                     <td style={{ fontWeight: 500 }}>
                       <div style={{ display: 'flex', flexDirection: 'column' }}>
                         <span>{product.name}</span>
-                        <a 
-                          href={product.link} 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
+                        <a
+                          href={product.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           style={{ fontSize: '0.75rem', color: '#3b82f6', textDecoration: 'none' }}
                         >
                           링크 열기 ↗
                         </a>
                       </div>
                     </td>
-                    <td style={{ fontWeight: 600, color: '#0f172a' }}>{product.price}</td>
+                    <td style={{ fontWeight: 600, color: '#ffffffff' }}>{product.price}</td>
                     <td>
                       <div style={{ display: 'flex', gap: '0.5rem' }}>
                         <button
@@ -331,10 +352,10 @@ export default function ProductsPage() {
                   />
                   {formData.thumbnail && (
                     <div style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', background: '#f8fafc', padding: '1rem', borderRadius: '4px' }}>
-                      <img 
-                        src={formData.thumbnail} 
-                        alt="미리보기" 
-                        style={{ maxHeight: '150px', borderRadius: '4px' }} 
+                      <img
+                        src={formData.thumbnail}
+                        alt="미리보기"
+                        style={{ maxHeight: '150px', borderRadius: '4px' }}
                         onError={(e) => { (e.target as any).src = 'https://via.placeholder.com/150?text=Invalid+URL'; }}
                       />
                     </div>

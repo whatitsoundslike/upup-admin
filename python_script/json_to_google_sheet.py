@@ -43,7 +43,7 @@ def load_products(json_path):
 
 if __name__ == "__main__":
     target_sheet_name = "쿠팡파트너스 상품리스팅"
-    json_path = Path(__file__).resolve().parents[1] / "json" / "tesla_products.json"
+    json_path = Path(__file__).resolve().parents[1] / "data" / "tesla_shop.json"
 
     products = load_products(json_path)
     data_rows = [

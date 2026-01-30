@@ -6,7 +6,7 @@ import { Product } from '@/app/types/product';
 const dataDir = path.join(process.cwd(), 'data');
 
 function getFilePath(category: string): string {
-  return path.join(dataDir, `${category}_products.json`);
+  return path.join(dataDir, `${category}_shop.json`);
 }
 
 function readProductsByCategory(category: string): Product[] {
@@ -34,10 +34,10 @@ function getAllProducts(): Product[] {
   if (!fs.existsSync(dataDir)) {
     return [];
   }
-  
-  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('_products.json'));
+
+  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('_shop.json'));
   const allProducts: Product[] = [];
-  
+
   for (const file of files) {
     try {
       const data = fs.readFileSync(path.join(dataDir, file), 'utf-8');
@@ -47,8 +47,8 @@ function getAllProducts(): Product[] {
       // Skip invalid files
     }
   }
-  
-  return allProducts.sort((a, b) => 
+
+  return allProducts.sort((a, b) =>
     parseInt(a.order || '0') - parseInt(b.order || '0')
   );
 }
@@ -57,12 +57,12 @@ function getAllProducts(): Product[] {
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const category = searchParams.get('category');
-  
+
   if (category) {
     const products = readProductsByCategory(category);
     return NextResponse.json(products);
   }
-  
+
   const allProducts = getAllProducts();
   return NextResponse.json(allProducts);
 }
@@ -73,7 +73,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const category = body.category || 'tesla';
     const products = readProductsByCategory(category);
-    
+
     const newProduct: Product = {
       id: Date.now().toString(),
       category: category,
@@ -85,10 +85,10 @@ export async function POST(request: Request) {
       order: body.order || '0',
       created_at: new Date().toISOString(),
     };
-    
+
     products.push(newProduct);
     writeProductsByCategory(category, products);
-    
+
     return NextResponse.json(newProduct, { status: 201 });
   } catch (error) {
     return NextResponse.json({ error: 'Failed to create product' }, { status: 500 });

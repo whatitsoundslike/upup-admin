@@ -1,5 +1,6 @@
 import json
 import os
+import uuid
 
 from get_news_google_rss import fetch_google_news
 from get_news_naver_rss import fetch_naver_news
@@ -14,6 +15,9 @@ def make_news_json(keyword):
     news_results.extend(fetch_google_news(keyword, 20))
 
     news_results.sort(key=lambda x: x["published_at"], reverse=True)
+    for item in news_results:
+        item["id"] = str(uuid.uuid4())
+        item["category"] = fileNameMap[keyword]
 
     if not news_results:
         print("No news found or error occurred.")

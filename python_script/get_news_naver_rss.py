@@ -5,7 +5,6 @@ import requests
 
 from media_utils import clean_html, get_media_name_from_domain, get_meta_thumb_from_url
 
-
 def parse_naver_date(date_str):
     """
     Convert Naver's RFC 1123 date format to ISO format.
