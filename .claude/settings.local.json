@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python scripts/git_push.py:*)"
+      "Bash(python scripts/git_push.py:*)",
+      "Bash(ren \"c:\\\\Users\\\\지성인\\\\Documents\\\\GitHub\\\\upup-admin\\\\scripts\" \"python_script\")"
     ]
   }
 }

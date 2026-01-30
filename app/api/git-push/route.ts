@@ -3,7 +3,7 @@ import { exec } from 'child_process';
 import path from 'path';
 
 export async function POST() {
-  const scriptPath = path.join(process.cwd(), 'scripts', 'git_push.py');
+  const scriptPath = path.join(process.cwd(), 'python_script', 'git_push.py');
 
   return new Promise<NextResponse>((resolve) => {
     exec(`python "${scriptPath}"`, { cwd: process.cwd() }, (error, stdout, stderr) => {
