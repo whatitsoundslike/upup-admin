@@ -14,6 +14,7 @@ const navItems: NavItem[] = [
   { href: '/tips', label: '팁 게시물 관리', icon: '💡' },
   { href: '/products', label: '상품 리스트 관리', icon: '🛒' },
   { href: '/charging-stations', label: '전기차 충전소 위치 관리', icon: '⚡' },
+  { href: '/shortcut', label: '단축 메뉴', icon: '⚙️' },
 ];
 
 interface SidebarProps {

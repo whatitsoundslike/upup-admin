@@ -6,7 +6,7 @@ export async function POST() {
   const scriptPath = path.join(process.cwd(), 'python_script', 'git_push.py');
 
   return new Promise<NextResponse>((resolve) => {
-    exec(`python "${scriptPath}"`, { cwd: process.cwd() }, (error, stdout, stderr) => {
+    exec(`python "${scriptPath}"`, { cwd: process.cwd(), env: { ...process.env, PYTHONIOENCODING: 'utf-8' } }, (error, stdout, stderr) => {
       if (error) {
         resolve(
           NextResponse.json(

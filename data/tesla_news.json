@@ -1,5 +1,13 @@
 [
   {
+    "source": "동아일보",
+    "title": "‘로켓-AI-로봇’ 묶는 머스크… 美中 ‘AI 우주전쟁’ 서막",
+    "link": "https://n.news.naver.com/mnews/article/020/0003693869?sid=105",
+    "thumbnail": "https://imgnews.pstatic.net/image/020/2026/01/31/0003693869_001_20260131014231922.jpg?type=w800",
+    "description": "일론 머스크 테슬라 최고경영자(CEO)가 자신의 우주기업(스페이스X), 전기차(테슬라), 인공지능(AI) 기업(xAI) 간 일부 합병을 검토하는 것으로 알려졌다. 우주 AI데이터센터 건설을 염두에 둔 움직임이란 분석이 나온다.... ",
+    "published_at": "2026-01-31T01:42:00+09:00"
+  },
+  {
     "source": "조선일보",
     "title": "삼성SDI, 美기업과 배터리 공급 계약… ‘테슬라와 3조’ 추정",
     "link": "https://n.news.naver.com/mnews/article/023/0003956321?sid=101",
@@ -56,19 +64,19 @@
     "published_at": "2026-01-31T00:10:00+09:00"
   },
   {
-    "source": "서울경제",
-    "title": "[사설] 獨, 성장률 저하에 노동유연화… 우리도 머뭇댈 때 아니다",
-    "link": "https://n.news.naver.com/mnews/article/011/0004585069?sid=110",
-    "thumbnail": "https://imgnews.pstatic.net/image/011/2026/01/31/0004585069_001_20260131000614760.png?type=w800",
-    "description": "반면 미국 테슬라는 프리몬트 공장의 모델S·X 생산 라인을 인간형 로봇 ‘옵티머스’ 라인으로 교체하는 과감한 결단을 내렸다. 노란봉투법에 막혀 노조의 동의 없이는 전환 배치가 사실상 불가능한 우리 현실을... ",
-    "published_at": "2026-01-31T00:06:00+09:00"
-  },
-  {
     "source": "finomy",
     "title": "HBM(고대역폭메모리) 관련주, '웃음꽃' 한화비전·미래반도체·윈팩·와...",
     "link": "http://www.finomy.com/news/articleView.html?idxno=248833",
     "thumbnail": "https://cdn.finomy.com/news/thumbnail/202601/248833_243429_1034_v150.jpg",
     "description": "이보다 앞서 2014년 가온칩스는 삼성전자와 ASIC 디자인 서비스 파트너 계약 체결 후 2019년 디자인 솔루션 파트너로 공식 등재됐으며, 특히 차량용 및 AI 칩 관련 매출 비중이 높아 이번 삼성전자와 테슬라의 대규모... ",
+    "published_at": "2026-01-31T00:06:00+09:00"
+  },
+  {
+    "source": "서울경제",
+    "title": "[사설] 獨, 성장률 저하에 노동유연화… 우리도 머뭇댈 때 아니다",
+    "link": "https://n.news.naver.com/mnews/article/011/0004585069?sid=110",
+    "thumbnail": "https://imgnews.pstatic.net/image/011/2026/01/31/0004585069_001_20260131000614760.png?type=w800",
+    "description": "반면 미국 테슬라는 프리몬트 공장의 모델S·X 생산 라인을 인간형 로봇 ‘옵티머스’ 라인으로 교체하는 과감한 결단을 내렸다. 노란봉투법에 막혀 노조의 동의 없이는 전환 배치가 사실상 불가능한 우리 현실을... ",
     "published_at": "2026-01-31T00:06:00+09:00"
   },
   {
@@ -152,14 +160,6 @@
     "published_at": "2026-01-30T21:19:00+09:00"
   },
   {
-    "source": "topstarnews",
-    "title": "가트너 \"2028년까지 휴머노이드 로봇 대규모 도입 기업 20곳 미만\"",
-    "link": "https://www.topstarnews.net/news/articleView.html?idxno=15949426",
-    "thumbnail": "https://cdn.topstarnews.net/news/photo/202601/15949426_1845194_553.jpg",
-    "description": "유니트리(Unitree), 보스턴다이내믹스(Boston Dynamics), 피겨 AI(Figure AI), 앱트로닉(Apptronik), 테슬라 등 주요 기업들이 휴머노이드 로봇을 선보이며 주목을 받아왔지만, 실제 산업 현장 적용은 제한적이라는 점이 다시 한 번... ",
-    "published_at": "2026-01-30T21:06:00+09:00"
-  },
-  {
     "source": "조선일보",
     "title": "삼성SDI, 美기업과 배터리 공급 계약… ‘테슬라와 3조’ 추정",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdC11dUJvQktmZXZKVTFHcDNtY2tWdXlhazZ2VVo0VXNINDZEQ2VlcE04OVY2N1pyY3ZHYUdrSFFxdXA5TWZ4b3hKSm1pN1NDOFMya25jWkFUQ0RZYVdPaWptSDJFdWgxY2tHNWpNTnR5TmlwS2J2M3ZZWC1fOXZPSS1HU1VWbllnUGw2TkZEZ9IBowFBVV95cUxNUXZqS29EaG5OQ1hQSTBJQzJaNW4xSXdtWmVMcXVHdzZWbkc5b3I1RDdCaWVnMU5xLWExeEZ5X3FSeml4WHpzcTJGREpHNlI2Y1hhNEFBaDVyenBZNk96VHNDRVYxVFB3dVVsNTlaSXVxalhLVzFIdkNwZWxzekp6aTJaY3ZMOElaaVotNDFWSllVTExyeVZmUlFwZTFoeUYzOTNv?oc=5",
@@ -192,14 +192,6 @@
     "published_at": "2026-01-30T13:12:00+00:00"
   },
   {
-    "source": "Автомобильный портал 32CARS.RU",
-    "title": "테슬라 2세대 로드스터 출시 불확실성과 미래 전망",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb2VMTjkyTEpMalkzQ01XX1RCdDFXeXJJNm05Z01oTDBOQTNuSE5rb183SDYtSm5uWG1FOEFSbkdDLUZvNXg2ODhEaFYya083VWliYWpOUS1wSlMwUV9waV9FWVZJOWk5bUYzVjEybzF1cUxXSl9YYUJQU21hQ2xwb3poOHduZUFSZjRueDh5TUxDQi1XMjZnRUltTE83WWFOal9JZVhhdmFQZ9IBrgFBVV95cUxOZnJsNTVIN3RXSzczVV9LN1hUNXhPNEFwemRVSEdYXzQzNGh2amxDd3hya2Q0Q0Zjckxlb3dOQVliT2dyeTRjckRKUlBUbVduZVdjbFd1cGVjUHloNVF1czVRVVdDU0h3R3BRS19ZdXhRTkFCQ014amdDMTNRV2Z5dWx4R0lwQlptZUhMRGFRV3VCTG4walYxczY0LWpKLUtGb0dSSjdEUUNQWjVUUnc?oc=5",
-    "thumbnail": "",
-    "description": "테슬라 2세대 로드스터 출시 불확실성과 미래 전망&nbsp;&nbsp;Автомобильный портал 32CARS.RU",
-    "published_at": "2026-01-30T12:42:29+00:00"
-  },
-  {
     "source": "뉴스스페이스",
     "title": "[빅테크칼럼] 삼성SDI, 테슬라 ESS LFP '3조 잭팟'…美 시장 탈중국 물결 타고 K배터리 부상",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MNnhSRktVYVZwRHMxWmNqSmVqcnBaZnlxeUEtTVpKSDJ0a1hpSHJ4SUtPNHB2UWVrb21xVUR2ejBkR2gyOXB4VkpWUTNxNGxfRnNXLXFJeG1vWWRUdGIzMQ?oc=5",
@@ -208,12 +200,12 @@
     "published_at": "2026-01-30T12:20:27+00:00"
   },
   {
-    "source": "v.daum.net",
-    "title": "테슬라·엔비디아 거친 자율주행 기술 리더...박민우 현대차그룹 AVP본부장 [CEO 라운지]",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uNTNKdHNFV3UxVmhpeFE0SWQ4dmk3ckZkN1RrYWpuLU9UeUdibHR1T3dRbmM0YnEwNWRHbzAtcFMzMnE0UjBobnYwWXNsN28?oc=5",
+    "source": "네이트",
+    "title": "테슬라·엔비디아 거친 자율주행 기술 리더…박민우 현대차그룹 AVP본부장 [CEO 라운지]",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vV3F4U1JUMmhWbUJlT2lxblVRQmhuNlNZWXVsQWg1RlcxNTcxZktodUM0R0ptOHJ6YTQtSUdMcFFVSFZGejJiTE1RV0hSTXpsRG9v?oc=5",
     "thumbnail": "",
-    "description": "테슬라·엔비디아 거친 자율주행 기술 리더...박민우 현대차그룹 AVP본부장 [CEO 라운지]&nbsp;&nbsp;v.daum.net",
-    "published_at": "2026-01-30T12:03:26+00:00"
+    "description": "테슬라·엔비디아 거친 자율주행 기술 리더…박민우 현대차그룹 AVP본부장 [CEO 라운지]&nbsp;&nbsp;네이트",
+    "published_at": "2026-01-30T12:01:00+00:00"
   },
   {
     "source": "Vietnam.vn",
@@ -230,14 +222,6 @@
     "thumbnail": "",
     "description": "머스크 스페이스X, 테슬라·xAI와 합병 추진&nbsp;&nbsp;전자신문",
     "published_at": "2026-01-30T10:29:07+00:00"
-  },
-  {
-    "source": "Автомобильный портал 32CARS.RU",
-    "title": "테슬라 모델 S 대체 모델 추천: 루시드 에어, BMW i7, 메르세데스 EQS",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ0YtbHBQeDhSWmVsUC1JTjdpa3lDSE1VUXZTMk5Lc19ySFJuZS1kc2pETi05QUptRG5kelkyQXM5THRXTmFQejR0RnhSRVNNQlRfTEJOM3JpbDhmOWtwdHFwX3EwdTIzelBrSGluU09hbUZpeW9FbHRLUlZfOEpzZ0VfYjVvZnRKMjlIdmtpRGhWODVJU0RTOFhrTUpUM1BVR0xjcjJlZDA2WHlZM3E00gGzAUFVX3lxTE00UDFZRFkwTnVrdkM0MHdTVjNocmFBbnl6Mm9lRFU5dmZUQUtITmdtcTZaenE2dUVNRXQ4X3hiRGJ0eWF4MDFwNC04b3oxZnhSQVZyVm5scE1aNFhyVkFlQ0ZDbVFfaWNBblBBUzdtWkowX2xYT3dBSG1QN2JxMlVSZ0I0RjVUQ3p3bGxtekZMS1JIMFd3VF9sR3pLRzBrS2FGT05lVDJiOWdidExrM0ZYbkZr?oc=5",
-    "thumbnail": "",
-    "description": "테슬라 모델 S 대체 모델 추천: 루시드 에어, BMW i7, 메르세데스 EQS&nbsp;&nbsp;Автомобильный портал 32CARS.RU",
-    "published_at": "2026-01-30T10:21:30+00:00"
   },
   {
     "source": "디일렉",
@@ -318,5 +302,21 @@
     "thumbnail": "",
     "description": "삼성SDI, 美서 ESS용 배터리 공급 계약 체결…테슬라로 추정&nbsp;&nbsp;스트레이트뉴스",
     "published_at": "2026-01-30T07:26:51+00:00"
+  },
+  {
+    "source": "뉴시스",
+    "title": "삼성SDI, 美서 배터리 공급 계약…\"테슬라 ESS용 유력\"",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Jc0JjUk9mOVgwdU5KNlQwdTBaeWo0UGZ3Mk9VYkd0d1daVXhSUWZtdDZadWlULVhqcm9hU21WVUFJZU5nY1Jjd3dSaFp6UnVlUGZWbi1rV0NZSlZFeVRoetIBeEFVX3lxTE1DeE5JeGdDVmlCc05ueFdGSkFORFEwSTJZNnhNN1hZUEV3cDlKT1hzVm1ZOXloTnhNaHpXOWIyaFpGMXJCOC1TbHZ3UWVaUVZJUmJQNjlNWlZELWhCTmRDOU9KVG56ajFubExrRkZZdmFudWtuZHdMSw?oc=5",
+    "thumbnail": "",
+    "description": "삼성SDI, 美서 배터리 공급 계약…\"테슬라 ESS용 유력\"&nbsp;&nbsp;뉴시스",
+    "published_at": "2026-01-30T07:24:24+00:00"
+  },
+  {
+    "source": "지디넷코리아",
+    "title": "삼성SDI, 美서 배터리 신규 수주…테슬라 ESS 10GWh 추정",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wTzNOYlc2OV9OdFA3bDdtYnZtVVkxT1hUSmhBTkJHQlpiVlNzQTcxbWhwZEZCZC0zVlZtemUxcHBhOVUzUTNOT1EtYWlxZTdXX21IeTNR?oc=5",
+    "thumbnail": "",
+    "description": "삼성SDI, 美서 배터리 신규 수주…테슬라 ESS 10GWh 추정&nbsp;&nbsp;지디넷코리아",
+    "published_at": "2026-01-30T07:19:01+00:00"
   }
 ]
