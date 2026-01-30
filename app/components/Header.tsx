@@ -20,6 +20,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
   const pathname = usePathname();
   const { logout } = useAuth();
   const [showLogoutModal, setShowLogoutModal] = useState(false);
+  const [isPushing, setIsPushing] = useState(false);
 
   const getPageTitle = () => {
     if (pageTitles[pathname]) {
@@ -33,6 +34,24 @@ export default function Header({ onMenuClick }: HeaderProps) {
     }
 
     return '대시보드';
+  };
+
+  const handleGitPush = async () => {
+    if (isPushing) return;
+    setIsPushing(true);
+    try {
+      const res = await fetch('/api/git-push', { method: 'POST' });
+      const data = await res.json();
+      if (data.success) {
+        alert('Git push 완료');
+      } else {
+        alert(`Git push 실패: ${data.message}`);
+      }
+    } catch {
+      alert('Git push 요청 중 오류가 발생했습니다.');
+    } finally {
+      setIsPushing(false);
+    }
   };
 
   const handleLogoutClick = () => {
@@ -59,6 +78,9 @@ export default function Header({ onMenuClick }: HeaderProps) {
         </div>
 
         <div className="header-actions">
+          <button className="btn btn-secondary" onClick={handleGitPush} disabled={isPushing}>
+            {isPushing ? 'Pushing...' : 'Git push'}
+          </button>
           <button onClick={handleLogoutClick} className="btn btn-secondary" style={{ fontSize: '0.875rem' }}>
             로그아웃
           </button>
