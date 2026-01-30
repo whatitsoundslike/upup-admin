@@ -1,0 +1,10 @@
+﻿feedparser
+python-dateutil
+requests
+python-dotenv
+google-generativeai
+tldextract
+beautifulsoup4
+gspread
+google-auth
+playwright
