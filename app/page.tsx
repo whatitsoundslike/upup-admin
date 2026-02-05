@@ -3,6 +3,20 @@ import Link from 'next/link';
 export default function Home() {
   const menuItems = [
     {
+      href: '/members',
+      label: '회원 관리',
+      icon: '👥',
+      description: '회원 정보를 조회하고 관리합니다.',
+      color: 'purple'
+    },
+    {
+      href: '/gem-transactions',
+      label: 'Gem 거래 내역',
+      icon: '💎',
+      description: 'Gem 획득 및 사용 내역을 조회합니다.',
+      color: 'cyan'
+    },
+    {
       href: '/news',
       label: '뉴스 관리',
       icon: '📰',

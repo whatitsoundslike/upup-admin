@@ -1,0 +1,90 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Member {
+  id        BigInt    @id @default(autoincrement())
+  name      String?
+  email     String?   @unique
+  password  String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @default(now())
+  uid       String    @unique
+  gameSave  GameSave?
+  rooms     Room[]
+}
+
+model Room {
+  id          BigInt   @id @default(autoincrement())
+  memberId    BigInt
+  name        String?
+  description String?
+  images      Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now())
+  items       Item[]
+  records     Record[]
+  member      Member   @relation(fields: [memberId], references: [id])
+
+  @@index([memberId], map: "Room_memberId_fkey")
+}
+
+model Item {
+  id        BigInt   @id @default(autoincrement())
+  roomId    BigInt
+  memberId  BigInt
+  name      String?
+  images    Json
+  sale      Boolean
+  price     BigInt
+  buyUrl    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  room      Room     @relation(fields: [roomId], references: [id])
+
+  @@index([roomId], map: "Item_roomId_fkey")
+}
+
+model Record {
+  id        BigInt   @id @default(autoincrement())
+  roomId    BigInt
+  memberId  BigInt
+  text      String?
+  images    Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  room      Room     @relation(fields: [roomId], references: [id])
+
+  @@index([roomId], map: "Record_roomId_fkey")
+}
+
+model GameSave {
+  id              BigInt   @id @default(autoincrement())
+  memberId        BigInt   @unique
+  data            Json
+  updatedAt       DateTime @default(now()) @updatedAt
+  rankScore       Int      @default(0)
+  rankCharacterId String?  @db.VarChar(64)
+  member          Member   @relation(fields: [memberId], references: [id])
+
+  @@index([rankScore])
+  @@index([rankScore, updatedAt])
+}
+
+model GemTransaction {
+  id        BigInt   @id @default(autoincrement())
+  memberId  BigInt
+  type      String   @db.VarChar(10)
+  amount    Int
+  source    String   @db.VarChar(50)
+  memo      String?  @db.VarChar(200)
+  createdAt DateTime @default(now())
+
+  @@index([memberId, createdAt])
+  @@index([memberId])
+}

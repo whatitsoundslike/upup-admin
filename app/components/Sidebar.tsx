@@ -10,6 +10,8 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
+  { href: '/members', label: '회원 관리', icon: '👥' },
+  { href: '/gem-transactions', label: 'Gem 거래 내역', icon: '💎' },
   { href: '/news', label: '뉴스 관리', icon: '📰' },
   { href: '/tips', label: '팁 게시물 관리', icon: '💡' },
   { href: '/products', label: '상품 리스트 관리', icon: '🛒' },
