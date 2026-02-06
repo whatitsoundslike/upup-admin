@@ -29,22 +29,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         // 로컬 스토리지에서 인증 상태 확인
         const checkAuth = () => {
             try {
-                const authData = localStorage.getItem(AUTH_KEY);
-                if (authData) {
-                    const parsed: AuthData = JSON.parse(authData);
-                    const now = Date.now();
+                // Only access localStorage in browser environment
+                if (typeof window !== 'undefined') {
+                    const authData = localStorage.getItem(AUTH_KEY);
+                    if (authData) {
+                        const parsed: AuthData = JSON.parse(authData);
+                        const now = Date.now();
 
-                    if (parsed.authenticated && parsed.expiresAt > now) {
-                        setIsAuthenticated(true);
-                    } else {
-                        // 만료된 세션 삭제
-                        localStorage.removeItem(AUTH_KEY);
-                        setIsAuthenticated(false);
+                        if (parsed.authenticated && parsed.expiresAt > now) {
+                            setIsAuthenticated(true);
+                        } else {
+                            // 만료된 세션 삭제
+                            localStorage.removeItem(AUTH_KEY);
+                            setIsAuthenticated(false);
+                        }
                     }
                 }
             } catch (error) {
                 console.error('Auth check failed:', error);
-                localStorage.removeItem(AUTH_KEY);
+                if (typeof window !== 'undefined') {
+                    localStorage.removeItem(AUTH_KEY);
+                }
             } finally {
                 setIsLoading(false);
             }
@@ -59,7 +64,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
                 authenticated: true,
                 expiresAt: Date.now() + SESSION_DURATION,
             };
-            localStorage.setItem(AUTH_KEY, JSON.stringify(authData));
+            if (typeof window !== 'undefined') {
+                localStorage.setItem(AUTH_KEY, JSON.stringify(authData));
+            }
             setIsAuthenticated(true);
             return true;
         }
@@ -67,7 +74,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     };
 
     const logout = () => {
-        localStorage.removeItem(AUTH_KEY);
+        if (typeof window !== 'undefined') {
+            localStorage.removeItem(AUTH_KEY);
+        }
         setIsAuthenticated(false);
     };
 
