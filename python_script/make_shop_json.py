@@ -86,13 +86,7 @@ def fetch_gsheet_as_json(sheet_url, keyword):
     data.sort(key=lambda x: x['order'], reverse=True)
     return data
 
-def make_shop_json():
-    # Get keyword from command line argument or use default
-    if len(sys.argv) > 1:
-        keyword = sys.argv[1]
-    else:
-        keyword = "tesla"
-    
+def make_shop_json(keyword):
     test_url = "https://docs.google.com/spreadsheets/d/1Zocy2KfOAA0UlPmCmci0SIq-cKGf8mXGBpHhKa5UWRA/edit?gid=0#gid=0"
     
     try:
@@ -112,4 +106,4 @@ def make_shop_json():
         traceback.print_exc()
 
 if __name__ == "__main__":
-    make_shop_json()
+    make_shop_json("tesla")

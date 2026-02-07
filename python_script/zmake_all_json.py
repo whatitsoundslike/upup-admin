@@ -23,6 +23,7 @@ async def main():
     print("\n[1/3] 뉴스 JSON 생성 중...")
     try:
         make_news_json("테슬라")
+        make_news_json("육아")
         print("✓ 뉴스 JSON 생성 완료")
     except Exception as e:
         print(f"✗ 뉴스 JSON 생성 실패: {e}")
@@ -30,7 +31,8 @@ async def main():
     # 2. 쇼핑 JSON 생성
     print("\n[2/3] 쇼핑 JSON 생성 중...")
     try:
-        make_shop_json()
+        make_shop_json("테슬라")
+        make_shop_json("육아")
         print("✓ 쇼핑 JSON 생성 완료")
     except Exception as e:
         print(f"✗ 쇼핑 JSON 생성 실패: {e}")
