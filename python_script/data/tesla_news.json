@@ -1,12 +1,102 @@
 [
   {
+    "source": "동아일보",
+    "title": "韓 ‘하이브리드’ 비중 30% 돌파… 전기차는 주춤",
+    "link": "https://n.news.naver.com/mnews/article/020/0003695900?sid=101",
+    "thumbnail": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg",
+    "description": "한국자동차산업협회(KAMA)에 따르면 지난해 총 전기차 등록 대수는 22만177대로 2024년 대비 50.1% 늘었지만 이 중 절반가량이 테슬라와 중국 전기차 등 수입차여서 국내 5개사 판매 비중은 상대적으로 낮았다. 국내... ",
+    "published_at": "2026-02-09T00:31:00+09:00",
+    "id": "0c51fa7c-b1fa-4f56-b29a-5811273f96f6",
+    "category": "tesla"
+  },
+  {
+    "source": "국민일보",
+    "title": "밀라노올림픽 모인 글로벌 리더들… 그 사이 누비는 이재용",
+    "link": "https://n.news.naver.com/mnews/article/005/0001831032?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/005/2026/02/09/2026020822370651743_1770557826_1770537836_20260209002611499.jpg?type=w800",
+    "description": "이 회장은 파리올림픽 당시에도 에마뉘엘 마크롱 프랑스 대통령 초청으로 엘리제궁에서 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO 등과 교류했다. 재계 관계자는 “이 회장의 행사 참석은... ",
+    "published_at": "2026-02-09T00:26:00+09:00",
+    "id": "6fcbe9d0-183a-49bd-a56a-dc52ef9dbd31",
+    "category": "tesla"
+  },
+  {
+    "source": "국민일보",
+    "title": "‘월화수목금금금’ 일해도 군말 없는 로봇 노동자 온다",
+    "link": "https://n.news.naver.com/mnews/article/005/0001831031?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/005/2026/02/09/2026020820230651337_1770549786_1770538955_20260209002208497.jpg?type=w800",
+    "description": "테슬라는 미국 캘리포니아에 있는 프리몬트 전기차 공장을 아예 로봇 공장으로 전환키로 했다. 이곳에서 휴머노이드 ‘옵티머스’를 연간 100만대 생산할 계획이다. 일론 머스크 테슬라 최고경영자(CEO)는 “향후... ",
+    "published_at": "2026-02-09T00:22:00+09:00",
+    "id": "69fc7a7c-f283-4085-ba1c-bd213794e7cc",
+    "category": "tesla"
+  },
+  {
+    "source": "중앙일보",
+    "title": "얄궂은 노·로 관계…“로봇 반대” 파업, 로봇 투입하면 해결?",
+    "link": "https://n.news.naver.com/mnews/article/025/0003501896?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/025/2026/02/09/0003501896_001_20260209000429603.jpg?type=w800",
+    "description": "협력적 노사 관계가 필수적이다.” (손경식 한국경영자총협회 회장) “(AI 등) 노동 관련 정책을 기업이 정할 때 노동영향평가를 수반해야 한다.” (양경수 민주노총 위원장) 아틀라스(현대자동차 로봇), 옵티머스(테슬라... ",
+    "published_at": "2026-02-09T00:02:00+09:00",
+    "id": "90800786-e1db-4704-8af9-4e5285cf41d8",
+    "category": "tesla"
+  },
+  {
+    "source": "중앙일보",
+    "title": "국왕·대통령·부통령들 선 그 자리…‘한국 대표’는 이재용",
+    "link": "https://n.news.naver.com/mnews/article/025/0003501890?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/025/2026/02/09/0003501890_001_20260209000321323.jpg?type=w800",
+    "description": "당시 에마뉘엘 마크롱 프랑스 대통령 초청으로 엘리제궁에서 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 베르나르 아르노 LVMH 회장 등과 교류한 바 있다. 삼성전자는 이번 동계올림픽에서 기술 지원과... ",
+    "published_at": "2026-02-09T00:02:00+09:00",
+    "id": "fc3fb46d-70b2-42bf-acbb-2bf0f09d6b5c",
+    "category": "tesla"
+  },
+  {
+    "source": "로봇신문",
+    "title": "[아침을 열며] 대한민국 로봇산업 골든타임, 지능과 응용에서 해답 찾아...",
+    "link": "https://www.irobotnews.com/news/articleView.html?idxno=44824",
+    "thumbnail": "https://cdn.irobotnews.com/news/photo/202602/44824_97581_2522.png",
+    "description": "자율주행을 가장 잘하는 회사로 흔히 테슬라가 언급되는 이유도 결국 '데이터'에 있다. 연구실에서 완벽한 모델이 갑자기 탄생한 것이 아니라, 완전하지 않은 상태에서도 빠르게 시장에 배포해 실제 주행 데이터를... ",
+    "published_at": "2026-02-08T23:26:00+09:00",
+    "id": "bd97e577-47c9-46c7-8e46-44c850053dc8",
+    "category": "tesla"
+  },
+  {
+    "source": "매일경제",
+    "title": "이재용 회장 얼마나 또 뿌듯할까...동계올림픽 선수들 갤럭시 들고 ‘찰...",
+    "link": "https://n.news.naver.com/mnews/article/009/0005634265?sid=104",
+    "thumbnail": "https://imgnews.pstatic.net/image/009/2026/02/08/0005634265_001_20260208225209984.jpg?type=w800",
+    "description": "당시 이 회장은 에마뉘엘 마크롱 프랑스 대통령 초청으로 파리 엘리제궁에서 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO... ",
+    "published_at": "2026-02-08T22:52:00+09:00",
+    "id": "625ac8fe-2d32-435d-8ecb-8ca7ba69c982",
+    "category": "tesla"
+  },
+  {
+    "source": "gpkorea",
+    "title": "이재용 삼성전자 회장, 밀라노 동계올림픽서 '민간 스포츠 외교' 행보",
+    "link": "https://www.gpkorea.com/news/articleView.html?idxno=139771",
+    "thumbnail": "https://cdn.gpkorea.com/news/photo/202602/139771_296414_1945.jpg",
+    "description": "당시 에마뉘엘 마크롱 프랑스 대통령 초청으로 엘리제궁 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 베르나르 아르노 LVMH 회장 등과 교류했다. 삼성전자는 파리 올림픽에서 '빅토리 셀피' 프로그램을 통해... ",
+    "published_at": "2026-02-08T22:22:00+09:00",
+    "id": "916c65ed-9df4-4488-84da-eb03668acb5d",
+    "category": "tesla"
+  },
+  {
+    "source": "topstarnews",
+    "title": "중국 전력 증설 질주…머스크·황이 지목한 'AI 경쟁의 숨은 축'",
+    "link": "https://www.topstarnews.net/news/articleView.html?idxno=15960263",
+    "thumbnail": "https://cdn.topstarnews.net/news/photo/202602/15960263_1853274_597.jpg",
+    "description": "일론 머스크 테슬라 최고경영자(CEO)와 젠슨 황 엔비디아 CEO가 공통적으로 지적한 전력 접근성이 미국과... 그는 테슬라와 별도로 설립한 xAI가 미국에서 데이터센터를 구축 중이지만, 전력 확보가 최대 과제라고... ",
+    "published_at": "2026-02-08T22:00:00+09:00",
+    "id": "65612573-de6a-41dc-a04c-406e659ea944",
+    "category": "tesla"
+  },
+  {
     "source": "bizwnews",
     "title": "NH투자증권, 최대 연 12.5% 퇴직연금 전용 ELS 출시",
     "link": "http://www.bizwnews.com/news/articleView.html?idxno=124535",
     "thumbnail": "https://cdn.bizwnews.com/news/thumbnail/202602/124535_137321_3644_v150.jpg",
     "description": "'N2 퇴직연금 ELS 14호'는 해외주식 테슬라와 팔란티어를 기초자산으로 한다. 낙인 배리어는 45%로 설정했으며 조건 충족 시 연 8.80%(세전) 수익을 얻을 수 있다. 특히 'N2 퇴직연금 ELS 15호'는 해외주식 팔란티어와... ",
     "published_at": "2026-02-08T21:38:00+09:00",
-    "id": "6e88c6c6-cffe-4208-8035-3ac34b14d754",
+    "id": "fdc04dd7-e393-4681-8f3f-f924d94b9f49",
     "category": "tesla"
   },
   {
@@ -16,7 +106,7 @@
     "thumbnail": "https://cdn.thelec.kr/news/photo/202602/52114_41424_3025.png",
     "description": "이 회장은 당시 에마뉴엘 마크롱 프랑스 대통령 초청으로 파리 엘리제궁에서 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO... ",
     "published_at": "2026-02-08T21:36:00+09:00",
-    "id": "95751b9b-fbb1-4729-a760-69ba7f697770",
+    "id": "4f89effe-7ba5-4def-a117-e4da8df4cc47",
     "category": "tesla"
   },
   {
@@ -26,7 +116,7 @@
     "thumbnail": "https://www.seoultimes.news/data/photos/20260206/art_17705534377078_649cf0.jpg",
     "description": "당시 일론 머스크 테슬라 CEO, 베르나르 아르노 LVMH 회장 등과 교류하며 미래 협력 가능성을 모색했다. 삼성은 고(故) 이건희 선대회장 시절부터 올림픽 후원을 이어오고 있다. 이재용 회장은 2018년 토마스 바흐 IOC... ",
     "published_at": "2026-02-08T21:25:00+09:00",
-    "id": "8f80792f-2ea2-4522-bc81-83d3c162b97b",
+    "id": "2f219f7b-5bf6-431c-9d8f-fa813288ba90",
     "category": "tesla"
   },
   {
@@ -36,7 +126,7 @@
     "thumbnail": "https://cwn.kr/news/data/2026/02/08/p1065614834357471_237_thum.jpg",
     "description": "▲ 한국 시장에 2026년 상반기 정식 출시 예정인 허머 EV는 기존 험머의 헤리티지를 이어가는 동시에, 전기차 시대에 맞춘 혁신적 파워트레인과 첨단기능으로 테슬라 사이버트럭의 강력한 경쟁모델로 국내 고성능... ",
     "published_at": "2026-02-08T21:12:00+09:00",
-    "id": "25bd7d8c-f93b-450d-b680-9fe1afb89366",
+    "id": "116cb8a1-e426-42e9-b062-4cf18194e6f2",
     "category": "tesla"
   },
   {
@@ -46,7 +136,7 @@
     "thumbnail": "https://cdn.ttlnews.com/news/photo/202602/3077702_633631_210.jpg",
     "description": "당시 에마뉴엘 마크롱 프랑스 대통령 초청으로 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO, 베르나르 아르노 LVMH 회장 등과... ",
     "published_at": "2026-02-08T21:00:00+09:00",
-    "id": "76ca5ca2-5dab-459f-8fc9-50a629fa7eae",
+    "id": "55df45ef-0a39-4e04-ad2f-243945b19d18",
     "category": "tesla"
   },
   {
@@ -56,7 +146,7 @@
     "thumbnail": null,
     "description": "이재용 회장은 당시 에마뉴엘 마크롱 프랑스 대통령 초청으로 파리 엘리제궁에서 열린 글로벌 기업인 오찬에도 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리... ",
     "published_at": "2026-02-08T20:34:00+09:00",
-    "id": "ec41db7d-7995-4643-9aaa-8ce07b6f7566",
+    "id": "ba086d83-c7e0-4061-b844-a42ba500fa8e",
     "category": "tesla"
   },
   {
@@ -66,7 +156,7 @@
     "thumbnail": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026020820162508686be44c0aacd17511519190.jpg&nmt=30",
     "description": "이 회장은 당시 에마뉴엘 마크롱 프랑스 대통령 초청으로 파리 엘리제궁에서 열린 글로벌 기업인 오찬에도 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO... ",
     "published_at": "2026-02-08T20:18:00+09:00",
-    "id": "29ec69f9-34e1-4aad-9e83-2fdfadb3f22f",
+    "id": "095557e4-a3a2-405f-b543-ca9f607fa9b2",
     "category": "tesla"
   },
   {
@@ -76,7 +166,7 @@
     "thumbnail": "https://cdn.gokorea.kr/news/thumbnail/202602/856949_134242_5010_v150.jpg",
     "description": "배터리도 이미 글로벌 시장에서 한·중·일 전쟁이라고 하겠으나 일본 파나소닉은 주로 테슬라 등에 공급하는 관계로 한정적이어서 결국 한·중 간의 배터리 전쟁이 되고 있다. 리튬인산철(LFP) 배터리가 없는 우리로서는... ",
     "published_at": "2026-02-08T20:04:00+09:00",
-    "id": "420917ef-4433-4601-bf16-f9d0b74439eb",
+    "id": "45bab30e-d4b9-49ce-89e4-128270a088db",
     "category": "tesla"
   },
   {
@@ -86,7 +176,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/016/2026/02/08/0002597714_001_20260208200109156.jpg?type=w800",
     "description": "일론 머스크도 언급…머스크 “섬 초대했지만 난 거부” 일론 머스크 테슬라 최고경영자(CEO). [로이터] 앱스타인 파일에는 일론 머스크 테슬라 최고경영자(CEO)도 등장한다. 문건에 따르면 그는 엡스타인과 2012년부터... ",
     "published_at": "2026-02-08T20:01:00+09:00",
-    "id": "16b1352b-3803-4a18-92ae-f1a196700e72",
+    "id": "02b11558-5726-4c37-80a0-20cb549588dc",
     "category": "tesla"
   },
   {
@@ -96,7 +186,7 @@
     "thumbnail": "https://cdn.newslock.co.kr/news/thumbnail/202602/124791_113214_3229_v150.jpg",
     "description": "리둥성 TCL 회장, 올리버 바테 알리안츠 회장, 레이널드 애슐리만 오메가 CEO, 제임스 퀸시 코카콜라 회장, 일론 머스크 테슬라 CEO 등 글로벌 기업인들이 참석해 이 회장과 비즈니스 현안 및 협력 방안 등을 자연스럽게... ",
     "published_at": "2026-02-08T19:58:00+09:00",
-    "id": "bc89b436-e79f-4303-9bf3-b600e89c70af",
+    "id": "a8568b67-2fd7-4d5e-816c-a2fb36ec9d8a",
     "category": "tesla"
   },
   {
@@ -106,97 +196,7 @@
     "thumbnail": null,
     "description": "당시 그는 에마뉘엘 마크롱 프랑스 대통령의 초청으로 엘리제궁에서 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO, 베르나르... ",
     "published_at": "2026-02-08T19:56:00+09:00",
-    "id": "25a27af5-a4c4-465c-b0d8-a9b98479147e",
-    "category": "tesla"
-  },
-  {
-    "source": "경향신문",
-    "title": "그래도…부탁해! 베스트 드라이빙",
-    "link": "https://n.news.naver.com/mnews/article/032/0003426543?sid=103",
-    "thumbnail": "https://imgnews.pstatic.net/image/032/2026/02/08/0003426543_001_20260208195509485.jpg?type=w800",
-    "description": "크루즈’와 테슬라 ‘감독형 완전자율주행(FSD)’이 도입되면서 국내에서도 자율주행 기술에 대한 관심이 커지기 시작했다. 글로벌 시장에선 현재 룰베이스 기반의 웨이모 진영과 E2E(End-to--End) 기반의 테슬라 진영이... ",
-    "published_at": "2026-02-08T19:54:00+09:00",
-    "id": "e3c6278d-bee5-4f94-a9ed-08ba776d3fd5",
-    "category": "tesla"
-  },
-  {
-    "source": "로봇신문",
-    "title": "美 의회, 국가로봇위원회 설립·중국산 휴머노이드 조달 금지 추진",
-    "link": "https://www.irobotnews.com/news/articleView.html?idxno=44813",
-    "thumbnail": "https://cdn.irobotnews.com/news/photo/202602/44813_97558_598.png",
-    "description": "테슬라 같은 미국 제조업체도 현재 휴머노이드에 중국산 부품을 사용하고 있다. 테슬라는 지난주 캘리포니아의 모델 S 및 X 차량 공장을 옵티머스 휴머노이드 로봇의 미국 생산 시설로 전환한다고 발표했다.",
-    "published_at": "2026-02-08T19:54:00+09:00",
-    "id": "1172b50f-305b-4fc0-b7b3-efc26c939bf1",
-    "category": "tesla"
-  },
-  {
-    "source": "topstarnews",
-    "title": "테슬라 \"카메라만으로 충분\"·웨이모 \"인간보다 높은 기준\"…자율주행 ...",
-    "link": "https://www.topstarnews.net/news/articleView.html?idxno=15960216",
-    "thumbnail": "https://cdn.topstarnews.net/news/photo/202602/15960216_1853239_5140.jpg",
-    "description": "자율주행 기술을 둘러싸고 테슬라와 알파벳 산하 웨이모가 근본적으로 다른 해법을 제시하며 정면으로 맞붙고 있다. 테슬라는 인간처럼 '눈'에 해당하는 카메라와 인공지능(AI)만으로도 완전 자율주행이 가능하다는... ",
-    "published_at": "2026-02-08T19:52:00+09:00",
-    "id": "a59f649d-1c61-42f7-b217-48dc2ef85788",
-    "category": "tesla"
-  },
-  {
-    "source": "이투데이",
-    "title": "폴리마켓 뒤집혔다… 부산시장 판세, 박형준 '재역전'",
-    "link": "https://www.etoday.co.kr/news/view/2554323",
-    "thumbnail": "https://img.etoday.co.kr/pto_db/2026/02/20260208193106_2292993_1200_744.png",
-    "description": "당시 트럼프 대통령의 선거운동을 후원했던 일론 머스크 테슬라 CEO는 \"실제 돈이 걸려 있기 때문에 여론조사보다 정확하다\"고 평가하기도 했다. 부산시장 선거 역시 폴리마켓의 예측이 단기간에 뒤집히며 막판까지... ",
-    "published_at": "2026-02-08T19:32:00+09:00",
-    "id": "6cfc3a82-ebb9-4ae5-a98f-461196bdadbb",
-    "category": "tesla"
-  },
-  {
-    "source": "kookje",
-    "title": "박형준, 美 '폴리마켓'서 부산시장 당선 확률 1위",
-    "link": "https://n.news.naver.com/mnews/article/658/0000134780?sid=102",
-    "thumbnail": "https://imgnews.pstatic.net/image/658/2026/02/08/0000134780_001_20260208192608377.jpg?type=w800",
-    "description": "대선 당시 트럼프 대통령의 선거운동에 거액을 후원했던 일론 머스크 테슬라 CEO(최고경영자)는 폴리마켓을 두고 “실제 돈이 걸려 있기 때문에 여론조사보다 정확하다”고 언급했다.",
-    "published_at": "2026-02-08T19:23:00+09:00",
-    "id": "a614e348-b5f7-45b2-b625-1a1353dcdd71",
-    "category": "tesla"
-  },
-  {
-    "source": "electimes",
-    "title": "전기공사업 AI, 친환경에너지 확대에 맞춰 성장 이끌어야",
-    "link": "https://www.electimes.com/news/articleView.html?idxno=364917",
-    "thumbnail": "https://www.electimes.com/image/logo/snslogo_20250117101650.png",
-    "description": "테슬라의 CEO 앨런 머스크는 앞으로 에너지가 화폐를 대체할 수 있다고 전망했다. 그만큼 전기에너지 생산 경쟁력이 있는 국가, 기업이 성장할 수 있다는 얘기다. 전기에너지 확대를 위한 인프라는 전기공사업계가... ",
-    "published_at": "2026-02-08T18:56:00+09:00",
-    "id": "e2ae870a-2deb-4601-850b-5909ff907612",
-    "category": "tesla"
-  },
-  {
-    "source": "apnews",
-    "title": "이재용 '스포츠 외교', 伊서 빛났다…IOC 갈라 디너 '묵직한 존재감'",
-    "link": "https://www.apnews.kr/news/articleView.html?idxno=3045655",
-    "thumbnail": "https://cdn.apnews.kr/news/thumbnail/202602/3045655_75860_3235_v150.jpg",
-    "description": "특히, 당시 에마뉴엘 마크롱 프랑스 대통령 초청으로 파리 엘리제궁에서 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO... ",
-    "published_at": "2026-02-08T18:52:00+09:00",
-    "id": "dd9ef197-97cc-4ceb-814f-ba30bee2fe71",
-    "category": "tesla"
-  },
-  {
-    "source": "파이낸셜뉴스",
-    "title": "금융·고배당 테마 강세… 美 AI·미래기술 ETF는 '출렁' [ETF 스퀘어]",
-    "link": "https://n.news.naver.com/mnews/article/014/0005475135?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/014/2026/02/08/0005475135_001_20260208183821540.jpg?type=w800",
-    "description": "일론 머스크 테슬라 최고경영자(CEO)가 미국 내 태양광 활용 구상을 언급하며 글로벌 태양광 투자 심리를 자극한 가운데, 미국 태양광 셀 통관 정상화와 북미 에너지저장장치(ESS) 시장 확대 기대가 맞물리며... ",
-    "published_at": "2026-02-08T18:38:00+09:00",
-    "id": "8841df3d-0a42-4ab7-9381-3e626059294a",
-    "category": "tesla"
-  },
-  {
-    "source": "파이낸셜뉴스",
-    "title": "'올림픽 외교' 이재용, 밀라노서 정·재계 리더와 교류",
-    "link": "https://n.news.naver.com/mnews/article/014/0005475097?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/014/2026/02/08/0005475097_001_20260208182629452.jpg?type=w800",
-    "description": "지난 2024년 파리 하계올림픽에서도 마크롱 프랑스 대통령 주최의 글로벌 기업인 오찬에 참석했으며 일론 머스크 테슬라 CEO, LVMH 회장, 유튜브 CEO 등과도 교류했다. 당시 삼성은 선수들에게 '갤럭시Z 플립6 올림픽... ",
-    "published_at": "2026-02-08T18:26:00+09:00",
-    "id": "c1d21fcb-0b5f-4899-9def-8c424c1b7bf6",
+    "id": "829110ab-32ff-45bd-bdaa-1607743c758a",
     "category": "tesla"
   },
   {
@@ -206,7 +206,7 @@
     "thumbnail": "",
     "description": "“테슬라 나와!”… 11년 적자 끝내고 드디어 돈 버는 ‘이 회사’&nbsp;&nbsp;뉴스와",
     "published_at": "2026-02-08T12:18:36+00:00",
-    "id": "6b2e5165-2b78-4ac2-9055-a206faa7e7eb",
+    "id": "cb07715b-3095-44bf-9858-467fae9f4b28",
     "category": "tesla"
   },
   {
@@ -216,7 +216,7 @@
     "thumbnail": "",
     "description": "\"테슬라, 고평가 부담 커…휴머노이드 수익화까진 시간 더 걸릴 것\"&nbsp;&nbsp;네이트",
     "published_at": "2026-02-08T08:34:00+00:00",
-    "id": "d60d6cbe-c460-49d3-bb28-32ad60406040",
+    "id": "676f3d1d-3ee6-44c5-9230-cd82bbabb824",
     "category": "tesla"
   },
   {
@@ -226,7 +226,7 @@
     "thumbnail": "",
     "description": "\"테슬라, 고평가 부담 커…휴머노이드 수익화까진 시간 더 걸릴 것\"&nbsp;&nbsp;한국경제",
     "published_at": "2026-02-08T08:33:41+00:00",
-    "id": "1422f09b-e223-497b-ab45-dc189ea71a83",
+    "id": "ce4fa18f-efee-4d39-b7e2-14b597d1c0b0",
     "category": "tesla"
   },
   {
@@ -236,7 +236,7 @@
     "thumbnail": "",
     "description": "\"10년간 15명\"…테슬라, 차량 화재 사고로 또다시 소송&nbsp;&nbsp;네이트",
     "published_at": "2026-02-08T03:27:00+00:00",
-    "id": "4415f617-d642-41b2-92c4-afb2d2aaaed0",
+    "id": "d1e58e59-02ec-4830-872c-d006b0b20327",
     "category": "tesla"
   },
   {
@@ -246,7 +246,7 @@
     "thumbnail": "",
     "description": "\"풉, 넌 성공했다면서 아직 벤츠?\"…치욕 씻은 BMW, 테슬라 공세에 \"우린 깐부\" [세상만車]&nbsp;&nbsp;네이트",
     "published_at": "2026-02-08T00:50:00+00:00",
-    "id": "9a1c2cda-0d56-43e3-9c18-fb754c7aa923",
+    "id": "b0a9dcf5-a078-4cee-9d6d-ba25070d6ffe",
     "category": "tesla"
   },
   {
@@ -256,7 +256,7 @@
     "thumbnail": "",
     "description": "현대차마저 위태롭다… 테슬라 꺾고 시장 뒤흔든 ‘이 차’&nbsp;&nbsp;뉴스와",
     "published_at": "2026-02-08T00:48:33+00:00",
-    "id": "9e6268ed-53fd-45a3-9eee-3dd6783f73a6",
+    "id": "8a13e486-9ec3-4961-8c99-0c7619813f1b",
     "category": "tesla"
   },
   {
@@ -266,17 +266,7 @@
     "thumbnail": "",
     "description": "올해 10만대 판다! 테슬라 모델Y RWD 4700만원대 실구입가 질주&nbsp;&nbsp;카가이",
     "published_at": "2026-02-08T00:00:00+00:00",
-    "id": "3ceb5581-0cda-47c9-9120-2b181837e695",
-    "category": "tesla"
-  },
-  {
-    "source": "IT조선",
-    "title": "테슬라 가격 공세 막은 기아, BYD '돌핀' 투입으로 2차전 벌어져",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ia0lPNmpUeTZEWl9oVUN6YTFZNGNvQzJWTDdzTXNfa2hDczUzQWd4OGZ1b0FIQkhtWVRqcHJPQzloRXhTeHJ1TE15cmUyWndtaFhhc0Y4cUs3Sm5rM3hPODlqbVU4TW41bEdLOEJ3NzLSAXRBVV95cUxQMWIwSGNNekE2bndld3hZSXhuNmdGZ1M1Wmt0cUQtaUVkZHM3SFF3Q2JURXJGMGt3bk9TXzk4bERQd3diU2hGdHB3UjVJaHZRMHRLRVJRenAwS2NOdDA5bUVtcV95cmdTVm5lZ0h0V3pSU1hRSQ?oc=5",
-    "thumbnail": "",
-    "description": "테슬라 가격 공세 막은 기아, BYD '돌핀' 투입으로 2차전 벌어져&nbsp;&nbsp;IT조선",
-    "published_at": "2026-02-07T20:00:00+00:00",
-    "id": "84658493-7bbb-4c74-ab72-1ddec8edff3b",
+    "id": "443e4de8-6197-4f4b-9180-b14b2f512f64",
     "category": "tesla"
   },
   {
@@ -286,7 +276,17 @@
     "thumbnail": "",
     "description": "[초점] 테슬라, 독일 브랜드 평판조사서 최하위…테무·네슬레에도 밀려&nbsp;&nbsp;글로벌이코노믹",
     "published_at": "2026-02-07T20:00:00+00:00",
-    "id": "0e8d9520-bee7-451f-8ce9-388f1bf3ebc7",
+    "id": "857db671-cde2-4f2a-b8a8-9362427fd75c",
+    "category": "tesla"
+  },
+  {
+    "source": "IT조선",
+    "title": "테슬라 가격 공세 막은 기아, BYD '돌핀' 투입으로 2차전 벌어져",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ia0lPNmpUeTZEWl9oVUN6YTFZNGNvQzJWTDdzTXNfa2hDczUzQWd4OGZ1b0FIQkhtWVRqcHJPQzloRXhTeHJ1TE15cmUyWndtaFhhc0Y4cUs3Sm5rM3hPODlqbVU4TW41bEdLOEJ3NzLSAXRBVV95cUxQMWIwSGNNekE2bndld3hZSXhuNmdGZ1M1Wmt0cUQtaUVkZHM3SFF3Q2JURXJGMGt3bk9TXzk4bERQd3diU2hGdHB3UjVJaHZRMHRLRVJRenAwS2NOdDA5bUVtcV95cmdTVm5lZ0h0V3pSU1hRSQ?oc=5",
+    "thumbnail": "",
+    "description": "테슬라 가격 공세 막은 기아, BYD '돌핀' 투입으로 2차전 벌어져&nbsp;&nbsp;IT조선",
+    "published_at": "2026-02-07T20:00:00+00:00",
+    "id": "6c997391-347d-49b9-a735-6e0fe190b918",
     "category": "tesla"
   },
   {
@@ -296,7 +296,7 @@
     "thumbnail": "",
     "description": "테슬라, 중국서 자율주행 AI 학습 시작...FSD 상용화 가속&nbsp;&nbsp;AI타임스",
     "published_at": "2026-02-07T09:28:14+00:00",
-    "id": "4dcad4bf-dda3-431f-893c-93d19ec1d52a",
+    "id": "8faf12a4-bde3-4b45-842f-da81767836b7",
     "category": "tesla"
   },
   {
@@ -306,7 +306,7 @@
     "thumbnail": "",
     "description": "테슬라, 독일 신뢰도 조사 꼴찌…中 테무보다 낮다&nbsp;&nbsp;디지털투데이",
     "published_at": "2026-02-07T01:06:00+00:00",
-    "id": "edfcfaa8-0fc5-4910-9b62-4ad0af005820",
+    "id": "9258879d-173e-433a-824f-13fe288a6fae",
     "category": "tesla"
   },
   {
@@ -316,7 +316,7 @@
     "thumbnail": "",
     "description": "삼성전자, 美 테일러 공장 ‘조기 가동’ 승부수…테슬라 AI칩 양산 초읽기&nbsp;&nbsp;글로벌이코노믹",
     "published_at": "2026-02-06T22:39:54+00:00",
-    "id": "609c2095-c929-4081-a442-13c06d1ab859",
+    "id": "299e190e-7243-48ce-a4b8-7b1f3e590d6e",
     "category": "tesla"
   },
   {
@@ -326,7 +326,7 @@
     "thumbnail": "",
     "description": "미국증시 나스닥100 '급등'...MSTR·테슬라·SW 및 반도체주 '껑충'&nbsp;&nbsp;초이스경제",
     "published_at": "2026-02-06T22:12:24+00:00",
-    "id": "9e13804c-200c-44c2-96a0-ac8197728479",
+    "id": "8281660b-e5b0-4ca2-aa96-40a6165f3927",
     "category": "tesla"
   },
   {
@@ -336,7 +336,7 @@
     "thumbnail": "",
     "description": "테슬라 3.5%-리비안 8%-루시드 14%, 전기차 일제 급등(종합)&nbsp;&nbsp;뉴스1",
     "published_at": "2026-02-06T21:44:37+00:00",
-    "id": "57aaa0dd-32aa-4441-9ea2-c37e6255ea3a",
+    "id": "8b50c4e2-b0f1-4720-b3cf-cb67c9f0041b",
     "category": "tesla"
   },
   {
@@ -346,7 +346,7 @@
     "thumbnail": "",
     "description": "테슬라, 머스크의 태양광 제조 계획 지원 위한 채용 확대 By Investing.com&nbsp;&nbsp;Investing.com 한국어",
     "published_at": "2026-02-06T21:29:00+00:00",
-    "id": "a99fda13-1f8c-443d-8677-2799ba607f5e",
+    "id": "2b9f413c-9f16-4984-bb9b-18432ed53a75",
     "category": "tesla"
   },
   {
@@ -356,7 +356,7 @@
     "thumbnail": "",
     "description": "기술주 랠리에 테슬라도 3.50% 급등&nbsp;&nbsp;뉴스1",
     "published_at": "2026-02-06T21:23:32+00:00",
-    "id": "708b66e1-05d3-40c1-979b-f5d7984b3a29",
+    "id": "10c08027-9756-44df-906a-4846247d5592",
     "category": "tesla"
   },
   {
@@ -366,7 +366,7 @@
     "thumbnail": "",
     "description": "머스크, 우주 데이터센터 파트너는 중국?…스페이스X· 테슬라 中기업 접촉&nbsp;&nbsp;전자신문",
     "published_at": "2026-02-06T21:00:00+00:00",
-    "id": "fac50456-d9eb-49e2-bd88-d4712eb49ba2",
+    "id": "3a053160-be1e-431b-b886-ea72620c755b",
     "category": "tesla"
   },
   {
@@ -376,7 +376,7 @@
     "thumbnail": "",
     "description": "미국증시 장중...4대지수·엔비디아·테슬라 '껑충', 아마존 '출렁'&nbsp;&nbsp;초이스경제",
     "published_at": "2026-02-06T19:27:43+00:00",
-    "id": "d9facd79-274b-437b-b028-fc03c296f31e",
+    "id": "ed811c30-6711-40bf-8359-107773f73e87",
     "category": "tesla"
   },
   {
@@ -386,17 +386,17 @@
     "thumbnail": "",
     "description": "테슬라, 중국서 AI 트레이딩센터 운영…머스크 \"테슬라는 AI기업\"&nbsp;&nbsp;마켓인",
     "published_at": "2026-02-06T12:10:35+00:00",
-    "id": "7bdaaa52-d92f-495a-a0ba-a29cda244ba7",
+    "id": "3f99cc21-9684-47e5-ba61-fa1368a7e461",
     "category": "tesla"
   },
   {
-    "source": "Investing.com 한국어",
-    "title": "테슬라, 중국에 AI 트레이닝 센터 개소…현지 애플리케이션 개발 By Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxZFhZcWF5VUNyLTdpZ2dXQ0lqc2xPb29mSnpjaVB3ak5DWjdpNUZTOW8waFczOEhOWHRMTG5JT0QzSjR0a0huc2RWdmpuVjJpV3VtZTBtQXF3X3ZHVy1qRkVJc3FiVm96LXpLVlZFdWFueUwtcW5n?oc=5",
+    "source": "조선일보",
+    "title": "“테슬라 불났는데 문 안 열려” 10년간 최소 15명 사망했다",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMFhXcDF6cDUzdXFnVlJlUGJORlJOS1pKemFvVjBVQ0VadmFTVnpZNV96UXFoZXJkdXdhQnAzMW9PbWZIakdjWkhvVkZFTThWZzFmNkVKNmc1M2VvbTdPQzUzc0xZb2Z0UFk1RXpVM1F1QnFQTm1laUcxWGhkYmhaWk1SM3ljS2ZsZEdXQVY3bkZWQ1pHWXlMTUkydFJpQdIBsgFBVV95cUxOVzBSSzlQQks1Y2ZENHpBZ3VIM0hqV0E2cndmZ2NuakJ1a2R3VmRTcG9XUWt0QTVvVWhpWVMwRmlQeHdsb1dJWkNtSTJxMTN0Uzk1OGRNYmZ1NDJmVnExMW05V3BScnlyUXJpaDUwZFUtVzVfay1VdWRDTjU3YVVyUXBqSXVHNW1wbGVOTUE5ZlJsYnZ5UXNkc0d3aU5oR0VDb0tYSWhlMVFqemZaV2d0MmtR?oc=5",
     "thumbnail": "",
-    "description": "테슬라, 중국에 AI 트레이닝 센터 개소…현지 애플리케이션 개발 By Investing.com&nbsp;&nbsp;Investing.com 한국어",
-    "published_at": "2026-02-06T11:51:00+00:00",
-    "id": "756f2ec7-f278-4e07-91e6-c757bff4bc92",
+    "description": "“테슬라 불났는데 문 안 열려” 10년간 최소 15명 사망했다&nbsp;&nbsp;조선일보테슬라 안에서 10년간 15명이 숨졌다…\"불 났는데 차문이 안 열려요\"&nbsp;&nbsp;네이트\"문만 열렸어도 살 수 있었는데\"…반복되는 테슬라 '전자식 도어'의 비극&nbsp;&nbsp;v.daum.net",
+    "published_at": "2026-02-06T10:29:00+00:00",
+    "id": "52d92f5c-f4ad-45aa-9148-e541f9c9fcb5",
     "category": "tesla"
   }
 ]

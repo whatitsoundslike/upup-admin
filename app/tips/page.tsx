@@ -1,7 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
+import dynamic from 'next/dynamic';
 import { Tip, TIP_CATEGORIES } from '../types/tip';
+import 'react-quill-new/dist/quill.snow.css';
+
+// React Quill을 SSR 없이 동적 import
+const ReactQuill = dynamic(() => import('react-quill-new'), { ssr: false });
 
 export default function TipsPage() {
   const [tips, setTips] = useState<Tip[]>([]);
@@ -215,7 +220,7 @@ export default function TipsPage() {
       {/* Add/Edit Modal */}
       {showModal && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
-          <div className="modal-content" style={{ minWidth: '500px' }} onClick={(e) => e.stopPropagation()}>
+          <div className="modal-content" style={{ width: '90%', maxWidth: '900px', maxHeight: '90vh', overflow: 'auto' }} onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
               <h3>{editingTip ? '팁 수정' : '새 팁 추가'}</h3>
             </div>
@@ -261,15 +266,78 @@ export default function TipsPage() {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="content" className="form-label">내용</label>
-                  <textarea
-                    id="content"
-                    className="form-input form-textarea"
-                    value={formData.content}
-                    onChange={(e) => setFormData({ ...formData, content: e.target.value })}
-                    placeholder="팁 내용을 입력하세요"
-                    required
-                  />
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.5rem' }}>
+                    <label htmlFor="content" className="form-label" style={{ margin: 0 }}>내용 (HTML)</label>
+                    <label
+                      style={{
+                        padding: '0.375rem 0.75rem',
+                        backgroundColor: '#3b82f6',
+                        color: 'white',
+                        borderRadius: '6px',
+                        fontSize: '0.75rem',
+                        cursor: 'pointer',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.25rem'
+                      }}
+                    >
+                      📄 HTML 파일 가져오기
+                      <input
+                        type="file"
+                        accept=".html,.htm"
+                        style={{ display: 'none' }}
+                        onChange={(e) => {
+                          const file = e.target.files?.[0];
+                          if (file) {
+                            const reader = new FileReader();
+                            reader.onload = (event) => {
+                              const html = event.target?.result as string;
+                              // body 태그 내용 추출
+                              const bodyMatch = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+                              if (bodyMatch) {
+                                setFormData({ ...formData, content: bodyMatch[1].trim() });
+                              } else {
+                                // body 태그가 없으면 전체 내용 사용
+                                setFormData({ ...formData, content: html });
+                              }
+                            };
+                            reader.readAsText(file, 'UTF-8');
+                          }
+                          e.target.value = ''; // 같은 파일 다시 선택 가능하도록
+                        }}
+                      />
+                    </label>
+                  </div>
+                  <div style={{
+                    minHeight: '400px',
+                    marginBottom: '1rem',
+                    backgroundColor: '#ffffff',
+                    borderRadius: '8px',
+                    border: '1px solid #e2e8f0'
+                  }}>
+                    <ReactQuill
+                      theme="snow"
+                      value={formData.content}
+                      onChange={(value: string) => setFormData({ ...formData, content: value })}
+                      style={{
+                        height: '350px',
+                        marginBottom: '50px',
+                        color: '#1e293b'
+                      }}
+                      modules={{
+                        toolbar: [
+                          [{ 'header': [1, 2, 3, false] }],
+                          ['bold', 'italic', 'underline', 'strike'],
+                          [{ 'color': [] }, { 'background': [] }],
+                          [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+                          ['blockquote', 'code-block'],
+                          ['link', 'image'],
+                          ['clean']
+                        ]
+                      }}
+                      placeholder="팁 내용을 입력하세요..."
+                    />
+                  </div>
                 </div>
                 <div className="form-group">
                   <label htmlFor="keyword" className="form-label">키워드</label>
