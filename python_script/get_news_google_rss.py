@@ -3,6 +3,7 @@ import os
 import feedparser
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from urllib.parse import quote
 from media_utils import clean_html, get_meta_thumb_from_url
 
 
@@ -19,7 +20,7 @@ def parse_google_date(date_str):
 
 
 def fetch_google_news(query="테슬라", num=20):
-    url = f"https://news.google.com/rss/search?q={query}&hl=ko&gl=KR&ceid=KR:ko"
+    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
     
     feed = feedparser.parse(url)
     
