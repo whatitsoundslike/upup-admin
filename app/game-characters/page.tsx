@@ -52,49 +52,129 @@ export default function GameCharactersPage() {
             );
         }
 
-        const entries = Object.entries(rankCharacter).filter(([key]) => key !== 'id');
+        const getElementColor = (element: string | null) => {
+            const colors: Record<string, string> = {
+                '불': '#ef4444',
+                '물': '#3b82f6',
+                '땅': '#a16207',
+                '바람': '#22c55e',
+                '빛': '#eab308',
+                '어둠': '#7c3aed',
+            };
+            return colors[element || ''] || '#64748b';
+        };
 
         return (
             <div style={{
-                padding: '1rem',
-                backgroundColor: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                padding: '1.5rem',
                 background: 'linear-gradient(135deg, #1e1b4b 0%, #312e81 100%)',
                 borderRadius: '12px',
                 color: 'white'
             }}>
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-                    gap: '1rem'
-                }}>
-                    {entries.map(([key, value]) => (
-                        <div
-                            key={key}
-                            style={{
-                                backgroundColor: 'rgba(255,255,255,0.1)',
-                                padding: '0.75rem 1rem',
-                                borderRadius: '8px',
-                                backdropFilter: 'blur(10px)'
-                            }}
-                        >
-                            <div style={{
-                                fontSize: '0.75rem',
-                                color: 'rgba(255,255,255,0.7)',
-                                marginBottom: '0.25rem',
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.5px'
+                <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
+                    {/* Character Image */}
+                    {rankCharacter.imageUrl && (
+                        <div style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '12px',
+                            overflow: 'hidden',
+                            backgroundColor: 'rgba(255,255,255,0.1)',
+                            flexShrink: 0
+                        }}>
+                            <img
+                                src={rankCharacter.imageUrl}
+                                alt={rankCharacter.name}
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                            />
+                        </div>
+                    )}
+
+                    {/* Character Info */}
+                    <div style={{ flex: 1, minWidth: '200px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.75rem' }}>
+                            <h3 style={{ margin: 0, fontSize: '1.5rem', fontWeight: 700 }}>
+                                {rankCharacter.name}
+                            </h3>
+                            <span style={{
+                                padding: '0.25rem 0.75rem',
+                                backgroundColor: 'rgba(255,255,255,0.2)',
+                                borderRadius: '20px',
+                                fontSize: '0.875rem',
+                                fontWeight: 600
                             }}>
-                                {formatKeyName(key)}
+                                Lv.{rankCharacter.level}
+                            </span>
+                        </div>
+
+                        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
+                            {rankCharacter.className && (
+                                <span style={{
+                                    padding: '0.25rem 0.5rem',
+                                    backgroundColor: 'rgba(255,255,255,0.15)',
+                                    borderRadius: '4px',
+                                    fontSize: '0.75rem'
+                                }}>
+                                    🗡️ {rankCharacter.className}
+                                </span>
+                            )}
+                            {rankCharacter.element && (
+                                <span style={{
+                                    padding: '0.25rem 0.5rem',
+                                    backgroundColor: getElementColor(rankCharacter.element),
+                                    borderRadius: '4px',
+                                    fontSize: '0.75rem',
+                                    fontWeight: 600
+                                }}>
+                                    {rankCharacter.element}
+                                </span>
+                            )}
+                        </div>
+
+                        {/* Stats */}
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(4, 1fr)',
+                            gap: '0.75rem'
+                        }}>
+                            <div style={{
+                                backgroundColor: 'rgba(255,255,255,0.1)',
+                                padding: '0.75rem',
+                                borderRadius: '8px',
+                                textAlign: 'center'
+                            }}>
+                                <div style={{ fontSize: '0.625rem', color: 'rgba(255,255,255,0.7)', marginBottom: '0.25rem' }}>❤️ HP</div>
+                                <div style={{ fontSize: '1.125rem', fontWeight: 700 }}>{rankCharacter.stats.hp}</div>
                             </div>
                             <div style={{
-                                fontSize: '1rem',
-                                fontWeight: 600,
-                                color: 'white'
+                                backgroundColor: 'rgba(255,255,255,0.1)',
+                                padding: '0.75rem',
+                                borderRadius: '8px',
+                                textAlign: 'center'
                             }}>
-                                {formatValue(value)}
+                                <div style={{ fontSize: '0.625rem', color: 'rgba(255,255,255,0.7)', marginBottom: '0.25rem' }}>⚔️ 공격</div>
+                                <div style={{ fontSize: '1.125rem', fontWeight: 700 }}>{rankCharacter.stats.attack}</div>
+                            </div>
+                            <div style={{
+                                backgroundColor: 'rgba(255,255,255,0.1)',
+                                padding: '0.75rem',
+                                borderRadius: '8px',
+                                textAlign: 'center'
+                            }}>
+                                <div style={{ fontSize: '0.625rem', color: 'rgba(255,255,255,0.7)', marginBottom: '0.25rem' }}>🛡️ 방어</div>
+                                <div style={{ fontSize: '1.125rem', fontWeight: 700 }}>{rankCharacter.stats.defense}</div>
+                            </div>
+                            <div style={{
+                                backgroundColor: 'rgba(255,255,255,0.1)',
+                                padding: '0.75rem',
+                                borderRadius: '8px',
+                                textAlign: 'center'
+                            }}>
+                                <div style={{ fontSize: '0.625rem', color: 'rgba(255,255,255,0.7)', marginBottom: '0.25rem' }}>⚡ 속도</div>
+                                <div style={{ fontSize: '1.125rem', fontWeight: 700 }}>{rankCharacter.stats.speed}</div>
                             </div>
                         </div>
-                    ))}
+                    </div>
                 </div>
             </div>
         );

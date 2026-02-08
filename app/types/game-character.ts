@@ -1,11 +1,15 @@
 export interface RankCharacter {
-    id?: string;
-    name?: string;
-    level?: number;
-    power?: number;
-    rarity?: string;
-    element?: string;
-    [key: string]: unknown;
+    name: string;
+    level: number;
+    className: string | null;
+    element: string | null;
+    imageUrl: string | null;
+    stats: {
+        hp: number;
+        attack: number;
+        defense: number;
+        speed: number;
+    };
 }
 
 export interface GameCharacter {
@@ -18,3 +22,4 @@ export interface GameCharacter {
     tester: boolean;
     updatedAt: string;
 }
+
