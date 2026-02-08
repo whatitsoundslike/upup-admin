@@ -1,57 +1,102 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
+type GemTransactionRaw = {
+    id: bigint;
+    memberId: bigint;
+    type: string;
+    amount: number;
+    source: string;
+    memo: string | null;
+    createdAt: Date;
+    uid: string;
+    name: string | null;
+    email: string | null;
+};
+
 export async function GET(request: Request) {
     try {
         const { searchParams } = new URL(request.url);
         const search = searchParams.get('search');
 
-        let whereClause: any = {};
+        let transactions: GemTransactionRaw[];
 
-        // Search by memberId or uid
         if (search) {
-            // Check if search is a number (memberId) or string (uid)
             const isNumeric = /^\d+$/.test(search);
 
             if (isNumeric) {
-                // Search by memberId
-                whereClause = {
-                    memberId: BigInt(search),
-                };
+                transactions = await prisma.$queryRaw<GemTransactionRaw[]>`
+                    SELECT 
+                        gt.id,
+                        gt.memberId,
+                        gt.type,
+                        gt.amount,
+                        gt.source,
+                        gt.memo,
+                        gt.createdAt,
+                        m.uid,
+                        m.name,
+                        m.email
+                    FROM GemTransaction gt
+                    JOIN Member m ON gt.memberId = m.id
+                    WHERE gt.memberId = ${BigInt(search)}
+                    ORDER BY gt.createdAt DESC
+                    LIMIT 100
+                `;
             } else {
-                // Search by uid - need to join with Member table
-                whereClause = {
-                    member: {
-                        uid: {
-                            contains: search,
-                        },
-                    },
-                };
+                transactions = await prisma.$queryRaw<GemTransactionRaw[]>`
+                    SELECT 
+                        gt.id,
+                        gt.memberId,
+                        gt.type,
+                        gt.amount,
+                        gt.source,
+                        gt.memo,
+                        gt.createdAt,
+                        m.uid,
+                        m.name,
+                        m.email
+                    FROM GemTransaction gt
+                    JOIN Member m ON gt.memberId = m.id
+                    WHERE m.uid LIKE ${`%${search}%`}
+                    ORDER BY gt.createdAt DESC
+                    LIMIT 100
+                `;
             }
+        } else {
+            transactions = await prisma.$queryRaw<GemTransactionRaw[]>`
+                SELECT 
+                    gt.id,
+                    gt.memberId,
+                    gt.type,
+                    gt.amount,
+                    gt.source,
+                    gt.memo,
+                    gt.createdAt,
+                    m.uid,
+                    m.name,
+                    m.email
+                FROM GemTransaction gt
+                JOIN Member m ON gt.memberId = m.id
+                ORDER BY gt.createdAt DESC
+                LIMIT 100
+            `;
         }
 
-        const transactions = await prisma.gemTransaction.findMany({
-            where: whereClause,
-            include: {
-                member: {
-                    select: {
-                        uid: true,
-                        name: true,
-                        email: true,
-                    },
-                },
-            },
-            orderBy: {
-                createdAt: 'desc',
-            },
-            take: 100, // Limit to 100 results
-        });
-
         // Convert BigInt to string for JSON serialization
-        const serializedTransactions = transactions.map((transaction: any) => ({
-            ...transaction,
+        const serializedTransactions = transactions.map((transaction) => ({
             id: transaction.id.toString(),
             memberId: transaction.memberId.toString(),
+            type: transaction.type,
+            amount: transaction.amount,
+            source: transaction.source,
+            memo: transaction.memo,
+            createdAt: transaction.createdAt.toISOString(),
+            member: {
+                uid: transaction.uid,
+                name: transaction.name,
+                email: transaction.email,
+            },
         }));
 
         return NextResponse.json(serializedTransactions);
@@ -111,21 +156,21 @@ export async function POST(request: Request) {
                 source,
                 memo: memo || null,
             },
-            include: {
-                member: {
-                    select: {
-                        uid: true,
-                        name: true,
-                        email: true,
-                    },
-                },
-            },
         });
 
         const serializedTransaction = {
-            ...transaction,
             id: transaction.id.toString(),
             memberId: transaction.memberId.toString(),
+            type: transaction.type,
+            amount: transaction.amount,
+            source: transaction.source,
+            memo: transaction.memo,
+            createdAt: transaction.createdAt.toISOString(),
+            member: {
+                uid: member.uid,
+                name: member.name,
+                email: member.email,
+            },
         };
 
         return NextResponse.json(serializedTransaction, { status: 201 });
