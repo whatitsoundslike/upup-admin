@@ -8,7 +8,7 @@ export default function TipsPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [editingTip, setEditingTip] = useState<Tip | null>(null);
-  const [formData, setFormData] = useState({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '' });
+  const [formData, setFormData] = useState({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '', keyword: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deletingTip, setDeletingTip] = useState<Tip | null>(null);
@@ -33,7 +33,7 @@ export default function TipsPage() {
 
   const handleAdd = () => {
     setEditingTip(null);
-    setFormData({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '' });
+    setFormData({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '', keyword: '' });
     setShowModal(true);
   };
 
@@ -44,7 +44,8 @@ export default function TipsPage() {
       summary: tip.summary || '',
       content: tip.content,
       category: tip.category,
-      thumbnail: tip.thumbnail || ''
+      thumbnail: tip.thumbnail || '',
+      keyword: tip.keyword ? tip.keyword.join(', ') : ''
     });
     setShowModal(true);
   };
@@ -72,18 +73,28 @@ export default function TipsPage() {
     e.preventDefault();
     setIsSubmitting(true);
 
+    // keyword 문자열을 배열로 변환
+    const keywordArray = formData.keyword
+      ? formData.keyword.split(',').map(k => k.trim()).filter(k => k)
+      : null;
+
+    const submitData = {
+      ...formData,
+      keyword: keywordArray,
+    };
+
     try {
       if (editingTip) {
         await fetch(`/api/tips/${editingTip.id}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(formData),
+          body: JSON.stringify(submitData),
         });
       } else {
         await fetch('/api/tips', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(formData),
+          body: JSON.stringify(submitData),
         });
       }
       await fetchTips();
@@ -258,6 +269,17 @@ export default function TipsPage() {
                     onChange={(e) => setFormData({ ...formData, content: e.target.value })}
                     placeholder="팁 내용을 입력하세요"
                     required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="keyword" className="form-label">키워드</label>
+                  <input
+                    type="text"
+                    id="keyword"
+                    className="form-input"
+                    value={formData.keyword}
+                    onChange={(e) => setFormData({ ...formData, keyword: e.target.value })}
+                    placeholder="키워드를 쉼표로 구분하여 입력하세요 (예: 테슬라, 모델Y, 충전)"
                   />
                 </div>
                 <div className="form-group">

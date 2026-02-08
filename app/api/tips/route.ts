@@ -1,87 +1,98 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-import { Tip } from '@/app/types/tip';
+import { prisma } from '@/lib/prisma';
 
-const dataDir = path.join(process.cwd(), 'data');
+type TipRaw = {
+  id: bigint;
+  category: string;
+  title: string;
+  summary: string | null;
+  keyword: string[] | null;
+  content: string;
+  thumbnail: string | null;
+  createdAt: Date;
+  updatedAt: Date;
+};
 
-function getFilePath(category: string): string {
-  return path.join(dataDir, `${category}_tips.json`);
-}
-
-function readTipsByCategory(category: string): Tip[] {
-  try {
-    const filePath = getFilePath(category);
-    if (!fs.existsSync(filePath)) {
-      return [];
-    }
-    const data = fs.readFileSync(filePath, 'utf-8');
-    return JSON.parse(data);
-  } catch {
-    return [];
-  }
-}
-
-function writeTipsByCategory(category: string, tips: Tip[]): void {
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
-  const filePath = getFilePath(category);
-  fs.writeFileSync(filePath, JSON.stringify(tips, null, 2), 'utf-8');
-}
-
-function getAllTips(): Tip[] {
-  if (!fs.existsSync(dataDir)) {
-    return [];
-  }
-
-  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('_tips.json'));
-  const allTips: Tip[] = [];
-
-  for (const file of files) {
-    try {
-      const data = fs.readFileSync(path.join(dataDir, file), 'utf-8');
-      const tips = JSON.parse(data);
-      allTips.push(...tips);
-    } catch {
-      // Skip invalid files
-    }
-  }
-
-  return allTips.sort((a, b) => b.id.localeCompare(a.id));
-}
-
-// GET all tips (optionally filtered by category)
 export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const category = searchParams.get('category');
+  try {
+    const { searchParams } = new URL(request.url);
+    const category = searchParams.get('category');
 
-  if (category) {
-    const tips = readTipsByCategory(category);
-    return NextResponse.json(tips);
+    let tips: TipRaw[];
+
+    if (category) {
+      tips = await prisma.$queryRaw<TipRaw[]>`
+                SELECT id, category, title, summary, keyword, content, thumbnail, createdAt, updatedAt
+                FROM Tip
+                WHERE category = ${category}
+                ORDER BY createdAt DESC
+            `;
+    } else {
+      tips = await prisma.$queryRaw<TipRaw[]>`
+                SELECT id, category, title, summary, keyword, content, thumbnail, createdAt, updatedAt
+                FROM Tip
+                ORDER BY createdAt DESC
+            `;
+    }
+
+    // Convert BigInt to string for JSON serialization
+    const serializedTips = tips.map((tip) => ({
+      id: tip.id.toString(),
+      category: tip.category,
+      title: tip.title,
+      summary: tip.summary,
+      keyword: tip.keyword,
+      content: tip.content,
+      thumbnail: tip.thumbnail,
+      createdAt: tip.createdAt.toISOString(),
+      updatedAt: tip.updatedAt.toISOString(),
+    }));
+
+    return NextResponse.json(serializedTips);
+  } catch (error) {
+    console.error('Failed to fetch tips:', error);
+    return NextResponse.json({ error: 'Failed to fetch tips' }, { status: 500 });
   }
-
-  const allTips = getAllTips();
-  return NextResponse.json(allTips);
 }
 
-// POST new tip
 export async function POST(request: Request) {
-  const body = await request.json();
-  const category = body.category || 'general';
-  const tips = readTipsByCategory(category);
+  try {
+    const body = await request.json();
+    const { category, title, summary, keyword, content, thumbnail } = body;
 
-  const newTip: Tip = {
-    id: Date.now().toString(),
-    category: category,
-    title: body.title,
-    summary: body.summary || '',
-    content: body.content,
-    thumbnail: body.thumbnail || '',
-  };
+    if (!category || !title || !content) {
+      return NextResponse.json(
+        { error: 'category, title, and content are required' },
+        { status: 400 }
+      );
+    }
 
-  tips.push(newTip);
-  writeTipsByCategory(category, tips);
+    const tip = await prisma.tip.create({
+      data: {
+        category,
+        title,
+        summary: summary || null,
+        keyword: keyword || null,
+        content,
+        thumbnail: thumbnail || null,
+      },
+    });
 
-  return NextResponse.json(newTip, { status: 201 });
+    const serializedTip = {
+      id: tip.id.toString(),
+      category: tip.category,
+      title: tip.title,
+      summary: tip.summary,
+      keyword: tip.keyword,
+      content: tip.content,
+      thumbnail: tip.thumbnail,
+      createdAt: tip.createdAt.toISOString(),
+      updatedAt: tip.updatedAt.toISOString(),
+    };
+
+    return NextResponse.json(serializedTip, { status: 201 });
+  } catch (error) {
+    console.error('Failed to create tip:', error);
+    return NextResponse.json({ error: 'Failed to create tip' }, { status: 500 });
+  }
 }

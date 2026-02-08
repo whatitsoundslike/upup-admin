@@ -72,6 +72,7 @@ model GameSave {
   rankCharacterId String?  @db.VarChar(64)
   rankCharacter   Json?
   tester          Boolean  @default(false)
+  gameSessionId   String?  @db.VarChar(64)
   member          Member   @relation(fields: [memberId], references: [id])
 
   @@index([rankScore])
@@ -89,4 +90,18 @@ model GemTransaction {
 
   @@index([memberId, createdAt])
   @@index([memberId])
+}
+
+model Tip {
+  id        BigInt   @id @default(autoincrement())
+  category  String   @db.VarChar(50)
+  title     String   @db.VarChar(200)
+  summary   String?  @db.Text
+  keyword   Json?
+  content   String   @db.LongText
+  thumbnail String?  @db.VarChar(500)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  @@index([category])
 }

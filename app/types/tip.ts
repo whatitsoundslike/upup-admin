@@ -2,9 +2,12 @@ export interface Tip {
   id: string;
   category: string;
   title: string;
-  summary: string;
+  summary: string | null;
+  keyword: string[] | null;
   content: string;
-  thumbnail?: string;
+  thumbnail: string | null;
+  createdAt: string;
+  updatedAt: string;
 }
 
 // 기본 카테고리 목록
@@ -14,3 +17,4 @@ export const TIP_CATEGORIES = [
 ] as const;
 
 export type TipCategory = typeof TIP_CATEGORIES[number]['value'];
+
