@@ -10,7 +10,7 @@ from get_news_naver_rss import fetch_naver_news
 # 카테고리별 검색 키워드 설정
 KEYWORD_CONFIG = {
     "tesla": {
-        "keywords": ["테슬라"],
+        "keywords": ["테슬라", "일론 머스크"],
         "max_per_source": 20,
     },
     "baby": {
@@ -44,6 +44,17 @@ KEYWORD_CONFIG = {
             r"(출산휴가|육아휴직|근로시간 단축)",
             r"(신청|접수|모집|대상자)",
         ],
+    },
+    "ai": {
+        "keywords": [
+            "인공지능",
+            "AI",
+            "챗GPT",
+            "클로드",
+            "Gemini",
+            "Claude"
+        ],
+        "max_per_source": 10,
     },
 }
 
