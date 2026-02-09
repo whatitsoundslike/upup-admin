@@ -16,7 +16,8 @@ fileNameMap = {
 # Mapping of keywords to Google Sheet gid
 gidMap = {
     "tesla": "0",
-    "baby": "1881135036"
+    "baby": "1881135036",
+    "ai": "458561670"
 }
 
 def fetch_gsheet_as_json(sheet_url, keyword):
