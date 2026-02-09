@@ -1,12 +1,162 @@
 [
   {
+    "source": "iminju",
+    "title": "[이상우 뉴스논평] 돈보다 전기가 필요한 세상이 온다",
+    "link": "http://www.iminju.net/news/articleView.html?idxno=157593",
+    "thumbnail": "https://cdn.iminju.net/news/thumbnail/202602/157593_161614_5015_v150.jpg",
+    "description": "재산 1000조 원을 가진 미국 최고의 재벌 일론 머스크다. 지난 연말 머스크가 인도의 재벌 니킬 카마트와의 대담에서 한 말이다. 그는 앞으로 2~3년 안에 세상이 엄청나게 달라질 것이라고 했다. \"요약하자면 화폐는 없어질... ",
+    "published_at": "2026-02-09T12:52:00+09:00",
+    "id": "d467c2b3-d4aa-419e-9505-c06454a0bacb",
+    "category": "tesla"
+  },
+  {
+    "source": "electimes",
+    "title": "엔비디아 '알파마요' 공개...자율주행 대전환 예고",
+    "link": "https://www.electimes.com/news/articleView.html?idxno=365027",
+    "thumbnail": "https://cdn.electimes.com/news/thumbnail/202602/365027_575464_548_v150.jpg",
+    "description": "테슬라 방식의 고질적 한계로 지적돼온 '블랙박스' 문제에 엔비디아가 해답을 내놨다. 지난 1월 CES 2026에서... 보고서에 따르면 테슬라 등이 주도하는 E2E(End-to-End) 방식은 대규모 주행 데이터 기반 신경망 학습을 통해... ",
+    "published_at": "2026-02-09T12:42:00+09:00",
+    "id": "a10d7a7a-76e8-4e9e-b59f-53175051bb65",
+    "category": "tesla"
+  },
+  {
+    "source": "디지털타임스",
+    "title": "[속보] 현대차, ‘중국 제외 세계시장’서 中 전기차에 밀려 4위로 추락...",
+    "link": "https://n.news.naver.com/mnews/article/029/0003009897?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/029/2026/02/09/0003009897_001_20260209123216305.png?type=w800",
+    "description": "2위는 10.7% 감소한 101만대를 기록한 테슬라다. BYD는 가격 경쟁력과 자체 배터리 기술을 앞세워 해외 시장을 적극 공략해왔다. 특히 유럽(헝가리·터키), 동남아(태국·인도네시아·캄보디아) 등에서 현지 공장 신설... ",
+    "published_at": "2026-02-09T12:30:00+09:00",
+    "id": "bdecd0d8-76f5-4dcb-acc4-43132b3285b7",
+    "category": "tesla"
+  },
+  {
+    "source": "프레시안",
+    "title": "박형준 손 들어준 폴리마켓…오차범위에서 전재수 앞서",
+    "link": "https://n.news.naver.com/mnews/article/002/0002427099?sid=102",
+    "thumbnail": "https://imgnews.pstatic.net/image/002/2026/02/09/0002427099_001_20260209122613104.png?type=w800",
+    "description": "대통령의 승률을 60% 이상으로 제시하며 실제 결과와 일치하는 예측을 내놨다. 당시 트럼프 대통령의 선거운동을 후원했던 일론 머스크 테슬라 CEO는 \"실제 돈이 걸려 있기 때문에 여론조사보다 정확하다\"고 말하기도 했다.",
+    "published_at": "2026-02-09T12:26:00+09:00",
+    "id": "706a56bf-b6a8-4059-a903-c27fbdae1db5",
+    "category": "tesla"
+  },
+  {
+    "source": "wowtv",
+    "title": "'달나라' 집중하는 머스크…\"10년 내 도시 건설\"",
+    "link": "https://n.news.naver.com/mnews/article/215/0001241105?sid=104",
+    "thumbnail": "https://imgnews.pstatic.net/image/215/2026/02/09/A202602090222_1_20260209122410421.jpg?type=w800",
+    "description": "우주기업 스페이스X를 이끄는 일론 머스크가 10년 안에 달에 '자체성장 도시'(self-growing city)를 건설하겠다고 밝혔다. 로이터통신은 8일(현지시간) 머스크가 문명 지속성을 위한 거점으로 달을 우선 개발하겠다는... ",
+    "published_at": "2026-02-09T12:22:00+09:00",
+    "id": "2172ac7a-78d8-42a2-a502-5b558714c293",
+    "category": "tesla"
+  },
+  {
+    "source": "서울경제",
+    "title": "젠슨 황 “AI 우려 없다” 발언에 주식 고수는 오히려 반도체 덜어냈다...",
+    "link": "https://n.news.naver.com/mnews/article/011/0004588303?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/011/2026/02/09/0004588303_001_20260209121611161.png?type=w800",
+    "description": "삼성증권도 이날 목표주가를 80만 원으로 올리며 “로보틱스, 자율주행, 전고체 전지 기술을 보유한 현대차의 비교 대상은 이제 테슬라”라며 “현대차의 기업가치는 테슬라의 20분의 1 수준으로, 목표 PER 18배는... ",
+    "published_at": "2026-02-09T12:16:00+09:00",
+    "id": "65710dba-309d-4906-a522-a2573542ec71",
+    "category": "tesla"
+  },
+  {
+    "source": "thelec",
+    "title": "보스턴 다이내믹스 \"스팟, 생산 현장서 수백만달러 절감\"...로봇 수익성...",
+    "link": "https://www.thelec.kr/news/articleView.html?idxno=52120",
+    "thumbnail": "https://cdn.thelec.kr/news/photo/202602/52120_41431_2115.png",
+    "description": "한편 비첸티니 총괄은 테슬라, 피규어AI 등 글로벌 로봇 제조사들과의 치열한 경쟁에 대해서 말을 아꼈다. 그는 경쟁사와 비교보다는 보스턴 다이내믹스가 가장 잘 아는 자사 로봇의 내실을 다지는데 집중하겠다고 밝혔다.",
+    "published_at": "2026-02-09T12:02:00+09:00",
+    "id": "3258214f-c69a-48e4-9fef-2c1dbe1840a7",
+    "category": "tesla"
+  },
+  {
+    "source": "금강일보",
+    "title": "유니테스트 주가, 급등세... 이유는?",
+    "link": "https://www.ggilbo.com/news/articleView.html?idxno=1140968",
+    "thumbnail": "https://cdn.ggilbo.com/news/photo/202602/1140968_992451_5314.jpg",
+    "description": "일론 머스크가 추진 중인 '우주 궤도 AI 데이터센터' 구상과 맞물리며 태양광 기술에 대한 시장의 관심이 다시 커지고 있다. 최근 Tesla·SpaceX 실무진이 대만 주요 태양광 업체들을 비공개로 방문한 사실이 전해지면서... ",
+    "published_at": "2026-02-09T11:58:00+09:00",
+    "id": "5d546b0d-b23e-41b4-b557-6f635ad6dfcb",
+    "category": "tesla"
+  },
+  {
+    "source": "한국경제",
+    "title": "KB금융·아모레퍼시픽…외국인 지분율 높아진 종목보니",
+    "link": "https://n.news.naver.com/mnews/article/015/0005248727?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/09/0005248727_001_20260209115711066.jpg?type=w800",
+    "description": "일론 머스크 테슬라 최고경영자(CEO)가 태양광 사업 확대 계획을 밝히면서 주목받고 있다. 엔지니어링 기업 삼성E&A는 올해 사업 포트폴리오를 재편하고 뉴에너지 등 첨단 사업을 확대하고 있다. 올해 매출... ",
+    "published_at": "2026-02-09T11:57:00+09:00",
+    "id": "95595dc5-aabe-4f0a-a624-d0694ca20899",
+    "category": "tesla"
+  },
+  {
+    "source": "문화일보",
+    "title": "‘엔비디아 알파마요’發 자율주행 쇼크… 완성차-플랫폼 기업간 동맹 ...",
+    "link": "https://n.news.naver.com/mnews/article/021/0002769892?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/021/2026/02/09/0002769892_001_20260209115718240.jpg?type=w800",
+    "description": "현재 테슬라의 인공지능(AI) 기반 엔드투엔드(E2E) 방식이 자율주행 기술 경쟁에서 가장 주목받는 가운데 알파마요가 ‘개방형 생태계’를 구축하면 엔비디아와 자율주행 협력을 확대하고 있는 현대자동차그룹 등에도... ",
+    "published_at": "2026-02-09T11:54:00+09:00",
+    "id": "18cba97a-d480-4d32-814f-a4327a3e1395",
+    "category": "tesla"
+  },
+  {
+    "source": "국제뉴스",
+    "title": "'화성은 잠시'···머스크, 달 도시 건설에 집중",
+    "link": "https://www.gukjenews.com/news/articleView.html?idxno=3501699",
+    "thumbnail": "https://cdn.gukjenews.com/news/thumbnail/202602/3501699_3647700_548_v150.jpg",
+    "description": "일론 머스크. 사진제공/AFP통신 우주기업 스페이스X의 설립자 일론 머스크가 8일(현지시간) 오랫동안 목표로 삼아왔던 화성 유인 탐사 계획을 후순위로 미루고 달에 정착촌을 건설하는 데 집중할 것이라고 밝혔다.... ",
+    "published_at": "2026-02-09T11:54:00+09:00",
+    "id": "b94af0df-ab07-4987-9f27-e71b58cbc75e",
+    "category": "tesla"
+  },
+  {
+    "source": "문화일보",
+    "title": "‘유럽, 청소년 SNS 금지한다는데 미국이 왜?’…美 플랫폼기업들 타격...",
+    "link": "https://n.news.naver.com/mnews/article/021/0002769885?sid=104",
+    "thumbnail": "https://imgnews.pstatic.net/image/021/2026/02/09/0002769885_001_20260209121817343.jpg?type=w800",
+    "description": "특히, 최근 페드로 산체스 스페인 총리와 X 소유주 일론 머스크 테슬라 CEO가 SNS 규제를 놓고 정면충돌하면서 갈등이 수면 위로 본격 떠올랐다. 산체스 총리는 지난 3일 SNS 규제 방안을 발표하며 “SNS 기업들은... ",
+    "published_at": "2026-02-09T11:50:00+09:00",
+    "id": "7473019b-5240-45a1-9a7d-9c333e5e01ea",
+    "category": "tesla"
+  },
+  {
+    "source": "cstimes",
+    "title": "현대차그룹, 非중국 전기차 판매량 BYD에 역전…4위로 하락",
+    "link": "https://www.cstimes.com/news/articleView.html?idxno=692637",
+    "thumbnail": null,
+    "description": "2위는 10.7% 감소한 101만대를 기록한 테슬라다. 현대차그룹이 중국을 제외한 세계 시장에서 BYD보다 적은 연간 전기차 판매량을 기록한 것은 이번이 처음이다. BYD가 가격 경쟁력과 자체 배터리 기술을 앞세워 해외... ",
+    "published_at": "2026-02-09T11:48:00+09:00",
+    "id": "9ee0de69-4b50-485a-a7c5-0f76093c8bcc",
+    "category": "tesla"
+  },
+  {
+    "source": "yonhapnewstv",
+    "title": "BYD, 중국 제외한 전기차 시장서 처음으로 현대차 추월",
+    "link": "https://n.news.naver.com/mnews/article/422/0000831981?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/422/2026/02/09/AKR20260209114345JD1_01_i_20260209114414448.jpg?type=w800",
+    "description": "1위는 폭스바겐(126만6천대), 2위는 테슬라(101만대)로 나타났습니다. 현대차그룹이 중국을 제외한 세계 시장에서 BYD보다 적은 연간 전기차 판매량을 기록한 것은 이번이 처음입니다. BYD는 유럽(헝가리·터키), 동남아... ",
+    "published_at": "2026-02-09T11:44:00+09:00",
+    "id": "f8b33104-99a4-43e2-bae5-abae3f7ab7bb",
+    "category": "tesla"
+  },
+  {
+    "source": "토큰포스트",
+    "title": "AI 쇼크에 흔들리는 소프트웨어… '위기냐 기회냐' 논쟁 확산",
+    "link": "https://www.tokenpost.kr/news/ai/330165",
+    "thumbnail": "https://f1.tokenpost.kr/2026/02/a0i2af9s9b.webp",
+    "description": "한편, 일론 머스크(Elon Musk)는 자신이 설립한 xAI를 스페이스X에 합병시키며 우주 데이터센터 구상에 시동을 걸었다. 다만 아마존웹서비스(AWS)의 CEO 맷 가먼은 \"우주 인프라는 아직 요원하다\"고 선을 그었다. 대신 그는... ",
+    "published_at": "2026-02-09T11:42:00+09:00",
+    "id": "7827ff68-4050-4d87-adf2-659307727fdd",
+    "category": "tesla"
+  },
+  {
     "source": "digitaltoday",
     "title": "웨이모, 테슬라 스타일 자율주행 비판…'안전성 확보가 최우선'",
     "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=628627",
     "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202602/628627_580428_1530.jpg",
     "description": "웨이모(좌) 및 테슬라 로보택시 서비스 [사진: 웨이모, 테슬라] 웨이모가 테슬라의 '카메라만으로 충분하다'는 자율주행 접근법에 반기를 들었다. 8일(현지시간) 블록체인 매체 크립토폴리탄에 따르면, 아쇼크... ",
     "published_at": "2026-02-09T11:40:00+09:00",
-    "id": "9e4d771a-0820-4af2-8842-009816a56104",
+    "id": "609d4a9e-42e7-46cc-a1c2-936573ffe174",
     "category": "tesla"
   },
   {
@@ -16,7 +166,7 @@
     "thumbnail": null,
     "description": "시장에서는 퀀텀스케이프가 기존 테슬라의 리튬이온 배터리 대비 에너지 밀도를 크게 높인 전고체 배터리를 공개하며 기술 경쟁력을 과시한 점에 주목하고 있다. 퀀텀스케이프는 '최초'보다 '지속적인 경쟁력'을 강조하며... ",
     "published_at": "2026-02-09T11:36:00+09:00",
-    "id": "d1b38373-e294-4e93-a431-da6c4f5dbcd0",
+    "id": "a1abb7dc-77c8-44ce-a6df-aab66d260fbd",
     "category": "tesla"
   },
   {
@@ -26,17 +176,17 @@
     "thumbnail": "https://weekly.cnbnews.com/data/photos/20260207/art_205369_1770603634.jpg",
     "description": "당시 행사에서는 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO, 베르나르 아르노 LVMH 회장 등과 교류하며 글로벌 네트워크 확대에 공을 들였다. 삼성전자는 파리... ",
     "published_at": "2026-02-09T11:34:00+09:00",
-    "id": "73362de3-6f3e-4ecd-97a3-b3b242785458",
+    "id": "b33b1c2b-7ed8-4d0e-9115-0e7284675d40",
     "category": "tesla"
   },
   {
     "source": "조선일보",
     "title": "[밈주식된 K증시]① “실적보다 입소문”... 오늘 급등주, 커뮤니티가 정...",
     "link": "https://n.news.naver.com/mnews/article/366/0001141399?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/366/2026/02/09/0001141399_001_20260209113010223.jpg?type=w800",
+    "thumbnail": "https://imgnews.pstatic.net/image/366/2026/02/09/0001141399_001_20260209120608256.jpg?type=w800",
     "description": "또 일론 머스크 테슬라 최고경영자(CEO)가 최근 스페이스X의 우주 사업에 태양광을 활용할 수 있다는 계획을 언급하자 한화솔루션 등 태양광 관련주가 급등했다. 이달 초 조현 외교부 장관과 마코 루비오 미국 국무장관 겸... ",
     "published_at": "2026-02-09T11:30:00+09:00",
-    "id": "ee3ce66f-f543-40ab-a804-2631518ba65c",
+    "id": "1e201177-4259-47de-ba12-223062f827f7",
     "category": "tesla"
   },
   {
@@ -46,17 +196,7 @@
     "thumbnail": "https://cdn.jnilbo.com/news/photo/202602/90000022597_523224_341.png",
     "description": "유럽 각국의 미성년자 SNS 규제는 최근 페드로 산체스 스페인 총리와 엑스(X·옛 트위터) 소유주 일론 머스크가 충돌하면서 유럽과 미국 사이 정치·이념적 갈등 소재로 떠올랐다. 산체스 총리는 지난 3일 SNS 규제 방안을... ",
     "published_at": "2026-02-09T11:25:00+09:00",
-    "id": "90abf4bd-c35c-41c5-8c32-5cc8e387aa92",
-    "category": "tesla"
-  },
-  {
-    "source": "한국경제",
-    "title": "'화성행' 미루고 '달'에 집중하는 머스크…\"10년 내 '자체성장 도시' 건...",
-    "link": "https://n.news.naver.com/mnews/article/015/0005248715?sid=104",
-    "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/09/0005248715_001_20260209112614729.jpg?type=w800",
-    "description": "일론 머스크가 이끄는 우주기업 스페이스X가 화성보다 달 개발을 우선순위에 두고 '자체성장 도시'(Self-growing city) 건설 프로젝트로 초점을 옮겼다고 로이터통신이 8일(현지시간) 보도했다. 머스크는 이날... ",
-    "published_at": "2026-02-09T11:25:00+09:00",
-    "id": "abf40b7b-bf9a-437e-88f5-2a8eeb543a67",
+    "id": "28f45d45-e896-4996-b22c-fe20bf54d91c",
     "category": "tesla"
   },
   {
@@ -66,7 +206,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/022/2026/02/09/20260209506861_20260209112410310.png?type=w800",
     "description": "미래에셋증권은 일론 머스크가 이끄는 스페이스X와 인공지능 기업 x.AI 등 혁신 기업에 대한 투자를 통해 꾸준히 성과를 내고 있다. 자기자본투자 부문은 약 6450억원의 평가이익을 내며 4분기 연속 흑자를 기록했다.... ",
     "published_at": "2026-02-09T11:24:00+09:00",
-    "id": "2a6bd2db-6fc9-4dcb-937f-05a9143926ff",
+    "id": "3343e8c7-87bf-4af4-aac4-a3b7e7c50361",
     "category": "tesla"
   },
   {
@@ -76,7 +216,7 @@
     "thumbnail": "https://cdn.gokorea.kr/news/thumbnail/202602/857071_134341_2158_v150.jpg",
     "description": "일론 머스크가 이끄는 스페이스X가 달 탐사 및 도시 건설 프로젝트에 집중하고 있다. 머스크는 향후 10년 내에 달에 '자체성장 도시'(self-growing city)를 세우겠다는 야심찬 계획을 밝혔다. 7일(현지시간) 머스크는 자신의... ",
     "published_at": "2026-02-09T11:22:00+09:00",
-    "id": "57eb1131-43d5-4d71-92d4-02fc8a34f764",
+    "id": "ab16d705-ccf1-428e-b72c-99a0846a7fc0",
     "category": "tesla"
   },
   {
@@ -86,7 +226,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/374/2026/02/09/0000491525_001_20260209112108924.jpg?type=w800",
     "description": "우주기업 스페이스X를 이끄는 일론 머스크가 달에 '자체성장 도시'(self-growing city)를 건설하는 프로젝트로 초점을 옮겼다고 로이터통신이 8일(현지시간) 보도했습니다. 스페이스X가 이러한 프로젝트를 10년 안에 달성할... ",
     "published_at": "2026-02-09T11:21:00+09:00",
-    "id": "92c2092e-eb36-46f7-8af0-933a3a2b0f14",
+    "id": "22a3fb8c-a3f5-49f5-95a3-04623211c1f6",
     "category": "tesla"
   },
   {
@@ -96,17 +236,17 @@
     "thumbnail": "https://cdn.choicenews.co.kr/news/thumbnail/202602/160812_120911_2227_v150.jpg",
     "description": "이날 주요 기술주 중에서는 엔비디아(+7.87%)와 테슬라(+3.5%)의 상승폭이 두드러졌다. 6일(미국시간) 뉴욕증시 주요 기술주 급등에 이어 9월 아시아증시에서도 기술주들의 강세가 주목받고 있다고 미국 경제방송... ",
     "published_at": "2026-02-09T11:16:00+09:00",
-    "id": "0e74173e-e68c-4d4d-9068-3f8ffd42505d",
+    "id": "58ec9eaf-3bee-4221-8e96-ca0a84416cbd",
     "category": "tesla"
   },
   {
     "source": "중앙일보",
-    "title": "엡스타인 ‘판도라 상자’에 석학 촘스키도…“중대한 실수” 사과",
+    "title": "'성착취' 엡스타인에 \"무시해\" 충격 조언…98세 촘스키 뒤늦은 사과",
     "link": "https://n.news.naver.com/mnews/article/025/0003502000?sid=104",
-    "thumbnail": "https://imgnews.pstatic.net/image/025/2026/02/09/0003502000_001_20260209112210008.jpg?type=w800",
+    "thumbnail": "https://imgnews.pstatic.net/image/025/2026/02/09/0003502000_001_20260209123014272.jpg?type=w800",
     "description": "의장으로 지명된 케빈 워시도 2010년 엡스타인이 주최한 크리스마스 모임 참석예정자 명단에 이름이 포함됐다. 하워드 러트닉 미 상무장관과 일론 머스크도 엡스타인 소유 섬 방문을 준비한 정황이 있는 것으로 드러났다.",
     "published_at": "2026-02-09T11:16:00+09:00",
-    "id": "59c003b1-e9fb-4e99-a6cf-ceb3a18b920d",
+    "id": "ea55822a-9af5-4282-bbff-93d761e0460b",
     "category": "tesla"
   },
   {
@@ -116,17 +256,7 @@
     "thumbnail": "https://cdn.sisajournal-e.com/news/thumbnail/202602/419120_231085_5728_v150.jpg",
     "description": "◇ 중저가 시장 커지지만 법인·고소득 수요 여전 지난해 국내 수입차 시장은 테슬라와 BYD코리아의 선전으로 중저가 차량이 인기를 끌고 있으며, 올해엔 지커, 샤오펑 등 중국 전기차 브랜드의 국내 진출도 가시화되는... ",
     "published_at": "2026-02-09T11:14:00+09:00",
-    "id": "750132d8-c78e-4b7f-a6b4-b429473d498e",
-    "category": "tesla"
-  },
-  {
-    "source": "catchnews",
-    "title": "\"갤럭시 셀피로 브랜드 알린다\" 이재용 회장, 밀라노 동계올림픽서 '스...",
-    "link": "https://www.catchnews.kr/news/articleView.html?idxno=120424",
-    "thumbnail": "https://cdn.catchnews.kr/news/thumbnail/202602/120424_151601_155_v150.jpg",
-    "description": "이 자리에서 이 회장은 일론 머스크 테슬라 CEO 등과 만나 글로벌 네트워크를 다졌다. 당시 삼성전자는 파리 올림픽에서 참가 선수들을 대상으로 '빅토리 셀피' 프로그램을 운영하며 '갤럭시 Z 플립6 올림픽 에디션'을... ",
-    "published_at": "2026-02-09T11:14:00+09:00",
-    "id": "abf2ddd0-7a0c-46c8-afc4-3e09835fd784",
+    "id": "c588920a-f24b-4956-a751-14c768a5de6e",
     "category": "tesla"
   },
   {
@@ -136,187 +266,137 @@
     "thumbnail": "https://imgnews.pstatic.net/image/417/2026/02/09/0001128964_001_20260209111907945.jpg?type=w800",
     "description": "김백산 대표는 \"테슬라 요건으로 상장한 첫 회사로서 실망하게 한 것은 사실이지만 최악의 시기는 지났다\"며 \"이제 진짜 제주맥주의 가치를 보여드릴 준비가 됐다\"고 강조했다.",
     "published_at": "2026-02-09T11:14:00+09:00",
-    "id": "dbf169fb-746f-4f75-89b4-9ca0f5273462",
+    "id": "4473b039-48df-472f-9d23-c8cddc6dea45",
     "category": "tesla"
   },
   {
-    "source": "yonhapnewstv",
-    "title": "화성보다 달 먼저…머스크 \"10년 내 달에 도시 건설\"",
-    "link": "https://n.news.naver.com/mnews/article/422/0000831961?sid=104",
-    "thumbnail": "https://imgnews.pstatic.net/image/422/2026/02/09/AKR20260209111353atZ_01_i_20260209111413367.jpg?type=w800",
-    "description": "우주기업 스페이스X를 이끄는 일론 머스크가 10년 안에 '달나라'를 짓겠다고 밝혔습니다. 로이터통신은 현지시간 8일 머스크가 달에 '자체 성장 도시'(self-growing city)를 건설하는 프로젝트로 초점을 옮겼다고... ",
+    "source": "catchnews",
+    "title": "\"갤럭시 셀피로 브랜드 알린다\" 이재용 회장, 밀라노 동계올림픽서 '스...",
+    "link": "https://www.catchnews.kr/news/articleView.html?idxno=120424",
+    "thumbnail": "https://cdn.catchnews.kr/news/thumbnail/202602/120424_151601_155_v150.jpg",
+    "description": "이 자리에서 이 회장은 일론 머스크 테슬라 CEO 등과 만나 글로벌 네트워크를 다졌다. 당시 삼성전자는 파리 올림픽에서 참가 선수들을 대상으로 '빅토리 셀피' 프로그램을 운영하며 '갤럭시 Z 플립6 올림픽 에디션'을... ",
     "published_at": "2026-02-09T11:14:00+09:00",
-    "id": "4ea1ebd6-e753-453a-9e4f-861e1ee288b8",
+    "id": "046b8e9d-41cc-4949-a14c-4c1afe08044a",
     "category": "tesla"
   },
   {
-    "source": "연합뉴스",
-    "title": "현대차그룹, 非중국 전기차 판매량 BYD에 추월당해…4위로 하락",
-    "link": "https://n.news.naver.com/mnews/article/001/0015894263?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/001/2026/02/09/PYH2025040415340006000_P4_20260209111416468.jpg?type=w800",
-    "description": "1위는 폭스바겐으로 전년 대비 60.0% 증가한 126만6천대를 인도했고, 2위는 10.7% 감소한 101만대를 기록한 테슬라다. 현대차그룹이 중국을 제외한 세계 시장에서 BYD보다 적은 연간 전기차 판매량을 기록한 것은 이번이... ",
-    "published_at": "2026-02-09T11:13:00+09:00",
-    "id": "f3698c62-492d-4f76-9f40-cec3799703f6",
+    "source": "한겨레",
+    "title": "트럼프 ‘2028년까지 달 착륙’ 추진에 머스크·베이조스 ‘올인’",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCZ0dhYXpkdmpHRkFTWHotQ2lBbnBMY2NxcGNDZXFMcWVYOWtpVkZBM3k2TTJ5NFpRbXpJamQ5cEdjX2VvaklBR282VXZZUTJqOVdWaXZZZmZaQmZPa1l4c05PbG9QTDl0NXc2NW9MazNQQQ?oc=5",
+    "thumbnail": "",
+    "description": "트럼프 ‘2028년까지 달 착륙’ 추진에 머스크·베이조스 ‘올인’&nbsp;&nbsp;한겨레",
+    "published_at": "2026-02-09T03:06:00+00:00",
+    "id": "f2d730a1-c65d-4e54-890d-0a1caede020b",
     "category": "tesla"
   },
   {
-    "source": "newspost",
-    "title": "이재용, '스포츠 외교' 종횡무진…동계올림픽서 글로벌 네트워크 강화",
-    "link": "https://www.newspost.kr/news/articleView.html?idxno=221011",
-    "thumbnail": "https://cdn.newspost.kr/news/thumbnail/202602/221011_222475_376_v150.jpg",
-    "description": "당시 에마뉴엘 마크롱 프랑스 대통령 초청으로 파리 엘리제궁에서 열린 글로벌 기업인 오찬에도 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 CEO, 닐 모한 유튜브 CEO, 데이브 릭스 일라이릴리 CEO, 베르나르... ",
-    "published_at": "2026-02-09T11:12:00+09:00",
-    "id": "58c242d2-2cdb-4997-8f50-d22e968af560",
+    "source": "네이트",
+    "title": "\"얼마나 무거운데…\" AWS CEO, 머스크의 '우주 데이터 센터' 계획에 반기",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPS2J2QUxxZndQN1hfeVo3MGtSNDA0X21ycjRiVjJSTHZWd0hfRnN3WUFlUHRlbTFRaTIwQ3BoNUltN0l6N3VjREEyZWUwRnAwUERB?oc=5",
+    "thumbnail": "",
+    "description": "\"얼마나 무거운데…\" AWS CEO, 머스크의 '우주 데이터 센터' 계획에 반기&nbsp;&nbsp;네이트",
+    "published_at": "2026-02-09T02:57:00+00:00",
+    "id": "7118e4f8-8547-4579-bc63-39079c4cee1a",
     "category": "tesla"
   },
   {
-    "source": "헤럴드경제",
-    "title": "아바타의 경제학 : 대리인 뒤에 숨은 거대한 의지 [조원경의 현인들의 ...",
-    "link": "https://n.news.naver.com/mnews/article/016/0002598012?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/016/2026/02/09/0002598012_001_20260209111111393.jpg?type=w800",
-    "description": "일론 머스크의 뉴럴링크가 인간의 뇌에 칩을 심으려는 시도는, 결국 ‘아바타’와 ‘본체’ 사이의 마지막 물리적 장벽마저 허물겠다는 선언이다. 기술적 우위가 신성시되는 분위기 속에서 우리는 스스로 알고리즘의... ",
-    "published_at": "2026-02-09T11:11:00+09:00",
-    "id": "3989fdd4-d39e-448a-bc19-d013bd89daa5",
+    "source": "네이트",
+    "title": "\"법 어기는 게 사업 비용인가\" 네바다주, 머스크 '보링'에 선전포고",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zWmloUzJkczRLelcwTVhqakFzLVRXdlI3cnkzQW1MRzJ1MWdzZ0YtYndRaXF1QzdocWZkS0xDZ0ZURlRvbU1veVh2bDFhdFR0RlpF?oc=5",
+    "thumbnail": "",
+    "description": "\"법 어기는 게 사업 비용인가\" 네바다주, 머스크 '보링'에 선전포고&nbsp;&nbsp;네이트",
+    "published_at": "2026-02-09T02:57:00+00:00",
+    "id": "0f8eba7c-c414-4d20-b1da-829720142b7e",
     "category": "tesla"
   },
   {
-    "source": "digitaltoday",
+    "source": "네이트",
+    "title": "머스크가 골드 블랙스완 리스크? \"금 소행성 발견할 수도\"",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LdUxRSEozSkQ1S0pBN1N2UjgyUFFJR3hxRXJTWWdUZU9JbGZCVFo3WjM5Tkd5TGNtTjZTXzdvQ3llQjRZcjNhTWo5VWtEMi1kMGVF?oc=5",
+    "thumbnail": "",
+    "description": "머스크가 골드 블랙스완 리스크? \"금 소행성 발견할 수도\"&nbsp;&nbsp;네이트",
+    "published_at": "2026-02-09T02:55:00+00:00",
+    "id": "4454225e-a1d5-4cef-9d38-53979268ed0f",
+    "category": "tesla"
+  },
+  {
+    "source": "디지털투데이",
     "title": "테슬라 파워월, 100만대 돌파에도 점유율 하락 '경고등'",
-    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=628555",
-    "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202602/628555_580369_4230.jpg",
-    "description": "파워월3(Powerwall 3) [사진: 테슬라] 테슬라의 가정용 에너지 저장장치 파워월이 누적 판매 100만대를 돌파했음에도 불구하고, 최근 시장 점유율 하락과 브랜드 신뢰도 약화 우려가 동시에 제기되고 있다. 지난 7일... ",
-    "published_at": "2026-02-09T11:10:00+09:00",
-    "id": "7e89fa53-856d-46c3-b276-b3a56faa44cd",
-    "category": "tesla"
-  },
-  {
-    "source": "블로터",
-    "title": "미래에셋증권, 영업익 2조 육박 '신기록'…핵심사업 줄줄이 '역대급'",
-    "link": "https://n.news.naver.com/mnews/article/293/0000079146?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/293/2026/02/09/0000079146_001_20260209110507566.jpg?type=w800",
-    "description": "미래에셋증권은 투자전문기업으로서 지난 한 해 동안 일론 머스크의 스페이스X와 x.AI 등 혁신 기업에 대한 투자를 진행했다. 위탁매매와 자산관리, 트레이딩 등 핵심 사업부문도 모두 사상 최대 실적을 달성했다.... ",
-    "published_at": "2026-02-09T11:05:00+09:00",
-    "id": "68c2bdcf-84ee-4095-8f87-b1366a845c0d",
-    "category": "tesla"
-  },
-  {
-    "source": "시사저널",
-    "title": "'삼성전자 2배' '매일 배당'…한국판 고배당 ETF 쏟아진다",
-    "link": "https://n.news.naver.com/mnews/article/586/0000122029?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/586/2026/02/09/0000122029_001_20260209110008261.jpg?type=w800",
-    "description": "미국 등에서는 테슬라 2배 추종 ETF 등이 상장되어 있지만, 국내 증시에는 단일 종목 레버리지 ETF 출시가 막혀 있다. 이는 규정상 국내 상장 ETF가 기초지수를 10개 이상 종목으로 구성하고 종목당 비중이 30%를 넘으면... ",
-    "published_at": "2026-02-09T11:00:00+09:00",
-    "id": "a03fabef-dd09-4736-9a5b-f2e2e0382391",
-    "category": "tesla"
-  },
-  {
-    "source": "아시아경제",
-    "title": "[현차 美 40년 질주]\"현대차와 함께 컸다\"…글로벌 부품사로 성장한 대...",
-    "link": "https://n.news.naver.com/mnews/article/277/0005718987?sid=103",
-    "thumbnail": "https://imgnews.pstatic.net/image/277/2026/02/09/0005718987_001_20260209112513865.jpg?type=w800",
-    "description": "그뿐만 아니라 북미 시장의 '빅3'인 포드, 제너럴모터스, 스텔란티스와 테슬라, 루시드 등 전기차 브랜드에도 납품하고 있다. 내수에만 집중하던 대한솔루션이 글로벌 기업으로 성장하게 된 배경엔 현대차와의 만남이... ",
-    "published_at": "2026-02-09T11:00:00+09:00",
-    "id": "b48df800-aec9-4aee-bd7b-dfbd984424f8",
-    "category": "tesla"
-  },
-  {
-    "source": "fortunekorea",
-    "title": "집착은 전략이 되고, 안전은 매출이 된다: 앤트로픽의 역발상",
-    "link": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=51583",
-    "thumbnail": "https://cdn.fortunekorea.co.kr/news/thumbnail/202602/51583_45379_4131_v150.jpg",
-    "description": "오픈AI, 메타(Meta), 일론 머스크(Elon Musk)의 xAI, 마이크로소프트, 구글, 아마존 같은 기업들이 수십억 달러를 들여, 미국의 중소 도시만큼 전기를 먹는 거대한 AI 데이터센터를 짓겠다고 발표하고 있다. 전체적으로... ",
-    "published_at": "2026-02-09T11:00:00+09:00",
-    "id": "0f4ee080-da1f-412e-bbce-1a379e790604",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyTnVmQW9OblhzUGdxZXFmSnBYRlI2RlRHdkl1WlNnbk4xejY4MlRMNHd3NzJRQ3Y1TU1nSlVtOHAwd3MzYXA3TUs4M2lXTVhNaGpkZUUwUkwzWHZfTmRReXdJSzBJRTJnUmF2VGpQa1lsWmM?oc=5",
+    "thumbnail": "",
+    "description": "테슬라 파워월, 100만대 돌파에도 점유율 하락 '경고등'&nbsp;&nbsp;디지털투데이",
+    "published_at": "2026-02-09T02:09:00+00:00",
+    "id": "ca9586aa-6503-4837-aa10-31eb4536bda9",
     "category": "tesla"
   },
   {
     "source": "뉴스1",
     "title": "작년 非중국 전기차 시장 26% 성장… 폭스바겐 1위·테슬라 '뒷걸음'",
-    "link": "https://n.news.naver.com/mnews/article/421/0008762258?sid=103",
-    "thumbnail": "https://imgnews.pstatic.net/image/421/2026/02/09/0008762258_001_20260209105712548.jpg?type=w800",
-    "description": "폭스바겐이 60% 급성장하며 1위를 차지했고 테슬라는 2위로 하락했다. 중국 브랜드 비야디(BYD)는 140... 테슬라는 전년보다 10.7% 줄어든 101만 대를 판매하며 2위로 하락했다. 시장점유율은 13.2%로 전년(18.7%)보다 5.... ",
-    "published_at": "2026-02-09T10:56:00+09:00",
-    "id": "8a565d6d-384f-48b1-aac4-23a3b3d638a4",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83cUFtZzY4QXVLOGhSZDBQWGdiVDIzVUVMYnNJTVE5Z2xxc0o4RndPWldMcFIwWFQwdUdyMTRMdVh5ZGNhRFAwRmN0TDhlbndSNUs3UUsydWxDWnF3bWNmbw?oc=5",
+    "thumbnail": "",
+    "description": "작년 非중국 전기차 시장 26% 성장… 폭스바겐 1위·테슬라 '뒷걸음'&nbsp;&nbsp;뉴스1",
+    "published_at": "2026-02-09T01:56:35+00:00",
+    "id": "a031994b-4403-4d37-854c-10b9d5dc3890",
     "category": "tesla"
   },
   {
-    "source": "cstimes",
-    "title": "[특징주] 유니테스트, 머스크팀 대만 태양광업체 방문에 ↑....페로브스...",
-    "link": "https://www.cstimes.com/news/articleView.html?idxno=692608",
-    "thumbnail": null,
-    "description": "일론 머스크가 추진 중인 '우주 궤도 AI 데이터센터' 구상과 맞물려 태양광 기술에 대한 시장의 관심이 재점화되고 있다. 최근 머스크의 Tesla·SpaceX 실무진이 대만 주요 태양광 업체들을 비공개 방문한 사실이... ",
-    "published_at": "2026-02-09T10:54:00+09:00",
-    "id": "de5a6e52-4ae1-4fdb-a4a4-1ba24e76828d",
+    "source": "컨슈머타임스(Consumertimes)",
+    "title": "[특징주] 유니테스트, 머스크팀 대만 태양광업체 방문에 ↑....페로브스카이트 태양전지 양산 기술 주목",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiaEY4WENDNEFmLXU4bFlzeWI3a2stOF81ZzBZSDNXYXBkSF9RU29EQVRLOVpzdl83dWlCNHVTMWlwMU95U0l2MXVncTQ4RTBkSktDU00yWkdBaTc3WFZ1dWJVNXJ6VUI0eUE?oc=5",
+    "thumbnail": "",
+    "description": "[특징주] 유니테스트, 머스크팀 대만 태양광업체 방문에 ↑....페로브스카이트 태양전지 양산 기술 주목&nbsp;&nbsp;컨슈머타임스(Consumertimes)",
+    "published_at": "2026-02-09T01:52:23+00:00",
+    "id": "6db53354-a844-4a18-8a3c-e20583d450b7",
     "category": "tesla"
   },
   {
-    "source": "한국경제",
-    "title": "\"한국 파운드리의 新산업 기회가 화합물 전력반도체\" [김리안의 에네르...",
-    "link": "https://n.news.naver.com/mnews/article/015/0005248697?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/09/0005248697_001_20260209113410876.jpg?type=w800",
-    "description": "2018년 테슬라가 모델3에 SiC 전력반도체를 도입하며 실리콘의 물성적 한계를 넘어선 것이 첫 번째 티핑... 구 단장은 “과거 테슬라가 그랬듯, 이 흐름을 먼저 타는 국가가 향후 10년의 에너지 패권을 쥘 것”이라고... ",
-    "published_at": "2026-02-09T10:52:00+09:00",
-    "id": "6783bf25-8c4e-42c8-8188-bc4ae51a68e8",
-    "category": "tesla"
-  },
-  {
-    "source": "nbntv",
-    "title": "\"SMR 공장 짓는다\"… 두산에너빌리티, AI 시대 에너지 해결사로 등극",
-    "link": "https://www.nbntv.kr/news/articleView.html?idxno=338993",
-    "thumbnail": "https://www.nbntv.kr/image/logo/snslogo_20241011012459.png",
-    "description": "일론 머스크의 xAI가 최근 데이터센터 전력 자급을 위해 두산의 대형 가스터빈을 추가 구매한 사실이 확인되면서, 두산은 테크 기업들의 필수 에너지 파트너로 각인됐다. AI 데이터센터는 24시간 중단 없는 막대한... ",
-    "published_at": "2026-02-09T10:52:00+09:00",
-    "id": "3797807e-3138-4431-8ff9-718cd2bc78c7",
-    "category": "tesla"
-  },
-  {
-    "source": "job-post",
-    "title": "트럼프식 관세인상 전술 지속될까...'관세 리스크'에도 아틀라스 시대 ...",
-    "link": "https://www.job-post.co.kr/news/articleView.html?idxno=206489",
-    "thumbnail": "https://cdn.job-post.co.kr/news/photo/202602/206489_306855_4033.png",
-    "description": "기대된다\"며 \"구글 제미나이 로보틱스 AI와 전략적 협업을 통한 두뇌 확보, 현대차그룹의 방대한 공장 데이터 등을 고려할 때 이와 같은 강점을 가진 업체는 피지컬 AI 시장에서 현대차그룹과 테슬라 뿐\"이라고 평가했다.",
-    "published_at": "2026-02-09T10:50:00+09:00",
-    "id": "4844798d-d1de-49e3-9a41-105e9bc1b43c",
-    "category": "tesla"
-  },
-  {
-    "source": "한국경제",
-    "title": "\"우리가 외국 앞섰는데\"…한국 반도체 '뼈아픈 유산' 뭐길래 [김리안의...",
-    "link": "https://n.news.naver.com/mnews/article/015/0005248692?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/09/0005248692_001_20260209110617541.jpg?type=w800",
-    "description": "테슬라와 현대차 등 글로벌 완성차 업체들이 채택하는 SiC 전력반도체가 바로 이곳에서 양산된다. 한 업계... 이러한 흐름을 상징적으로 보여준 사례가 2018년 테슬라의 전기차 SiC 전력반도체 채택이다. 이후 화합물... ",
-    "published_at": "2026-02-09T10:49:00+09:00",
-    "id": "765cbc1f-df33-4a1a-82f4-0d7098a4ec84",
-    "category": "tesla"
-  },
-  {
-    "source": "동아일보",
-    "title": "[오늘의 급등주] ‘머스크 효과’에 웃음 짓는 한화솔루션",
-    "link": "https://n.news.naver.com/mnews/article/037/0000037681?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/037/2026/02/09/0000037681_001_20260209104910435.jpg?type=w800",
-    "description": "테슬라·스페이스X 대표단이 중국 내 태양광 기업을 방문한 사실이 알려지며 한화솔루션 주가가 상승세다.... 2월 4일(이하 현지 시간) 중국 언론 보도에 따르면 테슬라·스페이스X 대표단은 최근 중국 내 여러 태양광... ",
-    "published_at": "2026-02-09T10:49:00+09:00",
-    "id": "9e5e77a7-eacd-48a1-b8d8-82388f770fbe",
-    "category": "tesla"
-  },
-  {
-    "source": "뉴시스",
-    "title": "네카오가 금지한 '오픈클로' 뭐길래…'스카이넷' 혹은 '자비스'?",
-    "link": "https://n.news.naver.com/mnews/article/003/0013757633?sid=105",
-    "thumbnail": "https://imgnews.pstatic.net/image/003/2026/02/09/NISI20260209_0002058952_web_20260209101712_20260209105218368.jpg?type=w800",
-    "description": "테슬라 전 AI 디렉터 안드레이 카르파시는 \"사람들이 이런 것을 자기 컴퓨터에서 돌리는 건 절대 권하지 않는다\"며 \"너무 무법천지다. 당신의 컴퓨터와 개인 데이터를 높은 위험에 노출시키는 것\"이라고 지적했다. 특히... ",
-    "published_at": "2026-02-09T10:48:00+09:00",
-    "id": "ddb5d2a8-ba5a-4c60-9fc4-31a9aee8af38",
-    "category": "tesla"
-  },
-  {
-    "source": "joseilbo",
+    "source": "네이트",
     "title": "머스크, AI·로봇 없으면 미국 '1000% 파산 or 달러 붕괴'",
-    "link": "https://n.news.naver.com/mnews/article/123/0002377451?sid=004",
-    "thumbnail": "https://imgnews.pstatic.net/image/123/2026/02/09/0002377451_001_20260209104709460.png?type=w800",
-    "description": "파산이냐, 아니면 달러 가치 붕괴냐를 두고 일론 머스크 테슬라 최고경영자(CEO)는 이 가운데 \"아무 조치도 없다면 파산이 불가피하다\"라며 인공지능(AI)과 로봇 기술만이 유일한 탈출구라고 주장하고 나섰다. 머스크는... ",
-    "published_at": "2026-02-09T10:47:00+09:00",
-    "id": "421186d2-c858-468e-a94e-acb61dd5f390",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uX0dRVzhZaDJmYUY2dWlDSk9udDhQLThQV1hlcjNNQ0xGZTdIWC1ydHdhdlBpekVQWVg1eHdnWE9HQTM1cU5uWm81cmE5UG1sYUxr?oc=5",
+    "thumbnail": "",
+    "description": "머스크, AI·로봇 없으면 미국 '1000% 파산 or 달러 붕괴'&nbsp;&nbsp;네이트",
+    "published_at": "2026-02-09T01:47:00+00:00",
+    "id": "4a8beedc-3045-4d05-ba33-cb2bde243967",
+    "category": "tesla"
+  },
+  {
+    "source": "NBN미디어",
+    "title": "캐즘의 늪에 빠진 K-배터리… 테슬라 쇼크와 정책 불확실성에 가로막힌 반등",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52REt6R3VHcEd1OFRrcVcwS05tendPZ0tGR0p1WEpXcTlfWDBqRTNJZlJnMXdGX09YLW11cmN1WGZfV3B6MkEwdVNIdDlQbm0xSzlFRG11RTMyTDhJR25lNzlfQjBaQdIBakFVX3lxTE1fODJSdWlla2NJRGJ4V3hRb2F2QmhLMnlJX2FiMzB5MWE4Q280X2pZY1NBelI4YWpYT1B2UVJnRF9GLXpvSnpaTGJWTlhVb1Q5OEdvVDFRZlBlNVlMOXNPRXdkNzJnRHJMeEE?oc=5",
+    "thumbnail": "",
+    "description": "캐즘의 늪에 빠진 K-배터리… 테슬라 쇼크와 정책 불확실성에 가로막힌 반등&nbsp;&nbsp;NBN미디어",
+    "published_at": "2026-02-09T01:43:58+00:00",
+    "id": "132b0993-713b-484e-afee-593d307d37d3",
+    "category": "tesla"
+  },
+  {
+    "source": "한국경제",
+    "title": "“테슬라와 비교해야” 호평에…고수들, 현대차 ‘사자’",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zMVBXNy1mOUtPSk9OeHhla2FKbU80bU1OOTl0NWlsUG5Mbk1iX2FOYnhrNi1fS3M3cm5iLVlwXzBxWWNpQ1AtQklwMy0tSlVMamJBR0RTT3NqQdIBVEFVX3lxTE03OHdUREdmSnZtOXAyV2pOTENQVWZLNUEtdXBPNTJDV0lzOXFPVDdjaExoeEpic1BKTHF4OTU1azMtWUpYandCenBXX215ZW9KQi1Fcw?oc=5",
+    "thumbnail": "",
+    "description": "“테슬라와 비교해야” 호평에…고수들, 현대차 ‘사자’&nbsp;&nbsp;한국경제",
+    "published_at": "2026-02-09T01:42:43+00:00",
+    "id": "828b34d6-8f34-4c43-a9aa-d6e9c3a04db0",
+    "category": "tesla"
+  },
+  {
+    "source": "v.daum.net",
+    "title": "\"사고 나면 못 여나\"…테슬라식 손잡이, 안전 논란 확산",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84VTJnWkpoQlotbjFKTldPMWRtdWthWmtGcTdMMGZUazhwTWd3Y1BZXzhqSW1yR3VOYnZCZXE2RHlvM2xiV1V4akI0aUo3WjQ?oc=5",
+    "thumbnail": "",
+    "description": "\"사고 나면 못 여나\"…테슬라식 손잡이, 안전 논란 확산&nbsp;&nbsp;v.daum.net“테슬라 불났는데 문 안 열려” 10년간 최소 15명 사망했다&nbsp;&nbsp;조선일보테슬라 안에서 10년간 15명이 숨졌다…\"불 났는데 차문이 안 열려요\"&nbsp;&nbsp;네이트",
+    "published_at": "2026-02-09T01:41:23+00:00",
+    "id": "8764d850-315c-42fc-a4d0-bc7189165ac3",
+    "category": "tesla"
+  },
+  {
+    "source": "이투데이",
+    "title": "[찐코노미] 엔비디아 '알파마요' 부상…테슬라 FSD 경쟁 구도에 변수",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCanlkMXVhZ2RsMHJDaU5udEpSMmM5QS1CX19KSXZUUllnVmJtWHpKUmRydTJNRlVxQXlkTFRPMWVIU1VuNFhZZjJMSm5qUWxFS1VHUw?oc=5",
+    "thumbnail": "",
+    "description": "[찐코노미] 엔비디아 '알파마요' 부상…테슬라 FSD 경쟁 구도에 변수&nbsp;&nbsp;이투데이",
+    "published_at": "2026-02-09T01:40:00+00:00",
+    "id": "09ce3ea2-d209-45ab-ad20-b4e3c2bbcebb",
     "category": "tesla"
   }
 ]
