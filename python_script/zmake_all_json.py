@@ -1,7 +1,25 @@
 import asyncio
 import subprocess
 import os
+import sys
 from datetime import datetime
+
+# === Auto-switch to .venv if not already active ===
+if not hasattr(sys, 'real_prefix') and not (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix):
+    # Determine the path to the .venv python interpreter
+    # Project structure: upup-admin/.venv/bin/python
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    venv_python = os.path.join(project_root, '.venv', 'bin', 'python')
+    
+    if os.path.exists(venv_python) and os.path.abspath(sys.executable) != os.path.abspath(venv_python):
+        print(f"Detected non-venv execution ({sys.executable}).")
+        print(f"Switching to virtual environment: {venv_python}...")
+        try:
+            os.execv(venv_python, [venv_python] + sys.argv)
+        except Exception as e:
+            print(f"Failed to switch to virtual environment: {e}")
+            sys.exit(1)
+
 from make_news_json import make_news_json
 from make_shop_json import make_shop_json
 from make_subsidy_json import make_subsidy_json
