@@ -108,3 +108,5 @@ def make_shop_json(keyword):
 
 if __name__ == "__main__":
     make_shop_json("tesla")
+    make_shop_json("baby")
+    make_shop_json("ai")
