@@ -210,3 +210,5 @@ def make_news_json(keyword):
 if __name__ == "__main__":
     make_news_json("tesla")
     make_news_json("baby")
+    make_news_json("ai")
+    make_news_json("desk")
