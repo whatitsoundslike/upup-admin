@@ -17,7 +17,8 @@ fileNameMap = {
 gidMap = {
     "tesla": "0",
     "baby": "1881135036",
-    "ai": "458561670"
+    "ai": "458561670",
+    "desk": "1266585344"
 }
 
 def fetch_gsheet_as_json(sheet_url, keyword):

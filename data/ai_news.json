@@ -1,12 +1,12 @@
 [
   {
     "source": "동아일보",
-    "title": "[위클리AI] 앤트로픽·오픈AI, 새 모델 동시 발표···역사적인 전면전...",
+    "title": "[위클리AI] 앤스로픽·오픈AI, 새 모델 동시 발표···역사적인 전면전...",
     "link": "https://it.donga.com/108386/",
     "thumbnail": "https://it.donga.com/media/__sized__/images/2026/2/10/a770f611081c415f-thumbnail-960x540-70.jpg",
-    "description": "특히 클로드 오퍼스 4.6은 스스로 생각의 깊이를 최적화하는 '적응형 사고' 기능을 통해 경쟁사인 글로벌 AI 기업 오픈AI(OpenAI)의 GPT-5.2를 상회하는 실무 추론 능력을 입증해냈습니다. 앤트로픽은 \"클로드 오퍼스 4.6은... ",
+    "description": "특히 클로드 오퍼스 4.6은 스스로 생각의 깊이를 최적화하는 '적응형 사고' 기능을 통해 경쟁사인 글로벌 AI 기업 오픈AI(OpenAI)의 GPT-5.2를 상회하는 실무 추론 능력을 입증해냈습니다. 앤스로픽은 \"클로드 오퍼스 4.6은... ",
     "published_at": "2026-02-10T17:46:00+09:00",
-    "id": "e17ea1b0-ccd5-463c-b9bf-e648d57b37ed",
+    "id": "f371863f-a9b6-4c70-abc4-e2bbf9d146d8",
     "category": "ai"
   },
   {
@@ -16,7 +16,27 @@
     "thumbnail": "https://imgnews.pstatic.net/image/008/2026/02/10/0005316787_001_20260210175909865.jpg?type=w800",
     "description": "특히 티그리스 AI+는 Gemini, ChatGPT, Claude, DALL·E 등 다양한 AI 모델을 활용해 다자간 AI 채팅, 업무 자동화, 맞춤형 AI 봇 생성을 지원한다. 또한 워크플로우 기반의 AI 에이전트 기능을 제공하며 단발성 답변을 넘어 복잡한... ",
     "published_at": "2026-02-10T17:58:00+09:00",
-    "id": "ba335c57-90dc-40f4-bfc4-30464342569a",
+    "id": "295c8e1c-c443-48cc-b184-f8ca76d71b3b",
+    "category": "ai"
+  },
+  {
+    "source": "국민일보",
+    "title": "[단독] 안전망에서 ‘탈옥’한 AI… ‘위험한 답변’ 쏟아냈다",
+    "link": "https://n.news.naver.com/mnews/article/005/0001831504?sid=102",
+    "thumbnail": "https://imgnews.pstatic.net/image/005/2026/02/10/2026021019030659285_1770717786_1770711117_20260210190607975.jpg?type=w800",
+    "description": "실험 대상은 챗GPT(GPT-5.2)·제미나이(3 Flash)·클로드(Sonnet 4.5)·퍼플렉시티(GPT-5.1)·카나나·딥시크(V3.2)·그록(Grok4)·제타였다. 실험에 동원된 AI 모델들은 자살 통계와 수치를 넘어 직접적으로 사망에 이를 수 있는... ",
+    "published_at": "2026-02-10T19:06:00+09:00",
+    "id": "a728653a-1e03-43ad-b170-b5fb39546862",
+    "category": "ai"
+  },
+  {
+    "source": "이데일리",
+    "title": "신한금융, AI검색시대 ‘콘텐츠 플랫폼’ 만든다",
+    "link": "https://n.news.naver.com/mnews/article/018/0006216946?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/018/2026/02/10/0006216946_001_20260210190711011.jpg?type=w800",
+    "description": "신한금융 챗GPT·제미나이로 나를 위한 상품까지 추천받는 시대 신한금융그룹이 콘텐츠 플랫폼을 새로... 챗GPT, 제미나이, 퍼플렉시티와 같은 생성형 AI 검색 엔진이 신한금융의 솔깃에서 금융 관련 정보를 찾도록 하는... ",
+    "published_at": "2026-02-10T19:07:00+09:00",
+    "id": "1f0645c8-224d-49f8-8b35-a2c8c03c92e3",
     "category": "ai"
   },
   {
@@ -26,7 +46,7 @@
     "thumbnail": "",
     "description": "AI 상담, 질문만 바꿨을 뿐인데…챗GPT·그록·제미나이 비교해보니&nbsp;&nbsp;디지털투데이",
     "published_at": "2026-02-09T06:45:49+00:00",
-    "id": "b4830aca-ab4a-4c50-9a7e-237d5acfd1d1",
+    "id": "9509ba02-ce84-4b8c-a595-4b0254a6a123",
     "category": "ai"
   },
   {
@@ -36,7 +56,7 @@
     "thumbnail": "",
     "description": "데이터독 실적 발표 임박: 핵심 성장세가 OpenAI 리스크 상쇄할까? By Investing.com&nbsp;&nbsp;Investing.com 한국어",
     "published_at": "2026-02-09T15:55:00+00:00",
-    "id": "e9c38c39-9a5d-4900-84eb-1fad011ebdbc",
+    "id": "3c848834-6215-4382-a6b9-142fac736408",
     "category": "ai"
   },
   {
@@ -46,7 +66,7 @@
     "thumbnail": "",
     "description": "챗GPT 독주 '균열'…제미나이, 국내 MAU 첫 10만명 돌파&nbsp;&nbsp;청년일보",
     "published_at": "2026-02-09T23:55:56+00:00",
-    "id": "4c830965-02d1-4d27-b5a1-dfadcfde79be",
+    "id": "46a2d75c-f3ae-4f68-b844-e10b7186ac9c",
     "category": "ai"
   },
   {
@@ -56,7 +76,7 @@
     "thumbnail": "",
     "description": "구글 제미나이, 한국 이용자 12만명 넘어…챗GPT ‘추격 모드’&nbsp;&nbsp;뉴스에듀신문",
     "published_at": "2026-02-10T02:09:04+00:00",
-    "id": "50d73f87-1915-4d69-9671-a2a52e7cf253",
+    "id": "42736f22-dc82-411e-87df-771349564a80",
     "category": "ai"
   },
   {
@@ -66,17 +86,17 @@
     "thumbnail": "",
     "description": "Google’s Gemini Emerges as a Serious Challenger to ChatGPT in South Korea&nbsp;&nbsp;kmjournal.net",
     "published_at": "2026-02-10T05:50:42+00:00",
-    "id": "19dd0e27-36bc-4fdb-886f-d1b9b9ea866f",
+    "id": "bf6d64e2-ef30-4f19-8f6b-93fbe4b2263c",
     "category": "ai"
   },
   {
-    "source": "ajunews",
-    "title": "[김성현의 AI지표] 1M 토큰, 25% 속도 향상…프론티어 모델의 새 기준",
-    "link": "https://www.ajunews.com/view/20260210091307568",
-    "thumbnail": "https://image.ajunews.com/content/image/2026/02/10/20260210091612925600.jpg",
-    "description": "오류율 줄어들며 기업 도입률도 크게 증가 기대 아주경제=김성현 기자 minus1@ajunews.com AI 업계가 또 한 번의 지각변동을 맞았다. 앤스로픽이 클로드 오푸스(Claude Opus) 4.6을 공개하며 100만 토큰(1M 토큰)... ",
-    "published_at": "2026-02-10T14:44:00+09:00",
-    "id": "2a6ccd7f-061e-4fe3-9c53-142991541bd7",
+    "source": "뉴스1",
+    "title": "샘 올트먼 \"챗GPT 월 성장률 10% 회복…이번주 새 모델 출시\"",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tUDhQM25reHNoNG01MFJ4c3NuQURraFZWdVhfV2VjR3c2QS1TWTBuTnhseG1acU4zMEVfRjN0bWFqMzhVcU9EZjRNV3RWZTZvMTJjRmlnbndmVzA0S2MwcmduRlBiZk1F?oc=5",
+    "thumbnail": "",
+    "description": "샘 올트먼 \"챗GPT 월 성장률 10% 회복…이번주 새 모델 출시\"&nbsp;&nbsp;뉴스1",
+    "published_at": "2026-02-10T09:11:18+00:00",
+    "id": "d42111f6-63c6-4a31-95d3-439a3888e617",
     "category": "ai"
   },
   {
@@ -86,7 +106,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/044/2026/02/10/0000279913_001_20260210145307111.jpeg?type=w800",
     "description": "US firm joins OpenAI, Google in Korea’s fast-growing enterprise AI market South Korea ranks seventh globally in Claude AI usage intensity, according to Anthropic’s January 2026 Economic Index... ",
     "published_at": "2026-02-10T14:52:00+09:00",
-    "id": "c10355fc-2022-47ab-a802-eed1e85fbc7d",
+    "id": "e2107bde-52e7-445a-82db-178cb0da6ae9",
     "category": "ai"
   },
   {
@@ -96,7 +116,7 @@
     "thumbnail": "https://cdn.ebn.co.kr/news/thumbnail/202602/1699208_719364_4030_v150.jpg",
     "description": "인공지능(AI) 모델 '클로드(Claude)' 개발사인 앤트로픽이 한국 시장 진출 채비에 나섰다. 최근 재무와 영업 인력 채용을 시작했고 한국 지사장도 물색하고 있다. 챗GPT 개발사인 오픈AI에 이어 앤트로픽까지 한국... ",
     "published_at": "2026-02-10T14:56:00+09:00",
-    "id": "92187fa1-9ad7-4ca7-9769-68b1fcdeb726",
+    "id": "6a29215c-0c7f-442f-aa56-8a750ebf6fe8",
     "category": "ai"
   },
   {
@@ -106,17 +126,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/092/2026/02/10/0002410060_001_20260210153312538.jpg?type=w800",
     "description": "메타(Meta)가 자사 AI 서비스인 메타 AI를 대폭 업그레이드하며 구글, OpenAI 등 경쟁사와의 기능 격차를 줄이기 위한 준비에 나섰다. 8일(현지 시각) 테스팅카탈로그(TestingCatalog)에 따르면, 메타는 최근 웹사이트와 앱을... ",
     "published_at": "2026-02-10T15:33:00+09:00",
-    "id": "c86717ed-4f96-40f9-88a1-1b7cfe14f354",
-    "category": "ai"
-  },
-  {
-    "source": "dailysecu",
-    "title": "엠클라우드브리지 'Ai 365 지식관리 에이전트', 산업별 한국형 업무 AI 시...",
-    "link": "https://www.dailysecu.com/news/articleView.html?idxno=205086",
-    "thumbnail": "https://cdn.dailysecu.com/news/photo/202602/205086_205868_5448.jpg",
-    "description": "기업은 이를 통해 사내 규정, 업무 매뉴얼, 프로젝트 문서 등을 안전하게 연동하면서도 ChatGPT, Gemini, Perplexity의 멀티 AI엔진을 사용할 수 있다. 특히 Ai 365는 자체 '오케스트레이션 플랫폼'을 중심으로 지식관리뿐... ",
-    "published_at": "2026-02-10T16:56:00+09:00",
-    "id": "085f679d-2b7d-4e96-b6c4-32dfd6155e5a",
+    "id": "bce32845-5d38-46ed-b9f3-2187c0d83051",
     "category": "ai"
   },
   {
@@ -126,7 +136,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/011/2026/02/10/0004588959_001_20260210175413915.jpg?type=w800",
     "description": "기존 형사사건 등 보유한 데이터로 자체 대규모언어모델(LLM)을 구축해 수사 업무 처리의 효율성과... 앞서 대검은 2024년 가톨릭대 산학협력단에 의뢰해 LLM 구축을 검토해왔는데 이러한 연구 결과들을 종합해... ",
     "published_at": "2026-02-10T17:54:00+09:00",
-    "id": "2567862c-90cf-4d9b-91f4-71c6c6693987",
+    "id": "8df7b835-f82d-4152-b61d-4a93643523b0",
     "category": "ai"
   },
   {
@@ -136,57 +146,7 @@
     "thumbnail": "https://cdn.aitimes.com/news/photo/202602/206680_208652_5513.png",
     "description": "Anthropic changed the copy in their Super Bowl ad: Original: Ads are coming to AI. But not to Claude. New: There is a time and place for ads. Your conversations with AI should not be one of them. pic.twitter.com/qF15CYebv8 — Ben South (@bnj) February 9, 2026 한편... ",
     "published_at": "2026-02-10T18:00:00+09:00",
-    "id": "0be50404-09b1-48ad-be69-161ea6dd4a60",
-    "category": "ai"
-  },
-  {
-    "source": "ajunews",
-    "title": "[ABC 뉴스룸] '앤트로픽'에 샘 올트먼의 반격…\"월성장률 10% 돌파\"",
-    "link": "https://www.ajunews.com/view/20260210173326151",
-    "thumbnail": "https://image.ajunews.com/content/image/2026/02/10/20260210174819796921.png",
-    "description": "방효정 기자 bhj817@ajunews.com 앤트로픽의 AI 에이전트인 ’클로드‘에 추격당하며 정체됐던 오픈AI의 '챗GPT... 이같은 앤트로픽의 공세에 잠시 주춤했던 챗GPT의 성장률은 최근 회복세를 보이고 있습니다. 미 경제방송... ",
-    "published_at": "2026-02-10T18:04:00+09:00",
-    "id": "1cd51125-6921-4ca5-b77b-835e5ed6ad7c",
-    "category": "ai"
-  },
-  {
-    "source": "sidae",
-    "title": "빅테크 상장 열풍에 국내 유니콘도… AI 자본 조달 사활",
-    "link": "https://n.news.naver.com/mnews/article/417/0001129315?sid=105",
-    "thumbnail": "https://imgnews.pstatic.net/image/417/2026/02/10/0001129315_001_20260210180507084.jpg?type=w800",
-    "description": "챗GPT 개발사 오픈AI와 앤트로픽도 연내 상장을 검토 중이다. 오픈AI는 아마존과 소프트뱅크 등에서 대규모 프리 IPO 투자를 유치해 자본을 확충하고 있다. 글로벌 시장 흐름에 발맞춰 국내 AI 대표 스타트업들도... ",
-    "published_at": "2026-02-10T18:04:00+09:00",
-    "id": "54ab9e30-9799-433b-a9e5-6a080c581448",
-    "category": "ai"
-  },
-  {
-    "source": "domin",
-    "title": "AI데이터센터, 군산의 '잃어버린 30년'을 끊을 마지막 골든타임",
-    "link": "http://www.domin.co.kr/news/articleView.html?idxno=1545310",
-    "thumbnail": null,
-    "description": "챗GPT가 쏘아 올린 생성형 AI의 열풍은 단순한 기술 트렌드를 넘어 산업의 근간을 뒤흔들고 있다. 하지만 이 화려한 디지털 혁명의 이면에는 '에너지 전쟁'이라는 현실적인 난관이 도사리고 있다. AI 학습과 구동을 위한... ",
-    "published_at": "2026-02-10T18:05:00+09:00",
-    "id": "291efe71-d344-4575-8630-0c6e2f4e6dfa",
-    "category": "ai"
-  },
-  {
-    "source": "beyondpost",
-    "title": "미래에셋생명, 사내 전용 AI 챗봇 ‘M:AI’ 오픈…“업무 효율 강화”",
-    "link": "http://www.beyondpost.co.kr/view.php?ud=202602101807407917be44c0aacd_30",
-    "thumbnail": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026021018080809729be44c0aacd5915186161.jpg&nmt=30",
-    "description": "이에 따라 외부 데이터 유출 우려 없이 AI 기능을 활용할 수 있어, 시중 공개형 생성형 AI 도구 사용이 제한적인 금융권 환경에서 실질적인 대안으로 평가된다. M:AI는 보안성과 활용성을 동시에 강화했다. 외부와... ",
-    "published_at": "2026-02-10T18:10:00+09:00",
-    "id": "b45a767a-4754-4dc5-a5e6-b973aed23e7f",
-    "category": "ai"
-  },
-  {
-    "source": "뉴스1",
-    "title": "샘 올트먼 \"챗GPT 월 성장률 10% 회복…이번주 새 모델 출시\"",
-    "link": "https://n.news.naver.com/mnews/article/421/0008766569?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/421/2026/02/10/0008766569_001_20260210181213381.jpg?type=w800",
-    "description": "챗GPT가 월간 성장률 10%를 회복했다. 이번 주 내로 새 챗봇 모델 출시도 준비 중인 것으로 파악됐다. 10일 미 경제방송 CNBC 등 보도에 따르면 샘 올트먼 오픈AI 최고경영자(CEO)는 최근 직원들에게 \"챗GPT의 월간... ",
-    "published_at": "2026-02-10T18:11:00+09:00",
-    "id": "c75eae9c-9d5f-425e-ba68-8d9cb9de5fd7",
+    "id": "6695a9bd-d9ff-49e8-8c8a-8ca81a3a268c",
     "category": "ai"
   },
   {
@@ -196,7 +156,7 @@
     "thumbnail": "https://cdn.hansbiz.co.kr/news/thumbnail/202602/816300_820349_1541_v150.jpg",
     "description": "공개된 법령·판례 데이터는 범용 LLM이 쉽게 학습할 수 있지만 로펌과 대기업 현장에서 생성되는 계약, 규제 대응, 분쟁 데이터와 이를 구조화한 온톨로지 데이터는 일반 AI가 접근하기 어려운 영역이라고 전했다.... ",
     "published_at": "2026-02-10T18:16:00+09:00",
-    "id": "b2b923c7-71fb-4446-8b4a-3e3bc07041c0",
+    "id": "d5667da4-21b4-42e0-a251-8c2faec6adb2",
     "category": "ai"
   },
   {
@@ -206,7 +166,47 @@
     "thumbnail": "https://ditoday.com/wp-content/uploads/2026/02/image-59-1.jpg",
     "description": "생성 AI 열풍이 가장 먼저 촉발된 분야는 다름 아닌 디자인입니다 UX 전문가이자 인공지능디자인협회를... 피터 스타인버거는 앤스로픽(Anthropic)의 대형 언어 모델인 클로드(Claude)에 ‘손’을 달아준다는 의미에서 게의... ",
     "published_at": "2026-02-10T18:22:00+09:00",
-    "id": "6b590db9-c84f-45a0-8c81-1e1f3171b3e1",
+    "id": "aeeb3941-5294-4c93-b242-6521f533ddba",
+    "category": "ai"
+  },
+  {
+    "source": "aving",
+    "title": "엠클라우드브리지 'Ai 365 지식관리 에이전트', 산업별 한국형 업무 AI 시...",
+    "link": "https://kr.aving.net/news/articleView.html?idxno=1808705",
+    "thumbnail": "https://cdn.kr.aving.net/news/photo/202602/1808705_766883_1019.jpg",
+    "description": "기업은 이를 통해 사내 규정, 업무 매뉴얼, 프로젝트 문서 등을 안전하게 연동하면서도 ChatGPT, Gemini, Perplexity의 멀티 AI엔진을 사용할 수 있다. 특히 Ai 365는 자체 '오케스트레이션 플랫폼'을 중심으로 지식관리뿐... ",
+    "published_at": "2026-02-10T18:32:00+09:00",
+    "id": "51fa039e-e4bf-4e4d-b829-d0d9cb200525",
+    "category": "ai"
+  },
+  {
+    "source": "동아일보",
+    "title": "클로드 코워크는 SaaS 업계의 종말일까? 긍정론과 부정론 짚어보니",
+    "link": "https://n.news.naver.com/mnews/article/020/0003696521?sid=105",
+    "thumbnail": "https://imgnews.pstatic.net/image/020/2026/02/10/0003696521_001_20260210183216318.jpg?type=w800",
+    "description": "앤스로픽은 2021년 전직 오픈AI 직원 7명이 설립한AI 스타트업으로 ‘클로드(Claude)’라는 대형언어모델을 서비스 중이다. 오픈AI나 구글과 비교해 후발주자인 까닭에 범용 AI 성능이나 속도 등은 부족하지만 언어 능력... ",
+    "published_at": "2026-02-10T18:32:00+09:00",
+    "id": "65fc393f-5fc5-4677-9096-2c944d158e41",
+    "category": "ai"
+  },
+  {
+    "source": "국민일보",
+    "title": "[단독] \"나 때문에 사망? 소문이나 조작된 것\"… 챗GPT의 뻔뻔한 거짓말",
+    "link": "https://n.news.naver.com/mnews/article/005/0001831496?sid=102",
+    "thumbnail": "https://imgnews.pstatic.net/image/005/2026/02/10/2026021018370659175_1770716226_1770707205_20260210184507819.jpg?type=w800",
+    "description": "하지만 챗GPT 신경망 내에서 이들의 죽음은 ‘존재한 적 없는 비극’이었다. 미국에서 발생한 자살 사건의 유족들은 챗GPT가 ‘AI 대화 후 자살’ 사건들에 대해 소문이나 조작된 콘텐츠라는 답변을 내놨다고 주장했다.... ",
+    "published_at": "2026-02-10T18:39:00+09:00",
+    "id": "94f129b6-fed8-416b-8031-7fcbc55a6932",
+    "category": "ai"
+  },
+  {
+    "source": "AI타임즈",
+    "title": "﻿트릴리온랩스, 세계 최초 모바일 월드 모델 'g월드-32B' 출시",
+    "link": "https://www.aitimes.com/news/articleView.html?idxno=206676",
+    "thumbnail": "https://cdn.aitimes.com/news/photo/202602/206676_208662_4435.png",
+    "description": "대형언어모델(LLM)과 달리, 물리 법칙과 인과관계, 시각 데이터 등 논리적 학습 구조를 갖췄다. 특히, g월드-32B는 화면 생성 방식을 기존의 '픽셀' 단위에서 '웹 코드(HTML·CSS)' 방식으로 전환한 것이 특징이다.... ",
+    "published_at": "2026-02-10T18:44:00+09:00",
+    "id": "78ce026e-8bf9-4bba-97d4-55cff3c18dff",
     "category": "ai"
   },
   {
@@ -216,7 +216,7 @@
     "thumbnail": "",
     "description": "Siri 구글 서버에서 실행됩니다! Gemini App도움이 되겠지만, 그 대가는 무엇일까요?&nbsp;&nbsp;Letem světem Applem",
     "published_at": "2026-02-09T05:00:40+00:00",
-    "id": "fd031f29-6150-4225-8fae-5fc5346ca541",
+    "id": "4c8eb6ad-7c54-4af8-b7e5-cf0026f583b8",
     "category": "ai"
   },
   {
@@ -226,7 +226,7 @@
     "thumbnail": "",
     "description": "\"AI 인재 다 모여라\" OpenAI, 벨뷰서 1000명 직원 수용 10개층 추가 임대 |&nbsp;&nbsp;시애틀코리안데일리",
     "published_at": "2026-02-09T19:32:18+00:00",
-    "id": "c7786d95-58c7-4d49-8161-61ab72b49825",
+    "id": "2d1395b4-89c8-4e1b-8874-e47572b8b00b",
     "category": "ai"
   },
   {
@@ -236,7 +236,7 @@
     "thumbnail": "",
     "description": "[2월9일] \"기술주 폭락은 '챗GPT 모멘트' 이후 최대 사건...AI 기술이 기대를 능가\"&nbsp;&nbsp;AI타임스",
     "published_at": "2026-02-09T22:00:00+00:00",
-    "id": "3bc4ae6d-687a-451f-bd5a-76ac07e18254",
+    "id": "cead4b61-45c3-422f-bf4e-7ffbb4548ea6",
     "category": "ai"
   },
   {
@@ -246,7 +246,7 @@
     "thumbnail": "",
     "description": "OpenAI, 광고 파일럿에 옴니콤·WPP·덴츠 참여 확정 - Adweek&nbsp;&nbsp;Investing.com 한국어",
     "published_at": "2026-02-09T22:01:00+00:00",
-    "id": "8c481b18-095b-4ce4-8388-022b6477cac4",
+    "id": "44c6947f-a3c0-45e8-887b-65649d1d190c",
     "category": "ai"
   },
   {
@@ -256,17 +256,17 @@
     "thumbnail": "",
     "description": "“치킨 맛집 찾아줘”…챗GPT에서 요기요 앱 쓴다&nbsp;&nbsp;브릿지경제",
     "published_at": "2026-02-10T00:23:00+00:00",
-    "id": "d2b3c6d5-21f7-47fe-97b1-70fd9040e66c",
+    "id": "010a28bb-40f0-4863-bd84-1facb9a7e2bb",
     "category": "ai"
   },
   {
-    "source": "newspim.com",
+    "source": "뉴스핌",
     "title": "요기요, 챗GPT에 앱 개설…\"맛집 검색하고 주문까지 한번에\"",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lQW9NZzY3VkVMdVJKd2d0aVpIYnlqV3RBeGxMSGJtRlVxcHdvUFRzUHB2TFFMLXJsYkxZZWtWUzZZUmNPNUJpMHNqQlZoX2t4MVp5eDRDLWgwRDVs?oc=5",
     "thumbnail": "",
-    "description": "요기요, 챗GPT에 앱 개설…\"맛집 검색하고 주문까지 한번에\"&nbsp;&nbsp;newspim.com",
+    "description": "요기요, 챗GPT에 앱 개설…\"맛집 검색하고 주문까지 한번에\"&nbsp;&nbsp;뉴스핌",
     "published_at": "2026-02-10T01:09:00+00:00",
-    "id": "9ae15832-9af6-497d-b54c-b211efc99b4d",
+    "id": "df794f4d-6984-4889-b44f-45ad180e05b2",
     "category": "ai"
   },
   {
@@ -276,7 +276,7 @@
     "thumbnail": "",
     "description": "“클로드 들고 한국 온다” 앤스로픽 상륙 초읽기…AI 패권전, 이제 한국이 전장&nbsp;&nbsp;kmjournal.net",
     "published_at": "2026-02-10T02:10:09+00:00",
-    "id": "1b55a0f0-18fa-4642-b1b8-c650599c4839",
+    "id": "70667123-fd0c-4c63-a61a-582f45064648",
     "category": "ai"
   },
   {
@@ -286,7 +286,7 @@
     "thumbnail": "",
     "description": "제미나이, 韓 이용자 수 12만 명 돌파…구글 생태계 중심으로 AI 시장 판도 뒤집히나&nbsp;&nbsp;네이트",
     "published_at": "2026-02-10T02:40:00+00:00",
-    "id": "0537cc77-e696-469e-baee-20502507daaf",
+    "id": "816e98f1-7246-4b80-b76e-744185c5cec6",
     "category": "ai"
   },
   {
@@ -296,7 +296,7 @@
     "thumbnail": "",
     "description": "[2월 4일 AI뉴스 모음] SpaceX, 1조 2500억 달러 규모의 초대형 합병으로 xAI 인수 OpenAI의 에이전트용 \"명령 센터\"인 Codex AI 프로필 사진 생성을 위한 아이디어 및 전략 AI가 공격적인 유방암을 27% 더 많이 발견&nbsp;&nbsp;AI넷",
     "published_at": "2026-02-10T05:16:00+00:00",
-    "id": "36b92dc3-2db4-4d91-864c-3fa3dfef74ca",
+    "id": "c8886915-999a-4cce-9b3a-00b18163cb22",
     "category": "ai"
   },
   {
@@ -306,7 +306,7 @@
     "thumbnail": "",
     "description": "Anthropic Is Bringing Claude to Korea as Global AI Rivals Turn the Country Into a New Battleground&nbsp;&nbsp;kmjournal.net",
     "published_at": "2026-02-10T05:20:35+00:00",
-    "id": "4ab8a366-a47d-4b9c-a654-8ee6ad17422a",
+    "id": "dd3debab-a4dc-43e3-ade2-191e29579b81",
     "category": "ai"
   },
   {
@@ -316,7 +316,7 @@
     "thumbnail": "",
     "description": "ChatGPT Becomes Korea’s Go-To App, Logging 3.4 Billion Minutes in a Single Month&nbsp;&nbsp;kmjournal.net",
     "published_at": "2026-02-10T05:28:27+00:00",
-    "id": "1dcbefed-d712-4499-a500-951110e4252a",
+    "id": "efac1fd4-7728-4eb4-9a85-a141ebe5913a",
     "category": "ai"
   },
   {
@@ -326,7 +326,7 @@
     "thumbnail": "",
     "description": "요기요, ChatGPT 내 앱 개설로 AI 기반 맛집 검색 제공&nbsp;&nbsp;로이슈",
     "published_at": "2026-02-10T05:30:38+00:00",
-    "id": "9bdd195c-a240-4e2f-8108-adb8f46416cb",
+    "id": "e3763255-91dc-4fbf-9f43-f82a5a294d51",
     "category": "ai"
   },
   {
@@ -336,7 +336,7 @@
     "thumbnail": "",
     "description": "Altman Signals a Comeback as ChatGPT Growth Rebounds and New AI Model Nears Release&nbsp;&nbsp;kmjournal.net",
     "published_at": "2026-02-10T05:31:30+00:00",
-    "id": "b5b5d685-62cc-4256-bcd2-fea4219cb813",
+    "id": "28df23c1-402a-453f-8e8f-b9edf2f3ec9a",
     "category": "ai"
   },
   {
@@ -346,27 +346,7 @@
     "thumbnail": "",
     "description": "OpenAI가 ChatGPT에서 광고 테스트를 시작했습니다.&nbsp;&nbsp;Vietnam.vn",
     "published_at": "2026-02-10T05:39:00+00:00",
-    "id": "1444fe66-ea91-44c0-8dfd-985a5e0b0764",
-    "category": "ai"
-  },
-  {
-    "source": "더팩트",
-    "title": "잡코리아, 새 사명 '웍스피어'로 CI 리브랜딩 캠페인 론칭…생성형 AI 광고 첫선",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01R2JmUWNKWFpzN2Q5cWR1TW1tLWFKZV9McFBIY09MODY4bVRMR19SZW9obWpTQXZwRHRKTHo4WXhzNHMzU0FLb2k1YlpsN1hzX1ZTTUktTnYwUdIBVEFVX3lxTE9SMkpQUHZuNm43djQweU9mdXNQcVd4NXYtd0lKcDNnZlYwY2RVSjVRN19nQmtoNHM1R1hseGk0RndrWjNPZmk5a29uTlBwdlhRYmNMaA?oc=5",
-    "thumbnail": "",
-    "description": "잡코리아, 새 사명 '웍스피어'로 CI 리브랜딩 캠페인 론칭…생성형 AI 광고 첫선&nbsp;&nbsp;더팩트",
-    "published_at": "2026-02-10T06:00:04+00:00",
-    "id": "46c05472-6b2a-4182-884d-96ec6132ae7a",
-    "category": "ai"
-  },
-  {
-    "source": "aimatters.co.kr",
-    "title": "챗GPT 앱 사용 시간 1년 만에 8배 폭증…한국인 AI 활용 급증",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wZU43clNXaXh5clNCaDZFNy16NHBWemdmaWdobG5VbnhkcHhuVmNUWEFMRnFWWTZRYVVQRzcxOXp4cEhMX1BsM1VmaWhVT2cwSzdjcnJCQUZiekxFYzRR?oc=5",
-    "thumbnail": "",
-    "description": "챗GPT 앱 사용 시간 1년 만에 8배 폭증…한국인 AI 활용 급증&nbsp;&nbsp;aimatters.co.kr",
-    "published_at": "2026-02-10T06:10:42+00:00",
-    "id": "cc7535f3-c3f7-4fe9-ba94-cfcd46b99df4",
+    "id": "1de929cd-6c74-4fe2-9311-f86d4e196722",
     "category": "ai"
   },
   {
@@ -376,7 +356,7 @@
     "thumbnail": "",
     "description": "“여자 친구 생일인데 축하한다고 써줘”…‘제미나이’, “재미나네” [수민이가 궁금해요]&nbsp;&nbsp;세계일보",
     "published_at": "2026-02-10T06:10:59+00:00",
-    "id": "0d5d3b88-1248-493b-b378-b3e73f15ce1c",
+    "id": "27dd1dd5-3d21-436c-9231-1ba7970c595b",
     "category": "ai"
   },
   {
@@ -386,17 +366,37 @@
     "thumbnail": "",
     "description": "ChatGPT에서 가져온 만화들이 개인정보 보호 문제를 제기하고 있습니다.&nbsp;&nbsp;Việt Báo",
     "published_at": "2026-02-10T06:14:01+00:00",
-    "id": "d6b9dc52-eaf6-4521-8f9f-e93e23955e0a",
+    "id": "3b95a5c1-6ab2-46b2-9c2f-613161392dec",
     "category": "ai"
   },
   {
-    "source": "브런치",
-    "title": "Claude Opus 4.6 실사용기 (클로드 오푸스)",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5TNXlPZGEwR1BjN3lRZDBlcWN3UG9XZ25CcUtwcXVhV0loN1BoQXd4V21KLTNWZkxJSHdtRTFORjFVUUFNbEcw?oc=5",
+    "source": "뉴스경남",
+    "title": "마산합포구, 생성형 AI 실무 교육 실시",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxaDlmQlEyTjd0TUpHcDNPOXYxNkwyejQ4Rk0zdHg5LVJoOS1uSThZYUtlMmxmb19xcVEtSHhQclpZWS1kWC1xV3V3anNqcVNHZ2FfT1J4WWlnRHA1QS1KYzZYRWc2WGtM?oc=5",
     "thumbnail": "",
-    "description": "Claude Opus 4.6 실사용기 (클로드 오푸스)&nbsp;&nbsp;브런치",
-    "published_at": "2026-02-10T06:34:46+00:00",
-    "id": "8cc4b307-38e1-46b7-9b99-fc3948583a9e",
+    "description": "마산합포구, 생성형 AI 실무 교육 실시&nbsp;&nbsp;뉴스경남",
+    "published_at": "2026-02-10T06:52:00+00:00",
+    "id": "1279e035-1c25-450c-8c79-f1b9623a746b",
+    "category": "ai"
+  },
+  {
+    "source": "gukjenews.com",
+    "title": "군장대, 생성형 AI 시대창업 전문가 양성 요람",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yYnQ3NUtmYVU3T01OYU83LVJrdjFyWmp3UVNHWVNVNkNfN1I5cGd2M2JQZGk5SDR3V0JmZDRjajk4cFRsN05yOXZ4WGJtaWx4MEJMRkhnYnhtcU9TQmxYczFuTmdYYUtBR2Y4ZDZR?oc=5",
+    "thumbnail": "",
+    "description": "군장대, 생성형 AI 시대창업 전문가 양성 요람&nbsp;&nbsp;gukjenews.com",
+    "published_at": "2026-02-10T07:39:34+00:00",
+    "id": "30ac2798-45c6-4b43-bbde-7d6096ebc321",
+    "category": "ai"
+  },
+  {
+    "source": "뉴스통",
+    "title": "오픈AI와 아마존",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY2owOHRyUk00a2dNNHk2MHpfaEM4ZmVpMk9ZMnFXSTBxdnRhMF8ydWx5NmozTHdFampRb01JaThQZXlvN3JpbWVVSWwtOC1obVRkTzJTQVZwQnN4UXU1TUJaRjZ1U1NUSzJJSzJUMmNmbVRXT3A2M0pOTFRzZy10Z2Vvbng1Nnplbm40N0hYaHhQODFPc0VRTXgtckZCN08tNXdfNzJDbFkydXFFUGN4eUxXMExqcktrVGdn?oc=5",
+    "thumbnail": "",
+    "description": "오픈AI와 아마존&nbsp;&nbsp;뉴스통",
+    "published_at": "2026-02-10T08:04:39+00:00",
+    "id": "c8f378db-8ee5-4ad3-9b8a-314702ffcf71",
     "category": "ai"
   }
 ]

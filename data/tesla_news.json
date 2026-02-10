@@ -1,12 +1,72 @@
 [
   {
+    "source": "서울경제",
+    "title": "TSMC, 美 빅테크에 관세 면제권 나눠준다",
+    "link": "https://n.news.naver.com/mnews/article/011/0004589006?sid=104",
+    "thumbnail": "https://imgnews.pstatic.net/image/011/2026/02/10/0004589006_001_20260210190708526.jpg?type=w800",
+    "description": "파운드리 사업에서 고전하던 삼성전자는 지난해 테슬라와 애플 등 미국 빅테크들과 인공지능(AI) 칩과 이미지센서(CIS) 등의 대량 공급계약을 체결하며 실적 개선을 기대하고 있다. 하지만 25% 관세를 부과받을 경우... ",
+    "published_at": "2026-02-10T19:07:00+09:00",
+    "id": "4a5175a0-f51d-49b4-87f2-dc6595510dc0",
+    "category": "tesla"
+  },
+  {
+    "source": "한국일보",
+    "title": "AI 기업들 또 대규모 '빚투'… 구글, 22조원 채권 발행, xAI 5조원 사모대...",
+    "link": "https://n.news.naver.com/mnews/article/469/0000913916?sid=104",
+    "thumbnail": "https://imgnews.pstatic.net/image/469/2026/02/10/0000913916_001_20260210190111016.jpg?type=w800",
+    "description": "구글 모회사 알파벳과 일론 머스크의 인공지능(AI) 기업 xAI가 AI 인프라 구축과 주도권 선점을 위해 대규모 자금 조달에 나섰다. AI에 천문학적인 투자를 이어가는 기술기업들이 올해 막대한 자본지출을 예고한... ",
+    "published_at": "2026-02-10T19:01:00+09:00",
+    "id": "7b59f88c-0f90-4a19-83e6-4b059cea822f",
+    "category": "tesla"
+  },
+  {
+    "source": "topstarnews",
+    "title": "테슬라 로보택시 확대 자신한 머스크…과거 약속·밸류 부담 경계론",
+    "link": "https://www.topstarnews.net/news/articleView.html?idxno=15963773",
+    "thumbnail": "https://cdn.topstarnews.net/news/photo/202602/15963773_1855308_489.jpg",
+    "description": "테슬라 최고경영자(CEO) 일론 머스크가 로보택시 사업의 급격한 확장을 자신하며 시장의 기대감을... 하지만 테슬라는 이미 1조 4,000억 달러(약 1,960조원)에 이르는 높은 기업가치로 거래되고 있으며, 머스크의 과거 발언... ",
+    "published_at": "2026-02-10T18:50:00+09:00",
+    "id": "34c2363e-c6fd-40c7-a300-77cc3393e01b",
+    "category": "tesla"
+  },
+  {
+    "source": "ajunews",
+    "title": "BMW·벤츠 맹추격하는 테슬라·BYD...수입차 시장, 연초부터 '후끈'",
+    "link": "https://www.ajunews.com/view/20260210141253861",
+    "thumbnail": "https://image.ajunews.com/content/image/2026/02/10/20260210184555213348.jpg",
+    "description": "지난해 시장의 약 70%를 점유하던 BMW와 메르세데스-벤츠의 지배력이 올해는 50%대로 축소되고 테슬라... 테슬라는 1966대를 판매하며 3위에 안착했다. 모델Y(1134대), 모델X(160대) 등이 성장을 견인하면서 시장... ",
+    "published_at": "2026-02-10T18:48:00+09:00",
+    "id": "c4b32fb9-ebc7-4dd4-b078-ce9b7c5c0f4c",
+    "category": "tesla"
+  },
+  {
+    "source": "srtimes",
+    "title": "현대차·기아, 캐스퍼·레이로 국내 전기차 시장 점유율 끌어올린다",
+    "link": "http://www.srtimes.kr/news/articleView.html?idxno=196431",
+    "thumbnail": "https://cdn.srtimes.kr/news/thumbnail/202602/196431_200659_452_v150.jpg",
+    "description": "BYD, 저가 '돌핀' 국내 출시·테슬라 '모델3' 940만원 인하 글로벌 전기자동차 기업들이 국내 시장에서 저가... 미국 전기차 제조업체인 테슬라도 국내에서 인기를 끈 전기차 '모델3'에 대해 최대 940만원의 할인을... ",
+    "published_at": "2026-02-10T18:36:00+09:00",
+    "id": "8e08498b-a416-46cc-b4d6-f1938d46b6c5",
+    "category": "tesla"
+  },
+  {
+    "source": "토큰포스트",
+    "title": "머스크 \"X Chat, 보안 테스트 후 오픈소스 코드 공개 예정\"",
+    "link": "https://www.tokenpost.kr/news/breaking/330462",
+    "thumbnail": "https://f1.tokenpost.kr/2026/02/1cppxoarkq.jpg",
+    "description": "일론 머스크가 인스턴트 메시징 애플리케이션 'X Chat'이 향후 수개월 간 보안 테스트를 거칠 예정이며, 이후 전체 코드를 오픈소스로 공개하겠다고 밝혔다고 PANews가 2월 10일 보도했다. 앞서 머스크는 비트코인과... ",
+    "published_at": "2026-02-10T18:36:00+09:00",
+    "id": "0f162265-990a-4a2e-b454-eb4be7638a34",
+    "category": "tesla"
+  },
+  {
     "source": "ditoday",
     "title": "AI가 모여 종교까지? 몰트북이 만드는 새로운 AI 생태계",
     "link": "https://ditoday.com/ai%ea%b0%80-%eb%aa%a8%ec%97%ac-%ec%a2%85%ea%b5%90%ea%b9%8c%ec%a7%80-%eb%aa%b0%ed%8a%b8%eb%b6%81%ec%9d%b4-%eb%a7%8c%eb%93%9c%eb%8a%94-%ec%83%88%eb%a1%9c%ec%9a%b4-ai-%ec%83%9d%ed%83%9c%ea%b3%84/",
     "thumbnail": "https://ditoday.com/wp-content/uploads/2026/02/image-59-1.jpg",
     "description": "인공지능 특이점의 전초전과 사회적 임팩트 일론 머스크를 비롯한 기술 전문가들은 몰트북 현상을 두고 “지능의 특이점(Singularity)이 시작되는 초기 단계”라고 평가했다. 생물학적 인류가 수만 년에 걸쳐 이룩한... ",
     "published_at": "2026-02-10T18:22:00+09:00",
-    "id": "cd166e10-8a85-443a-b01c-c880e784f884",
+    "id": "2478feb9-7263-4844-96f9-1c34c634d976",
     "category": "tesla"
   },
   {
@@ -16,7 +76,7 @@
     "thumbnail": "https://cdn.finomy.com/news/thumbnail/202602/249491_244078_5922_v150.jpg",
     "description": "한라캐스트는 마그네슘 다이캐스팅 분야에서 국내 최고 수준의 기술을 기반으로 미래차 부품, 전장용 디스플레이, 자율주행 부품 사업을 확대하고 있으며 최근 테슬라, 네이버, 소프트뱅크 등 글로벌 기업들이 투자... ",
     "published_at": "2026-02-10T18:20:00+09:00",
-    "id": "1edc0dcc-af0b-46c0-b9aa-ac29d6e8fd26",
+    "id": "5e968692-c52e-4d6c-aa25-c8c54cb01bcc",
     "category": "tesla"
   },
   {
@@ -26,17 +86,17 @@
     "thumbnail": "https://cdn.finomy.com/news/thumbnail/202602/249490_244077_583_v150.jpg",
     "description": "업계는 이번 테슬라 터치스크린용 LV MOSFET 채택을 계기로 KEC가 글로벌 전기차 반도체 시장 확대에 더욱 속도를 낼 것으로 보고 있다. 자율주행·전동화 전환 속도가 빨라지는 가운데, 차량용 반도체 수요는 앞으로... ",
     "published_at": "2026-02-10T18:16:00+09:00",
-    "id": "913ed8cb-7d9e-41d7-bbe9-4002205664ae",
+    "id": "50bd5eb7-539f-4ecd-991f-f2f2ee3ae1ad",
     "category": "tesla"
   },
   {
     "source": "파이낸셜뉴스",
     "title": "[fn광장] AI시대는 '양날의 검' 인가",
     "link": "https://n.news.naver.com/mnews/article/014/0005476558?sid=110",
-    "thumbnail": "https://imgnews.pstatic.net/image/014/2026/02/10/0005476558_001_20260210181309693.jpg?type=w800",
+    "thumbnail": "https://imgnews.pstatic.net/image/014/2026/02/10/0005476558_001_20260210183516541.jpg?type=w800",
     "description": "테슬라의 일론 머스크는 빠르면 금년 중 인간과 같은 판단을 할 수 있는 인공일반지능(AGI)이 현실화될 수 있다고 언급했고, AI의 대부로 일컬어지며 노벨상을 수상한 제프리 힌턴 교수는 2030년경 ASI가 현실화될 수 있다고... ",
     "published_at": "2026-02-10T18:13:00+09:00",
-    "id": "6ebc13b7-6986-424d-aca9-40b306e332e7",
+    "id": "70c4884c-ddd9-4217-8558-05302c994814",
     "category": "tesla"
   },
   {
@@ -46,7 +106,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/011/2026/02/10/0004588985_001_20260210182408089.jpg?type=w800",
     "description": "스페이스X를 창업한 일론 머스크가 이달 초 100만 개의 위성을 띄워 태양에너지로 가동하는 우주 데이터센터를 구축하겠다고 밝혔다. 이 회사가 로켓 재활용 기술과 초소형 위성 대량생산 체계 등을 융합하면... ",
     "published_at": "2026-02-10T18:13:00+09:00",
-    "id": "52d68b4a-857f-459a-b093-04694bb482fa",
+    "id": "7dbe878f-7f51-473b-b528-4e09f256c30a",
     "category": "tesla"
   },
   {
@@ -56,7 +116,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/011/2026/02/10/0004588973_001_20260210180413987.jpg?type=w800",
     "description": "파운드리 사업에서 고전하던 삼성전자는 지난해 테슬라와 애플 등 미국 빅테크들과 인공지능(AI) 칩과 이미지센서(CIS) 등의 대량 공급계약을 체결하며 실적 개선을 기대하고 있다. 하지만 25% 관세를 부과받을 경우... ",
     "published_at": "2026-02-10T18:04:00+09:00",
-    "id": "d0ad9689-d14e-4ad7-88aa-5c206f3310e4",
+    "id": "191e9251-c0d2-4b8c-817a-5ddbd23ab3b6",
     "category": "tesla"
   },
   {
@@ -66,7 +126,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/009/2026/02/10/0005635454_001_20260210180417611.jpg?type=w800",
     "description": "구글 웨이모, 엔비디아, 테슬라, 아마존 등 빅테크가 주도해온 자율주행 시장에서 완성차 대표 기업인 현대차그룹이 주도권 확보에 본격 나선다는 뜻이다. 모셔널은 CES 2026 기간 동안 미국 라스베이거스... ",
     "published_at": "2026-02-10T18:04:00+09:00",
-    "id": "3c0d0772-9113-48c9-93b6-f0ec6861d7f7",
+    "id": "b4a11d87-ffab-4c5d-8748-5d5deb6706fe",
     "category": "tesla"
   },
   {
@@ -76,7 +136,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/10/0005249597_001_20260210180209924.jpg?type=w800",
     "description": "미국은 자사 충전 인프라에 자체 제작한 파워모듈을 적용하는 테슬라를 제외하면 중국산 의존도가 높은 것으로 평가된다. 국내 CPO 시장은 업체가 한때 300~400개에 달했지만 최근 40여 개로 급감했다. 값싼 중국산... ",
     "published_at": "2026-02-10T18:01:00+09:00",
-    "id": "9ff3e4ad-35b5-4437-a063-8b4cef243594",
+    "id": "6dc8ee78-45d1-4cb7-8332-2bc0b9389682",
     "category": "tesla"
   },
   {
@@ -86,7 +146,7 @@
     "thumbnail": "https://imgradio.ytn.co.kr/program_info/pro_img4_0478.jpg",
     "description": "아니면 그마저도 AI가 지금 말씀하셨던 ‘아틀라스’라든가 아니면 테슬라의 ‘옵티머스’라고 하는 것이 아예 사람을 다 내쫓고, 아예 불 꺼진 상태에서 휴머노이드가 24시간 가동되어지는 공장이 최근 공표가 되어지고... ",
     "published_at": "2026-02-10T18:00:00+09:00",
-    "id": "cac77fed-7b93-40bb-8251-5acd08de15ee",
+    "id": "8084c505-5f5f-4433-9c41-326461679db1",
     "category": "tesla"
   },
   {
@@ -96,7 +156,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/011/2026/02/10/0004588964_001_20260210175614382.png?type=w800",
     "description": "시장에서는 과거 서학개미들이 선호했던 ‘엔비디아’와 ‘테슬라’ 체제가 흔들리는 것 아니냐는... 서학개미들의 미국 주식 보관액은 6일 기준 테슬라(260억 달러), 엔비디아(172억 달러), 알파벳(76억 달러)... ",
     "published_at": "2026-02-10T17:56:00+09:00",
-    "id": "62e1cf15-96c6-457a-a298-5d623635437d",
+    "id": "f9179424-3545-4305-a612-f27a4527683b",
     "category": "tesla"
   },
   {
@@ -106,17 +166,17 @@
     "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/10/0005249585_001_20260210175616980.jpg?type=w800",
     "description": "그의 연구실 제자들은 애플, 구글, 엔비디아, 테슬라, 마이크로소프트, 오픈AI 등 미국 실리콘밸리 대표 기업에 골고루 진출했다. 김 교수는 “만약 총장이 된다면 실리콘밸리에 KAIST 캠퍼스를 조성해 국제 산학협력... ",
     "published_at": "2026-02-10T17:56:00+09:00",
-    "id": "0023fac3-ea78-4042-829e-59158730368c",
+    "id": "060045e2-bf37-4144-be30-3fd1e1c481b4",
     "category": "tesla"
   },
   {
     "source": "한국경제",
-    "title": "전기차 '충전기 심장' 국내서 만든다",
+    "title": "\"이미 중국이 침투\" 서늘한 경고…안방 내준 한국도 '초긴장'",
     "link": "https://n.news.naver.com/mnews/article/015/0005249575?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/10/0005249575_001_20260210175217597.jpg?type=w800",
+    "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/10/0005249575_001_20260210183510190.jpg?type=w800",
     "description": "미국은 자사 충전 인프라에 자체 제작한 파워모듈을 적용하는 테슬라를 제외하면 중국산 의존도가 높은 것으로 평가된다. 국내 CPO 시장은 업체가 한때 300~400개에 달했지만 최근 40여 개로 급감했다. 값싼 중국산... ",
     "published_at": "2026-02-10T17:52:00+09:00",
-    "id": "9568587c-ff05-42a7-a74e-3aac7ab60e05",
+    "id": "d05bec6e-fca1-4b8a-9bc2-5418f60b6e58",
     "category": "tesla"
   },
   {
@@ -126,7 +186,7 @@
     "thumbnail": "https://cdn.finomy.com/news/thumbnail/202602/249484_244070_2250_v150.jpg",
     "description": "업계에 따르면 LG에너지솔루션의 원통형 배터리는 테슬라 휴머노이드 로봇 '옵티머스' 2세대를 비롯한 일부 로봇 플랫폼에 적용되고 있는 것으로 전해진다. 이와 함께 LG전자가 CES 2026에서 공개한 가정용 로봇 'LG... ",
     "published_at": "2026-02-10T17:50:00+09:00",
-    "id": "b20ed296-f49f-4810-a35c-572dee0d0067",
+    "id": "d752c59c-6dc1-4d61-aedf-5bcd35767891",
     "category": "tesla"
   },
   {
@@ -136,7 +196,7 @@
     "thumbnail": "https://cdn.insightkorea.co.kr/news/thumbnail/202602/241002_248963_4922_v150.jpg",
     "description": "한화투자증권은 6개월간 테슬라 주가가 일정 수준 이상 유지될 경우 최대 36% 수익률을 제공하는 '한화스마트ON ELB 99호'를 출시했다. 원화로 투자하는 상품이지만 기초자산이 해외 주식인 만큼 간접적인 해외 주식 투자... ",
     "published_at": "2026-02-10T17:44:00+09:00",
-    "id": "35187ec0-0fcb-4712-9a4c-49c00ab46953",
+    "id": "75c11c0f-46df-49f4-9756-00c052e5c6a4",
     "category": "tesla"
   },
   {
@@ -146,7 +206,7 @@
     "thumbnail": "https://img.asiatoday.co.kr/file/2026y/02m/11d/2026021001000705000038061.jpg",
     "description": "국내 완성차 브랜드인 현대차와 기아의 전동화 고급화 전략으로 도전을 받고 있으며, 테슬라 이 외에도 BYD 등 중국 업체의 가성비 경쟁 역시 의식하지 않을 수 없는 상황이다. 업계 다수 관계자는 \"벤츠는 여전히... ",
     "published_at": "2026-02-10T17:44:00+09:00",
-    "id": "af675cb7-7228-40ec-9754-1d8dc5698625",
+    "id": "cf98437f-c552-46d9-818e-f2b8e8db0fbe",
     "category": "tesla"
   },
   {
@@ -156,7 +216,7 @@
     "thumbnail": "https://img.insight.co.kr/static/2026/02/10/1200/img_20260210172937_gzga004y.jpg",
     "description": "시각장애인 유튜버 김한솔이 일론 머스크 뉴럴링크의 시력 회복 기술 임상시험 참여를 발표했습니다. 지난 7일 김한솔은 자신의 유튜브 채널 '원샷한솔'을 통해 \"미래 올 수 있냐길래 갈 수 있다고 해버렸습니다… 뇌에 칩... ",
     "published_at": "2026-02-10T17:44:00+09:00",
-    "id": "95749fc6-d7ba-4bc6-beb4-c5b9169a07bf",
+    "id": "3c02365d-1d42-425b-ae82-2fedfe83bd14",
     "category": "tesla"
   },
   {
@@ -166,7 +226,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/092/2026/02/10/0002410104_001_20260210173014015.jpg?type=w800",
     "description": "최근 일론 머스크 테슬라·스페이스X CEO가 우주에 태양광을 활용한 인공지능(AI) 데이터센터를 구축하겠다는... 머스크는 지난주 테슬라 실적발표에서 미국에 100기가와트(GW) 규모의 태양전지 생산능력을 구축하겠다는... ",
     "published_at": "2026-02-10T17:30:00+09:00",
-    "id": "bff12ff1-8e26-4192-bacc-31f47f100262",
+    "id": "f8ce6a50-d1db-40db-9545-47b284b84e2e",
     "category": "tesla"
   },
   {
@@ -176,7 +236,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/108/2026/02/10/0003407180_001_20260210172507569.jpg?type=w800",
     "description": "일론 머스크 테슬라 CEO가 이번에는 테슬라 시총 100조달러를 언급하며 시장을 뒤흔드는 파격적인 발언을 내놓았다. 최근 자신의 소셜 미디어 X(옛 트위터)를 통해 테슬라의 기업 가치가 향후 100조 달러(한화 약 13.5경 원)... ",
     "published_at": "2026-02-10T17:24:00+09:00",
-    "id": "0a5e3835-8b5e-4edb-affc-33b7a1a5e05f",
+    "id": "05284f57-1a0b-47a1-af6f-17223c25ba0c",
     "category": "tesla"
   },
   {
@@ -186,37 +246,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/586/2026/02/10/0000122198_001_20260210172008874.jpg?type=w800",
     "description": "트럼프 대통령, 빌 클린턴 전 대통령, 빌 게이츠 마이크로소프트 회장, 일론 머스크 테슬라 최고경영자(CEO) 등 미 정·재계 유력 인사들의 이름도 포함됐다. 이들은 엡스타인의 범죄 사실과 무관하다고 선을 긋고 있다.... ",
     "published_at": "2026-02-10T17:20:00+09:00",
-    "id": "f6f8c34b-e922-4c74-bf0d-aa9c1ac7ca07",
-    "category": "tesla"
-  },
-  {
-    "source": "ibabynews",
-    "title": "[오늘의 특가] 프로젝트슬립, 10일 네이버 쇼핑라이브 '설날+세일' 진행...",
-    "link": "https://www.ibabynews.com/news/articleView.html?idxno=148498",
-    "thumbnail": null,
-    "description": "함께 선보이는 '플립토퍼'는 틈새 배김 없는 3단 접이식 구조로 1인 가구 침대나 손님용 침구로 활용하기 좋으며, 테슬라 및 현대자동차와 차박 토퍼로 협업했을 만큼 야외에서도 집 같은 편안함을 제공한다. 바닥 생활에... ",
-    "published_at": "2026-02-10T17:08:00+09:00",
-    "id": "0d2d6484-c459-4d7b-a023-c04d604ea1fe",
-    "category": "tesla"
-  },
-  {
-    "source": "digitaltoday",
-    "title": "[데일리픽] XRP 하락이 매수 기회?…테슬라 세미, 최종 사양 공개",
-    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=629388",
-    "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202602/629388_581126_5518.png",
-    "description": "테슬라 세미는 전기 트럭 시장의 판도를 바꿀 핵심 모델로 평가받는다 [사진: 테슬라] ■ 테슬라 대형 전기트럭 '세미' 최종 사양 공개…표준·장거리 2종 트림 테슬라가 공식 세미(Semi) 웹사이트를 통해 순수 전기... ",
-    "published_at": "2026-02-10T17:06:00+09:00",
-    "id": "61cd532d-aa22-42ee-a9e2-37176ad0e55c",
-    "category": "tesla"
-  },
-  {
-    "source": "한겨레",
-    "title": "새 차 사려는 10명 중 7명 “전기차 긍정 검토…자율주행 추가 의향”",
-    "link": "https://n.news.naver.com/mnews/article/028/0002790999?sid=103",
-    "thumbnail": "https://imgnews.pstatic.net/image/028/2026/02/10/0002790999_001_20260210170808990.jpg?type=w800",
-    "description": "새차를 살 예정인 사람 10명 가운데 7명이 전기차 구매를 긍정적으로 검토하고 있고, 테슬라의 감독형... 테슬라의 감독형 완전자율주행기능(FSD)과 같이 자율주행 기능에 대한 추가 비용 지불 의향이 있는지 물음에... ",
-    "published_at": "2026-02-10T17:04:00+09:00",
-    "id": "a7af4eb6-0cc5-484e-bf8b-095539cebdbd",
+    "id": "bc26d8f1-b026-48df-81be-e4ca1aa22fa1",
     "category": "tesla"
   },
   {
@@ -226,17 +256,17 @@
     "thumbnail": "https://imgnews.pstatic.net/image/055/2026/02/10/0001331985_001_20260210170006475.jpg?type=w800",
     "description": "우주 기업 스페이스X를 이끄는 일론 머스크가 갑자기 10년 안에 '달나라 도시'를 짓겠다고 선언했습니다. 그동안 달은 건너뛰고 올해 말까지 곧바로 화성에 무인 우주선을 보내겠다고 밝혀왔는데, 입장을 바꾼 겁니다. 미... ",
     "published_at": "2026-02-10T16:59:00+09:00",
-    "id": "36ddd9ff-292a-42ee-91b4-7e3ec2839908",
+    "id": "fbe455d5-0dd7-4610-a8da-3012be6aeb73",
     "category": "tesla"
   },
   {
     "source": "디지털타임스",
-    "title": "美빅테크 ‘AI 빚투’ 전쟁 본격화…이제부턴 죽느냐 사느냐 싸움",
+    "title": "[이규화의 글로벌AI] 美빅테크 ‘AI 빚투’ 전쟁 본격화… 이제부턴 죽...",
     "link": "https://n.news.naver.com/mnews/article/029/0003010276?sid=104",
-    "thumbnail": "https://imgnews.pstatic.net/image/029/2026/02/10/0003010276_001_20260210165211076.jpg?type=w800",
+    "thumbnail": "https://imgnews.pstatic.net/image/029/2026/02/10/0003010276_001_20260210185625486.jpg?type=w800",
     "description": "IT 전문매체 디인포메이션에 따르면 일론 머스크의 xAI는 사모펀드 아폴로 글로벌 매니지먼트로부터 34억달러(약 5조원)를 조달하는 협상을 마무리 중이다. 특수목적법인이 자금을 빌려 엔비디아 칩을 산 뒤 이를 xAI에... ",
     "published_at": "2026-02-10T16:51:00+09:00",
-    "id": "02b68091-8c31-4038-b119-190317ced513",
+    "id": "d9849c93-0062-4b5b-ab56-b3bbbde97ee7",
     "category": "tesla"
   },
   {
@@ -246,7 +276,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/138/2026/02/10/0002217705_001_20260210164811199.jpg?type=w800",
     "description": "일론 머스크의 핵심 금융 파트너로 꼽히는 마이클 그라임스<사진>가 모건스탠리로 복귀하며 스페이스X 기업공개(IPO) 작업의 중심에 다시 섰다. 그라임스는 머스크의 로켓 기업 스페이스X 상장을 위해 수년간 물밑... ",
     "published_at": "2026-02-10T16:48:00+09:00",
-    "id": "45a85a37-93d0-459d-b486-1df222a5d653",
+    "id": "7f4ecb98-c357-41a6-9494-cc32be9001c7",
     "category": "tesla"
   },
   {
@@ -256,7 +286,7 @@
     "thumbnail": "https://cdn.sisajournal-e.com/news/thumbnail/202602/419157_231180_2851_v150.jpg",
     "description": "일론 머스크 테슬라 CEO(최고경영자)가 태양광 산업의 판을 흔들고 있다. 우주에 대규모 인공지능(AI) 데이터센터를 건설하겠다는 구상을 공개하며, 이를 구동할 전력원으로 태양광을 활용하겠다는 청사진을 내놓은... ",
     "published_at": "2026-02-10T16:46:00+09:00",
-    "id": "d6cddea9-7c36-44ef-8076-71a8d443d885",
+    "id": "6c98386b-b821-4c1d-b836-011816e522ec",
     "category": "tesla"
   },
   {
@@ -266,7 +296,7 @@
     "thumbnail": "https://img.etoday.co.kr/pto_db/2026/02/20260210162627_2294225_1198_388.jpg",
     "description": "스페이스X의 자회사가 된 일론 머스크의 AI 기업 xAI는 사모 대출을 통해 엔비디아 칩 구매 비용 34억달러를 조달하기로 했다. 대규모 채권 발행이 잇따르면서 불안감도 커지고 있다. 로이터통신은 “채권시장 수요가... ",
     "published_at": "2026-02-10T16:28:00+09:00",
-    "id": "171ddd8d-870e-4344-90bb-4180e2a42343",
+    "id": "299b857b-5f69-48d6-8796-d5526a1aa5aa",
     "category": "tesla"
   },
   {
@@ -276,7 +306,7 @@
     "thumbnail": "https://cdn.consumuch.com/news/thumbnail/202602/77290_66239_649_v150.jpg",
     "description": "이어 \"미래에셋증권은 스페이스X보다 일론 머스크의 xAI에 투자 금액이 더 많다고 언급했다\"며 \"이로 인해 평가이익이 추정치를 크게 상회했다\"이라고 전했다. 다만 \"추후 xAI, 스페이스X 관련 평가이익에 대한 업사이드가... ",
     "published_at": "2026-02-10T16:24:00+09:00",
-    "id": "06cfb33c-73c5-4117-bb71-8fb77ca5f458",
+    "id": "c3c09350-77ab-4617-8412-ce7fb3c00682",
     "category": "tesla"
   },
   {
@@ -286,7 +316,7 @@
     "thumbnail": "https://www.megaeconomy.co.kr/news/data/20260210/p1065596563965479_191_thum.png",
     "description": "xAI의 일론 머스크는 전 재산을 걸고 로켓을 쏘고 인간 뇌에 칩을 심는다. 이들은 기존의 규칙을 따르는 대신 문제를 해결하기 위한 규칙 자체를 다시 설계하고 있다. 이들 글로벌기업이 구축한 핵심 무기는 '폐쇄 루프... ",
     "published_at": "2026-02-10T16:06:00+09:00",
-    "id": "57db61c1-e055-4319-8b6b-cfc85d581549",
+    "id": "ac1ce074-9abf-4c04-a23a-ae6d421e9000",
     "category": "tesla"
   },
   {
@@ -296,37 +326,17 @@
     "thumbnail": null,
     "description": "그는 2년 전 2024년 파리 하계올림픽 당시에도 에마뉘엘 마크롱 프랑스 대통령 초청으로 파리 엘리제궁에서 열린 글로벌 기업인 오찬에 참석해 일론 머스크 테슬라 CEO, 제임스 퀸시 코카콜라 회장, 닐 모한 유튜브 CEO... ",
     "published_at": "2026-02-10T15:36:00+09:00",
-    "id": "1f431d04-57af-48cd-a57d-e1b14f016a0a",
+    "id": "7bf18c20-6cc8-489e-9f72-3d78e9c528e8",
     "category": "tesla"
   },
   {
-    "source": "ajunews",
-    "title": "[종합] 100년물까지 꺼냈다...AI 패권전쟁에 빅테크 '1천조 빚투'",
-    "link": "https://www.ajunews.com/view/20260210150114920",
-    "thumbnail": "https://image.ajunews.com/content/image/2026/02/10/20260210150955302455.png",
-    "description": "일론 머스크가 설립한 xAI는 전통적인 회사채 대신 사모 대출을 활용해 아폴로 글로벌 매니지먼트로부터 34억달러 조달을 추진 중이다. 특수목적법인(SPV)이 엔비디아의 AI 반도체를 구매해 xAI에 임대하는 구조로... ",
-    "published_at": "2026-02-10T15:18:00+09:00",
-    "id": "90418f91-d65b-41b3-bf9b-aab1ff6481c4",
-    "category": "tesla"
-  },
-  {
-    "source": "뉴스핌",
-    "title": "[AI의 종목 이야기] 테슬라 북미 영업 총괄 책임자 또 떠났다",
-    "link": "https://www.newspim.com/news/view/20260210001081",
-    "thumbnail": "https://img.newspim.com/news/2026/02/10/2602100314409160_765_tc.jpg",
-    "description": "테슬라 매장 [사진=블룸버그] 그는 일론 머스크(Elon Musk)가 이끄는 이 전기차 업체에서 회사를 떠나는 또 한 명의 핵심 임원이다. 테슬라는 차량 인도 실적이 2년 연속 감소하는 상황에서 주요 리더들이 잇따라... ",
-    "published_at": "2026-02-10T15:15:00+09:00",
-    "id": "2d730f74-6599-48c6-a855-559f2a91ac45",
-    "category": "tesla"
-  },
-  {
-    "source": "파이낸셜뉴스",
-    "title": "스페이스X IPO 준비하는 머스크... 화성에서 달로 목표 바꿔",
-    "link": "https://n.news.naver.com/mnews/article/014/0005476387?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/014/2026/02/10/0005476387_001_20260210145919372.jpg?type=w800",
-    "description": "일론 머스크가 항공우주기업 스페이스X의 목표를 화성 대신 달로 바꿀 것임을 시사했다. 9일(현지시간) 야후파이낸스는 머스크가 스페이스X의 상장을 앞두고 앞두고 당초 화성에 도시를 건설하게려던 것에서 달로... ",
-    "published_at": "2026-02-10T14:59:00+09:00",
-    "id": "2bcf138b-4517-4431-bb27-97c271fa788f",
+    "source": "디지털투데이",
+    "title": "[데일리픽] XRP 하락이 매수 기회?…테슬라 세미, 최종 사양 공개",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9iYVI2OGNuTUp2b3ZVTldIVWkxQzlpTW9wcV9BMDIzSnRNWVVraE9laUxhdWdjX3NqOGYxUExlTGs5LW13ajk3QWgxMDdOdU9FeU9aWFZfam5tMTMwWDJZNnFTaUt3djJzdmRTRWlkY3Q4dlU?oc=5",
+    "thumbnail": "",
+    "description": "[데일리픽] XRP 하락이 매수 기회?…테슬라 세미, 최종 사양 공개&nbsp;&nbsp;디지털투데이",
+    "published_at": "2026-02-10T08:05:00+00:00",
+    "id": "c6595766-29e0-4cd6-b9a6-5a8c277ef751",
     "category": "tesla"
   },
   {
@@ -336,7 +346,7 @@
     "thumbnail": "",
     "description": "[투자 노하우] 구글 VS 아마존 VS 테슬라, 자율주행 선두 주자는?&nbsp;&nbsp;v.daum.net",
     "published_at": "2026-02-10T07:58:12+00:00",
-    "id": "9cfe1914-58fc-49e6-9b0a-7192bc62f8d0",
+    "id": "62b4953e-a55a-4a6e-ada1-4ca8d0a339db",
     "category": "tesla"
   },
   {
@@ -346,7 +356,7 @@
     "thumbnail": "",
     "description": "중국 로봇 전쟁 격화…갈라쇼·테슬라 옵티머스·FF 진출까지 전방위 확산&nbsp;&nbsp;톱스타뉴스",
     "published_at": "2026-02-10T07:13:49+00:00",
-    "id": "bb1dbf43-523e-48c4-909f-4c5a9aae3486",
+    "id": "25760b3d-9a16-40b9-82a8-e51ffd09602c",
     "category": "tesla"
   },
   {
@@ -356,7 +366,17 @@
     "thumbnail": "",
     "description": "\"이력서 믿지 마라\" 머스크도 속았던 '간판'의 함정&nbsp;&nbsp;네이트",
     "published_at": "2026-02-10T07:13:00+00:00",
-    "id": "01abf39e-9a90-4b60-ac8f-c46ae7935eb3",
+    "id": "4984902e-cc18-4beb-bc7c-fd2b74e79a51",
+    "category": "tesla"
+  },
+  {
+    "source": "네이트",
+    "title": "[AI의 종목 이야기] 테슬라 북미 영업 총괄 책임자 또 떠났다",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0weVhiRnhEQ3pKZmJWUDVmeTJld2l6MEVWb0Jpd1dheDV6MmVobDB2U0NUcDR0SkJaWUp6dnRtaXpHT1BDZVNnRUJMR3NjWkVueWlB?oc=5",
+    "thumbnail": "",
+    "description": "[AI의 종목 이야기] 테슬라 북미 영업 총괄 책임자 또 떠났다&nbsp;&nbsp;네이트",
+    "published_at": "2026-02-10T06:17:00+00:00",
+    "id": "5353cd9e-ea52-4b2e-82ec-dc6c1f77e64b",
     "category": "tesla"
   },
   {
@@ -366,7 +386,7 @@
     "thumbnail": "",
     "description": "테슬라, 1월 2천대 팔며 '연초 기세' 지속…BYD도 존재감 확대&nbsp;&nbsp;edaily.co.kr",
     "published_at": "2026-02-10T06:15:17+00:00",
-    "id": "316c7c2f-4e92-4e5c-ba87-183abdcd5c5e",
+    "id": "9c9741f9-ab81-47bc-ab7e-38d54ead2959",
     "category": "tesla"
   },
   {
@@ -376,27 +396,7 @@
     "thumbnail": "",
     "description": "일론 머스크는 역사상 가장 부유한 사람이지만, 여전히 행복하지 않다.&nbsp;&nbsp;Vietnam.vn",
     "published_at": "2026-02-10T06:15:13+00:00",
-    "id": "3ac5e971-27ca-4daa-8368-353b77045a57",
-    "category": "tesla"
-  },
-  {
-    "source": "Benzinga",
-    "title": "일론 머스크, 블루 오리진이 달 착륙 성공하면 \"가장 먼저 축하할 것\"",
-    "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxOY2Jrei1kYlZEQTQ4cU9wbUh2VVIwQ3oyR3lIZjR2Sjl2dnBlTExqcDh0M1JyejdaSVZYXzZacG5HMnVNX2lmS19fUm9iRi0wOTgwT3ZfTWpZLXhjTEY2SmZqc3RhaWdEWW54NnVVcXB0bG5VYzdRVU05TEU4TjJ2MlRDREhBcWVyZ3pRVkZMN2FMaDNuYjRlQVlTYWJDaWF4VUprV05HZXlqOEpZSm8tNVA1QzJsSzQzV0QyTVZLRjlyM3hOZUl1ak1PdFlKZS04cE9rc0M1OWJ6cnJESDA3Y2VGVWh2QVVieEJXT2NTWFRLUFBySmE5R2Zqb0d1UWhfT1dkOUlMbFF1YzIyeC1TNlRfcHd0VGdSZTN0Y2pzQ3NtY0I5WnNCYi1zTjFHRE5yY3VrT2NYakp3cXkxMS16QTdza0NEblh0TnBWaXlvZzZtY3E5TXNvM0Z6RmxqazFEV3c?oc=5",
-    "thumbnail": "",
-    "description": "일론 머스크, 블루 오리진이 달 착륙 성공하면 \"가장 먼저 축하할 것\"&nbsp;&nbsp;Benzinga",
-    "published_at": "2026-02-10T05:44:00+00:00",
-    "id": "00c89e25-b73a-4622-9632-ad6dd403ed26",
-    "category": "tesla"
-  },
-  {
-    "source": "데일리한국",
-    "title": "테슬라도 뛰어든 4000만원대 전기차 '불꽃경쟁'",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16TlZSTnVqYzVlQ2hGdDZrMHFJTlFpTmJ3bmQySllXdndFX2NkcXVwYnUtVTdncmZEWVl2cURLVnM4TndPQ2tiVHZrVl9Bd2NYaFVnM21QcTYyWWdLQnN2aUV5VEhDX2xwd3plTjE3RdIBc0FVX3lxTE1tbUFYYVFPRE5DMGlYN2czcDVpYkZqc2t6bzVua1BFOEYtWDNEUkJ0QXd0Q2hmT01nTUFKaG8zTjFsN29INUlxdUhnc1NVQmtEbXphdEZ3UmxFbS1RdmM0M3lVWndTMW4ybnJwWEc5TGlpQTQ?oc=5",
-    "thumbnail": "",
-    "description": "테슬라도 뛰어든 4000만원대 전기차 '불꽃경쟁'&nbsp;&nbsp;데일리한국",
-    "published_at": "2026-02-10T05:35:05+00:00",
-    "id": "13ac3972-50c7-4cf6-9b78-714f72af30aa",
+    "id": "a84570cb-18cc-49fc-b7d3-103aa1c28a4b",
     "category": "tesla"
   }
 ]
