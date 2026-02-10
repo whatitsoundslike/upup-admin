@@ -1,202 +1,282 @@
 [
   {
-    "source": "비즈워치",
-    "title": "오텍캐리어, AI적용 프리미엄 에어컨 출시",
-    "link": "https://n.news.naver.com/mnews/article/648/0000044390?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/648/2026/02/10/0000044390_001_20260210095310547.jpg?type=w800",
-    "description": "오텍캐리어는 인공지능(AI)이 쾌적함을 예측해 최적의 실내 환경을 제공하는 프리미엄 에어컨 신제품 '디오퍼스+'를 올해 1분기 내 선보인다고 10일 밝혔다. 이번 신제품은 온도·습도·공기질·사용자 움직임까지 종합... ",
-    "published_at": "2026-02-10T09:53:00+09:00",
-    "id": "1042f808-bceb-4754-958a-92759a3894db",
+    "source": "bokuennews",
+    "title": "AI 임상 판단, 의료진 정확도 넘어섰다",
+    "link": "http://www.bokuennews.com/news/article.html?no=273632",
+    "thumbnail": "https://www.bokuennews.com/data/design/logo/toplogo_20201217162740.jpg",
+    "description": "국내 의과대학 본과생들이 실제 임상 증례 분석에서 인공지능(AI)이 의료진과 비교해 더 높은 판단 정확도를 보일 수 있음을 확인했다. 연세대학교 용인세브란스병원(병원장 김은경) 심장내과 배성아... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "07c2d463-73d2-471a-a3bb-c273b6d25e3f",
     "category": "ai"
   },
   {
-    "source": "전자신문",
-    "title": "대한에이지테크협회, 액티브 시니어 대상 'K-시니어' AI 시스템 가동",
-    "link": "https://n.news.naver.com/mnews/article/030/0003397989?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/030/2026/02/10/0003397989_001_20260210095310112.png?type=w800",
-    "description": "AI 디베이트 기술 적용…시니어 경력 재활용·멘토링 체계 구축 대한에이지테크협회가 액티브 시니어를 위한 전용 인공지능 시스템 'K-시니어(K-Senior)'를 10일부터 본격 운영한다. 대한에이지테크협회는 이날 액티브... ",
-    "published_at": "2026-02-10T09:53:00+09:00",
-    "id": "2f370ad4-a2bb-4b97-9d61-b353effe31cb",
+    "source": "eroun",
+    "title": "한국사회보장정보원, 지방자치학회서 AI·데이터 기반 공공행정 혁신 논...",
+    "link": "https://www.eroun.net/news/articleView.html?idxno=73029",
+    "thumbnail": "https://cdn.eroun.net/news/thumbnail/202602/73029_125827_1413_v150.jpg",
+    "description": "복지행정 고도화와 공공 AI 활용 방향 모색 이로운넷 = 이수진 에디터 한국사회보장정보원은 지난 6일 한국보건복지인재원에서 열린 '2026년 한국지방자치학회 동계학술대회' 기획세션에 참여해 인공지능(AI)과 데이터 기반... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "880dfcdc-7f88-455b-b968-8ccc6adc842a",
     "category": "ai"
   },
   {
-    "source": "xportsnews",
-    "title": "이이경 폭로자 A씨 \"경찰 수사 한달 넘게 진행 중, 불이익 우려했지만…...",
-    "link": "https://m.entertain.naver.com/article/311/0001973644",
-    "thumbnail": "https://imgnews.pstatic.net/image/311/2026/02/10/0001973644_001_20260210095307116.jpg",
-    "description": "이대로 끝나면 좀 그래서, AI가 아니어서 억울하다”는 취지의 글을 남기며 입장을 번복해 논란을 키웠다. 논란이 장기화되는 가운데 이이경은 고정 출연 중이던 다수의 예능 프로그램에서 하차했다. 이하 A씨 글 전문.... ",
-    "published_at": "2026-02-10T09:53:00+09:00",
-    "id": "08d2c6e8-78e6-4938-80c5-8cecdc7ff3b6",
-    "category": "ai"
-  },
-  {
-    "source": "블로터",
-    "title": "조현준 네트워킹 빛났다···효성중공업, 美서 사상 최대 규모 전력기...",
-    "link": "https://n.news.naver.com/mnews/article/293/0000079211?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/293/2026/02/10/0000079211_001_20260210095307103.jpg?type=w800",
-    "description": "미국은 AI 데이터센터 건설, 전기차 보급 확대 등으로 전력 수요가 향후 10년간 25% 급증할 것으로 예상된다. 대규모 전력을 안정적으로 공급하기 위해 미국의 주요 전력사업자들은 765kV 송전망 구축을 앞다퉈 계획하고... ",
-    "published_at": "2026-02-10T09:53:00+09:00",
-    "id": "616f0127-d25e-40d4-987d-46b59ecb893a",
+    "source": "idsn",
+    "title": "해양교통안전공단, 인공지능(AI) 기반 소형선박 특화 시스템 개발 착수",
+    "link": "https://idsn.co.kr/news/view/1065573557488885",
+    "thumbnail": "https://idsn.co.kr/news/data/20260210/p1065573557488885_985_thum.png",
+    "description": "공단은 이번 연구를 통해 국내 연안의 지형적 특성과 어선의 불규칙한 운항·조업 패턴을 반영한 소형선박 특화 충돌 예방 인공지능(AI) 시스템 개발에 나선다. 해당 시스템은 인공지능(AI)과 시각(카메라) 정보, 레이더... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "b00fca15-d6fc-4f22-8a1a-523c73090aea",
     "category": "ai"
   },
   {
     "source": "einfomax",
-    "title": "딜링룸 24시…챙겨봐야 할 국제경제뉴스",
-    "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4398166",
-    "thumbnail": "https://news.einfomax.co.kr/image/logo/snslogo_20231006045256.png",
-    "description": "생성형 인공지능(AI)이 촉발한 공포로 투매에 휩쓸렸던 소프트웨어 업종은 3% 이상 오르며 이틀째 지수 상승에 일조했다. ▲[뉴욕증시-1보] 소프트웨어 중심의 반발 매수…상승 마감 - 뉴욕증시의 3대 주가지수가 강세를... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "493129fa-5689-4a56-bef9-14bc5985ad9b",
+    "title": "CJ ENM, AI 콘텐츠 얼라이언스 출범…\"AI 콘텐츠 생태계 조성\"",
+    "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4398175",
+    "thumbnail": "https://cdn.news.einfomax.co.kr/news/thumbnail/202602/4398175_293042_142_v150.jpg",
+    "description": "AI 콘텐츠 얼라이언스 출범식[출처: CJ ENM] CJ ENM[035760]이 인공지능(AI) 콘텐츠 산업 생태계를 구축하기 위해 AI 중소 제작사, 교육기관과 손잡고 AI 콘텐츠 얼라이언스(연합)를 발족했다. CJ ENM은 지난 9일 마포구... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "2f247988-130b-4fa3-87e7-a3f53676f686",
     "category": "ai"
   },
   {
-    "source": "econovill",
-    "title": "'미국통' 조현준의 승부수…효성重, 미국서 수주 잭팟 터졌다",
-    "link": "https://www.econovill.com/news/articleView.html?idxno=729173",
-    "thumbnail": "https://cdn.econovill.com/news/thumbnail/202602/729173_697317_4258_v150.jpg",
-    "description": "조 회장은 \"AI(인공지능) 및 데이터센터 확산으로 전력 인프라는 이제 국가 안보와 직결되는 핵심 산업이 됐다\"며 \"멤피스 공장과 초고압 기술력을 바탕으로 미국 전력망 안정화의 대체 불가능한 핵심 파트너로... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "4e6d2512-1e5b-428d-8e2a-215791403277",
-    "category": "ai"
-  },
-  {
-    "source": "ceoscoredaily",
-    "title": "네이버클라우드, 가톨릭중앙의료원 2만명에 ‘네이버웍스’ 공급",
-    "link": "https://www.ceoscoredaily.com/page/view/2026021009343009230",
-    "thumbnail": "https://www.ceoscoredaily.com/photos/2026/02/10/2026021009335673796_l.jpg",
-    "description": "네이버클라우드(대표 김유원)는 가톨릭중앙의료원(이하 CMC)에 자사의 AI(인공지능) 업무 협업툴 ‘네이버웍스(NAVER WORKS)’ 공급 계약을 완료했다고 10일 밝혔다. 이번 도입은 네이버웍스가 서울아산병원에 이어 또 다른... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "9746cd78-fd1a-41df-8e77-8d525be986c9",
-    "category": "ai"
-  },
-  {
-    "source": "nongaek",
-    "title": "트럼프 '고관세'에도 북미시장은 '기회의 땅'… 대기업 매출 14% 증가",
-    "link": "http://www.nongaek.com/news/articleView.html?idxno=94305",
-    "thumbnail": "https://cdn.nongaek.com/news/thumbnail/202602/94305_44788_487_v150.jpg",
-    "description": "인공지능(AI) 열풍을 타고 반도체와 제약·바이오 업종이 매출을 주도한데 반해 전기차 캐즘(일시적 수요 정체) 여파를 맞은 2차전지와 건설 업종은 부진을 면치 못한 것으로 분석됐다. 10일 기업분석연구소... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "4f0980a6-965a-477b-ae00-52ad08b5c003",
-    "category": "ai"
-  },
-  {
-    "source": "coinreaders",
-    "title": "\"채굴보다 AI가 더 돈 된다\"...캉고, 비트코인 전량 매도 후 사업 전환",
-    "link": "http://coinreaders.com/214756",
-    "thumbnail": "http://www.coinreaders.com/imgdata/coinreaders_com/202601/800_800_2026010436306217.jpg",
-    "description": "비트코인(Bitcoin, BTC) 채굴 기업인 캉고가 보유 자산을 전량 매각하고 인공지능(AI)과 고성능 컴퓨팅(HPC) 시장으로 사업 축을 완전히 옮기는 승부수를 던졌다. 2월 10일(현지시간) 암호화폐 전문 매체 코인텔레그래프에... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "f607448c-dc38-48c5-ae44-39ee5531f5e8",
-    "category": "ai"
-  },
-  {
-    "source": "한국경제",
-    "title": "\"AI가 의사보다 정확\"…의대생 연구서 진단 정확도 앞서",
-    "link": "https://n.news.naver.com/mnews/article/015/0005249200?sid=102",
-    "thumbnail": "https://imgnews.pstatic.net/image/015/2026/02/10/0005249200_001_20260210095213130.jpg?type=w800",
-    "description": "국내 의과대학 본과생들이 실제 임상 증례 분석에서 인공지능(AI)이 의료진과 비교해 더 높은 판단 정확도를 보일 수 있음을 확인했다. 연세대학교 용인세브란스병원 심장내과 배성아 교수와 정신건강의학과... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "743dbe3a-93b8-4711-9099-894f838e7c52",
-    "category": "ai"
-  },
-  {
-    "source": "이투데이",
-    "title": "신한라이프, TM전용시스템 ‘SOL T1’ 신규 오픈",
-    "link": "https://www.etoday.co.kr/news/view/2555011",
-    "thumbnail": "https://img.etoday.co.kr/pto_db/2026/02/20260210095023_2293854_1170_689.jpg",
-    "description": "신한라이프 관계자는 “이번 TM시스템 재구축은 고객에게 보다 이해하기 쉬운 편리한 상담 서비스를 제공하고자 청약 프로세스를 개선하는데 중점을 뒀다”며 \"앞으로 영업 환경에도 인공지능 전환(AX)·디지털전환(DX)... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "5aa80348-6366-4b45-bc09-10193999dbbb",
-    "category": "ai"
-  },
-  {
-    "source": "sentv",
-    "title": "효성중공업, 7900억 규모 美 전력기기 사업 수주",
-    "link": "https://www.sentv.co.kr/article/view/sentv202602100041",
-    "thumbnail": "https://www.sentv.co.kr/data/sentv/image/2026/02/10/sentv20260210000037.png",
-    "description": "미국은 인공지능(AI) 데이터센터 건설, 전기차 보급 확대 등으로 향후 10년간 전력 수요가 25% 급증할 것으로 예상된다. 765kV 송전망은 대용량 전력을 장거리로 보낼 수 있고, 기존 345kV나 500kV 대비 송전 손실을 크게... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "0bc03f38-b7c8-4ba3-b3aa-bd6fab903a83",
-    "category": "ai"
-  },
-  {
-    "source": "lcnews",
-    "title": "삼성, 'WHX Dubai 2026'서 혁신 의료기기 공개…중동 시장 공략",
-    "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=123500",
-    "thumbnail": "https://cdn.lcnews.co.kr/news/thumbnail/202602/123500_133737_502_v150.jpg",
-    "description": "다양한 AI 기능을 탑재했다. V4의 휴대성을 높여 개발된 '에보Q10(EVO Q10)'은 고성장 중인 현장진단(PoC) 시장을 겨냥한 노트북형 제품이다. 고해상도·다양한 AI 기능, 컴팩트한 크기와 무게 구현을 통해 사용성과... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "a8c459d7-cfb9-4c1c-bfac-0fbfca453ec9",
-    "category": "ai"
-  },
-  {
-    "source": "newsprime",
-    "title": "유니퀘스트, 美 24GHz 무선 전력 전송 기술 '독점 공급'…\"드론 무제한 ...",
-    "link": "http://www.newsprime.co.kr/news/article.html?no=723813",
-    "thumbnail": "http://www.newsprime.co.kr/data/photos/cdn/20260207/art_723813_1770684525.png",
-    "description": "유니퀘스트는 국내 인공지능(AI) 드론 전문 기업 ARION과 협력해 구루의 시스템을 탑재한 차세대 무인항공체계(UAS)를 공동 개발 중이다. 오는 'DSK 2026(Drone Show Korea 2026)'에서는 ARION 부스를 통해 해당 기술이... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "17b5418f-8f71-4a60-a98c-b3259a1e0d9a",
-    "category": "ai"
-  },
-  {
-    "source": "inthenews",
-    "title": "삼성자산운용, KODEX 반도체 ETF 순자산 3조원 돌파",
-    "link": "https://www.inthenews.co.kr/news/article.html?no=82987",
-    "thumbnail": "https://www.inthenews.co.kr/data/photos/20260207/art_1770684680155_f2849e.png",
-    "description": "삼성자산운용은 △KODEX 반도체 △KODEX 반도체레버리지 △KODEX AI반도체 △KODEX AI반도체핵심장비 등 총 4개의 국내 반도체 ETF 라인업으로 투자자들의 투자성향 및 전략별로 ETF를 선택할 수 있도록 했습니다. 연초... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "87bab307-a006-4674-a56a-39d6ce7c412a",
-    "category": "ai"
-  },
-  {
-    "source": "전자신문",
-    "title": "인터내셔날SOS, '2026 글로벌 리스크 전망' 발표",
-    "link": "https://n.news.naver.com/mnews/article/030/0003397987?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/030/2026/02/10/0003397987_001_20260210095213170.png?type=w800",
-    "description": "인공지능(AI)에 대한 관심은 높지만, 실제로 리스크 관리에 AI를 핵심적으로 활용하고 있다고 답한 조직은 6%에 그쳤다. 기술 도입에 대한 기대와 현장 적용 사이의 괴리가 여전하다는 평가다. 여기에 보안·보건 분야... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "cd6406fe-c249-4afe-ad1a-1230835c294e",
-    "category": "ai"
-  },
-  {
-    "source": "중도일보(대전/충청)",
-    "title": "인하대-인천시교육청, 생애주기별 AI 교육체계 공동 구축",
-    "link": "https://www.joongdo.co.kr/web/view.php?key=20260210010003485",
-    "thumbnail": "https://www.joongdo.co.kr/mnt/images/file/2026y/02m/10d/2026021001000823600034851.jpg",
-    "description": "인하대학교는 지난 9일 인천시교육청과 인천형 AI 교육 협력체계 구축을 위한 업무협약을 체결했다고 밝혔다. 이번 협약에 따라 양 기관은 초·중·고 생애주기별 AI 교육체계를 공동으로 구축·운영하며, AI 창의... ",
-    "published_at": "2026-02-10T09:52:00+09:00",
-    "id": "4a333df8-f8d6-4506-b97b-a65cb76e3bd2",
-    "category": "ai"
-  },
-  {
-    "source": "newsian",
-    "title": "\"말만 하면 치킨 배달\"…요기요, 챗GPT 올라타고 '대화형 커머스' 선점",
-    "link": "http://www.newsian.co.kr/news/articleView.html?idxno=86057",
-    "thumbnail": "https://cdn.newsian.co.kr/news/thumbnail/202602/86057_77694_4258_v150.jpg",
-    "description": "챗GPT 내 요기요 주문 프로세스. [사진=위대한상상] ［뉴시안= 조현선 기자］배달 플랫폼 시장 경쟁이 가격... 국내 배달 앱 업계가 AI 추천 기능을 강화하는 가운데 요기요가 글로벌 생성형 AI 플랫폼인 챗GPT 내에 직접... ",
-    "published_at": "2026-02-10T09:50:00+09:00",
-    "id": "2d13decf-a3aa-4028-b6ff-549044372413",
-    "category": "ai"
-  },
-  {
-    "source": "iminju",
-    "title": "[이원두 칼럼] 절정의 반도체⁃AI, '시즌2' 물밑 경쟁 대비를",
-    "link": "http://www.iminju.net/news/articleView.html?idxno=157640",
-    "thumbnail": "https://cdn.iminju.net/news/thumbnail/202602/157640_161667_4719_v150.jpg",
-    "description": "오픈AI의 챗GPT 독주가 끝나고 구글의 제미나이 등의 등장으로 경쟁이 심해지자 M7은 우선 칩을 공급하는... 그러나 아직은 쳇GPT나 제미나이에 미치지 못한다. 수능문제를 풀게 하 결과 제미나이는 92점인데 반해 국내... ",
-    "published_at": "2026-02-10T09:50:00+09:00",
-    "id": "3e0a5b3c-ab1f-45c5-869c-4469653a911d",
+    "source": "연합뉴스",
+    "title": "쓰리빌리언, 미 오스틴시 인센티브 확보…유전체 분석 랩 구축",
+    "link": "https://n.news.naver.com/mnews/article/001/0015896531?sid=105",
+    "thumbnail": "https://imgnews.pstatic.net/image/001/2026/02/10/AKR20260210057500017_01_i_P4_20260210101632336.jpg?type=w800",
+    "description": "인공지능(AI) 기반 희귀질환 진단기업 쓰리빌리언은 미국 법인(3billion US Inc.)이 최근 미국 텍사스주 오스틴시와 '챕터 380 경제 개발 협약'을 체결했다고 10일 밝혔다. 이번 협약은 오스틴시가 지역 혁신 생태계의 핵심... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "8375ae06-34a5-4c1e-ace1-8631797d8e3a",
     "category": "ai"
   },
   {
     "source": "뉴시스",
-    "title": "요기요, 챗GPT에 앱 개설 \"맛집·메뉴 탐색 가능\"",
-    "link": "https://n.news.naver.com/mnews/article/003/0013760099?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/003/2026/02/10/NISI20260210_0002059973_web_20260210093134_20260210094515459.jpg?type=w800",
-    "description": "요기요는 국내 배달앱 가운데 처음으로 오픈AI의 '챗GPT 앱(Apps in ChatGPT)'에 앱을 개설한다고 10일 밝혔다. 앞으로 요기요 사용자들은 챗GPT와의 대화에서 요기요 앱을 발견하고 직접 요기요 앱을 호출해 실행할 수 있다.... ",
-    "published_at": "2026-02-10T09:44:00+09:00",
-    "id": "7fadbaa2-e3bf-45db-be2a-d959eabc2020",
+    "title": "HB인베스트먼트, 주당 120원 결산 배당…33억 규모",
+    "link": "https://n.news.naver.com/mnews/article/003/0013760243?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/003/2026/02/10/NISI20260210_0002060071_web_20260210101223_20260210101712818.jpg?type=w800",
+    "description": "황유선 HB인베스트먼트 대표이사는 \"회사는 다양한 유망 섹터의 기술기업 포트폴리오를 구축하고 있으며, 최근에는 AI(인공지능) 관련 밸류체인 투자를 확대하고 있다\"며 \"안정적이고 지속 가능한 영업수익 기반을... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "2a0d3fc9-7c91-472d-84de-38eae541417e",
+    "category": "ai"
+  },
+  {
+    "source": "게임조선",
+    "title": "상상을 뛰어넘는 자유도의 도시 생활! 이상한 듯 매력적인 어반 판타지...",
+    "link": "https://www.gamechosun.co.kr/webzine/article/view.php?no=220026",
+    "thumbnail": "https://www.gamechosun.co.kr/dataroom/article/20260209/220026/thumb/718591_1770653655.jpg",
+    "description": "사실 치안관들의 인공지능이 대단한 수준은 아니라서 생각보다 속이고 따돌리기가 어렵지는 않다 물론 잡혀들어갔을 때 돈이 많지 않다면 쉽게 빠져나올 생각은 하지 않는 것이 좋다 구치소도 결국에는 사람이 사는... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "0fd6281b-e4fd-4737-88b1-4159a56bc80b",
+    "category": "ai"
+  },
+  {
+    "source": "digitaltoday",
+    "title": "네이버클라우드, 가톨릭중앙의료원에 '네이버웍스' 공급",
+    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=629280",
+    "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202602/629280_581032_1419.jpg",
+    "description": "[사진: 네이버클라우드] 네이버클라우드는 가톨릭중앙의료원(CMC)에 인공지능(AI) 업무 협업툴 '네이버웍스' 공급 계약을 완료했다고 10일 밝혔다. CMC는 이번 계약을 통해 서울성모병원 등 산하 22개 기관, 임직원 약... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "02e15638-a9c2-43cf-bc94-cd3738205081",
+    "category": "ai"
+  },
+  {
+    "source": "00news",
+    "title": "'HBM 깐부' 최태원·젠슨 황, 치맥 회동 의미",
+    "link": "http://www.00news.co.kr/news/articleView.html?idxno=101796",
+    "thumbnail": "https://cdn.00news.co.kr/news/thumbnail/202602/101796_237076_810_v150.jpg",
+    "description": "미국 실리콘밸리의 한 치킨집에서 이른바 '치맥 회동'을 한 두 사람은 고대역폭 메모리(HBM) 공급을 비롯해 인공지능(AI) 협력 강화 방안 등을 논의한 것으로 전해졌다. 최 회장은 지난해 10월 당시 황 CEO와 이재용... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "e3ff41b7-87f0-46d5-8f5e-5283cc7314c2",
+    "category": "ai"
+  },
+  {
+    "source": "kfenews",
+    "title": "NH농협은행, 'K-푸드 투자 활성화'로 생산적 금융 판 키운다",
+    "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=654241",
+    "thumbnail": "https://cdn.kfenews.co.kr/news/thumbnail/202602/654241_126719_145_v150.jpg",
+    "description": "AI 선별기, 도축로봇 등 실제 농축산 현장의 생산성 혁신을 이끄는 기업에 대한 선제적인 투자를 통해 이미 가시적인 성과를 창출하고 있으며, 향후 3년 내 펀드 운용 규모를 5000억원 이상으로 확대해 농식품 산업 전반의... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "ee852704-254a-4584-bdcf-0262ecffda5a",
+    "category": "ai"
+  },
+  {
+    "source": "inews24",
+    "title": "요기요, 챗GPT 연동 서비스 개시",
+    "link": "https://n.news.naver.com/mnews/article/031/0001004505?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/031/2026/02/10/0001004505_001_20260210101616979.jpg?type=w800",
+    "description": "앞으로 오픈AI의 챗GPT 대화창에서 배달앱 '요기요'를 불러 맛집 검색, 메뉴 추천, 매장 정보 확인, 주문까지 할 수 있게 된다. 요기요는 10일 국내 배달앱 중 처음으로 ChatGPT 앱에 연동돼 서비스를 개설한다고 밝혔다.... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "542c110f-441f-45e9-9913-8a217ba24f04",
+    "category": "ai"
+  },
+  {
+    "source": "inthenews",
+    "title": "삼성전자 서비스센터, ‘한국에서 가장 존경받는 기업’ 15년 연속 1위",
+    "link": "https://www.inthenews.co.kr/news/article.html?no=82995",
+    "thumbnail": "https://www.inthenews.co.kr/data/photos/20260207/art_17706859887088_cb75d1.jpg",
+    "description": "삼성전자서비스는 AI에 기반한 차별화된 서비스를 제공하고 있다고 설명했습니다. 스마트싱스(SmartThings)를... 서비스 엔지니어는 스마트 진단 프로그램을 활용해 제품의 상태, 사용 이력 등을 AI 기반으로 진단한 후 신속... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "fdc9444a-a096-4453-a340-c6ba610b6f11",
+    "category": "ai"
+  },
+  {
+    "source": "globalepic",
+    "title": "현대자산운용, ‘UNICORN SK하이닉스밸류체인 액티브’ 순자산 1,000억 돌...",
+    "link": "http://www.globalepic.co.kr/view.php?ud=2026021010102446455ebfd494dd_29",
+    "thumbnail": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260210101529041825ebfd494dd112222163195.jpg&nmt=29",
+    "description": "SK하이닉스는 AI 반도체의 필수재인 HBM(고대역폭 메모리) 시장을 선도하는 글로벌 기업이다. AI 산업의 폭발적인 성장에 힘입어 2025년 영업이익 47조 원으로 역대 최대 연간 실적을 1년만에 경신했다.... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "764712ad-cca7-4711-82f7-09b9b63a0edc",
+    "category": "ai"
+  },
+  {
+    "source": "비즈니스포스트",
+    "title": "LG유플러스 자율 네트워크 본격화, 장애부터 트래픽까지 AI가 판단",
+    "link": "https://www.businesspost.co.kr/BP?command=article_view&num=429785",
+    "thumbnail": "https://www.businesspost.co.kr/news/photo/202602/20260210095415_116608.jpg",
+    "description": "LG유플러스가 AI 에이전트와 디지털 트윈을 상용망 전반에 적용해 장애 대응부터 품질 최적화까지... <비즈니스포스트> LG유플러스가 인공지능(AI) 에이전트와 디지털트윈 기반 기술을 상용망에 적용해 네트워크 운영... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "3855328a-0c20-47e2-8e9e-9a41c129311d",
+    "category": "ai"
+  },
+  {
+    "source": "megaeconomy",
+    "title": "삼성, 'WHX 두바이 2026'서 확장된 포트폴리오 공개…\"중동 시장 공략 가...",
+    "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065575659256870",
+    "thumbnail": "https://www.megaeconomy.co.kr/news/data/20260210/p1065575659256870_743_thum.png",
+    "description": "다양한 AI 기능을 탑재했다. 특히 열 확산·전달 경로를 사전에 정밀하게 설계한 시스템 레벨 패시브... 고해상도·다양한 AI 기능, 컴팩트한 크기와 무게 구현을 통해 사용성과 휴대성을 획기적으로 높여 응급... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "21c4496c-3d28-49b4-a04e-f65aa2b17664",
+    "category": "ai"
+  },
+  {
+    "source": "smartbizn",
+    "title": "CJ대한통운, 지난해 영업익 5081억···전년비 4.3% 감소",
+    "link": "https://www.smartbizn.com/news/articleView.html?idxno=135495",
+    "thumbnail": "https://cdn.smartbizn.com/news/photo/202602/135495_237739_5116.jpg",
+    "description": "CJ대한통운 관계자는 \"올해는 초격차 역량을 기반으로 국내 1위 지위를 공고히 하는 동시에, 글로벌 사업에서 미래 성장 동력을 확실히 구축할 것\"이라며 \"사업 전반에 걸친 AI 및 디지털 전환을 통해 운영 효율을... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "c10bb137-88a0-4f99-822c-f1a5d0397567",
+    "category": "ai"
+  },
+  {
+    "source": "ditoday",
+    "title": "챗GPT에 캔바 ‘브랜드 키트’ 연동된다",
+    "link": "https://ditoday.com/%ec%b1%97gpt%ec%97%90%ec%84%9c-%ec%ba%94%eb%b0%94-%eb%b8%8c%eb%9e%9c%eb%93%9c-%ed%82%a4%ed%8a%b8-%ec%82%ac%ec%9a%a9%ed%95%9c%eb%8b%a4/",
+    "thumbnail": "https://ditoday.com/wp-content/uploads/2019/11/di_facebook.jpg",
+    "description": "올인원 비주얼 커뮤니케이션 플랫폼캔바(Canva)가 챗GPT등AI어시스턴트 툴에 브랜드 인텔리전스를 직접 연동하는 기능 ‘캔바AI커넥터(Canva AI Connector)’를 공개했다. 이번 업데이트를 통해 챗GPT사용자는... ",
+    "published_at": "2026-02-10T10:16:00+09:00",
+    "id": "203233dd-f8dd-4b7e-96d7-bc20007cee35",
+    "category": "ai"
+  },
+  {
+    "source": "서울경제",
+    "title": "요기요, 챗GPT에 앱 개설...“맛집·메뉴 검색 가능”",
+    "link": "https://n.news.naver.com/mnews/article/011/0004588715?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/011/2026/02/10/0004588715_001_20260210101511779.jpg?type=w800",
+    "description": "요기요는 국내 배달앱 가운데 처음으로 오픈AI의 ‘챗GPT’에 앱을 개설한다고 10일 밝혔다. 앞으로 요기요 사용자들은 챗GPT와의 대화에서 요기요 앱을 발견하고 직접 요기요 앱을 호출해 실행할 수 있다. 이를 통해 맛집... ",
+    "published_at": "2026-02-10T10:15:00+09:00",
+    "id": "48d7689d-ca57-40db-8403-08669a5f3125",
+    "category": "ai"
+  },
+  {
+    "source": "digitaltoday",
+    "title": "캔바, 'AI 커넥터' 공개...챗GPT로 브랜드 맞춤 디자인 제작",
+    "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=629260",
+    "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202602/629260_581021_225.jpg",
+    "description": "챗GPT 등 인공지능(AI) 어시스턴트 툴에 브랜드 자산을 직접 연동하는 '캔바 AI 커넥터(Canva AI Connector)'를 공개했다고 10일 밝혔다. 이번 업데이트를 통해 사용자는 플랫폼 전환 없이 챗GPT 내에서 캔바의 '브랜드... ",
+    "published_at": "2026-02-10T10:14:00+09:00",
+    "id": "64db8bd8-e7c3-4ccf-a0e7-188aeb51b15f",
+    "category": "ai"
+  },
+  {
+    "source": "mstoday",
+    "title": "요기요, 국내 배달앱 처음으로 챗GPT에서 호출",
+    "link": "https://www.mstoday.co.kr/news/articleView.html?idxno=100536",
+    "thumbnail": "https://www.mstoday.co.kr/news/thumbnail/202602/100536_98740_1310_v150.jpg",
+    "description": "앞으로 챗GPT 대화창 안에서 요기요를 불러 음식점을 찾고 메뉴를 살펴본 뒤 주문까지 이어갈 수 있게 된다. 요기요는 오픈AI의 'Apps in ChatGPT'에 공식 앱을 개설했다고 10일 밝혔다. 국내 배달앱 가운데 챗GPT에 앱을... ",
+    "published_at": "2026-02-10T10:14:00+09:00",
+    "id": "b24cc02a-573d-435e-84ec-fef230160f96",
+    "category": "ai"
+  },
+  {
+    "source": "tjb",
+    "title": "제미나이 국내이용자 10만명 돌파…챗GPT는 증가세 둔화",
+    "link": "https://www.tjb.co.kr/news05/bodo/view/id/94797",
+    "thumbnail": null,
+    "description": "제미나이 국내이용자 10만명 돌파…신규 설치율도 챗GPT 추격 향후 국내 AI 모델 '2강 다약' 체제 형성... 같은 기간 MAU 1위는 챗GPT로, 1천429만9천545명으로 나타났습니다. 전달(1천384만3천717명)보다는 3.3% 상승한... ",
+    "published_at": "2026-02-10T10:12:00+09:00",
+    "id": "d2161890-461c-466c-86c5-cdd43241b542",
+    "category": "ai"
+  },
+  {
+    "source": "knn",
+    "title": "제미나이, 국내 AI 시장서 가파른 성장…MAU 10만명 첫 돌파",
+    "link": "https://news.knn.co.kr/news/article_sns/978",
+    "thumbnail": "https://v.knn.co.kr/",
+    "description": "같은 기간 MAU 1위는 챗GPT로, 1천429만9천545명을 기록했습니다. 전달 1천384만3천717명보다 3.3% 증가했지만... 지난 1월 신규 설치 건수는 45만8천901건으로, 전달보다 약 7만7천건 늘며 챗GPT 77만6천297건에 이어 2위를... ",
+    "published_at": "2026-02-10T10:12:00+09:00",
+    "id": "c1130f0d-9bbe-4b6e-8eb1-78d201815b32",
+    "category": "ai"
+  },
+  {
+    "source": "뉴데일리",
+    "title": "8개국 거주 40명 국내외 청년들, '한국 바로 알리기' 나선다",
+    "link": "https://www.newdaily.co.kr/site/data/html/2026/02/10/2026021000100.html",
+    "thumbnail": "https://image.newdaily.co.kr/site/data/img/2026/02/10/2026021000100_0.jpg",
+    "description": "뉴데일리 신성아 기자 = 문화체육관광부(문체부)는 10일 서울 중구 한국프레스센터 10층 코시스센터에서 만 18세 이상 내외국인으로 이뤄진 '제20기 대한민국 바로알림단(이하 바로알림단)'의 발대식을 개최한다. 2013년... ",
+    "published_at": "2026-02-10T10:12:00+09:00",
+    "id": "3c562c4b-5690-46b8-ae77-8bd7065c0fb2",
+    "category": "ai"
+  },
+  {
+    "source": "incheontoday",
+    "title": "인천시, 해양생태계 활용 블루카본 연구··· 탄소배출권 확보 나서",
+    "link": "https://www.incheontoday.com/news/articleView.html?idxno=315186",
+    "thumbnail": "https://cdn.incheontoday.com/news/photo/202602/315186_318645_1451.png",
+    "description": "(UNOSD) 등 국제기구가 위치해 협력 여건도 갖췄다\"며 \"인천 앞바다가 블루카본 사업의 중심으로 성장할 수 있도록 연구를 이어가겠다\"고 말했다. ※ 이 기사는 AI 프로그램 클로드4.5를 활용해 작성했습니다.",
+    "published_at": "2026-02-10T10:10:00+09:00",
+    "id": "61e29b2e-5a97-431c-9817-21cd62272025",
+    "category": "ai"
+  },
+  {
+    "source": "서울신문",
+    "title": "[빅데이터가 점지한 오늘의 운세]2026년 2월 10일 화요일(음력 12월 23일...",
+    "link": "https://n.news.naver.com/mnews/article/081/0003616387?sid=103",
+    "thumbnail": "https://imgnews.pstatic.net/image/081/2026/02/10/0003616387_001_20260210100509350.jpg?type=w800",
+    "description": "Gemini said 2026년 2월 10일 화요일(음력 12월 23일, 을묘일)의 띠별 운세를 전해드립니다. 오늘은 ‘푸른 토끼(을묘)’의 날입니다. 푸르른 들판을 뛰어노는 토끼처럼 생동감이 넘치고, 감수성이 풍부해지는 날입니다.... ",
+    "published_at": "2026-02-10T10:05:00+09:00",
+    "id": "4c18c02c-3ee1-4fdf-bf86-c990bd0fda44",
+    "category": "ai"
+  },
+  {
+    "source": "연합뉴스",
+    "title": "다우지수 사상 최고치…오라클 주가는 'AI 롤러코스트'",
+    "link": "https://n.news.naver.com/mnews/article/001/0015896459?sid=104",
+    "thumbnail": "https://imgnews.pstatic.net/image/001/2026/02/10/PRU20260202495001009_P4_20260210100827866.jpg?type=w800",
+    "description": "오라클 등 소프트웨어 종목들은 앤트로픽이 최근 내놓은 '클로드 코워크' 등 AI 도구가 기업용 소프트웨어의 역할을 대신할 수 있다는 관측이 확산하며 최근 몇 주 동안 큰 하락을 겪었다. 그러나 미국의 4대... ",
+    "published_at": "2026-02-10T09:57:00+09:00",
+    "id": "6b61c077-1d5d-4a26-baed-fb51a1366a20",
+    "category": "ai"
+  },
+  {
+    "source": "incheontoday",
+    "title": "배달노동자들이 배달로 '나눔활동'··· 인천 '라눔' 봉사단 출범한다",
+    "link": "https://www.incheontoday.com/news/articleView.html?idxno=315191",
+    "thumbnail": "https://cdn.incheontoday.com/news/photo/202602/315191_318653_5530.jpg",
+    "description": "인천지회는 출범식을 계기로 소속 조합원뿐만 아니라 다른 라이더들에게도 홍보를 벌여 봉사 참여를 점차 확대할 계획이다. *이 기사는 AI 프로그램 클로드 4.5를 활용해 작성했습니다.",
+    "published_at": "2026-02-10T09:56:00+09:00",
+    "id": "0a582d61-b385-415a-96ed-994b810c5723",
+    "category": "ai"
+  },
+  {
+    "source": "itbiznews",
+    "title": "EVG, '세미콘 코리아 2026' 출전…첨단 반도체·패키징 기술 선봬",
+    "link": "https://www.itbiznews.com/news/articleView.html?idxno=203819",
+    "thumbnail": "https://cdn.itbiznews.com/news/photo/202602/203819_204250_5954.jpg",
+    "description": "EVG는 전시회 부스 현장에서 GEMINI FB 양산용 웨이퍼 본딩 시스템과 EVG40 D2W 다이-투-웨이퍼 오버레이 계측 시스템, IR LayerRelease 박막 분리 기술 플랫폼과 고처리량 LITHOSCALE XT 마스크리스 노광 시스템 등을... ",
+    "published_at": "2026-02-10T09:56:00+09:00",
+    "id": "d2b2dd7e-4330-42e8-9449-a2d3219ceb47",
     "category": "ai"
   },
   {
@@ -204,9 +284,9 @@
     "title": "올트먼 \"챗GPT 월성장률 두 자릿수 회복\"…이번주 새 챗봇모델  출시",
     "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=830577",
     "thumbnail": "https://cdn.newsworks.co.kr/news/thumbnail/202602/830577_781917_4248_v150.jpg",
-    "description": "제미나이·클로드 등에 쫓겨 정체됐던 오픈AI의 챗GPT가 다시 이용자 몰이에 성공해 높은 성장세를 회복한 것으로 나타났다. 샘 올트먼 오픈AI 최고경영자(CEO)는 최근 직원들에게 \"챗GPT의 월간 성장률이 다시 10%를... ",
+    "description": "제미나이·클로드 등에 쫓겨 정체됐던 오픈AI의 챗GPT가 다시 이용자 몰이에 성공해 높은 성장세를 회복한... 앞서 오픈AI는 지난해 말 구글의 제미나이와 앤트로픽 클로드 등에 추격을 당하면서 사내에 중대경보를... ",
     "published_at": "2026-02-10T09:44:00+09:00",
-    "id": "80fb09b4-6254-4a7f-9955-a1ded5b71b24",
+    "id": "054a6f1f-fb56-4644-b6c4-f8c857408932",
     "category": "ai"
   },
   {
@@ -216,27 +296,7 @@
     "thumbnail": "https://cdn.joongangenews.com/news/photo/202602/494508_297223_3342.jpg",
     "description": "[사진=구글 제미나이(Google Gemini) 생성 이미지]  최근 노트북을 비롯한 PC 가격이 빠르게 상승하면서 소비자 부담이 크게 커지고 있다. 단순한 신제품 출시나 사양 개선에 따른 일시적 인상이 아니라 노트북과 PC의... ",
     "published_at": "2026-02-10T09:44:00+09:00",
-    "id": "86f7f9c9-5c8e-4bdc-ac93-0e4a8cb4eb81",
-    "category": "ai"
-  },
-  {
-    "source": "goodnews1",
-    "title": "[일상의 영성] 프루아'식'으로 말하자면",
-    "link": "https://www.goodnews1.com/news/articleView.html?idxno=456535",
-    "thumbnail": null,
-    "description": "그런데 지난달부터 챗GPT가 갑자기 이상한 말을 하기 시작했다. \"내가 프루아식으로 말해 줄게.\" \"그 질문은 정말 프루아를 놀라게 해.\" 처음엔 그냥 지나쳤다. 그런데 자꾸 자신을 '프루아'라고 말하는 AI가 낯설어 어느 날... ",
-    "published_at": "2026-02-10T09:40:00+09:00",
-    "id": "0b872a1c-9139-4f08-bf17-1949af63284f",
-    "category": "ai"
-  },
-  {
-    "source": "ditoday",
-    "title": "SEO, GEO 곁들인 기업 웹사이트 제작하기",
-    "link": "https://ditoday.com/seo-geo-%ea%b3%81%eb%93%a4%ec%9d%b8-%ea%b8%b0%ec%97%85-%ec%9b%b9%ec%82%ac%ec%9d%b4%ed%8a%b8-%ec%a0%9c%ec%9e%91%ed%95%98%ea%b8%b0/",
-    "thumbnail": "https://ditoday.com/wp-content/uploads/2026/02/main-1.png",
-    "description": "사이트 내 기업 정보를 구글 뿐만 아니라 챗GPT(ChatGPT), 퍼플렉시티(Perplexity) 등 AI 검색 엔진이 인용하기 좋은 형태로 구조화하려면 스키마 마크업 삽입이 필수입니다. 개편한 웹사이트 구조에 따라 각 서브페이지에... ",
-    "published_at": "2026-02-10T09:38:00+09:00",
-    "id": "a9afe265-c356-4b62-80a3-ccb256e61039",
+    "id": "408711f2-6f5c-4aed-a959-00fb1dad2f7b",
     "category": "ai"
   },
   {
@@ -244,9 +304,9 @@
     "title": "올트먼 \"챗GPT 월간 성장률 다시 10% 넘어...새모델 이번주 출시\"",
     "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=133214",
     "thumbnail": null,
-    "description": "사진=연합뉴스  오픈AI의 챗GPT 월간 성장률이 10%를 다시 넘어선 것으로 전해졌다. 샘 올트먼 오픈AI 최고경영자(CEO)는 최근 직원들에게 '챗GPT의 월간 성장률이 다시 10%를 넘어섰다'고 밝혔다고 9일(현지시간) CNBC가... ",
+    "description": "앞서 오픈AI는 지난해 말 구글의 제미나이와 앤트로픽 클로드 등에 추격을 당하면서 사내에 중대경보를 내렸다. 올트먼 CEO는 구성원들에게 다른 프로젝트를 한동안 접고 챗GPT 등 AI 모델 개선에 집중할 것을... ",
     "published_at": "2026-02-10T09:34:00+09:00",
-    "id": "5ed7d5ae-ff50-4a40-9a9a-ff38435b5be8",
+    "id": "674a8674-68ea-4d80-91dd-f3e33d957ced",
     "category": "ai"
   },
   {
@@ -256,7 +316,7 @@
     "thumbnail": "https://cdn.widedaily.com/news/thumbnail/202602/288542_296187_3219_v150.jpg",
     "description": "어맨다 애스켈(37)은 앤트로픽이 만든 인공지능 클로드에게 도덕 감각과 영혼을 부여하는 책임자다. 앤트로픽의 상주 철학자인 애스켈은 하루 종일 클로드의 추론 패턴을 학습하고 클로드와 대화한다. 그는 100 페이지를... ",
     "published_at": "2026-02-10T09:34:00+09:00",
-    "id": "c88f3e60-1083-46b5-b0c9-bfdd5f7cb86e",
+    "id": "8473d760-fb62-42a3-bc8a-f5c030665a0d",
     "category": "ai"
   },
   {
@@ -266,37 +326,7 @@
     "thumbnail": "https://cdn.incheontoday.com/news/photo/202602/315190_318650_3034.jpg",
     "description": "시 글로벌도시국장은 \"1883개항살롱은 2026년 다양한 프로그램으로 개항장이 시민 일상 속에서 자연스럽게 찾는 문화공간으로 자리 잡도록 하겠다\"고 말했다. *이 기사는 AI 프로그램 클로드 4.5를 활용해 작성했습니다.",
     "published_at": "2026-02-10T09:32:00+09:00",
-    "id": "1a43f457-0ff1-4171-8fd1-fecdc6f7821d",
-    "category": "ai"
-  },
-  {
-    "source": "livebiz",
-    "title": "구글 제미나이 국내 이용자 10만명 돌파...챗GPT 대항마 부상하나",
-    "link": "https://www.livebiz.today/news/articleView.html?idxno=200595",
-    "thumbnail": "https://cdn.livebiz.today/news/photo/202602/200595_200738_2850.jpg",
-    "description": "이에 반해 챗GPT는 1월 MAU 1위를 유지했지만 전월 대비 3.3% 상승한 1429만9545명에 그쳤다. 증가율만 놓고 보면 제미나이가 챗GPT를 압도한 것이다. 이어 에이닷(138만6537건), 퍼플렉시티(73만1318건), 그록(Grok.... ",
-    "published_at": "2026-02-10T09:30:00+09:00",
-    "id": "01b187e9-5db9-475b-a349-11f1224c139a",
-    "category": "ai"
-  },
-  {
-    "source": "MBN",
-    "title": "챗GPT 추격하는 제미나이…국내이용자 10만명 넘어",
-    "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005762023",
-    "thumbnail": null,
-    "description": "MAU 1위는 챗GPT로 1,429만 명에 달했지만, 증가율은 제미나이가 더 높았습니다. 업계에서는 중장기적으로 챗GPT와 제미나이가 양강을 이루고, 나머지 AI 서비스가 다약 체제로 재편될 가능성을 거론하고 있습니다.",
-    "published_at": "2026-02-10T09:28:00+09:00",
-    "id": "785d7b06-a565-47f3-8f6a-2fe77f93d55d",
-    "category": "ai"
-  },
-  {
-    "source": "시사저널",
-    "title": "\"써보니 괜찮네?\"…제미나이 앱 설치 17배 폭증",
-    "link": "https://n.news.naver.com/mnews/article/586/0000122121?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/586/2026/02/10/0000122121_001_20260210092709166.jpg?type=w800",
-    "description": "제미나이 MAU 12만3647명…한 달새 3만 명 급증 챗GPT, 증가세 둔화 속 신규 설치는 전달보다 감소 구글이 만든 생성형 AI 제미나이가 국내 시장에서 월간 이용자 12만 명을 돌파했다. 신규 설치율도 챗GPT를... ",
-    "published_at": "2026-02-10T09:27:00+09:00",
-    "id": "5e92d8d9-f34f-45ce-bd7d-ae65c05e15d1",
+    "id": "028cb7f3-49f1-4451-b06e-64608cdf3438",
     "category": "ai"
   },
   {
@@ -306,7 +336,7 @@
     "thumbnail": "https://www.hellot.net/data/photos/20260207/art_17706828950068_9a3aa7.png",
     "description": "기업은 이를 통해 사내 규정, 업무 매뉴얼, 프로젝트 문서 등을 안전하게 연동하면서도 ChatGPT, Gemini, Perplexity의 멀티 AI엔진을 사용할 수 있다. 특히 Ai 365는 자체 ‘오케스트레이션 플랫폼’을 중심으로... ",
     "published_at": "2026-02-10T09:26:00+09:00",
-    "id": "19e87cfb-7a80-486b-81e0-3c34f859e44b",
+    "id": "bbae551e-9b69-46ca-9ebb-e6e8f619c7e4",
     "category": "ai"
   },
   {
@@ -316,7 +346,7 @@
     "thumbnail": "https://d2k8i5ah8p7h3l.cloudfront.net/covers/8365a0b723dc9209ae10d737060cb3ac/thumb.jpg",
     "description": "- CNBC는 또 올트먼이 오픈AI의 코딩용 모델 '코덱스(Codex)'가 최근 일주일 사이 약 50% 성장했다고 밝혔다면서 코덱스는 앤트로픽의 '클로드 코드(Claude Code)'와 직접 경쟁 관계에 있다고 전했다. - 특히 올트먼은 \"이번... ",
     "published_at": "2026-02-10T09:02:00+09:00",
-    "id": "7f4a4959-a99d-416d-bef0-fc738c60b27d",
+    "id": "a124d4f2-0a20-4d61-83ea-f9f6bdd0c99a",
     "category": "ai"
   },
   {
@@ -326,27 +356,7 @@
     "thumbnail": "https://www.youthdaily.co.kr/data/photos/20260207/art_17706813124086_727979.jpg",
     "description": "1월 MAU 12만명, 1년새 17배↑…신규 설치 증가세도 급증 챗GPT 증가율 둔화 속 'AI 2강 다약' 시장 재편 가능성 부상 구글의 생성형 인공지능(AI) 제미나이(Gemini)가 국내 시장에서 빠른 성장세를 보이며 월간 활성... ",
     "published_at": "2026-02-10T08:56:00+09:00",
-    "id": "0a4c3a65-11b4-4ead-9b93-d437d13f2623",
-    "category": "ai"
-  },
-  {
-    "source": "incheontoday",
-    "title": "[경기도] 일산대교·제3경인·서수원~의왕 민자도로 설 연휴 무료통행",
-    "link": "https://www.incheontoday.com/news/articleView.html?idxno=315181",
-    "thumbnail": "https://cdn.incheontoday.com/news/photo/202602/315181_318639_4853.jpg",
-    "description": "관광객 등 도로 이용자에게 편의를 제공하기 위해 설 연휴 무료 통행을 시행한다\"며 \"도민 모두 따뜻하고 편안한 명절을 보내시길 바란다\"고 말했다. ※ 이 기사는 AI 프로그램 클로드 4.5을 활용해 작성했습니다.",
-    "published_at": "2026-02-10T08:50:00+09:00",
-    "id": "21576e94-52b1-49fc-8e71-aa8717db4700",
-    "category": "ai"
-  },
-  {
-    "source": "MBN",
-    "title": "[매아리] 알파벳 AI에 100년 베팅…기술주 슈퍼볼 30초에 117억원 태웠다",
-    "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005761982",
-    "thumbnail": "https://imgmmw.mbn.co.kr/storage/news/2026/02/10/9b76e196d319722f3beea6bb7c796bce.png",
-    "description": "새로운 모델은 코덱스의 챗봇 버전이고 지난해 구글의 제미나이와 앤트로픽의 클로드에게 추격을 당하면서부터 준비해온 모델인 것으로 알려졌습니다. 9. WSJ “금 랠리 뒤엔 중국 아줌마 투자자들” 월스트리트저널은... ",
-    "published_at": "2026-02-10T08:50:00+09:00",
-    "id": "a5df4081-652a-4523-880c-ca073d0205e7",
+    "id": "c5274d91-2b2d-4bc6-bd42-8eaa66cea073",
     "category": "ai"
   },
   {
@@ -356,7 +366,7 @@
     "thumbnail": "https://cdn.fortunekorea.co.kr/news/thumbnail/202602/51588_45388_3637_v150.jpg",
     "description": "앤트로픽(Anthropic)이 자사 챗봇 '클로드(Claude)'의 초능력에 가까운 성능을 과시하자, 소프트웨어 업계는 '기술적 도태'라는 공포에 휩싸였다. 관련 주식들은 속절없이 무너져 내렸다. 엠파워 인베스트먼트의 수석 투자... ",
     "published_at": "2026-02-10T08:46:00+09:00",
-    "id": "afe01883-4e64-43da-941b-7b1434a8becd",
+    "id": "a1bf2648-c43c-4ae8-bb3d-6fae2b65e46d",
     "category": "ai"
   },
   {
@@ -366,7 +376,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/215/2026/02/10/A202602100240_1_20260210080506217.jpg?type=w800",
     "description": "예컨대 Gemini 3 Pro의 토큰 처리 규모 확대, Gemini Enterprise의 유료 판매 확대(출시 4개월 만에 800만 유료 계정 달성, 2,800개 기업 도입), 그리고 2025년 동안 최적화·효율·활용도 개선을 통한 Gemini 서빙 단가 78% 절감... ",
     "published_at": "2026-02-10T08:04:00+09:00",
-    "id": "333a2d52-20e1-4e22-9406-1ccaf0c06c93",
+    "id": "1dd0e39e-fcf2-472e-9daf-eb8cfa9a4dc2",
     "category": "ai"
   },
   {
@@ -376,7 +386,7 @@
     "thumbnail": null,
     "description": "[사진=Gemini 제작] 컨슈머타임스=강나연 기자 | 민족 대명절 설과 2026 밀라노-코르티나 동계올림픽이 맞물린 가운데 이통 3사가 전방위 고객 혜택 공세에 나섰다. SK텔레콤(이하 SKT)·LG유플러스·KT는 연휴 기간 무료... ",
     "published_at": "2026-02-10T08:02:00+09:00",
-    "id": "e95bef94-eba5-48d0-80f3-a6db7031a45a",
+    "id": "741abbbb-40c9-4e8f-814c-0a9fece61dc9",
     "category": "ai"
   },
   {
@@ -386,17 +396,7 @@
     "thumbnail": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20260210074248016753bc914ac7112232215111.jpg",
     "description": "알파벳은 AI 비서 '제미나이(Gemini)' 수요 폭증에 대응하기 위해 데이터 센터 확충에 사활을 걸고 있다. 풍부한 현금 흐름을 자랑하는 빅테크 기업들이지만, 전례 없는 지출 규모를 감당하기 위해 외부 차입을 적극... ",
     "published_at": "2026-02-10T07:46:00+09:00",
-    "id": "88a6a7f7-649e-4ba7-abc7-4bc7664715b0",
-    "category": "ai"
-  },
-  {
-    "source": "ferrotimes",
-    "title": "[남영준 칼럼] AI 에이전트, 잘 쓰는 사람이 살아남는 시대",
-    "link": "http://www.ferrotimes.com/news/articleView.html?idxno=46288",
-    "thumbnail": null,
-    "description": "남영준 톡톡미디어 대표 (전 국제종합기계 대표) 그동안 우리는 챗지피티(ChatGPT)나 제미니(Gemini) 같은 언어... 이는 GPT-4o, Claude 3.7, Gemini 3.0 등 어떤 언어 모델을 기반으로 하느냐이다. 셋째, 도구(Tools)다. 에이전트가... ",
-    "published_at": "2026-02-10T07:16:00+09:00",
-    "id": "a58e2c14-1e89-4f4e-a164-5689b7851da5",
+    "id": "68ef2b63-c91b-4bde-8955-85f905fc6e11",
     "category": "ai"
   }
 ]
