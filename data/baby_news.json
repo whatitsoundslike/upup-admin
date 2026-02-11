@@ -1,22 +1,12 @@
 [
   {
-    "source": "MSN",
-    "title": "서울시 '손주돌봄수당' 확대 추진…\"육아정책 중 만족도 1위\"",
-    "link": "https://news.google.com/rss/articles/CBMihwRBVV95cUxQM1pFYjNCLVFSSkM3NGpiaGdDMWtmQUZpX19VU1Z2QXRwUlRjd0ZrWnBZbjZmUlpiOEhoaFdpUTZ2UlV2TlI0UnhIU0RRSld6YVJpUWpWSXY4ZkVkWkVRdzlTWVJjeng0a1ltcTJQZEhfMG5hT3BhdVhpRk9tMnNLclQ1S1E2TjZDLUJTejBBZkEtSVFkdEkzQm5wbVFST1M3b2lKaTdSc05BelR3LUZQUnNzV2VMaEZQNHRKcmU2ZDA0Wm9Id2t5VFJSSnlpTHljX1RtbzdtY1BJM3pxRDJrd2Eyd0N3Z1FGbmlERUk2Z0J0Y0ZGRExMYkhJUHhkaEMxbkJDbHJQNUJiSndnNi1SRUlIbmZMeVlBWWxjTG1jenZPdnAtckVPVFEtSkdxLVZTNDFuSzBrZkdieTNnSG9GaTB1LXdHTlZsY0dXTEtaV0NkLTVXelc1S01ONTRJZHBDZkdmc3Rma0VuU2xHcFVwVkZKaWZsXzFtU0RTc0RtTFY1NkgzM3FWSmJpalIydWl0QS15SXJhZDNrYWxSQVlBckFiUTlCQW5QMUtJcDVsWVNrMjRTYmNYdzVLYzktTEZvTHFpMG94SGpPZEo5SzRULWdmVXJOOUdYeWt4cTJtMG9RakVwMGZMMi1rVHhFWlFtQklQdHJXckJrWm1SRkVCNm5BeXN3NUU?oc=5",
-    "thumbnail": "",
-    "description": "서울시 '손주돌봄수당' 확대 추진…\"육아정책 중 만족도 1위\"&nbsp;&nbsp;MSN",
-    "published_at": "2026-02-07T21:11:26+00:00",
-    "id": "6d10c500-9dcf-42b1-bbc2-883ba106a8e5",
-    "category": "baby"
-  },
-  {
     "source": "geconomy",
     "title": "‘아이 낳으면 성인까지 책임진다’…충남, ‘풀케어 돌봄정책 플러스...",
     "link": "https://www.geconomy.co.kr/news/article.html?no=315628",
     "thumbnail": "https://www.geconomy.co.kr/data/photos/20260207/art_17706969336337_342f53.jpg",
     "description": "한편 충남도는 2024년부터 풀케어 돌봄정책을 추진하며 365일 24시간 어린이집 운영, 가족돌봄수당 도입, 외국인 자녀 보육료 지원, 주 4일 출근제 시행 등 돌봄 체계를 전환해 왔고, 그 결과 지난해 3분기 합계출산율은... ",
     "published_at": "2026-02-10T17:00:00+09:00",
-    "id": "057b3daf-3d3a-4652-a06d-0ccdfc9227f8",
+    "id": "85b03a35-98ee-42ee-b0ac-1cb5e6814a5a",
     "category": "baby"
   },
   {
@@ -26,7 +16,7 @@
     "thumbnail": "http://www.cfnews.kr/data/news/202602/news_1770683131.1.jpg",
     "description": "먼저, 영유아 급·간식비 지원사업은 기존 보육료에 포함된 급·간식비와 별도로 아동 1인당 1일 400원을 추가 지원 해 보다 질 높은 먹거리를 제공할 예정이다. 보육 교직원 장기근속 수당은 기존 보육교사에게만 지급하던... ",
     "published_at": "2026-02-10T17:26:00+09:00",
-    "id": "6cffefa6-bc34-4ce8-9e00-c9e659495666",
+    "id": "aeadce5a-c7c6-4bc9-9ebd-9cbe2caf4ed3",
     "category": "baby"
   },
   {
@@ -36,7 +26,17 @@
     "thumbnail": "https://cdn.gukjenews.com/news/thumbnail/202602/3503523_3649795_2543_v150.jpg",
     "description": "한편 도는 2024년부터 풀케어 돌봄정책을 추진해 365일 24시간 어린이집·아동돌봄거점센터 운영, 가족돌봄수당 도입, 외국인 자녀 보육료 지원, 주 4일 출근제 시행 등 보육·돌봄 체계를 획기적으로 전환해 왔으며, 이러한... ",
     "published_at": "2026-02-10T20:30:00+09:00",
-    "id": "961730b6-6d6d-42e5-9d00-59314a4c421e",
+    "id": "9ad7622d-aeeb-4fb4-a172-8d9510060f45",
+    "category": "baby"
+  },
+  {
+    "source": "newstown",
+    "title": "충청남도, 힘쎈충남 풀케어 돌봄정책 플러스 추진",
+    "link": "http://www.newstown.co.kr/news/articleView.html?idxno=693807",
+    "thumbnail": null,
+    "description": "한편 도는 2024년부터 풀케어 돌봄정책을 추진해 365일 24시간 어린이집·아동돌봄거점센터 운영, 가족돌봄수당 도입, 외국인 자녀 보육료 지원, 주 4일 출근제 시행 등 보육·돌봄 체계를 획기적으로 전환해 왔으며, 이러한... ",
+    "published_at": "2026-02-10T22:08:00+09:00",
+    "id": "572e5b95-59c0-457b-8b11-49f8baf06226",
     "category": "baby"
   },
   {
@@ -46,67 +46,107 @@
     "thumbnail": "https://imgnews.pstatic.net/image/087/2026/02/11/0001173663_001_20260211001239110.jpg?type=w800",
     "description": "먼저 영유아 급·간식비 지원사업은 기존 보육료에 포함된 급·간식비와 별도로 아동 1인당 1일 400원을 추가 지원해 보다 질 높은 급식 제공이 가능하도록 할 예정이다. 보육교직원 장기근속 수당은 기존 보육교사에게만... ",
     "published_at": "2026-02-11T00:12:00+09:00",
-    "id": "bbe87f6d-9cc6-4abd-a019-25096061740b",
+    "id": "ec814d5b-6293-4945-845c-ac99262b6fa3",
     "category": "baby"
   },
   {
-    "source": "프레시안",
-    "title": "\"한 명의 시민도 소외되지 않도록\"…정읍시, 민생회복지원금 신청 마감...",
-    "link": "https://n.news.naver.com/mnews/article/002/0002427523?sid=102",
-    "thumbnail": "https://imgnews.pstatic.net/image/002/2026/02/11/0002427523_001_20260211110212961.jpg?type=w800",
-    "description": "특히, 인구 정책의 일환으로 지급 기준일 이후 태어나 연장 신청 마감일인 27일까지 출생신고를 마친 신생아도 지원 대상에 새롭게 포함됐다. 단, 지급 기준일 이후 사망자나 타 시군 전출자, 주민등록 말소자는... ",
-    "published_at": "2026-02-11T11:02:00+09:00",
-    "id": "6e50ac12-92bf-4762-9fc6-d38607a8aa1c",
+    "source": "데일리안",
+    "title": "노동부, 일·생활 균형 우수 사례집 발간…“워라밸이 기업 경쟁력”",
+    "link": "https://n.news.naver.com/mnews/article/119/0003058770?sid=102",
+    "thumbnail": "https://imgnews.pstatic.net/image/119/2026/02/11/0003058770_001_20260211133911457.jpeg?type=w800",
+    "description": "사례집에 소개된 한 제조업체 ‘파크시스템스’는 직장어린이집 운영과 육아휴직자 대체인력 채용을 통해... 조정숙 노동부 고용지원정책관은 “일과 생활의 균형은 일터를 행복한 공간으로 만들고 기업이 성장할 수... ",
+    "published_at": "2026-02-11T13:39:00+09:00",
+    "id": "ae20f81b-f8b9-4fce-8fbf-c9f01c9a35aa",
     "category": "baby"
   },
   {
-    "source": "job-post",
-    "title": "충남도, '힘쎈충남 풀케어 돌봄정책 플러스' 추진…저출생 대응 강화",
-    "link": "https://www.job-post.co.kr/news/articleView.html?idxno=207014",
-    "thumbnail": "https://cdn.job-post.co.kr/news/photo/202602/207014_307412_5041.jpg",
-    "description": "대한 지원금도 상향한다. 이와 함께 주 4일 출근제와 4시 퇴근제를 결합한 출산·육아 근무제 활성화, 임산부·영유아 동반 우선 이용 확대, '웰컴키즈존' 지정 등을 통해 육아 친화 문화 확산에 나선다. 김 국장은 \"아이를... ",
-    "published_at": "2026-02-11T11:28:00+09:00",
-    "id": "d61f5022-0f96-4d8e-af2e-ae79c967c322",
+    "source": "siminilbo",
+    "title": "파주시, 모든 ‘육아 아빠’에 휴직 장려금",
+    "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160283098245668",
+    "thumbnail": "http://www.siminilbo.co.kr/images/oglogo.jpg",
+    "description": "육아휴직 급여 수급자로 1개월 이상 휴직자(6+6 부모육아휴직 특례자는 특례기간외 지원) 등으로 월 30만원씩 3개월간(1인당 최대 90만원) 지원된다. 신청은 오는 3월부터 ‘정부24’를 통해 온라인으로 하면 된다. 단... ",
+    "published_at": "2026-02-11T13:58:00+09:00",
+    "id": "ea6bed58-1808-419a-a3c2-081e71833c29",
     "category": "baby"
   },
   {
-    "source": "discoverynews",
-    "title": "오후석 전 경기도 행정2부지사, 하남시장 출마 선언",
-    "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1085021",
-    "thumbnail": "https://cdn.discoverynews.kr/news/thumbnail/202602/1085021_1125174_1148_v150.jpg",
-    "description": "원도심 재개발 촉진과 생활 밀착형 주거환경 개선, 통합돌봄 원스톱 지원체계 구축과 함께 아빠 육아휴직 장려금 확대도 공약에 포함됐다. 오 전 부지사는 \"하남은 더 이상 서울의 주변 도시가 아니다\"며 \"행정 경험을... ",
-    "published_at": "2026-02-11T11:32:00+09:00",
-    "id": "19eefcc6-854a-4e27-9597-ff4417e80da8",
+    "source": "한국일보",
+    "title": "지역소멸 위기에… 강원 소도시 보육지원 대폭 확대",
+    "link": "https://n.news.naver.com/mnews/article/469/0000914055?sid=102",
+    "thumbnail": "https://imgnews.pstatic.net/image/469/2026/02/11/0000914055_001_20260211140117117.jpeg?type=w800",
+    "description": "군 관계자는 \"기존 보육료에 포함된 급·간식비와 별도로 아동 1인당 하루 400원을 추가 지원해 보다 맛 좋은 식사가 가능하도록 하겠다\"고 말했다. 보육교직원 장기근속 수당은 기존 보육교사에게만 지급되던 수당을... ",
+    "published_at": "2026-02-11T14:01:00+09:00",
+    "id": "c4abfc02-2f8d-428e-b114-c9ae0ab6a037",
     "category": "baby"
   },
   {
-    "source": "newscj",
-    "title": "정읍시, 민생회복지원금 신청 오는 27일까지 연장",
-    "link": "https://www.newscj.com/news/articleView.html?idxno=3374165",
-    "thumbnail": "https://cdn.newscj.com/news/thumbnail/202602/3374165_3463419_855_v150.jpg",
-    "description": "연장 기간에는 지급 기준일 이후 출생한 신생아도 지원 대상에 포함돼 지원 범위가 확대됐다. 이번 조치는 장기 출장이나 입원 치료 등 불가피한 사유로 당초 신청 기한인 13일까지 접수하지 못한 시민들에게 추가 기회를... ",
-    "published_at": "2026-02-11T12:12:00+09:00",
-    "id": "b8853c65-3093-487e-98e9-c34538d0a35d",
+    "source": "오마이뉴스",
+    "title": "'하남시장 출마' 오후석 \"시설 중심 아닌 시민 생활 중심 행정으로\"",
+    "link": "https://n.news.naver.com/mnews/article/047/0002504645?sid=100",
+    "thumbnail": "https://imgnews.pstatic.net/image/047/2026/02/11/0002504645_001_20260211144609384.jpg?type=w800",
+    "description": "원도심 재개발 촉진, 생활 밀착형 도시 개선 사업, 통합돌봄 원스톱 지원센터 구축과 함께 아빠 육아휴직 장려금을 12개월로 확대하겠다고 밝혔다. 오 후보는 \"시장이 혼자 이끄는 행정이 아니라 1000명의 공무원이 모두... ",
+    "published_at": "2026-02-11T14:46:00+09:00",
+    "id": "db0c754f-8e30-4c94-b10c-b04a3b27e296",
     "category": "baby"
   },
   {
-    "source": "MBC 강원영동",
-    "title": "\"버스 무료 이용, 다자녀 혜택 확대\"... 태백시, 주요 복지 제도 강화 > 뉴스데스크",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4ybEVNS0VHcDRBZmdhdEF2Tng3OVRzamVDQk5KQnNxWGg0YkZtdGhBT0l0YVJteVdEV2RqLW03VklqenZyblI5bEtpWQ?oc=5",
+    "source": "knnews",
+    "title": "밀양시 ‘생애주기별 맞춤 보건사업’ 추진",
+    "link": "https://www.knnews.co.kr/news/articleView.php?idxno=1481927",
+    "thumbnail": "https://cdn.knnews.co.kr/edb/thumbnail/2026/02/1481927_520_images.jpg",
+    "description": "◇공공산후조리원 운영·출산지원금 확대= 밀양 공공산후조리원은 2022년 6월 내이동에 건립된 공공 산후조리시설로, 전문 인력을 통한 산모 건강관리, 신생아 돌봄, 모유수유 교육 등을 제공하고 있다. 기초생활수급자... ",
+    "published_at": "2026-02-11T15:26:00+09:00",
+    "id": "73b63256-32a9-4a56-96b4-e0a6c61bea9e",
+    "category": "baby"
+  },
+  {
+    "source": "ibabynews",
+    "title": "유치원·초교 방학 때 '1∼2주 단기 육아휴직' 허용",
+    "link": "https://www.ibabynews.com/news/articleView.html?idxno=148639",
+    "thumbnail": null,
+    "description": "유치원과 초등학교의 휴원·방학 기간에도 부모가 짧게 육아휴직을 사용할 수 있도록 하는 법안이 10일 국무회의를 통과했다. ⓒ베이비뉴스 유치원과 초등학교의 휴원·방학 기간에도 부모가 짧게 육아휴직을 사용할 수... ",
+    "published_at": "2026-02-11T15:38:00+09:00",
+    "id": "714d68fa-fc6d-46b0-a007-fcf0ecdd1eea",
+    "category": "baby"
+  },
+  {
+    "source": "머니투데이",
+    "title": "'재판소원법' 여야 충돌에 민생법안 '올스톱?'…12일 본회의 불투명",
+    "link": "https://n.news.naver.com/mnews/article/008/0005317251?sid=100",
+    "thumbnail": "https://imgnews.pstatic.net/image/008/2026/02/11/0005317251_001_20260211154112708.jpg?type=w800",
+    "description": "△아동수당 지급액을 상향 조정하는 '아동수당법' △국무총리 산하 배상심의위원회 설치를 골자로 한 '가습기살균제 피해구제 특별법' △아빠 출산휴가를 임신 중에도 사용할 수 있게 하는 '남녀고용평등법' 개정안 등이... ",
+    "published_at": "2026-02-11T15:40:00+09:00",
+    "id": "52b248da-ff52-45ca-8d31-86a973939ebe",
+    "category": "baby"
+  },
+  {
+    "source": "국제뉴스",
+    "title": "오후석 전 행정부지사, 하남시장 출마 선언 ... \"오후석이 합니다\"",
+    "link": "https://www.gukjenews.com/news/articleView.html?idxno=3504293",
+    "thumbnail": "https://cdn.gukjenews.com/news/thumbnail/202602/3504293_3650680_3343_v150.jpg",
+    "description": "이재명 대통령과 김동연 경기도지사 재임 시절 핵심 실무를 담당하며 중앙과 지방을 연결하는 정책 조정... 원도심 재개발 촉진, 생활 밀착형 도시 개선 사업, 통합돌봄 원스톱 지원센터 구축과 함께 아빠 육아휴직... ",
+    "published_at": "2026-02-11T15:42:00+09:00",
+    "id": "44c92907-ca64-4079-a678-3c6df07bde33",
+    "category": "baby"
+  },
+  {
+    "source": "kizmom",
+    "title": "육아휴직·재택근무 확대했더니…기업 경쟁력까지 높아졌다",
+    "link": "https://www.kizmom.com/news/articleView.html?idxno=107662",
+    "thumbnail": "https://cdn.kizmom.com/news/photo/202602/107662_60007056_5312.png",
+    "description": "제조업체 파크시스템스는 직장어린이집 운영과 육아휴직 대체인력 채용을 병행하며 주 평균 노동시간을 38시간 수준으로 유지하고 있다. 그 결과 육아휴직 복귀자 90% 이상이 근속하고 있으며 조직 내 일·생활 균형... ",
+    "published_at": "2026-02-11T15:55:00+09:00",
+    "id": "e9539156-0591-4d58-91db-1ace1ac5b19a",
+    "category": "baby"
+  },
+  {
+    "source": "온양신문",
+    "title": "영유아 보육료 전액 지원 확대",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95aEo1Tm5QSm9MNGVKdWhKb3ZPSm85Q2twN09vSzUwV3BlQlVyZ19ENkNmS1RlSGtxQU4xMnk3YjRURlBCdV9JNDdUbXUtUGhmMHNlaks5US1GeEQ4d0g4Z1plRHhRTUtUbzlieUtiRXFDT2FZU1E?oc=5",
     "thumbnail": "",
-    "description": "\"버스 무료 이용, 다자녀 혜택 확대\"... 태백시, 주요 복지 제도 강화 > 뉴스데스크&nbsp;&nbsp;MBC 강원영동",
-    "published_at": "2026-02-06T04:45:00+00:00",
-    "id": "a2170a24-25fc-4e0e-bb46-d7b24a2c5538",
-    "category": "baby"
-  },
-  {
-    "source": "브릿지경제",
-    "title": "울산 민간·가정 어린이집 보육료 3만원 인상 결정",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GaElpNjFBaHptb1lsZHFlejlnQW1yaXZWRk5lNVAxQV85SEQ2UHVTOWw1LWdvOFZ1LTJ0WHZUMDdkdDE3amNZYTE5TkhvOVNsRExiSENVaFFSUQ?oc=5",
-    "thumbnail": "",
-    "description": "울산 민간·가정 어린이집 보육료 3만원 인상 결정&nbsp;&nbsp;브릿지경제",
-    "published_at": "2026-02-06T06:54:00+00:00",
-    "id": "ed67c3d1-c200-4b3a-981b-1b552c92c59e",
+    "description": "영유아 보육료 전액 지원 확대&nbsp;&nbsp;온양신문",
+    "published_at": "2026-02-07T10:43:31+00:00",
+    "id": "348dc3be-d8b4-4f8b-a037-8ee298a871b6",
     "category": "baby"
   },
   {
@@ -116,7 +156,7 @@
     "thumbnail": "",
     "description": "[속보] 당정청 \"2월 임시국회 우선통과법안 129건 선정…아동수당법·필수의료법 등 속도\"&nbsp;&nbsp;네이트",
     "published_at": "2026-02-08T09:58:00+00:00",
-    "id": "fb2e91ed-344d-453a-92b5-02904568bbfe",
+    "id": "3bb0d313-c76c-4867-afed-e3e4a2d80f36",
     "category": "baby"
   },
   {
@@ -126,7 +166,7 @@
     "thumbnail": "",
     "description": "정부, “육아휴직 2주 단기 사용 가능” 의결…방학 돌봄 공백 채운다&nbsp;&nbsp;산경투데이",
     "published_at": "2026-02-10T04:52:42+00:00",
-    "id": "1ed28162-1832-403b-90b1-adc6bb52744f",
+    "id": "359d60b8-70fe-4526-991a-89bdcc602bb4",
     "category": "baby"
   },
   {
@@ -136,7 +176,7 @@
     "thumbnail": "",
     "description": "서영교 의원, 인구정책기본법 및 아동수당법 관련 기자회견&nbsp;&nbsp;네이트",
     "published_at": "2026-02-10T05:22:00+00:00",
-    "id": "0db9fd6f-8cee-46db-a173-9e3792be448a",
+    "id": "98f1cbf9-a0c5-4c71-aef3-2c738499f92b",
     "category": "baby"
   },
   {
@@ -146,37 +186,17 @@
     "thumbnail": "",
     "description": "충남도, 임신·출산·육아친화문화 확산까지…돌봄정책 ‘공공 책임 강화’&nbsp;&nbsp;충청신문",
     "published_at": "2026-02-10T08:04:46+00:00",
-    "id": "baa4c297-893c-404a-a167-93d44e426579",
+    "id": "6e431ef3-52d5-4a59-824e-19a25b608201",
     "category": "baby"
   },
   {
-    "source": "충청메시지",
-    "title": "‘풀케어 돌봄정책 플러스’ 추진",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaR3l5MVE0N2dwajBKTUdyX3FTVklSdzB1d25ENE1ORFBkaXBKa05BUUd1emFmWVNKT3pJbFFHaW1sdGc1WktNLTZlZ3NNYXZtdUpFMnF4bXhKbTdTQjBsNkI0RkE3Q01LM0pr?oc=5",
+    "source": "뉴스충청인",
+    "title": "당진시의회 한상화 의원, 외국인 아동 보육료 차액 지원 확대 촉구",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FZXJvTDdXNVRoZ0RYODEwZ0cxaWx3OHZ2OGdxWno5b2x0eGdVQ0tCclNOb1czbmRlRFVmVkhDTmFJaTRNa2c?oc=5",
     "thumbnail": "",
-    "description": "‘풀케어 돌봄정책 플러스’ 추진&nbsp;&nbsp;충청메시지",
-    "published_at": "2026-02-10T12:55:29+00:00",
-    "id": "67f4992f-2185-4860-8e00-8b1844e9d61b",
-    "category": "baby"
-  },
-  {
-    "source": "tfmedia",
-    "title": "[국무회의] 이 대통령 ‘산재와의 전쟁, 지지부진한 입법’…與 ‘상황...",
-    "link": "https://www.tfmedia.co.kr/news/article.html?no=201382",
-    "thumbnail": "https://www.tfmedia.co.kr/data/photos/20260207/art_17707153961084_cf65d4.png",
-    "description": "이에 더불어민주당도 이날 ‘민생경제 입법 추진 상황실’을 설치하고, 전세사기 피해를 당한 분들, 아동수당 관련 법안 등 129건 민생법안 추진을 약속했다. 한병도 민주당 원내대표는 “과거 국회가 정쟁에 막혀서... ",
-    "published_at": "2026-02-10T18:26:00+09:00",
-    "id": "f774b69b-8ce1-4d93-93cd-5de4fef58b18",
-    "category": "baby"
-  },
-  {
-    "source": "MSN",
-    "title": "전북도, 외국인 자녀 보육료 지원 전 시군 확대",
-    "link": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxPbUZlVTVrVi1yVXZWYmYtVEoyUXBEeERLVXNCS3ROREJoV2tBLTJaa050RWZjTnVMdUJSaHRWY1BabS1MbDE0Qmk3dUlZQVRGdDg1eWg5V3BHTW9hWmUyX05tdXg4bWpqZEJDeDQ3SGFWZi1KNExLbWxEZnk3TnVob1hPSHdiR0NGcUVyZkpxazlQQVBiNVg0U21Qc2Z0RThkdTFJVl9jckt4WGpLR0FxNWE5azFoUjhkYWJsYkkyemNMLThFOGozX2ktWTlaX1AtSTNTRFVPMmlDc0MwOWlNMDlfcGZxNndXSXcxbHRXLTBKVTlkSGFINVpYbGMzdURRSlpubGVKQUVYTXhmcXZPVjJ4bjZ4c3lNSFFubVBnNWdSV2RnRHU4NnVpdVVfZWNHZEh4LWgtbUpWejdvR1NSeWFtQ1NnUS1leE5YWkM2bFY4MEJ3QXBWbWp1TnlRWnBHYXZ4VTl6NkdydFZBUkVpNFd3bmp0OGRCcGVIQ1p4ZzVnWHlVVUx6NTlRdnhKalE1bDdCd1djWFQyeFlzSF9UeFdrUDVYUXhoUllSdnBGM3A4b1QyZlh3cGV1emdiR2U2cS1qalZTTm1RR1lhcDBIUGNGaGQ?oc=5",
-    "thumbnail": "",
-    "description": "전북도, 외국인 자녀 보육료 지원 전 시군 확대&nbsp;&nbsp;MSN",
-    "published_at": "2026-02-10T19:17:26+00:00",
-    "id": "29eb0a2a-b22f-44da-b51d-54af5810f396",
+    "description": "당진시의회 한상화 의원, 외국인 아동 보육료 차액 지원 확대 촉구&nbsp;&nbsp;뉴스충청인",
+    "published_at": "2026-02-10T08:20:02+00:00",
+    "id": "96c8640e-ab5d-4b68-bcf1-ff83a3e82553",
     "category": "baby"
   },
   {
@@ -186,17 +206,17 @@
     "thumbnail": "https://image.newdaily.co.kr/site/data/img/2026/02/10/2026021000457_0.jpeg",
     "description": "먼저 영유아 급·간식비 지원사업은 기존 보육료에 포함된 급·간식비와 별도로 아동 1인당 1일 400원을 추가 지원해 보다 질 높은 먹거리를 제공할 예정이다. 보육교직원 장기근속 수당은 기존 보육교사에게만 지급하던... ",
     "published_at": "2026-02-10T21:50:00+09:00",
-    "id": "197c8cd7-b072-467d-8a5c-be4a8936d3f3",
+    "id": "813297c3-6795-47aa-a1e4-83b5df1b1f23",
     "category": "baby"
   },
   {
-    "source": "newstnt",
-    "title": "한상화 당진시의원, 외국인 아동도 보육료 전액 지원 촉구",
-    "link": "http://www.newstnt.com/news/articleView.html?idxno=585822",
-    "thumbnail": "https://cdn.newstnt.com/news/thumbnail/202602/585822_612949_1421_v150.jpg",
-    "description": "대한 보육료 지원 확대를 촉구했다고 밝혔다. / 당진시의회 제공 당진시의회는 10일 더불어민주당 한상화(초선) 의원이 제126회 임시회 제4차 본회의에서 5분 자유발언을 통해 외국인 주민 자녀에 대한 보육료 지원 확대를... ",
-    "published_at": "2026-02-10T22:00:00+09:00",
-    "id": "55c23297-916c-4fbf-aece-ec4db45152e6",
+    "source": "데일리안 미디어",
+    "title": "“출산하면 1000만원”…한화 ‘육아동행지원금’ 1년, 참여 계열사 2배 확대",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzR3FBSDNMd3hyVV9OUHlZTVFaRC0tZDAzQXhKZmppdEIzSl9JMG5nekp6cWJxTW9HazVDbmFRSXdHRk1MajNZRGN4eUdfT2IzSE8wNEt30gFYQVVfeXFMT01aaDAtWXhvZnlCWFdUbGdycEpfcERtU2VOWmhUci02V2lJUF9ON0J2ZmFJZGxYTU9uTktvZ2JPVTRrZ1l5Tnp4YWxlX281WnVMcy1pNWlRMQ?oc=5",
+    "thumbnail": "",
+    "description": "“출산하면 1000만원”…한화 ‘육아동행지원금’ 1년, 참여 계열사 2배 확대&nbsp;&nbsp;데일리안 미디어",
+    "published_at": "2026-02-10T23:19:00+00:00",
+    "id": "9fa14f08-58b2-4622-b5fa-977a57553e52",
     "category": "baby"
   },
   {
@@ -206,7 +226,7 @@
     "thumbnail": "",
     "description": "[위클리오늘] 한화, 육아동행지원금 도입 1주년…출산 지원 확대 성과&nbsp;&nbsp;위클리오늘",
     "published_at": "2026-02-10T23:43:07+00:00",
-    "id": "31e81a56-56e0-441a-909d-a90127c04ca2",
+    "id": "9811e8b2-d623-456f-913a-fbc740132bd7",
     "category": "baby"
   },
   {
@@ -216,17 +236,7 @@
     "thumbnail": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg",
     "description": "당정청은 아동수당법, 필수의료법, 개인정보보호법, 전세사기피해특별법 등 129개 법안을 이달 임시국회에서 우선 처리하기로 했다. 인공지능(AI) 시대에 자국 우선주의가 판치는 상황에서 입법 속도가 곧 국가... ",
     "published_at": "2026-02-11T00:10:00+09:00",
-    "id": "98dbbc9d-1926-4b78-b5f7-9de8dc7f6150",
-    "category": "baby"
-  },
-  {
-    "source": "연합시민의소리",
-    "title": "인천 중구, 영종국제도시 어린이집 원장 간담회 개최…현장 중심 보육정책 강화",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXR3F2d0dZSFlBWjh5MkxSSUJFa3ZESkNzZ0s4OU1MYWtVaTY5am9VdlNkZTlNaTRmeDRiR29faXBXeVhvdEhrbkI0ZzBaNzQwN1J1RFNwbFZ4Z1dIOUdnNHkwRkJ5cXQ0NzU4?oc=5",
-    "thumbnail": "",
-    "description": "인천 중구, 영종국제도시 어린이집 원장 간담회 개최…현장 중심 보육정책 강화&nbsp;&nbsp;연합시민의소리",
-    "published_at": "2026-02-11T01:52:30+00:00",
-    "id": "58d197e3-f81c-4b0c-8dd3-aecac819d4e6",
+    "id": "fc3fc028-1e85-4460-b039-8a431cc694ce",
     "category": "baby"
   },
   {
@@ -236,7 +246,7 @@
     "thumbnail": "https://imgnews.pstatic.net/image/081/2026/02/11/0003616788_001_20260211050443120.png?type=w800",
     "description": "아동수당법, 전세사기 피해자 지원법, 필수의료법 등 시급한 민생 법안이 국회에 쌓여 있다. 민주당은 어제서야 원내에 민생경제 입법 추진 상황실을 설치했다. 이 대통령이 지난달 27일 “국회가 너무 느려 일을 할 수가... ",
     "published_at": "2026-02-11T05:04:00+09:00",
-    "id": "63e5edee-aa86-4fdd-a6e9-f7d4629a431e",
+    "id": "88059521-7852-4baf-9572-8f3b6141d4ad",
     "category": "baby"
   },
   {
@@ -246,17 +256,7 @@
     "thumbnail": "https://cdn.taxwatch.co.kr/news/index/2026/02/11/f051f122fb1c6370dea745135eaff7d8.jpg",
     "description": "어린이집을 이용하면 보육료 바우처 금액을 차감한 뒤 지급됩니다. 만 24개월 이후에는 어린이집 등을 이용하지 않으면 월 10만원의 양육수당이 지급됩니다. 아동수당은 만 8세 미만 아동에게 월 10만원씩 지급됩니다.... ",
     "published_at": "2026-02-11T07:00:00+09:00",
-    "id": "c64dd31b-e24f-489f-bef3-aee092b78920",
-    "category": "baby"
-  },
-  {
-    "source": "bzeronews",
-    "title": "괴산군, 설 명절 앞두고 '민생·복지·경제' 다 잡는다",
-    "link": "https://www.bzeronews.com/news/articleView.html?idxno=811168",
-    "thumbnail": "https://cdn.bzeronews.com/news/photo/202602/811168_2016863_5531.jpg",
-    "description": "군은 지역화폐 혜택 확대부터 다자녀 가구 지원, 안전 교육, 소외계층 위문까지 아우르는 '설 맞이 종합 대책'을 추진한다고 11일 밝혔다. ◇지역 경제 '활기'… 괴산사랑카드 15% 할인 혜택 가장 먼저 눈에 띄는 것은... ",
-    "published_at": "2026-02-11T07:58:00+09:00",
-    "id": "7f20e965-4b77-4005-85e4-bedfd9813428",
+    "id": "3c24913c-fc7c-467d-9cce-4f834bc62a48",
     "category": "baby"
   },
   {
@@ -266,17 +266,7 @@
     "thumbnail": "http://www.segyebiz.com//content/image/2026/02/11/20260211505378.jpg",
     "description": "이상 다자녀가구이다. 불법사금융예방대출을 받은 후 매월 원리금을 성실 납부하면 납부한 대출 이자를... 곳곳에 혜택이 골고루 전달될 수 있도록 최선을 다하고 앞으로도 지자체와의 협업 네트워크를 바탕으로 지역... ",
     "published_at": "2026-02-11T10:02:00+09:00",
-    "id": "2fb0fa84-7ba0-4aa4-9652-85e6b3c6f4f8",
-    "category": "baby"
-  },
-  {
-    "source": "eroun",
-    "title": "정읍시, 민생회복지원금 신청 기간 2주 연장... \"한 분도 빠짐없이 혜택...",
-    "link": "https://www.eroun.net/news/articleView.html?idxno=73160",
-    "thumbnail": "https://cdn.eroun.net/news/thumbnail/202602/73160_125982_1248_v150.jpg",
-    "description": "특히 이번 연장 기간에는 지급 기준일 이후 태어나 27일까지 출생신고를 마친 신생아도 지원 대상에 포함되어 혜택의 폭을 넓혔다. 이번 연장 조치는 장기 출장이나 입원 치료 등 부득이한 사유로 당초 신청 기한(2월 13일)... ",
-    "published_at": "2026-02-11T10:14:00+09:00",
-    "id": "52f5ac5d-28bd-490b-8e21-566cb3a5a4bb",
+    "id": "d5ab20cc-0b8a-4915-a4fd-4cfa72ee2849",
     "category": "baby"
   },
   {
@@ -286,67 +276,7 @@
     "thumbnail": "https://cdn.s-journal.co.kr/news/thumbnail/202602/38676_40651_5845_v150.jpg",
     "description": "이상 다자녀가구 등 충청북도 거주자다. 지원 신청자는 서민금융통합지원센터를 방문해 대출 신청 후 이자... 통해 혜택을 골고루 전달할 계획이다. 김은경 서금원장은 \"이번 사업은 의료비 부담으로 제때 치료받지 못하는... ",
     "published_at": "2026-02-11T10:40:00+09:00",
-    "id": "52be54cd-5627-4132-89d4-edbb1cbbdd03",
-    "category": "baby"
-  },
-  {
-    "source": "job-post",
-    "title": "수성구, 설 연휴에도 빈틈없는 돌봄서비스 제공",
-    "link": "https://www.job-post.co.kr/news/articleView.html?idxno=207036",
-    "thumbnail": "https://cdn.job-post.co.kr/news/photo/202602/207036_307435_93.jpg",
-    "description": "김대권 구청장은 \"연휴 기간에도 돌봄 공백이 발생하지 않도록 휴일어린이집과 아이돌봄서비스를 운영한다\"며 \"앞으로도 주민 수요를 반영한 실효성 있는 돌봄 정책을 지속적으로 추진하겠다\"고 말했다.",
-    "published_at": "2026-02-11T11:22:00+09:00",
-    "id": "6df9eae7-2346-4b7c-b841-707540ff1ed6",
-    "category": "baby"
-  },
-  {
-    "source": "ibabynews",
-    "title": "저출생 속 폐원 위기 어린이집... 서울시, 786개소 전격 지원",
-    "link": "https://www.ibabynews.com/news/articleView.html?idxno=148603",
-    "thumbnail": null,
-    "description": "'동행어린이집'은 폐원 위기 어린이집을 선별해 집중 지원하는 서울시 대표 보육 안전망 정책이다. '동행어린이집'으로 지정되면 2년간 경영 컨설팅, 교사 대 아동비율 개선 우선 지원, 보조교사‧대체교사 우선 지원... ",
-    "published_at": "2026-02-11T11:26:00+09:00",
-    "id": "2e5b7208-7ab4-45b6-9e27-768353a65605",
-    "category": "baby"
-  },
-  {
-    "source": "hidomin",
-    "title": "경북 청년들이 결혼 출산 망설이는 이유 '경제적 부담'이 1위",
-    "link": "http://www.hidomin.com/news/articleView.html?idxno=608620",
-    "thumbnail": null,
-    "description": "11일 경북도 저출생 정책평가센터가 도민 1562명을 대상으로 한 '2025년도 저출생 인식 조사' 자료에 따르면... 이철우 지사와 박성만 의장 등이 영주시 우리어린이집에서 열린 이동식 장난감도서관 '누리빵빵' 개통식에... ",
-    "published_at": "2026-02-11T11:26:00+09:00",
-    "id": "bf64e41f-ffa6-410c-8235-740d0ba05a46",
-    "category": "baby"
-  },
-  {
-    "source": "cnbnews",
-    "title": "김동선 한화 부사장, ‘육아동행지원금’ 도입 1년…280가구 혜택",
-    "link": "https://weekly.cnbnews.com/news/article.html?no=205680",
-    "thumbnail": "https://weekly.cnbnews.com/data/photos/20260207/art_205680_1770776378.jpg",
-    "description": "육아동행지원금은 횟수와 상관없이 출산 가정에 1000만 원(세후 기준)을 지원하는 제도다. 2월 기준 육아동행지원금을 받은 가정은 280가구에 달한다. 계열사별로는 ▲아워홈(83명) ▲한화호텔앤드리조트(53명) ▲한화세미텍... ",
-    "published_at": "2026-02-11T11:28:00+09:00",
-    "id": "ee5cbfda-9d64-48b9-baa7-d50f7e4b84a0",
-    "category": "baby"
-  },
-  {
-    "source": "whitepaper",
-    "title": "한화그룹, '육아동행지원금' 16개사로 확대 운영",
-    "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=258265",
-    "thumbnail": null,
-    "description": "화이트페이퍼, WHITEPAPER(사진=한화그룹)  한화그룹 테크·라이프 솔루션 부문이 지난해 도입한 '육아동행지원금' 제도를 그룹 내 16개 관계사로 확대 운영한다. 한화그룹은 출산 가정에 횟수 제한 없이 1000만 원(세후)을... ",
-    "published_at": "2026-02-11T11:32:00+09:00",
-    "id": "1923ea6b-250f-461a-ad62-d13393e02afd",
-    "category": "baby"
-  },
-  {
-    "source": "시사저널",
-    "title": "[경북 24시] 경북도, UAE․폴란드서 포스트 APEC 외교 행보 본격화",
-    "link": "https://n.news.naver.com/mnews/article/586/0000122236?sid=102",
-    "thumbnail": "https://imgnews.pstatic.net/image/586/2026/02/11/0000122236_001_20260211114017636.jpg?type=w800",
-    "description": "직장에서의 일·가정 병행이 적합하다고 응답한 비율이 63%로 높았음에도 가장 필요한 출산 정책으로 출산·육아휴직 확대가 꼽혔다. 경북도는 이를 토대로 지난해 추진한 저출생 극복 150대 과제에 대한 성과를... ",
-    "published_at": "2026-02-11T11:40:00+09:00",
-    "id": "7c1ede7b-19e2-4ca8-b3c6-0fea04ac13b2",
+    "id": "58e414cd-89c8-4d52-aced-d0a1b0a91324",
     "category": "baby"
   },
   {
@@ -356,47 +286,117 @@
     "thumbnail": "https://imgnews.pstatic.net/image/016/2026/02/11/0002599478_001_20260211114416147.jpg?type=w800",
     "description": "오는 12일 본회의에서 상정이 예상되는 법안은 아동수당 지급 연령과 지급액을 상향하는 아동수당법, 필수의료 집중 지원을 담은 필수의료법, 전세사기 피해자 지원을 위한 전세사기피해자법 등이다. 미 관세 재인상... ",
     "published_at": "2026-02-11T11:44:00+09:00",
-    "id": "eb5ed644-2e27-4743-b504-fcbe31c495d2",
+    "id": "1fb95f12-bf2f-43b8-ba59-84f4d184a1c1",
     "category": "baby"
   },
   {
-    "source": "dealsitetv",
-    "title": "[유통24시] 롯데웰푸드, 양산공장 신규 카카오 가공설비 본격 가동 外",
-    "link": "https://news.dealsitetv.com/articles/165447",
-    "thumbnail": "https://d2k8i5ah8p7h3l.cloudfront.net/photos/04333ac9f655c1edbeba77004fae1aa4/thumb.jpg",
-    "description": "육아동행지원금은 횟수와 상관없이 출산 가정에 1000만원(세후 기준)을 지원하는 제도다. 2월기준 육아동행지원금을 받은 가정은 280가구에 달한다. 계열사 별로는 ▲아워홈(83명) ▲한화호텔앤드리조트(53명)... ",
-    "published_at": "2026-02-11T11:48:00+09:00",
-    "id": "395959aa-99b3-474f-b410-bc1e57d1c61f",
+    "source": "헤럴드경제",
+    "title": "“명절 전날 휴가에 아이 등원 후 출근”…일·육아 잡은 기업들 183곳",
+    "link": "https://n.news.naver.com/mnews/article/016/0002599491?sid=101",
+    "thumbnail": "https://imgnews.pstatic.net/image/016/2026/02/11/0002599491_001_20260211144307072.jpg?type=w800",
+    "description": "직장어린이집에서 아이들이 요리 활동 시간에 부모에게 줄 생크림 케이크를 만들고 있다. [광주 북구 제공]... 조정숙 고용지원정책관은 “일과 생활의 균형은 노동자를 위한 복지를 넘어 기업 경쟁력의 핵심 요소”라며... ",
+    "published_at": "2026-02-11T12:01:00+09:00",
+    "id": "6557e7c0-c7fe-4a6d-8da0-5ccc6086e0f1",
     "category": "baby"
   },
   {
-    "source": "weeklytoday",
-    "title": "[위클리오늘] 구리시, 어린이집 보조교사·연장 보육 전담 교사 선정",
-    "link": "http://www.weeklytoday.com/news/articleView.html?idxno=758610",
-    "thumbnail": "https://cdn.weeklytoday.com/news/thumbnail/202602/758610_924164_478_v150.jpg",
-    "description": "구리시는 지난 2월 10일 어린이집 보육교사의 업무 부담을 완화하고 안정적인 보육 환경을 조성하기 위해... 시는 앞으로도 보육 서비스의 질적 향상을 위한 다양한 정책을 추진하며, 이를 지속적으로 이어갈 계획이다.",
-    "published_at": "2026-02-11T11:48:00+09:00",
-    "id": "18812853-b555-4e46-94ca-0bc7eda51338",
+    "source": "ajunews",
+    "title": "일·육아 균형이 성과로...우수 일터 확산",
+    "link": "https://www.ajunews.com/view/20260211093651461",
+    "thumbnail": "https://image.ajunews.com/content/image/2026/02/11/20260211100909564322.jpg",
+    "description": "직장어린이집 운영에 나섰다. 그 결과 육아 부담이 완화되면서 업무 몰입도와 성과가 자연스럽게 향상됐다.... 조정숙 고용지원정책관은 \"일과 생활의 균형은 일터를 행복한 공간으로 만들고 기업이 성장할 수 있는... ",
+    "published_at": "2026-02-11T12:02:00+09:00",
+    "id": "7f31e79f-0967-4ded-8daa-2d416d38474d",
     "category": "baby"
   },
   {
-    "source": "e-science",
-    "title": "한화 '육아동행지원금' 1년 성과…일·가정 양립 문화 확산",
-    "link": "https://www.e-science.co.kr/news/articleView.html?idxno=125682",
-    "thumbnail": "https://cdn.e-science.co.kr/news/photo/202602/125682_56008_2145.jpg",
-    "description": "육아동행지원금은 횟수와 상관없이 출산 가정에 1000만원을 지원하는 제도다. 2월 기준 육아동행지원금을 받은 가정은 280가구에 달한다. 계열사 별로는 ▲아워홈 (83명) ▲한화호텔앤드리조트 (53명) ▲한화세미텍 (28명)... ",
-    "published_at": "2026-02-11T11:52:00+09:00",
-    "id": "d1c0399f-2dc5-4c91-9b1a-fb81a2fdde35",
+    "source": "m-i",
+    "title": "인천 중구, 영종국제도시 보육 현장과 소통 강화…어린이집 원장 간담회...",
+    "link": "https://www.m-i.kr/news/articleView.html?idxno=1336307",
+    "thumbnail": null,
+    "description": "보육 정책을 마련하기 위해 지난 6일 중구 제2청 대회의실에서 '2026년 중구 어린이집 원장 간담회'를 개최했다고 밝혔다. 이번 간담회에는 영종국제도시 전역의 국공립, 가정, 민간, 직장 어린이집 원장 70여 명이 참석해... ",
+    "published_at": "2026-02-11T13:32:00+09:00",
+    "id": "7a4d2ff4-8bb2-4fb5-9f00-2b9ae2175372",
     "category": "baby"
   },
   {
-    "source": "kotra",
-    "title": "2026년 호주의 주요 정책 변화",
-    "link": "http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=2&bbsGbn=242&bbsSn=242&pNttSn=238602",
-    "thumbnail": "https://dream.kotra.or.kr/type/news/img/layout/logo_navi.png",
-    "description": "또한, 2026년 7월 1일부터 유급 육아휴직 기간에도 연금이 지급되며, 호주 국세청(Australian Taxation Office, ATO)이 해당 기여금을 연금 펀드로 직접 납부하게 된다. 한편, 고액 연금 잔액에 대해서는 새로운 과세... ",
-    "published_at": "2026-02-11T11:57:00+09:00",
-    "id": "ed12995f-7ed7-4601-800c-d7a5cb3e73b7",
+    "source": "오마이뉴스",
+    "title": "경찰차 보고 가슴이 덜컥, 움츠러드는 이민자의 삶",
+    "link": "https://n.news.naver.com/mnews/article/047/0002504636?sid=103",
+    "thumbnail": "https://imgnews.pstatic.net/image/047/2026/02/11/0002504636_001_20260211134620681.jpg?type=w800",
+    "description": "미국 트럼프 대통령의 불법 이민자 단속 정책은 멈추지 않고 있다. 문제는 그 단속이 '불법 이민자' 단속을... 며칠 전, 어린이집에서 아이를 데리고 돌아오던 길이었다. 늘 조용하던 거리에서 경찰차 SUV 세 대가 줄지어... ",
+    "published_at": "2026-02-11T13:46:00+09:00",
+    "id": "55a761fe-5907-4744-a492-b5990b27b035",
+    "category": "baby"
+  },
+  {
+    "source": "dtnews24",
+    "title": "양승조 '충남대전통합시장' 도전..\"검증된 리더십이 나서야\"",
+    "link": "http://www.dtnews24.com/news/articleView.html?idxno=806973",
+    "thumbnail": "https://cdn.dtnews24.com/news/thumbnail/202602/806973_430003_4510_v150.jpg",
+    "description": "▲어린이집~고등학교 100% 무상보육·교육·급식 ▲신혼부부 주거 정책 꿈비채 ▲75세 이상 버스비 무료 ▲지역 경계 넘은 장애인 콜택시 ▲충남 혁신도시 지정 ▲서해선KTX 서울 직결 등이다. 충남대전통합시 공약으로는... ",
+    "published_at": "2026-02-11T13:48:00+09:00",
+    "id": "b7c8f4d6-a408-4ef8-ab9a-293cb6a785fc",
+    "category": "baby"
+  },
+  {
+    "source": "kukinews",
+    "title": "공주시, 임산부·다자녀 가구에…‘친환경 농산물 구폰 지급’",
+    "link": "https://www.kukinews.com/article/view/kuk202602110158",
+    "thumbnail": "https://www.kukinews.com/data/kuk/image/2026/02/11/kuk20260211000237.gif",
+    "description": "충남 공주시가 임산부와 다자녀 가구를 대상으로 농산물 마일리지를 최대 48만 원까지 제공한다. 지원... 마일리지를 받을 수 있다. 최대 48만 원이며 혜택은 400여 가구, 3월 중순때 배송된다. 신청은 2월 25일 마감한다.",
+    "published_at": "2026-02-11T14:04:00+09:00",
+    "id": "6c40de35-bd57-4e1f-9551-c07c884842c3",
+    "category": "baby"
+  },
+  {
+    "source": "bulkyo21",
+    "title": "나누며하나되기, 제주시 원주시 등에 행복나눔 물품 전달",
+    "link": "http://www.bulkyo21.com/news/articleView.html?idxno=63592",
+    "thumbnail": "http://www.bulkyo21.com/news/thumbnail/202602/63592_77244_167_v150.jpg",
+    "description": "복지정책과장, 정태근 대한적십자 제주지사 회장, 김인춘 제주시어린이집 연합회장, 오의합 제주시직할 여성의용소방대장 등이 참석했다. 정태근 회장은 \"설 명절을 앞두고 도내에 사각지대가 발생하지 않도록 후원... ",
+    "published_at": "2026-02-11T14:44:00+09:00",
+    "id": "fb0b058e-0468-4e37-b050-0970a56bdff8",
+    "category": "baby"
+  },
+  {
+    "source": "kukinews",
+    "title": "원주 숲소리어린이집, ‘친환경 목재 장점 체험장’",
+    "link": "https://www.kukinews.com/article/view/kuk202602110193",
+    "thumbnail": "https://www.kukinews.com/data/kuk/image/2026/02/11/kuk20260211000292.jpg",
+    "description": "이번 사업은 2030 국가 온실가스 감축 목표(NDC) 달성을 위한 생활 속 탄소 중립 실천 정책의 하나다. 어린이집 실내 환경을 국산 목재로 개선해 영유아와 부모, 보육 종사자들이 목재의 친환경적 가치를 직접 체감할 수... ",
+    "published_at": "2026-02-11T14:46:00+09:00",
+    "id": "02fad9cb-b8b0-478b-86ba-4f4d9d1e96f1",
+    "category": "baby"
+  },
+  {
+    "source": "kmaeil",
+    "title": "구리시, 보조교사·연장 보육 전담 교사 248명 선정...보육 현장 인력 강...",
+    "link": "https://www.kmaeil.com/news/articleView.html?idxno=629725",
+    "thumbnail": "https://cdn.kmaeil.com/news/photo/202602/629725_429037_5753.jpg",
+    "description": "시는 향후에도 보육 서비스의 질을 높이기 위한 다양한 정책을 지속 추진할 계획이다. 구리시 관계자는 \"아이들이 건강하고 안전하게 어린이집을 이용할 수 있는 환경을 만들고, 어려운 여건에서 일하는 보육교사의 처우... ",
+    "published_at": "2026-02-11T15:00:00+09:00",
+    "id": "8f9f9393-f22d-481f-b45f-d215d91b429b",
+    "category": "baby"
+  },
+  {
+    "source": "hankooki",
+    "title": "한상화 당진시의원 \"외국인 아동도 보육료 전액 지원해야\"",
+    "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7149853",
+    "thumbnail": "https://cdn.weekly.hankooki.com/news/thumbnail/202602/7149853_225041_3552_v150.jpg",
+    "description": "사진=당진시의회 충남 당진시의회 한상화 의원은 지난 10일 제4차 본회의 5분 발언을 통해 외국인 주민 자녀에 대한 보육료 지원 확대를 촉구했다 현재 당진시는 등록 외국인 아동에게 매달 28만 원의 보육료를 지원하고... ",
+    "published_at": "2026-02-11T15:06:00+09:00",
+    "id": "4921285f-7f28-49db-bd0a-bc35439336e5",
+    "category": "baby"
+  },
+  {
+    "source": "세계일보",
+    "title": "황천순 전 천안시의회 의장, 천안시장 출마 선언",
+    "link": "https://n.news.naver.com/mnews/article/022/0004105177?sid=102",
+    "thumbnail": "https://imgnews.pstatic.net/image/022/2026/02/11/20260211513206_20260211151607306.jpg?type=w800",
+    "description": "중심 정책 전환 △권역별 균형발전 △돌봄·주거·교통·안전 등 시민의 기본을 책임지는 기본사회 실현을... 저출생 대응과 관련해서는 “가족이 있는 삶, 저녁이 있는 삶이 가능한 도시를 만들겠다”며 돌봄·육아·일과... ",
+    "published_at": "2026-02-11T15:16:00+09:00",
+    "id": "8073c512-bc3c-4d60-9d38-65e4978e2fd4",
     "category": "baby"
   }
 ]
