@@ -1,0 +1,27 @@
+===== 실행 시작: 2026-02-12 06:00:03 =====
+스크립트: /Users/jiseong-in/workspace/upup-admin/python_script/zmake_all_json.py
+
+Traceback (most recent call last):
+  File "/Users/jiseong-in/workspace/upup-admin/python_script/make_shop_json.py", line 100, in make_shop_json
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 227, in makedirs
+OSError: [Errno 30] Read-only file system: 'data'
+Traceback (most recent call last):
+  File "/Users/jiseong-in/workspace/upup-admin/python_script/make_shop_json.py", line 100, in make_shop_json
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 227, in makedirs
+OSError: [Errno 30] Read-only file system: 'data'
+Traceback (most recent call last):
+  File "/Users/jiseong-in/workspace/upup-admin/python_script/make_shop_json.py", line 100, in make_shop_json
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 227, in makedirs
+OSError: [Errno 30] Read-only file system: 'data'
+Traceback (most recent call last):
+  File "/Users/jiseong-in/workspace/upup-admin/python_script/make_shop_json.py", line 100, in make_shop_json
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 227, in makedirs
+OSError: [Errno 30] Read-only file system: 'data'
