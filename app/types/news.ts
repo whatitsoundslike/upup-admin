@@ -7,6 +7,8 @@ export interface News {
   thumbnail: string;
   description: string;
   published_at: string;
+  likeCount: number;
+  dislikeCount: number;
 }
 
 export const NEWS_CATEGORIES = [

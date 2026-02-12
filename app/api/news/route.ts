@@ -1,93 +1,81 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-import { News } from '@/app/types/news';
+import { prisma } from '@/lib/prisma';
 
-const dataDir = path.join(process.cwd(), 'data');
-
-function getFilePath(category: string): string {
-  return path.join(dataDir, `${category}_news.json`);
-}
-
-function readNewsByCategory(category: string): News[] {
-  try {
-    const filePath = getFilePath(category);
-    if (!fs.existsSync(filePath)) {
-      return [];
-    }
-    const data = fs.readFileSync(filePath, 'utf-8');
-    const raw = JSON.parse(data);
-    return raw.map((item: News & { id?: string }, index: number) => ({
-      id: item.id || `${category}-${index}`,
-      category,
-      source: item.source || '',
-      title: item.title || '',
-      link: item.link || '',
-      thumbnail: item.thumbnail || '',
-      description: item.description || '',
-      published_at: item.published_at || '',
-    }));
-  } catch {
-    return [];
-  }
-}
-
-function writeNewsByCategory(category: string, news: News[]): void {
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
-  const filePath = getFilePath(category);
-  fs.writeFileSync(filePath, JSON.stringify(news, null, 2), 'utf-8');
-}
-
-function getAllNews(): News[] {
-  if (!fs.existsSync(dataDir)) {
-    return [];
-  }
-
-  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('_news.json'));
-  const allNews: News[] = [];
-
-  for (const file of files) {
-    const category = file.replace('_news.json', '');
-    const news = readNewsByCategory(category);
-    allNews.push(...news);
-  }
-
-  return allNews.sort((a, b) => b.published_at.localeCompare(a.published_at));
-}
-
+// GET all news
 export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const category = searchParams.get('category');
+    const { searchParams } = new URL(request.url);
+    const category = searchParams.get('category');
 
-  if (category) {
-    const news = readNewsByCategory(category);
-    return NextResponse.json(news);
-  }
+    try {
+        const where = category ? { category } : {};
+        const news = await prisma.news.findMany({
+            where,
+            orderBy: { publishedAt: 'desc' },
+        });
 
-  const allNews = getAllNews();
-  return NextResponse.json(allNews);
+        const formattedNews = news.map((n) => ({
+            id: n.id.toString(),
+            category: n.category,
+            source: n.source,
+            title: n.title,
+            link: n.link,
+            thumbnail: n.thumbnail || '',
+            description: n.description || '',
+            published_at: n.publishedAt?.toISOString() || '',
+            likeCount: n.likeCount,
+            dislikeCount: n.dislikeCount,
+        }));
+
+        return NextResponse.json(formattedNews);
+    } catch (error) {
+        console.error('Failed to fetch news:', error);
+        return NextResponse.json({ error: 'Failed to fetch news' }, { status: 500 });
+    }
 }
 
+// POST - create new news
 export async function POST(request: Request) {
-  const body = await request.json();
-  const category = body.category || 'tesla';
-  const news = readNewsByCategory(category);
+    try {
+        const body = await request.json();
 
-  const newNews: News = {
-    id: Date.now().toString(),
-    category,
-    source: body.source || '',
-    title: body.title,
-    link: body.link || '',
-    thumbnail: body.thumbnail || '',
-    description: body.description || '',
-    published_at: body.published_at || new Date().toISOString(),
-  };
+        // 제목으로 중복 체크
+        const existing = await prisma.news.findUnique({
+            where: { title: body.title },
+        });
 
-  news.unshift(newNews);
-  writeNewsByCategory(category, news);
+        if (existing) {
+            return NextResponse.json(
+                { error: '이미 동일한 제목의 뉴스가 존재합니다.' },
+                { status: 400 }
+            );
+        }
 
-  return NextResponse.json(newNews, { status: 201 });
+        const news = await prisma.news.create({
+            data: {
+                category: body.category || 'tesla',
+                source: body.source || '',
+                title: body.title,
+                link: body.link || '',
+                thumbnail: body.thumbnail || null,
+                description: body.description || null,
+                publishedAt: body.published_at ? new Date(body.published_at) : new Date(),
+            },
+        });
+
+        return NextResponse.json({
+            id: news.id.toString(),
+            category: news.category,
+            source: news.source,
+            title: news.title,
+            link: news.link,
+            thumbnail: news.thumbnail || '',
+            description: news.description || '',
+            published_at: news.publishedAt?.toISOString() || '',
+            likeCount: news.likeCount,
+            dislikeCount: news.dislikeCount,
+        }, { status: 201 });
+    } catch (error) {
+        console.error('Failed to create news:', error);
+        return NextResponse.json({ error: 'Failed to create news' }, { status: 500 });
+    }
 }

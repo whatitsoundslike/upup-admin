@@ -6,6 +6,8 @@ export interface Tip {
   keyword: string[] | null;
   content: string;
   thumbnail: string | null;
+  likeCount: number;
+  dislikeCount: number;
   createdAt: string;
   updatedAt: string;
 }

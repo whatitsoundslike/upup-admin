@@ -9,6 +9,8 @@ type TipRaw = {
   keyword: string[] | null;
   content: string;
   thumbnail: string | null;
+  likeCount: number;
+  dislikeCount: number;
   createdAt: Date;
   updatedAt: Date;
 };
@@ -22,14 +24,14 @@ export async function GET(request: Request) {
 
     if (category) {
       tips = await prisma.$queryRaw<TipRaw[]>`
-                SELECT id, category, title, summary, keyword, content, thumbnail, createdAt, updatedAt
+                SELECT id, category, title, summary, keyword, content, thumbnail, likeCount, dislikeCount, createdAt, updatedAt
                 FROM Tip
                 WHERE category = ${category}
                 ORDER BY createdAt DESC
             `;
     } else {
       tips = await prisma.$queryRaw<TipRaw[]>`
-                SELECT id, category, title, summary, keyword, content, thumbnail, createdAt, updatedAt
+                SELECT id, category, title, summary, keyword, content, thumbnail, likeCount, dislikeCount, createdAt, updatedAt
                 FROM Tip
                 ORDER BY createdAt DESC
             `;
@@ -44,6 +46,8 @@ export async function GET(request: Request) {
       keyword: tip.keyword,
       content: tip.content,
       thumbnail: tip.thumbnail,
+      likeCount: tip.likeCount || 0,
+      dislikeCount: tip.dislikeCount || 0,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     }));
@@ -86,6 +90,8 @@ export async function POST(request: Request) {
       keyword: tip.keyword,
       content: tip.content,
       thumbnail: tip.thumbnail,
+      likeCount: (tip as { likeCount?: number }).likeCount || 0,
+      dislikeCount: (tip as { dislikeCount?: number }).dislikeCount || 0,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     };

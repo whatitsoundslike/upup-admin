@@ -24,6 +24,8 @@ export async function GET(
       keyword: tip.keyword,
       content: tip.content,
       thumbnail: tip.thumbnail,
+      likeCount: (tip as { likeCount?: number }).likeCount || 0,
+      dislikeCount: (tip as { dislikeCount?: number }).dislikeCount || 0,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     };
@@ -64,6 +66,8 @@ export async function PUT(
       keyword: tip.keyword,
       content: tip.content,
       thumbnail: tip.thumbnail,
+      likeCount: (tip as { likeCount?: number }).likeCount || 0,
+      dislikeCount: (tip as { dislikeCount?: number }).dislikeCount || 0,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     };

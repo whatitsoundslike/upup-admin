@@ -8,6 +8,7 @@ export default function NewsPage() {
   const { hasPermission, getAllowedCategories, categories } = useAuth();
   const [newsList, setNewsList] = useState<News[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [isRefreshing, setIsRefreshing] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [editingNews, setEditingNews] = useState<News | null>(null);
   const [formData, setFormData] = useState({
@@ -48,6 +49,43 @@ export default function NewsPage() {
       console.error('Failed to fetch news:', error);
     } finally {
       setIsLoading(false);
+    }
+  };
+
+  const handleRefresh = async () => {
+    if (isRefreshing) return;
+
+    setIsRefreshing(true);
+    try {
+      // 전체 카테고리 또는 선택된 카테고리만 갱신
+      const categoriesToRefresh = filterCategory
+        ? [filterCategory]
+        : allowedCategories.map(c => c.value);
+
+      const results: string[] = [];
+
+      for (const category of categoriesToRefresh) {
+        const res = await fetch('/api/news/scrape', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ category }),
+        });
+        const data = await res.json();
+
+        if (res.ok) {
+          results.push(`${category}: ${data.message}`);
+        } else {
+          results.push(`${category}: ${data.error || '실패'}`);
+        }
+      }
+
+      alert(results.join('\n'));
+      await fetchNews();
+    } catch (error) {
+      console.error('Failed to refresh news:', error);
+      alert('뉴스 갱신 중 오류가 발생했습니다.');
+    } finally {
+      setIsRefreshing(false);
     }
   };
 
@@ -194,9 +232,28 @@ export default function NewsPage() {
               </span>
             )}
           </h2>
-          <button className="btn btn-primary" onClick={handleAdd}>
-            + 새 뉴스 추가
-          </button>
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button
+              className="btn btn-secondary"
+              onClick={handleRefresh}
+              disabled={isRefreshing}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+            >
+              {isRefreshing ? (
+                <>
+                  <span className="loading-spinner" style={{ width: '14px', height: '14px', borderWidth: '2px' }}></span>
+                  갱신 중...
+                </>
+              ) : filterCategory ? (
+                '뉴스 갱신'
+              ) : (
+                '전체 뉴스 갱신'
+              )}
+            </button>
+            <button className="btn btn-primary" onClick={handleAdd}>
+              + 새 뉴스 추가
+            </button>
+          </div>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
           {filteredNewsList.length === 0 ? (
@@ -215,6 +272,7 @@ export default function NewsPage() {
                   <th>카테고리</th>
                   <th>출처</th>
                   <th>제목</th>
+                  <th style={{ textAlign: 'center' }}>반응</th>
                   <th>발행일</th>
                   <th style={{ width: '120px' }}>관리</th>
                 </tr>
@@ -228,12 +286,17 @@ export default function NewsPage() {
                     <td style={{ fontSize: '0.875rem', color: '#64748b' }}>{news.source}</td>
                     <td style={{ fontWeight: 500 }}>
                       {news.link ? (
-                        <a href={news.link} target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
+                        <a href={news.link} target="_blank" rel="noopener noreferrer" style={{ color: '#ffffffff', textDecoration: 'none' }}>
                           {news.title}
                         </a>
                       ) : (
                         news.title
                       )}
+                    </td>
+                    <td style={{ textAlign: 'center', fontSize: '0.8125rem', whiteSpace: 'nowrap' }}>
+                      <span style={{ color: '#22c55e' }}>👍 {news.likeCount || 0}</span>
+                      {' / '}
+                      <span style={{ color: '#ef4444' }}>👎 {news.dislikeCount || 0}</span>
                     </td>
                     <td style={{ fontSize: '0.8125rem', color: '#64748b', whiteSpace: 'nowrap' }}>
                       {formatDate(news.published_at)}

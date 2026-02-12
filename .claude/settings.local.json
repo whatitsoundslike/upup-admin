@@ -12,7 +12,9 @@
       "Bash(npx prisma migrate dev:*)",
       "Bash(npx prisma generate:*)",
       "Bash(npx tsc:*)",
-      "WebFetch(domain:ev.or.kr)"
+      "WebFetch(domain:ev.or.kr)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)"
     ]
   }
 }
