@@ -286,7 +286,7 @@ export default function NewsPage() {
                     <td style={{ fontSize: '0.875rem', color: '#64748b' }}>{news.source}</td>
                     <td style={{ fontWeight: 500 }}>
                       {news.link ? (
-                        <a href={news.link} target="_blank" rel="noopener noreferrer" style={{ color: '#ffffffff', textDecoration: 'none' }}>
+                        <a href={news.link} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--foreground)', textDecoration: 'none' }}>
                           {news.title}
                         </a>
                       ) : (

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -21,7 +21,26 @@ export default function Header({ onMenuClick }: HeaderProps) {
   const pathname = usePathname();
   const { logout } = useAuth();
   const [showLogoutModal, setShowLogoutModal] = useState(false);
-  const [isPushing, setIsPushing] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    // 저장된 테마 또는 시스템 설정 확인
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setIsDarkMode(savedTheme === 'dark');
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    } else {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setIsDarkMode(prefersDark);
+    }
+  }, []);
+
+  const toggleDarkMode = () => {
+    const newTheme = isDarkMode ? 'light' : 'dark';
+    setIsDarkMode(!isDarkMode);
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  };
 
   const getPageTitle = () => {
     if (pageTitles[pathname]) {
@@ -35,24 +54,6 @@ export default function Header({ onMenuClick }: HeaderProps) {
     }
 
     return '대시보드';
-  };
-
-  const handleGitPush = async () => {
-    if (isPushing) return;
-    setIsPushing(true);
-    try {
-      const res = await fetch('/api/git-push', { method: 'POST' });
-      const data = await res.json();
-      if (data.success) {
-        alert('Git push 완료');
-      } else {
-        alert(`Git push 실패: ${data.message}`);
-      }
-    } catch {
-      alert('Git push 요청 중 오류가 발생했습니다.');
-    } finally {
-      setIsPushing(false);
-    }
   };
 
   const handleLogoutClick = () => {
@@ -79,8 +80,13 @@ export default function Header({ onMenuClick }: HeaderProps) {
         </div>
 
         <div className="header-actions">
-          <button className="btn btn-secondary" onClick={handleGitPush} disabled={isPushing}>
-            {isPushing ? 'Pushing...' : 'Git push'}
+          <button
+            onClick={toggleDarkMode}
+            className="btn btn-secondary"
+            style={{ fontSize: '1.1rem', padding: '0.5rem 0.75rem' }}
+            title={isDarkMode ? '라이트 모드' : '다크 모드'}
+          >
+            {isDarkMode ? '☀️' : '🌙'}
           </button>
           <button onClick={handleLogoutClick} className="btn btn-secondary" style={{ fontSize: '0.875rem' }}>
             로그아웃

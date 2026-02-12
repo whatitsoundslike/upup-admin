@@ -17,9 +17,17 @@
     --danger: #ef4444;
   }
 
-  /* Dark mode */
+  /* Dark mode - manual toggle */
+  :root[data-theme="dark"] {
+    --background: #0f172a;
+    --foreground: #e2e8f0;
+    --card-bg: #1e293b;
+    --border-color: #334155;
+  }
+
+  /* Dark mode - system preference (only when no manual override) */
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
       --background: #0f172a;
       --foreground: #e2e8f0;
       --card-bg: #1e293b;
