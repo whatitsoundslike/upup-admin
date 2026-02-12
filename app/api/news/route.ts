@@ -24,6 +24,7 @@ export async function GET(request: Request) {
             published_at: n.publishedAt?.toISOString() || '',
             likeCount: n.likeCount,
             dislikeCount: n.dislikeCount,
+            aiVerified: n.aiVerified,
         }));
 
         return NextResponse.json(formattedNews);
@@ -73,6 +74,7 @@ export async function POST(request: Request) {
             published_at: news.publishedAt?.toISOString() || '',
             likeCount: news.likeCount,
             dislikeCount: news.dislikeCount,
+            aiVerified: news.aiVerified,
         }, { status: 201 });
     } catch (error) {
         console.error('Failed to create news:', error);

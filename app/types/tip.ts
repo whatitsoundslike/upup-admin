@@ -8,6 +8,7 @@ export interface Tip {
   thumbnail: string | null;
   likeCount: number;
   dislikeCount: number;
+  aiVerified: boolean;
   createdAt: string;
   updatedAt: string;
 }

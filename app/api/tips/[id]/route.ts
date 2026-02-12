@@ -26,6 +26,7 @@ export async function GET(
       thumbnail: tip.thumbnail,
       likeCount: (tip as { likeCount?: number }).likeCount || 0,
       dislikeCount: (tip as { dislikeCount?: number }).dislikeCount || 0,
+      aiVerified: (tip as { aiVerified?: boolean }).aiVerified || false,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     };
@@ -68,6 +69,7 @@ export async function PUT(
       thumbnail: tip.thumbnail,
       likeCount: (tip as { likeCount?: number }).likeCount || 0,
       dislikeCount: (tip as { dislikeCount?: number }).dislikeCount || 0,
+      aiVerified: (tip as { aiVerified?: boolean }).aiVerified || false,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     };

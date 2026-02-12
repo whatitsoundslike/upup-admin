@@ -27,6 +27,7 @@ export async function GET(
             published_at: news.publishedAt?.toISOString() || '',
             likeCount: news.likeCount,
             dislikeCount: news.dislikeCount,
+            aiVerified: news.aiVerified,
         });
     } catch (error) {
         console.error('Failed to fetch news:', error);
@@ -83,6 +84,7 @@ export async function PUT(
             published_at: news.publishedAt?.toISOString() || '',
             likeCount: news.likeCount,
             dislikeCount: news.dislikeCount,
+            aiVerified: news.aiVerified,
         });
     } catch (error) {
         console.error('Failed to update news:', error);

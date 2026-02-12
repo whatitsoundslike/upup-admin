@@ -9,6 +9,7 @@ export interface News {
   published_at: string;
   likeCount: number;
   dislikeCount: number;
+  aiVerified: boolean;
 }
 
 export const NEWS_CATEGORIES = [

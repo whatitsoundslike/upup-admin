@@ -272,6 +272,7 @@ export default function NewsPage() {
                   <th>카테고리</th>
                   <th>출처</th>
                   <th>제목</th>
+                  <th style={{ textAlign: 'center' }}>AI</th>
                   <th style={{ textAlign: 'center' }}>반응</th>
                   <th>발행일</th>
                   <th style={{ width: '120px' }}>관리</th>
@@ -291,6 +292,13 @@ export default function NewsPage() {
                         </a>
                       ) : (
                         news.title
+                      )}
+                    </td>
+                    <td style={{ textAlign: 'center' }}>
+                      {news.aiVerified ? (
+                        <span style={{ color: '#22c55e' }}>✓</span>
+                      ) : (
+                        <span style={{ color: '#94a3b8' }}>-</span>
                       )}
                     </td>
                     <td style={{ textAlign: 'center', fontSize: '0.8125rem', whiteSpace: 'nowrap' }}>

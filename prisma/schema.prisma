@@ -104,6 +104,7 @@ model Tip {
   updatedAt    DateTime @default(now()) @updatedAt
   dislikeCount Int      @default(0)
   likeCount    Int      @default(0)
+  aiVerified   Boolean  @default(false)
 
   @@index([category])
 }
@@ -176,6 +177,7 @@ model News {
   updatedAt    DateTime  @default(now()) @updatedAt
   dislikeCount Int       @default(0)
   likeCount    Int       @default(0)
+  aiVerified   Boolean   @default(false)
 
   @@index([category])
   @@index([category, publishedAt])

@@ -213,6 +213,7 @@ export default function TipsPage() {
                   <th>카테고리</th>
                   <th>제목</th>
                   <th>요약</th>
+                  <th style={{ textAlign: 'center' }}>AI</th>
                   <th style={{ textAlign: 'center' }}>반응</th>
                   <th style={{ width: '120px' }}>관리</th>
                 </tr>
@@ -226,6 +227,13 @@ export default function TipsPage() {
                     </td>
                     <td style={{ fontWeight: 500 }}>{tip.title}</td>
                     <td style={{ fontSize: '0.875rem', color: '#475569' }}>{tip.summary}</td>
+                    <td style={{ textAlign: 'center' }}>
+                      {tip.aiVerified ? (
+                        <span style={{ color: '#22c55e' }}>✓</span>
+                      ) : (
+                        <span style={{ color: '#94a3b8' }}>-</span>
+                      )}
+                    </td>
                     <td style={{ textAlign: 'center', fontSize: '0.8125rem', whiteSpace: 'nowrap' }}>
                       <span style={{ color: '#22c55e' }}>👍 {tip.likeCount || 0}</span>
                       {' / '}

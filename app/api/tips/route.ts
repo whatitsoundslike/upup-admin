@@ -11,6 +11,7 @@ type TipRaw = {
   thumbnail: string | null;
   likeCount: number;
   dislikeCount: number;
+  aiVerified: boolean;
   createdAt: Date;
   updatedAt: Date;
 };
@@ -24,14 +25,14 @@ export async function GET(request: Request) {
 
     if (category) {
       tips = await prisma.$queryRaw<TipRaw[]>`
-                SELECT id, category, title, summary, keyword, content, thumbnail, likeCount, dislikeCount, createdAt, updatedAt
+                SELECT id, category, title, summary, keyword, content, thumbnail, likeCount, dislikeCount, aiVerified, createdAt, updatedAt
                 FROM Tip
                 WHERE category = ${category}
                 ORDER BY createdAt DESC
             `;
     } else {
       tips = await prisma.$queryRaw<TipRaw[]>`
-                SELECT id, category, title, summary, keyword, content, thumbnail, likeCount, dislikeCount, createdAt, updatedAt
+                SELECT id, category, title, summary, keyword, content, thumbnail, likeCount, dislikeCount, aiVerified, createdAt, updatedAt
                 FROM Tip
                 ORDER BY createdAt DESC
             `;
@@ -48,6 +49,7 @@ export async function GET(request: Request) {
       thumbnail: tip.thumbnail,
       likeCount: tip.likeCount || 0,
       dislikeCount: tip.dislikeCount || 0,
+      aiVerified: tip.aiVerified || false,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     }));
@@ -92,6 +94,7 @@ export async function POST(request: Request) {
       thumbnail: tip.thumbnail,
       likeCount: (tip as { likeCount?: number }).likeCount || 0,
       dislikeCount: (tip as { dislikeCount?: number }).dislikeCount || 0,
+      aiVerified: (tip as { aiVerified?: boolean }).aiVerified || false,
       createdAt: tip.createdAt.toISOString(),
       updatedAt: tip.updatedAt.toISOString(),
     };
