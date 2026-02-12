@@ -1,9 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Product, PRODUCT_CATEGORIES } from '../types/product';
+import { Product } from '../types/product';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function ProductsPage() {
+  const { categories } = useAuth();
   const [products, setProducts] = useState<Product[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -18,7 +20,7 @@ export default function ProductsPage() {
     deliverType: '',
     link: '',
     order: '0',
-    category: 'tesla',
+    category: '',
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -53,7 +55,7 @@ export default function ProductsPage() {
       deliverType: '',
       link: '',
       order: (products.length + 1).toString(),
-      category: filterCategory || 'tesla',
+      category: filterCategory || categories[0]?.value || '',
     });
     setShowModal(true);
   };
@@ -120,7 +122,7 @@ export default function ProductsPage() {
   };
 
   const getCategoryLabel = (value: string) => {
-    const category = PRODUCT_CATEGORIES.find(c => c.value === value);
+    const category = categories.find(c => c.value === value);
     return category ? category.label : value;
   };
 
@@ -160,7 +162,7 @@ export default function ProductsPage() {
         >
           전체
         </button>
-        {PRODUCT_CATEGORIES.map((cat) => (
+        {categories.map((cat) => (
           <button
             key={cat.value}
             className={`btn ${filterCategory === cat.value ? 'btn-primary' : 'btn-secondary'}`}
@@ -280,7 +282,7 @@ export default function ProductsPage() {
                       onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                       required
                     >
-                      {PRODUCT_CATEGORIES.map((cat) => (
+                      {categories.map((cat) => (
                         <option key={cat.value} value={cat.value}>
                           {cat.label}
                         </option>

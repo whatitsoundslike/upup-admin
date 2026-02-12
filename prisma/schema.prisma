@@ -105,3 +105,58 @@ model Tip {
 
   @@index([category])
 }
+
+model AdminUser {
+  id          BigInt   @id @default(autoincrement())
+  username    String   @unique @db.VarChar(50)
+  password    String   @db.VarChar(255)
+  name        String?  @db.VarChar(100)
+  permissions Json?    // ["tesla", "baby"] 형태로 카테고리 권한 저장
+  isSuper     Boolean  @default(false) // 슈퍼 관리자 (모든 권한)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now()) @updatedAt
+}
+
+model Category {
+  id        BigInt   @id @default(autoincrement())
+  value     String   @unique @db.VarChar(50) // 시스템에서 사용하는 값 (예: tesla, baby)
+  label     String   @db.VarChar(100) // 표시 이름 (예: 테슬라, 육아)
+  sortOrder Int      @default(0) // 정렬 순서
+  isActive  Boolean  @default(true) // 활성화 여부
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  @@index([sortOrder])
+}
+
+model Product {
+  id          BigInt   @id @default(autoincrement())
+  category    String   @db.VarChar(50) // 카테고리 값 (예: tesla, baby)
+  name        String   @db.VarChar(500) // 상품명
+  price       String   @db.VarChar(100) // 가격 (예: "42,840원")
+  thumbnail   String   @db.VarChar(1000) // 썸네일 URL
+  deliverType String?  @db.VarChar(100) // 배송 타입
+  link        String   @db.VarChar(1000) // 구매 링크
+  sortOrder   Int      @default(0) // 정렬 순서
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now()) @updatedAt
+
+  @@index([category])
+  @@index([category, sortOrder])
+}
+
+model Subsidy {
+  id             BigInt   @id @default(autoincrement())
+  locationName1  String   @db.VarChar(50) // 시도 (예: 서울, 경기)
+  locationName2  String   @db.VarChar(100) // 시군구 (예: 서울특별시, 수원시)
+  totalCount     Int      @default(0) // 총 보급대수
+  recievedCount  Int      @default(0) // 접수대수
+  releaseCount   Int      @default(0) // 출고대수
+  remainCount    Int      @default(0) // 잔여대수
+  etc            String?  @db.Text // 비고
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @default(now()) @updatedAt
+
+  @@unique([locationName1, locationName2])
+  @@index([locationName1])
+}

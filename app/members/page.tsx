@@ -2,10 +2,27 @@
 
 import { useState, useEffect } from 'react';
 import { Member } from '../types/member';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function MembersPage() {
+    const { user } = useAuth();
     const [members, setMembers] = useState<Member[]>([]);
     const [isLoading, setIsLoading] = useState(true);
+
+    // 슈퍼관리자 권한 체크
+    if (!user?.isSuper) {
+        return (
+            <div className="card">
+                <div className="card-body">
+                    <div className="empty-state">
+                        <div className="empty-state-icon">🔒</div>
+                        <h3>접근 권한이 없습니다</h3>
+                        <p>회원 관리는 슈퍼 관리자만 접근할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
     const [showModal, setShowModal] = useState(false);
     const [editingMember, setEditingMember] = useState<Member | null>(null);
     const [formData, setFormData] = useState({

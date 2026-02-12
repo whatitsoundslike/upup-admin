@@ -2,22 +2,34 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import dynamic from 'next/dynamic';
-import { Tip, TIP_CATEGORIES } from '../types/tip';
+import { Tip } from '../types/tip';
+import { useAuth } from '../contexts/AuthContext';
 import 'react-quill-new/dist/quill.snow.css';
 
 // React Quill을 SSR 없이 동적 import
 const ReactQuill = dynamic(() => import('react-quill-new'), { ssr: false });
 
 export default function TipsPage() {
+  const { hasPermission, getAllowedCategories, categories } = useAuth();
   const [tips, setTips] = useState<Tip[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [editingTip, setEditingTip] = useState<Tip | null>(null);
-  const [formData, setFormData] = useState({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '', keyword: '' });
+  const [formData, setFormData] = useState({ title: '', summary: '', content: '', category: '', thumbnail: '', keyword: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deletingTip, setDeletingTip] = useState<Tip | null>(null);
   const [filterCategory, setFilterCategory] = useState<string>('');
+
+  // 권한이 있는 카테고리만 필터링
+  const allowedCategories = useMemo(() => {
+    return getAllowedCategories();
+  }, [getAllowedCategories]);
+
+  // 권한이 있는 팁만 필터링
+  const filteredTips = useMemo(() => {
+    return tips.filter((tip) => hasPermission(tip.category));
+  }, [tips, hasPermission]);
 
   useEffect(() => {
     fetchTips();
@@ -38,7 +50,14 @@ export default function TipsPage() {
 
   const handleAdd = () => {
     setEditingTip(null);
-    setFormData({ title: '', summary: '', content: '', category: 'tesla', thumbnail: '', keyword: '' });
+    setFormData({
+      title: '',
+      summary: '',
+      content: '',
+      category: filterCategory || allowedCategories[0]?.value || 'tesla',
+      thumbnail: '',
+      keyword: ''
+    });
     setShowModal(true);
   };
 
@@ -113,9 +132,24 @@ export default function TipsPage() {
 
 
   const getCategoryLabel = (value: string) => {
-    const category = TIP_CATEGORIES.find(c => c.value === value);
+    const category = categories.find(c => c.value === value);
     return category ? category.label : value;
   };
+
+  // 권한이 없는 경우
+  if (allowedCategories.length === 0) {
+    return (
+      <div className="card">
+        <div className="card-body">
+          <div className="empty-state">
+            <div className="empty-state-icon">🔒</div>
+            <h3>접근 권한이 없습니다</h3>
+            <p>팁 게시물 관리에 대한 카테고리 권한이 없습니다.</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (isLoading) {
     return (
@@ -136,7 +170,7 @@ export default function TipsPage() {
         >
           전체
         </button>
-        {TIP_CATEGORIES.map((cat) => (
+        {allowedCategories.map((cat) => (
           <button
             key={cat.value}
             className={`btn ${filterCategory === cat.value ? 'btn-primary' : 'btn-secondary'}`}
@@ -162,7 +196,7 @@ export default function TipsPage() {
           </button>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
-          {tips.length === 0 ? (
+          {filteredTips.length === 0 ? (
             <div className="empty-state">
               <div className="empty-state-icon">💡</div>
               <h3>등록된 팁 게시물이 없습니다</h3>
@@ -183,7 +217,7 @@ export default function TipsPage() {
                 </tr>
               </thead>
               <tbody>
-                {tips.map((tip) => (
+                {filteredTips.map((tip) => (
                   <tr key={tip.id}>
                     <td style={{ color: '#64748b', fontSize: '0.8125rem' }}>{tip.id}</td>
                     <td>
@@ -235,7 +269,7 @@ export default function TipsPage() {
                     onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                     required
                   >
-                    {TIP_CATEGORIES.map((cat) => (
+                    {allowedCategories.map((cat) => (
                       <option key={cat.value} value={cat.value}>
                         {cat.label}
                       </option>

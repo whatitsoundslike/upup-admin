@@ -2,22 +2,30 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useAuth } from '../contexts/AuthContext';
 
 interface NavItem {
   href: string;
   label: string;
   icon: string;
+  superOnly?: boolean; // 슈퍼관리자 전용 여부
 }
 
 const navItems: NavItem[] = [
-  { href: '/members', label: '회원 관리', icon: '👥' },
-  { href: '/game-characters', label: '게임 캐릭터 관리', icon: '🎮' },
-  { href: '/gem-transactions', label: 'Gem 거래 내역', icon: '💎' },
+  { href: '/members', label: '회원 관리', icon: '👥', superOnly: true },
+  { href: '/game-characters', label: '게임 캐릭터 관리', icon: '🎮', superOnly: true },
+  { href: '/gem-transactions', label: 'Gem 거래 내역', icon: '💎', superOnly: true },
   { href: '/news', label: '뉴스 관리', icon: '📰' },
   { href: '/tips', label: '팁 게시물 관리', icon: '💡' },
   { href: '/products', label: '상품 리스트 관리', icon: '🛒' },
+  { href: '/subsidies', label: '전기차 보조금 현황', icon: '🚗', superOnly: true },
   { href: '/charging-stations', label: '전기차 충전소 위치 관리', icon: '⚡' },
   { href: '/shortcut', label: '단축 메뉴', icon: '⚙️' },
+];
+
+const adminItems: NavItem[] = [
+  { href: '/admin-users', label: '관리자 관리', icon: '🔐' },
+  { href: '/categories', label: '카테고리 관리', icon: '📁' },
 ];
 
 interface SidebarProps {
@@ -27,11 +35,20 @@ interface SidebarProps {
 
 export default function Sidebar({ isOpen, onClose }: SidebarProps) {
   const pathname = usePathname();
+  const { user } = useAuth();
 
   const handleNavClick = () => {
     // Close sidebar on mobile when a link is clicked
     onClose();
   };
+
+  // 권한에 따라 보여줄 메뉴 필터링
+  const visibleNavItems = navItems.filter((item) => {
+    if (item.superOnly) {
+      return user?.isSuper;
+    }
+    return true;
+  });
 
   return (
     <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
@@ -49,7 +66,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       <nav className="sidebar-nav">
         <div className="nav-section">
           <div className="nav-section-title">콘텐츠 관리</div>
-          {navItems.map((item) => (
+          {visibleNavItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -61,6 +78,24 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             </Link>
           ))}
         </div>
+
+        {/* 슈퍼 관리자 전용 메뉴 */}
+        {user?.isSuper && (
+          <div className="nav-section">
+            <div className="nav-section-title">시스템 관리</div>
+            {adminItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`nav-item ${pathname === item.href || pathname.startsWith(item.href + '/') ? 'active' : ''}`}
+                onClick={handleNavClick}
+              >
+                <span className="nav-item-icon">{item.icon}</span>
+                <span>{item.label}</span>
+              </Link>
+            ))}
+          </div>
+        )}
       </nav>
     </aside>
   );

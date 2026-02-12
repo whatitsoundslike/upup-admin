@@ -2,10 +2,27 @@
 
 import { useState, useEffect } from 'react';
 import { GemTransactionWithMember } from '../types/gemTransaction';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function GemTransactionsPage() {
+    const { user } = useAuth();
     const [transactions, setTransactions] = useState<GemTransactionWithMember[]>([]);
     const [isLoading, setIsLoading] = useState(true);
+
+    // 슈퍼관리자 권한 체크
+    if (!user?.isSuper) {
+        return (
+            <div className="card">
+                <div className="card-body">
+                    <div className="empty-state">
+                        <div className="empty-state-icon">🔒</div>
+                        <h3>접근 권한이 없습니다</h3>
+                        <p>Gem 거래 내역은 슈퍼 관리자만 접근할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
     const [searchQuery, setSearchQuery] = useState('');
     const [searchInput, setSearchInput] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);

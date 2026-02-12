@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function LoginPage() {
+    const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -14,13 +15,10 @@ export default function LoginPage() {
         setError('');
         setIsSubmitting(true);
 
-        // 약간의 딜레이 추가 (브루트포스 방지)
-        await new Promise(resolve => setTimeout(resolve, 500));
+        const result = await login(username, password);
 
-        const success = login(password);
-
-        if (!success) {
-            setError('비밀번호가 올바르지 않습니다.');
+        if (!result.success) {
+            setError(result.error || '로그인에 실패했습니다.');
             setPassword('');
         }
 
@@ -35,13 +33,29 @@ export default function LoginPage() {
                         <div className="login-logo-icon">🚗</div>
                         <h1>ZROOM Admin</h1>
                     </div>
-                    <p className="login-subtitle">관리자 페이지에 접속하려면 비밀번호를 입력하세요.</p>
+                    <p className="login-subtitle">관리자 페이지에 접속하려면 로그인하세요.</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="login-form">
                     <div className="form-group">
+                        <label htmlFor="username" className="form-label">
+                            아이디
+                        </label>
+                        <input
+                            type="text"
+                            id="username"
+                            className="form-input"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                            placeholder="아이디를 입력하세요"
+                            disabled={isSubmitting}
+                            autoFocus
+                        />
+                    </div>
+
+                    <div className="form-group">
                         <label htmlFor="password" className="form-label">
-                            관리자 비밀번호
+                            비밀번호
                         </label>
                         <input
                             type="password"
@@ -51,7 +65,6 @@ export default function LoginPage() {
                             onChange={(e) => setPassword(e.target.value)}
                             placeholder="비밀번호를 입력하세요"
                             disabled={isSubmitting}
-                            autoFocus
                         />
                     </div>
 
@@ -64,9 +77,9 @@ export default function LoginPage() {
                     <button
                         type="submit"
                         className="btn btn-primary login-btn"
-                        disabled={isSubmitting || !password}
+                        disabled={isSubmitting || !username || !password}
                     >
-                        {isSubmitting ? '확인 중...' : '로그인'}
+                        {isSubmitting ? '로그인 중...' : '로그인'}
                     </button>
                 </form>
 

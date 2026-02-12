@@ -1,15 +1,17 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { News, NEWS_CATEGORIES } from '../types/news';
+import { useState, useEffect, useMemo } from 'react';
+import { News } from '../types/news';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function NewsPage() {
+  const { hasPermission, getAllowedCategories, categories } = useAuth();
   const [newsList, setNewsList] = useState<News[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [editingNews, setEditingNews] = useState<News | null>(null);
   const [formData, setFormData] = useState({
-    category: 'tesla',
+    category: '',
     source: '',
     title: '',
     link: '',
@@ -21,6 +23,16 @@ export default function NewsPage() {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deletingNews, setDeletingNews] = useState<News | null>(null);
   const [filterCategory, setFilterCategory] = useState<string>('');
+
+  // 권한이 있는 카테고리만 필터링
+  const allowedCategories = useMemo(() => {
+    return getAllowedCategories();
+  }, [getAllowedCategories]);
+
+  // 권한이 있는 뉴스만 필터링
+  const filteredNewsList = useMemo(() => {
+    return newsList.filter((news) => hasPermission(news.category));
+  }, [newsList, hasPermission]);
 
   useEffect(() => {
     fetchNews();
@@ -42,7 +54,7 @@ export default function NewsPage() {
   const handleAdd = () => {
     setEditingNews(null);
     setFormData({
-      category: filterCategory || 'tesla',
+      category: filterCategory || allowedCategories[0]?.value || 'tesla',
       source: '',
       title: '',
       link: '',
@@ -114,7 +126,7 @@ export default function NewsPage() {
   };
 
   const getCategoryLabel = (value: string) => {
-    const category = NEWS_CATEGORIES.find(c => c.value === value);
+    const category = categories.find(c => c.value === value);
     return category ? category.label : value;
   };
 
@@ -126,6 +138,21 @@ export default function NewsPage() {
       return dateStr;
     }
   };
+
+  // 권한이 없는 경우
+  if (allowedCategories.length === 0) {
+    return (
+      <div className="card">
+        <div className="card-body">
+          <div className="empty-state">
+            <div className="empty-state-icon">🔒</div>
+            <h3>접근 권한이 없습니다</h3>
+            <p>뉴스 관리에 대한 카테고리 권한이 없습니다.</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (isLoading) {
     return (
@@ -146,7 +173,7 @@ export default function NewsPage() {
         >
           전체
         </button>
-        {NEWS_CATEGORIES.map((cat) => (
+        {allowedCategories.map((cat) => (
           <button
             key={cat.value}
             className={`btn ${filterCategory === cat.value ? 'btn-primary' : 'btn-secondary'}`}
@@ -172,7 +199,7 @@ export default function NewsPage() {
           </button>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
-          {newsList.length === 0 ? (
+          {filteredNewsList.length === 0 ? (
             <div className="empty-state">
               <div className="empty-state-icon">📰</div>
               <h3>등록된 뉴스가 없습니다</h3>
@@ -193,7 +220,7 @@ export default function NewsPage() {
                 </tr>
               </thead>
               <tbody>
-                {newsList.map((news) => (
+                {filteredNewsList.map((news) => (
                   <tr key={news.id}>
                     <td>
                       <span className="badge badge-success">{getCategoryLabel(news.category)}</span>
@@ -255,7 +282,7 @@ export default function NewsPage() {
                     onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                     required
                   >
-                    {NEWS_CATEGORIES.map((cat) => (
+                    {allowedCategories.map((cat) => (
                       <option key={cat.value} value={cat.value}>
                         {cat.label}
                       </option>

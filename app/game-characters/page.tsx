@@ -2,10 +2,27 @@
 
 import { useState, useEffect } from 'react';
 import { GameCharacter, RankCharacter } from '../types/game-character';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function GameCharactersPage() {
+    const { user } = useAuth();
     const [characters, setCharacters] = useState<GameCharacter[]>([]);
     const [isLoading, setIsLoading] = useState(true);
+
+    // 슈퍼관리자 권한 체크
+    if (!user?.isSuper) {
+        return (
+            <div className="card">
+                <div className="card-body">
+                    <div className="empty-state">
+                        <div className="empty-state-icon">🔒</div>
+                        <h3>접근 권한이 없습니다</h3>
+                        <p>게임 캐릭터 관리는 슈퍼 관리자만 접근할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
     const [expandedRow, setExpandedRow] = useState<string | null>(null);
 
     useEffect(() => {
@@ -305,10 +322,13 @@ export default function GameCharactersPage() {
                                             <td>
                                                 {character.rankCharacterId ? (
                                                     <code style={{
-                                                        padding: '0.25rem 0.5rem',
-                                                        backgroundColor: '#f1f5f9',
-                                                        borderRadius: '4px',
+                                                        padding: '0.375rem 0.625rem',
+                                                        backgroundColor: '#1e293b',
+                                                        color: '#22d3ee',
+                                                        borderRadius: '6px',
                                                         fontSize: '0.8125rem',
+                                                        fontWeight: 600,
+                                                        fontFamily: 'monospace',
                                                     }}>
                                                         {character.rankCharacterId}
                                                     </code>
