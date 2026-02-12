@@ -1,0 +1,7 @@
+requests
+feedparser
+beautifulsoup4
+playwright
+gspread
+google-auth
+tldextract

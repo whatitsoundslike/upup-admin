@@ -52,8 +52,8 @@ async def make_subsidy_json():
         url = "https://ev.or.kr/nportal/buySupprt/initSubsidyPaymentCheckAction.do"
         
         try:
-            await page.goto(url, wait_until="networkidle", timeout=60000)
-            await page.wait_for_selector(".contentList", timeout=30000)
+            await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            await page.wait_for_selector(".contentList", state="visible", timeout=30000)
 
             contentList = await page.query_selector(".contentList")
             table = await contentList.inner_html()
