@@ -129,12 +129,14 @@ const KEYWORD_CONFIG: Record<string, {
 // HTML 태그 제거
 function cleanHtml(text: string): string {
     return text
-        .replace(/<[^>]*>/g, '')
-        .replace(/&quot;/g, '"')
-        .replace(/&amp;/g, '&')
+        // 1. HTML 엔티티 먼저 디코딩
         .replace(/&lt;/g, '<')
         .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&amp;/g, '&')
         .replace(/&nbsp;/g, ' ')
+        // 2. 그 다음 태그 제거
+        .replace(/<[^>]*>/g, '')
         .trim();
 }
 
