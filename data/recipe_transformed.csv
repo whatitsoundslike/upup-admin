@@ -1,0 +1,602 @@
+id,nameProgram,broadcast,episodeNumber,episodeDate,star,nameFood,descriptionInput,ingredient,seasoningIngredient,recipeStepsInput,Tips
+59059956,신상출시 편스토랑,kbs,303회,260102,이정현,유자청 갈비찜| 박수받는 설 명절음식 베스트 10가지 모음 ,갈비탕&갈비찜을 동시에! 실패없는 초간단 레시피,"[{""foodName"": ""삶은 소갈비"", ""amount"": 1.0, ""unit"": ""kg"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""대파"", ""amount"": 2.0, ""unit"": ""대"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""밤"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""단호박"", ""amount"": 0.25, ""unit"": ""개"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""표고버섯"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""건대추"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""고명 은행"", ""amount"": 8.0, ""unit"": ""개"", ""noServing"": 8.0, ""amountPerNoServing"": 8.0}]","[{""foodName"": ""갈비 삶은 육수"", ""amount"": 4.0, ""unit"": ""국자"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""유자청"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""국간장"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""조청"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""노두유"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}]","1. 대파를 듬성듬성 썬다. / 단호박은 반 자르고 씨를 제거한 후 얇게 썬다.
+2. 양파를 강판에 간다.
+3. 팬에 은행을 살짝 볶는다.
+4. 유자청 1큰술, 간 양파, 국간장 2큰술, 조청 1큰술, 노두유 1/2큰술를 넣고 섞는다.
+5. 팬에 삶은 갈비와 갈비 삶은 육수 4국자, [양념장], 대파, 단호박, 밤, 건대추를 넣고 국물이 졸아들 때까지 중불로 20분간 끓인다.
+6. 마지막으로 은행을 갈비찜 위에 예쁘게 올리면 완성",
+92681365,신상출시 편스토랑,kbs,303회,260102,이정현,더 맑은 갈비탕| 박수받는 설 명절음식 베스트 10가지 모음 ,갈비탕&갈비찜을 동시에! 실패없는 초간단 레시피,"[{""foodName"": ""찜용 소갈비"", ""amount"": 2.0, ""unit"": ""kg"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""대파"", ""amount"": 2.0, ""unit"": ""대"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""양파"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""생강"", ""amount"": 2.0, ""unit"": ""톨"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""통후추 한 줌"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""고명 대파"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""표고버섯"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""새싹삼"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""건대추"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""물"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식초"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""소주"", ""amount"": 0.5, ""unit"": ""컵"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""소금"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""국간장"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","1. 고기에 붙은 뼛가루와 불순물을 깨끗하게 씻는다.
+2. 찬물 1.5L에 고기 2kg, 식초 1.5큰술, 소주 1/2컵(100ml)을 넣고 20분간 핏물을 뺀다.
+3. 냄비에 2L 물을 넣고 팔팔 끓으면, 갈비를 넣고 10분간 데친다.
+4. 데친 고기는 찬물에 씻어주고 눈에 보이는 지방은 가위로 자른다.
+5. 국물은 버리고 솥은 깨끗이 씻는다.
+6. 압력솥에 물 2L, 데친 갈비, 소금 1큰술(10g)을 넣고 뚜껑을 닫은 뒤 강불로 끓인다.
+7. 추의 소리가 나면 불은 중약불로 줄이고 20분 끓인다.
+8. 20분 뒤, 불을 끄고 10분 뜸 들이고, 추를 젖혀 5분간 증기를 뺀다.
+9. 압력솥을 열고 국물 위에 뜬 기름은 걷어낸다.
+10. 대파, 양파, 생강, 통후추를 넣고 10분 더 강불로 끓인다.
+11. 국간장 1큰술를 넣고 간을 본 후, 소금 1큰술(10g)를 추가로 넣고 한소끔 더 끓인다.","이때 소금을 함께 넣어야 고기에 간이 배어 더 맛있어요!
+갈비 1kg은 갈비탕용으로, 나머지 1kg은 갈비찜용으로 사용합니다!
+새싹삼, 표고버섯, 건대추, 파 고명을 올리면 더욱 좋습니다!"
+26739187,신상출시 편스토랑,kbs,303회,260102,이정현,꼬치없는 꼬치전 | 설 필수 명절전종류 베스트 10가지 맛있게 만드는 법,손님들 감탄 폭발 무조건 성공하는 설명절 고민해결 레시피,"[{""foodName"": ""햄"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""단무지"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""맛살"", ""amount"": 2.0, ""unit"": ""개"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""쪽파 6줄기"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""계란"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""소금"", ""amount"": 2.0, ""unit"": ""꼬집"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 맛살은 길게 반으로 자른다.
+2. 단무지는 키친타월로 닦아 물기를 제거한다.
+3. 계란 3개, 소금 2꼬집을 넣고 푼다.
+4. 사각팬에 기름을 두르고 예열되면, 계란물을 붓고 중약불로 익힌다.
+5. 계란이 반쯤 익으면, 햄 → 맛살 → 쪽파 → 단무지 순으로 올린다.
+6. 재료 위에 계란물 한 숟가락 정도를 골고루 뿌려 재료가 잘 붙게 한다.
+7. 팬 바닥 쪽 계란이 완전히 익으면 조심스럽게 뒤집어 마저 익힌다.
+8. 노릇하게 다 익으면 한 김 식힌 후, 먹기 좋은 크기로 9등분한다.",
+71521840,신상출시 편스토랑,kbs,303회,260102,이정현,표고버섯전 | 설 필수 명절전종류 베스트 10가지 맛있게 만드는 법,손님들 감탄 폭발 무조건 성공하는 설명절 고민해결 엄마손맛,"[{""foodName"": ""다진 돼지고기"", ""amount"": 300.0, ""unit"": ""g"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""두부"", ""amount"": 0.25, ""unit"": ""모"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""다진 마늘 듬뿍"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진 생강"", ""amount"": 0.5, ""unit"": ""티스푼"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""청주"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""순후추 약간"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""달걀 1/2개\n\n양파 1/3개 당근"", ""amount"": 1.0, ""unit"": ""조각"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""쪽파 3~4줄기"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""표고버섯 6~"", ""amount"": 7.0, ""unit"": ""개"", ""noServing"": 7.0, ""amountPerNoServing"": 7.0}, {""foodName"": ""쌀부침가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""계란"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""소금"", ""amount"": 1.0, ""unit"": ""꼬집"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 다진 고기는 키친타월로 핏물을 닦아낸다.
+2. 두부는 물기를 짠 후 곱게 으깬다.
+3. 달걀은 풀어 달걀물을 만든다.
+4. 양파, 당근, 쪽파를 다진다.
+5. 볼에 돼지고기 다짐육, 으깬 두부, 다진 양파, 다진 당근, 다진 쪽파와 다진 마늘 듬뿍 1큰술, 다진 생강 1/2티스푼, 청주 1큰술, 소금 1/2큰술, 순후추를 섞고 치댄다.
+6. 계란 3개, 소금 1꼬집을 넣고 섞는다.
+7. 표고버섯 손질
+8. 표고버섯은 기둥을 떼고, 안쪽을 살짝 파내어 속을 채울 공간을 만든다.
+9. 겉표면 가운데 별 모양으로 칼집을 내어 준비한다.
+10. 표고버섯에 후추, 소금을 뿌려 밑간한다.
+11. 표고버섯에 고기완자 넣기
+12. 손질한 표고버섯 안에 고기완자 반죽을 채워 넣는다.
+13. 전 부치기
+14. 고기 완자가 있는 부분에만 쌀부침가루를 묻히고 → 계란물을 묻혀 약불로 굽는다.","완자 쪽이 바닥이 되도록 먼저 올리고, 약불에서 천천히 익혀주세요!
+쌀부침가루는 밀가루보다 바삭하고 고소한 맛이 나서 전과 잘 맞아요!"
+82471385,신상출시 편스토랑,kbs,303회,260102,이정현,삼각깻잎전 | 설 필수 명절전종류 베스트 10가지 맛있게 만드는 법,"손님들 감탄 폭발 무조건 성공하는 설명절 고민해결, 엄마손맛 고기완자 듬뿍","[{""foodName"": ""다진 돼지고기"", ""amount"": 300.0, ""unit"": ""g"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""두부"", ""amount"": 0.25, ""unit"": ""모"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""다진 마늘 듬뿍"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진 생강"", ""amount"": 0.5, ""unit"": ""티스푼"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""청주"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""순후추 약간"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""달걀 1/2개\n\n양파 1/3개 당근"", ""amount"": 1.0, ""unit"": ""조각"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""쪽파 3~4줄기"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""깻잎 7~"", ""amount"": 8.0, ""unit"": ""장"", ""noServing"": 8.0, ""amountPerNoServing"": 8.0}, {""foodName"": ""쌀부침가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""계란"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""소금"", ""amount"": 1.0, ""unit"": ""꼬집"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 다진 고기는 키친타월로 핏물을 닦아낸다.
+2. 두부는 물기를 짠 후 곱게 으깬다.
+3. 달걀은 풀어 달걀물을 만든다.
+4. 양파, 당근, 쪽파를 다진다.
+5. 볼에 돼지고기 다짐육, 으깬 두부, 다진 양파, 다진 당근, 다진 쪽파와 다진 마늘 듬뿍 1큰술, 다진 생강 1/2티스푼, 청주 1큰술, 소금 1/2큰술, 순후추를 섞고 치댄다.
+6. 계란 3개, 소금 1꼬집을 넣고 섞는다.
+7. 깻잎에 고기 완자 넣기
+8. 깻잎 앞뒤로 쌀 부침가루를 뿌린다.
+9. 깻잎 가운데에 고기 완자를 올리고, 양옆 → 아래쪽 순서로 접어 삼각형 모양으로 만든다.
+10. 전 부치기
+11. 깻잎전에 계란물을 입히고 앞뒤 노릇하게 약불로 부치면 완성",철판은 120~130도 사이로 맞춰 구워주세요!
+91788594,신상출시 편스토랑,kbs,303회,260102,이정현,부채살 육전 | 설 필수 명절전종류 베스트 10가지 맛있게 만드는 법,무조건 성공하는 초간단 필승 레시피,"[{""foodName"": ""부채살"", ""amount"": 400.0, ""unit"": ""g"", ""noServing"": 400.0, ""amountPerNoServing"": 400.0}, {""foodName"": ""계란"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""참기름"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소금"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""설탕"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""후추 약간"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""찹쌀가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 칼등으로 고기를 두드려 연육하고, 힘줄을 끊어 고기가 말리지 않게 한다.
+2. 소금 1큰술, 설탕 1/2큰술, 후추 약간을 섞어 고기에 뿌린다.
+3. 소고기를 키친타월로 덮고 꾹 눌러 핏물을 뺀다.
+4. 계란 4개에 참기름 2큰술를 넣고 푼다.
+5. 체에 한 번 걸러 알끈을 제거한다.
+6. 연육한 고기를 손바닥만 한 크기로 반으로 자른다.
+7. 고기에 찹쌀가루를 얇게 묻힌다
+8. 또, 식어도 고소한 맛을 유지시켜줘요!
+9. 찹쌀가루를 입힌 전을 계란물에 담갔다 빼고, 잠깐 들어 계란물이 뚝뚝 떨어지지 않을 정도로 턴다.
+10. 식용유를 넉넉히 두르고 약불로 예열한 팬에 고기를 올린다.
+11. 이때, 한쪽 면이 완전히 익을 때까지 기다렸다가 한 번만 뒤집어줍니다.","소금은 삼투압으로 핏물 제거 및 표면을 단단하게 해 육즙 손실을 방지해줍니다!
+설탕은 연육 작용을, 후추는 고기 냄새를 잡아주면서 육향은 살아나게 해줘요!
+핏물을 충분히 빼야 전이 텁텁하지 않고 깔끔해요!
+참기름을 넣으면, 계란의 비린내도 잡아주고 풍미를 올려줘요!
+고기가 너무 크면 말리고 뒤집을 때 계란옷이 벗겨져요!
+체로 얇고 찹쌀가루를 고르게 뿌려주세요! 손바닥으로 한번 꾹 눌러 고기에 밀착시켜야 계란옷이 들뜨지 않아요!
+찹쌀가루는 고기 겉면에 얇은 막을 만들어 육즙을 꽉 잡아주고 계란옷도 밀착시켜 육전을 쫀득 촉촉하게 만들어줍니다~
+철판은 120~130도 사이로 맞춰 구워주세요!
+계란옷이 얇아서 벗겨질 수 있으니 딱 한 번만 뒤집어주세요!"
+16700704,신상출시 편스토랑,kbs,246회,241025,어남선생 류슈영,천원 깻잎전 | 설 필수 명절전종류 베스트 10가지 맛있게 만드는 법,무조건 성공하는 가성비 명절전,"[{""foodName"": ""깻잎"", ""amount"": 10.0, ""unit"": ""장"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}, {""foodName"": ""부침가루"", ""amount"": 1.0, ""unit"": ""컵"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""찬물 1컵+"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소금 3꼬집 식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 깻잎 10장을 물로 씻고 물기를 닦는다.
+2. 볼에 부침가루 1컵, 찬물 1컵+2큰술, 소금 3꼬집을 넣고 섞어 반죽물을 만든다.
+3. 예열된 팬에 기름을 넉넉히 두르고 기름이 달궈지면 중불로 줄인다.
+4. 3, 깻잎에 반죽물을 골고루 묻힌 뒤 팬에 올려 튀기듯 3분 굽는다.","물기를 꼼꼼하게 제거해야 반죽이 분리되지 않습니다!
+플레인요거트 정도의 농도로 맞춰주세요!
+섞이지 않은 부침가루 덩어리들은 그대로 둬도 됩니다!
+깻잎이 잠길 정도로 넉넉하게 둘러주세요!
+깻잎 꼭지 부분을 자르지 않아야 뒤집기 쉽습니다!
+튀김옷이 분리될 수 있으니 팬에 올리고 1분 30초 동안 뒤집지 말아주세요!
+맛소금에 찍어 먹으면 더욱 맛있습니다!"
+97979241,신상출시 편스토랑,kbs,238회,240830,어남선생 류슈영,전간장 | 설 가성비 명절전종류 베스트 10가지 맛있게 만드는 법,초간단 쉽게 만드는 필수 양념장,"[{""foodName"": ""양조간장"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""식초"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진생강"", ""amount"": 0.3333333333333333, ""unit"": ""티스푼"", ""noServing"": 0.3333333333333333, ""amountPerNoServing"": 0.3333333333333333}, {""foodName"": ""대파"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""청양고추"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}]",[],"1. 대파를 다지고 청양고추 1/2개는 어슷썬다.
+2. 볼에 양조간장 3큰술, 식초 1큰술, 설탕 1큰술, 다진생강 1/3티스푼, 다진 대파 한 줌, 어슷 썬 청양고추를 넣어 섞는다.",
+44836136,신상출시 편스토랑,kbs,238회,240830,어남선생 류슈영,가지전 | 설 가성비 명절전종류 베스트 10가지 맛있게 만드는 법,계란물 없이 만드는 초간단 바삭바삭,"[{""foodName"": ""가지"", ""amount"": 2.0, ""unit"": ""개"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""찬물"", ""amount"": 150.0, ""unit"": ""ml"", ""noServing"": 150.0, ""amountPerNoServing"": 150.0}, {""foodName"": ""부침가루"", ""amount"": 7.0, ""unit"": ""큰술"", ""noServing"": 7.0, ""amountPerNoServing"": 7.0}, {""foodName"": ""소금"", ""amount"": 2.0, ""unit"": ""꼬집"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 가지 2개를 0.5cm 두께로 어슷썬다.
+2. 볼에 찬물 150ml, 부침가루 7큰술, 소금 2꼬집을 넣어 섞어 반죽물을 만든다.
+3. 팬을 예열한 뒤 식용유를 넉넉히 두른다.
+4. 가지에 2의 반죽물을 입히고 팬에 올려 중불로 앞뒷면 각 2분씩 굽는다.","플레인요거트 정도의 농도로 맞춰주세요!
+섞이지 않은 부침가루 덩어리들은 그대로 둬도 됩니다!
+식용유는 팬 바닥 전체를 채울 정도로 부어주세요!
+반죽물을 많이 묻혀야 바삭합니다!
+튀김옷이 분리될 수 있으니 팬에 올리고 2분 동안 뒤집지 말아주세요!
+소금이나 전간장에 찍어 드시면 더욱 맛있습니다!
+전간장은 류수영의 ＜어남선생 전간장＞레시피를 참고하세요!"
+72341371,신상출시 편스토랑,kbs,238회,240830,어남선생 류슈영,동태전 | 설 가성비 명절전종류 베스트 10가지 맛있게 만드는 법,"기본 중의 기본, 필수 설명절 전종류","[{""foodName"": ""냉동동태포"", ""amount"": 600.0, ""unit"": ""g"", ""noServing"": 600.0, ""amountPerNoServing"": 600.0}, {""foodName"": ""부침가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""달걀"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""소금"", ""amount"": 2.0, ""unit"": ""꼬집"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""물"", ""amount"": 1.0, ""unit"": ""L"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""굵은소금"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""식초"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 냉동동태포 600g을 냉장실에서 12시간 이상 충분히 해동시킨 뒤 찬물에 헹군다.
+2. 볼에 달걀 4개를 풀고 소금 2꼬집을 넣어 섞는다.
+3. 볼에 물 1L, 굵은소금 2큰술, 식초 1큰술를 넣어 섞고
+4. 의 동태포를 넣어 5분 재운 후, 키친타올로 물기를 제거한다.
+5. 동태포 앞뒷면에 부침가루를 묻힌 뒤, 2)의 달걀물을 묻힌다.
+6. 팬에 식용유를 넉넉히 두르고 예열한 뒤, 2의 동태포를 올려 중약불로 서서히 익힌다.","식초를 넣으면 동태포의 비린내가 제거되고 살이 탱글해집니다!
+물기를 꼼꼼히 제거해야 부침가루가 얇게 착 달라붙습니다!
+부침가루와 달걀물은 얇게 묻힐수록 맛있습니다!
+식용유는 전이 살짝 잠길 정도로 넉넉히 넣어주세요!
+중약불로 서서히 익혀야 겉은 타지 않고, 안까지 잘 익습니다!"
+20516613,신상출시 편스토랑,kbs,236회,240816,어남선생 류슈영,평생갈비찜 | 칭찬받는 설 명절음식 베스트 10가지 반찬 모음 ,누구나 쉽게 평생 써먹는 놀라운 신박 레시피,"[{""foodName"": ""소갈비"", ""amount"": 2.0, ""unit"": ""kg"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""양파"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""대파"", ""amount"": 2.0, ""unit"": ""대"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""무"", ""amount"": 500.0, ""unit"": ""g"", ""noServing"": 500.0, ""amountPerNoServing"": 500.0}, {""foodName"": ""홍고추"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","[{""foodName"": ""다진마늘"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""다진생강"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""설탕"", ""amount"": 0.5, ""unit"": ""컵"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""진간장"", ""amount"": 1.0, ""unit"": ""컵"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""참치액"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""미림"", ""amount"": 1.0, ""unit"": ""컵"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식초"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""배 음료"", ""amount"": 1.0, ""unit"": ""캔"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""물"", ""amount"": 800.0, ""unit"": ""ml"", ""noServing"": 800.0, ""amountPerNoServing"": 800.0}, {""foodName"": ""식용유 2바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""풋고추 (매운맛을 원하면 청양고추)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 소갈비 2kg을 찬물에 2시간 동안 담가 핏물을 뺀다.
+2. 양파 1개를 채 썬다.
+3. 대파 2대를 송송 썬다.
+4. 무 500g의 껍질을 벗기고 2~3cm 두께로 큼직하게 썬다.
+5. 홍고추 1개를 어슷썬다.
+6. 예열된 냄비에 썰어둔 양파, 대파를 넣고 식용유 2바퀴를 둘러 강불로 볶는다.
+7. 파기름이 나면 다진마늘 4큰술, 다진생강 1/2큰술를 넣어 볶는다.
+8. 마늘이 갈변하면 설탕 1/2컵(100ml)을 넣어 볶는다.
+9. 설탕이 녹고 채수가 충분히 나오면 진간장 1컵(200ml), 참치액 3큰술를 넣어 끓인다.
+10. 간장이 바글바글 끓으면 1)의 고기를 넣어 핏기가 사라질 때까지 조린다.
+11. 식초 5큰술, 미림 1컵(200ml), 물 4컵(800ml), 배 음료 1캔(238ml)을 넣고 4)의 무를 올려 끓인다.
+12. 물이 끓으면 뚜껑을 닫아 중불로 1시간 끓인다.
+13. 갈비찜을 그릇에 담고 5)의 홍고추를 고명으로 올려주면 완성!","중간중간 물을 갈아주세요!
+위, 아래 고기 위치를 바꿔가며 간이 골고루 배게 해주세요!
+물은 고기가 잠길 정도로 넣어주세요!
+떠오르는 거품을 걷어주세요!
+무를 중간중간 뒤집어주면 간이 배 더욱 맛있습니다!
+10분 남았을 때 씨를 뺀 풋고추를 넣어주세요!"
+88561361,신상출시 편스토랑,kbs,,,어남선생 류슈영,대패육전 | 설 가성비 명절전종류 베스트 10가지 맛있게 만드는 법,4인 가족 5천원에 배불리먹는 가성비 초간단,"[{""foodName"": ""냉동 대패삼겹살"", ""amount"": 400.0, ""unit"": ""g"", ""noServing"": 400.0, ""amountPerNoServing"": 400.0}, {""foodName"": ""달걀"", ""amount"": 7.0, ""unit"": ""개"", ""noServing"": 7.0, ""amountPerNoServing"": 7.0}, {""foodName"": ""부침가루 한컵(200g)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금 ⅓T"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 달걀 7개를 깨서 참기름 1큰술, 소금 ⅓T를 넣고 섞는다.
+2. 냉동 대패삼겹살은 미리 꺼내 5분 정도 해동한다.
+3. 해동한 냉동 대패삼겹살을 펴서 부침가루 → 달걀물 순서로 묻힌다.
+4. 중약불로 달군 팬에 식용유를 1바퀴 정도 두르고, 1의 대패삼겹살을 올려 노릇하게 굽는다.","부침가루에 이미 간이 되어 있어 따로 간을 할 필요가 없습니다!
+구울 때 대패삼겹살에서 기름이 많이 나오니 식용유를 조금만 둘러야 합니다!"
+23328290,신상출시 편스토랑,kbs,94회,210827,어남선생 류슈영,불고깃감 육전 | 설 가성비 명절전종류 베스트 10가지 맛있게 만드는 법,손님 가족 감탄하는 한우불고깃감으로 대왕육전 flex,"[{""foodName"": ""달걀"", ""amount"": 5.0, ""unit"": ""개"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""찹쌀가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""간장"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""설탕"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""3mm 불고깃감"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""카놀라유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 볼에 달걀 5개를 깐 후 풀어 준비하고, 쟁반에 찹쌀가루를 깔아준다.
+2. 간장 5큰술, 설탕 3큰술, 참기름 1큰술를 섞어 양념장을 만들어준다.
+3. 3mm 불고깃감 1장에 2의 양념장 1/2티스푼씩 발라준 후 숟가락으로 툭툭 쳐 힘줄을 끊어준다.
+4. 3의 불고깃감에 찹쌀가루 ⇨ 달걀물 순으로 골고루 묻혀준다.
+5. 잘 달궈진 프라이팬에 기름을 넉넉하게 두르고 3의 불고깃감을 올려 구워준다.
+6. 5의 불고깃감이 조그라들 때 뒤집어준다.
+7. 뒤집은 후 달걀이 익었다 싶으면 완성!","설탕이 녹을 때까지 잘 섞어주세요 :
+하얀색 힘줄을 끊어주면 양념이 잘 배고 육질이 부드러워집니다!
+꼭! 약불에 나른 나른하게 부쳐주세요 :"
+99749394,신상출시 편스토랑,kbs,303회,260102,이정현,자투리 계란말이밥 | 칭찬받는 설 명절음식 베스트 10가지 반찬 모음 ,남은 명절 음식 자투리 채소 활용,"[{""foodName"": ""김밥김"", ""amount"": 1.0, ""unit"": ""장"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""깨"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""밥 듬뿍 한 주걱(150g)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식용유\r\n계란물 계란"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""소금 한 꼬집\r\n자투리 채소 다진 채소 듬뿍"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}]","[{""foodName"": ""양념장 고운 고춧가루"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""국간장"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""청주"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""후추"", ""amount"": 4.0, ""unit"": ""꼬집"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}]","1. 자투리 채소를 다진다.
+2. 팬에 식용유를 두르고 [자투리 채소]를 넣고 노릇하게 중불로 볶는다.
+3. 밥에 볶은 채소와 소금 1꼬집, 깨 톡톡을 넣고 섞는다.
+4. 김 위에 야채밥을 얇게 깐다.
+5. 계란에 소금 한 꼬집을 넣고 푼 뒤, 체에 내려 고운 계란물을 준비한다.
+6. 팬에 기름을 두르고 달궈지면 계란물을 붓고, 계란이 반쯤 익으면 밥을 깐 김을 올려서 꾹꾹 눌러 붙인다.
+7. 계란말이 하듯이 끝부터 돌돌 말며 서서히 약불로 익힌다.
+8. 남은 계란물을 한번 더 부어 돌돌 말아 익힌다.
+9. 계란말이밥을 한소끔 식힌 후, 먹기 좋은 크기로 잘라주면 완성","냉장고 속 자투리 채소(양파, 당근, 애호박 등)를 사용해주셔도 됩니다!"
+77413844,신상출시 편스토랑,kbs,301회,251212,이정현,만능겉절이 | 설명절음식 베스트 10가지 모음 구정 반찬,"명절음식 느끼함 싹, 풀 쑤지 않고 간편하게 만드는","[{""foodName"": ""배추"", ""amount"": 3.0, ""unit"": ""통"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""물"", ""amount"": 3.0, ""unit"": ""L"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""굵은소금"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""쪽파 한 줌(60g)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""고구마"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""사과"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""깐마늘"", ""amount"": 8.0, ""unit"": ""개"", ""noServing"": 8.0, ""amountPerNoServing"": 8.0}, {""foodName"": ""홍고추"", ""amount"": 14.0, ""unit"": ""개"", ""noServing"": 14.0, ""amountPerNoServing"": 14.0}, {""foodName"": ""무 1토막("", ""amount"": 120.0, ""unit"": ""g"", ""noServing"": 120.0, ""amountPerNoServing"": 120.0}, {""foodName"": ""6cm)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""생강 1톨\r\n\r\n까나리액젓"", ""amount"": 14.0, ""unit"": ""큰술"", ""noServing"": 14.0, ""amountPerNoServing"": 14.0}, {""foodName"": ""새우젓"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""매실청"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""설탕"", ""amount"": 10.0, ""unit"": ""큰술"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}, {""foodName"": ""고운 고춧가루"", ""amount"": 1.0, ""unit"": ""컵"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""굵은 고춧가루"", ""amount"": 1.0, ""unit"": ""컵"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","1. 배추의 시든 겉잎이나 흙 묻은 잎은 떼어낸다.
+2. 배추 밑동을 자르고, 큰 잎들은 반 가르고 한입 크기로 썬다.
+3. 물 3L, 굵은소금 5큰술를 섞는다.
+4. 배추를 소금물에 넣고 잘 버무린 후, 소금 한 줌을 더 뿌려 30분간 절인다.
+5. 30분 뒤, 절인 배추는 헹구지 않고 물기를 빼준다.
+6. 쪽파를 듬성듬성 자른다.
+7. 내열 용기에 고구마와 물 약간을 넣고 전자레인지에 5분간 돌려 찐다.
+8. 믹서기에 찐 고구마 1개(120g), 사과 1개, 양파 1/2개, 깐마늘 8개, 홍고추 14개, 무 1토막(120g, 6cm), 생강 1톨(20g),
+9. 까나리액젓 14큰술, 새우젓 4큰술, 매실청 4큰술, 설탕 10큰술를 넣고 간다.
+10. 양념장에 고운 고춧가루 1컵(200ml), 굵은 고춧가루 1컵(200ml)을 붓고 잘 섞는다.
+11. 절인 배추에 양념장과 쪽파를 넣고 골고루 버무리면 완성!",절인 배추가 잘 꺾이지 않고 부러지지 않는 정도의 절임이 적당합니다! 절이는 중간에 한 번 뒤적여주세요~
+98640055,신상출시 편스토랑,kbs,243회,241004,어남선생 류슈영,양념돼지갈비 | 설명절음식 베스트 10가지 모음 구정 반찬,"설명절음식 고민 끝, 숯불향 가득 집에서 만드는 외식 메뉴","[{""foodName"": ""목살"", ""amount"": 600.0, ""unit"": ""g"", ""noServing"": 600.0, ""amountPerNoServing"": 600.0}, {""foodName"": ""대파"", ""amount"": 1.0, ""unit"": ""대"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","[{""foodName"": ""진간장"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""참치액"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""설탕"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""참기름"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""다진마늘 듬뿍"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""식초"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""갈아만든 배"", ""amount"": 1.0, ""unit"": ""캔"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""후추 20바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""깨"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식용유 3바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 목살 600g의 앞면과 뒷면에 칼집을 낸다.
+2. 대파 1대를 다진다.
+3. 볼에 2)의 대파, 진간장 5큰술, 참치액 5큰술, 설탕 5큰술, 참기름 3큰술, 다진마늘 듬뿍 2큰술, 식초 1큰술, 갈아만든 배 1캔(238ml),
+4. 후추 20바퀴를 넣은 후 깨 1큰술는 손으로 갈아 넣고 섞어 양념장을 만든다.
+5. 밀폐용기에 1)의 목살을 겹겹이 쌓아 넣고 양념장을 부어 재운다.
+6. 예열된 팬에 식용유 3바퀴를 두르고 예열한 뒤, 2의 목살을 올려 중불로 6분 굽는다.
+7. 6분이 되면 고기를 먹기 좋은 크기로 자르고, 강불로 올려 10초 볶는다.","1cm 간격으로 앞면은 일자, 뒷면은 비스듬히 칼집을 내주세요!
+설탕이 녹을 때까지 잘 섞어주세요!
+4시간 이상 숙성시켜주세요!
+양념을 잘 털어준 뒤 팬에 올려야 쪄지지 않습니다!
+수분이 날아가고 기름이 지글거리기 시작하면 뒤집어 주세요!
+양념이 눌어붙은 부분을 고기에 묻혀가며 구워야 타지 않고 불맛도 낼 수 있습니다!
+고기를 굽는 시간이 7분을 넘기지 않아야 합니다!"
+29960955,,,,,,칠리스 치즈스틱 미국 틱톡에서 핫한 대왕 벽돌크기 인스타푸드,"고자극 도파민 음식이 필요할 때, 현지맛 그대로 인스타 틱톡 바이럴 푸드","[{""foodName"": ""통 모짜렐라 치즈 (블럭형)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""밀가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""계란"", ""amount"": 2.0, ""unit"": ""개"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""빵가루(습식 추천)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""파슬리 가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""소금"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""후추"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""튀김유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 치즈 자르기: 통 모짜렐라 치즈를 손가락 두 개 합친 두께의 직사각형 모양(벽돌 모양)으로 큼직하게 자릅니다. (스트링 치즈 2개를 겹쳐도 돼요!)
+2. 튀김옷 준비: 접시 1: 밀가루, 접시 2: 푼 계란물, 접시 3: 빵가루 + 파슬리 + 소금 + 후추 섞기 (시즈닝 중요!)
+3. 더블 딥(Double Dip) 필수: 치즈를 밀가루 → 계란물 → 빵가루 순으로 묻힙니다.
+4. 빵가루 묻힌 치즈를 다시 계란물 → 빵가루 순으로 한 번 더 입혀주세요. (두껍게 입혀야 치즈가 안 터져요!)
+5. 튀기기: 170~180도 기름에 노릇해질 때까지 짧고 굵게 튀겨내면 완성!",얼리기 (Tip): 튀김옷 입힌 치즈스틱을 냉동실에 1시간 이상 꽁꽁 얼립니다. (안 얼리고 튀기면 치즈가 다 흘러나와요.
+27596212,,,,,,감칠맛 폭발 봄동 겉절이 누구나 성공하는 3분 완성 정호영 레시피,"만능 양념장으로 봄동무침, 봄동 비빔밥까지 한 번에 가능해요","[{""foodName"": ""봄동"", ""amount"": 1.0, ""unit"": ""봉지"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","[{""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""고춧가루"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""매실청"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""멸치액젓"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""참치액젓"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진 마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""깨"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 양념장 재료를 넣고 섞어줍니다
+2. 30분 숙성시켜줍니다. (숙성 단계는 건너뛰어도 됩니다)
+3. 뿌리 부분을 잘라준 뒤 한 잎씩 떼어줍니다.
+4. 먹기 좋은 크기로 잘라줍니다.
+5. 흐르는 물에 씻어줍니다.
+6. 숙성된 양념장과 봄동을 버무리면 끝!",
+29222480,,,,,,스타벅스 아이스 두바이 초콜릿 말차 신메뉴 가격 칼로리 내돈내산 솔직후기,"드디어 한국 출시 북미 미국 대박난 스벅 두바이 신상 음료 2종 먹어봤어요. 톨 사이즈 7,300원으로 꽤 비싼 편이고 아이스만 가능해요. 말차향도 약하고 그냥 아몬드브리즈 맛이라 조금 실망스러웠어요.","[{""foodName"": ""피스타치오 말차 라떼"", ""amount"": 300.0, ""unit"": ""ml"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""초콜릿 폼"", ""amount"": 10.0, ""unit"": ""g"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}, {""foodName"": ""솔티드 브라운 버터리 토핑"", ""amount"": 5.0, ""unit"": ""g"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}]",[],"1. 말차 라떼 베이스를 우유에 잘 섞어줍니다.
+2. 피스타치오 페이스트를 말차 라떼에 섞어줍니다.
+3. 컵에 얼음을 넣고 피스타치오 말차 라떼 베이스를 넣어줍니다.
+4. 휘핑크림에 녹인 초콜릿을 넣은 초콜릿 폼을 위에 부어줍니다.
+5. 솔티드 브라운 버터리 토핑을 뿌려주면 완성",
+60710716,,,,,,스타벅스 아이스 두바이 초콜릿 모카 신메뉴 가격 칼로리 내돈내산 솔직후기,"드디어 한국 출시 북미 미국 대박난 스벅 두바이 신상 음료 2종 먹어봤어요. 톨 사이즈 7,300원으로 꽤 비싼 편이고 아이스만 가능해요. 아몬드브리즈 모카라떼 맛이라 조금 실망스러웠어요.","[{""foodName"": ""카페 모카"", ""amount"": 300.0, ""unit"": ""ml"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""피스타치오 폼"", ""amount"": 10.0, ""unit"": ""g"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}, {""foodName"": ""솔티드 브라운 버터리 토핑"", ""amount"": 5.0, ""unit"": ""g"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}]",[],"1. 초코 라떼 베이스를 우유에 잘 섞어줍니다.
+2. 에스프레소 샷을 내려 초코 라떼에 섞어줍니다.
+3. 컵에 얼음을 넣고 모카 라떼 베이스를 넣어줍니다.
+4. 휘핑크림에 피스타치오 페이스트를 추가한 피스타치오 폼을 위에 부어줍니다.
+5. 솔티드 브라운 버터리 토핑을 뿌려주면 완성!",
+65380524,신상출시 편스토랑,kbs,308회 ,260206,오상진,알배추 크림수프,"입덧 심한 아내를 위한 오집사의 초간단 메뉴, 임산부 아침식사 추천","[{""foodName"": ""알배추"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""버터"", ""amount"": 30.0, ""unit"": ""g"", ""noServing"": 30.0, ""amountPerNoServing"": 30.0}, {""foodName"": ""생크림"", ""amount"": 200.0, ""unit"": ""ml"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}, {""foodName"": ""물"", ""amount"": 200.0, ""unit"": ""ml"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}, {""foodName"": ""밀가루"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금"", ""amount"": 1.0, ""unit"": ""티스푼"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""치킨파우더"", ""amount"": 1.0, ""unit"": ""티스푼"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""레드페퍼"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""청양고추 오일 아보카도오일"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""청양고추"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}]","1. 알배추 1/2개는 얇게 채 썬다.
+2. 팬에 버터를 넣고 중약불에서 녹인 뒤, 알배추를 넣고 3~4분간 볶는다.
+3. 알배추 양이 절반 정도 줄면 밀가루 1큰술를 넣고 볶다 물 200ml, 생크림 200ml, 소금 1티스푼, 치킨파우더 1티스푼를 넣고 중불로 한소끔 끓인다.
+4. 바글바글 끓으면 약불로 줄여 10분간 더 졸인다.
+5. 그릇에 옮긴 뒤 레드페퍼와 청양고추 오일을 뿌려주면 완성!
+6. 청양고추 3개는 숭덩숭덩 자른다.
+7. 블렌더에 썬 청양고추, 아보카도오일을 넉넉히 두르고 간 뒤 고운체에 오일만 거른다.",
+32267489,신상출시 편스토랑,kbs,308회 ,260206,이정현,차돌명란솥밥,반찬이 필요 없는 한 그릇,"[{""foodName"": ""백미"", ""amount"": 300.0, ""unit"": ""ml"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""물"", ""amount"": 300.0, ""unit"": ""ml"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""미나리 듬뿍 한 줌 \r\n\r\n차돌박이"", ""amount"": 200.0, ""unit"": ""g"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}, {""foodName"": ""다진 마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""청주"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""양조간장"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""버터"", ""amount"": 1.0, ""unit"": ""조각"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""올리브오일"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""참기름\r\n\r\n백명란 2~3덩어리 명란 손질 소금물(물"", ""amount"": 500.0, ""unit"": ""ml"", ""noServing"": 500.0, ""amountPerNoServing"": 500.0}, {""foodName"": ""소금 1큰술)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""청주"", ""amount"": 1.0, ""unit"": ""컵"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]",[],"1. 쌀을 물에 30분간 불린다.
+2. 미나리는 송송 썬다.
+3. 물 500ml에 소금 1큰술를 풀고, 명란을 소금물에 가볍게 헹궈 표면의 염분을 제거한다.
+4. 소금물에 헹군 명란을 꺼내 청주에 10분간 담가 놓는다.
+5. 냄비에 올리브오일을 두르고 버터 1조각을 넣고 녹인다.
+6. 손질한 명란을 넣고 앞뒤로 겉면만 살짝 노릇하게 구운 뒤 꺼내둔다.
+7. 명란을 구웠던 냄비에 차돌박이 200g, 다진 마늘 1큰술, 청주 1큰술, 양조간장 1큰술를 넣고 고기가 노릇해질 때까지 볶는다.
+8. 차돌박이를 볶은 냄비에 불린 쌀을 넣고 물기가 살짝 날아갈 때까지 볶는다.
+9. 물 300ml(1.5컵)를 넣고 강불로 끓이다가 물이 바글바글 끓으면 뚜껑 덮고 10분간 약불로 끓인다.
+10. 10분 뒤, 타닥타닥 소리가 나면 불을 끄고 미나리를 듬뿍 뿌린 다음, 10분간 더 뜸 들인다.
+11. 구운 명란을 한입 크기로 잘라 미나리 위에 나란히 올리고 참기름을 둘러주면 완성","명란젓은 염장된 식품이라 소금물에 씻어야 명란 표면의 염분을 씻어낼 수 있어요!
+청주에 담가야 비린내, 잡내가 제거되고 청주의 쌀향과 감칠맛이 배어 풍미가 올라가고 식감이 살아나요!"
+93939120,신상출시 편스토랑,kbs,308회 ,260206,오상진,밀크고구마,고민 끝 초간단 아이간식 건강간식 다이어트간식,"[{""foodName"": ""고구마"", ""amount"": 120.0, ""unit"": ""g"", ""noServing"": 120.0, ""amountPerNoServing"": 120.0}, {""foodName"": ""우유"", ""amount"": 75.0, ""unit"": ""ml"", ""noServing"": 75.0, ""amountPerNoServing"": 75.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""마스카포네 치즈"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]",[],"1. 고구마는 껍질을 벗긴 뒤 먹기 좋은 크기로 자른다.
+2. 자른 고구마는 찬물에 30분간 담가 전분기를 뺀 후 물기를 제거한다.
+3. 내열 용기에 우유 75ml, 설탕 1큰술를 넣고 잘 섞은 뒤 고구마를 담가 랩을 씌워 전자레인지에 8분간 돌린다.
+4. 마스카포네 치즈 1큰술를 듬뿍 올려주면 완성!",고구마는 썬 뒤 찬물에 담가야 전분이 잘 빠집니다!
+37955160,신상출시 편스토랑,kbs,308회 ,260206,오상진,바나나 프렌치 토스트,"입덧 심한 아내를 위한 오집사의 초간단 메뉴, 임산부 아침식사 추천","[{""foodName"": ""브리오슈 통식빵"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""버터"", ""amount"": 30.0, ""unit"": ""g"", ""noServing"": 30.0, ""amountPerNoServing"": 30.0}, {""foodName"": ""계란"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금 세꼬집"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""바나나 우유 200ml \r\n\r\n토핑 생크림"", ""amount"": 30.0, ""unit"": ""g"", ""noServing"": 30.0, ""amountPerNoServing"": 30.0}, {""foodName"": ""마스카포네 치즈"", ""amount"": 100.0, ""unit"": ""g"", ""noServing"": 100.0, ""amountPerNoServing"": 100.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""바나나"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]",[],"1. 식빵은 4cm 정도의 두께로 자른다.
+2. 볼에 노른자 3개, 설탕 1큰술, 소금 세꼬집, 바나나 우유 200ml을 넣고 잘 섞는다.
+3. 식빵을 2의 내용물에 담가 5분 동안 충분히 적신다.
+4. 달군 팬에 버터를 녹인 뒤 아주 약한 불에서 10분간 굽는다.
+5. 볼에 생크림 30g, 마스카포네 치즈 100g, 설탕 1큰술를 넣고 잘 섞어 크림을 만든다.
+6. 프렌치 토스트에 크림과 먹기 좋게 썬 바나나를 올려주면 완성!","식빵은 얼렸다가 상온에서 6시간 이상 해동하면, 계란물을 더 잘 흡수합니다!
+앞뒤로 뒤집어가며 골고루 적셔주세요!
+앞뒤로 2-3번 뒤집어가며 구워주세요.
+크림치즈로도 대체 가능합니다!"
+94416135,신상출시 편스토랑,kbs,308회 ,260206,오상진,오목이피클,누구나 쉽게 따라하는 30분 완성 오집사의 초간단 레시피.,"[{""foodName"": ""오이"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""흰목이버섯(은이버섯) 한 덩이"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""생흑목이버섯 반 줌"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""꽃소금"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","[{""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""간 참깨"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식초"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""참기름"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""라오간마"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}]","1. 껍질을 제거한 오이는 먹기 좋은 크기로 자른 뒤, 칼등으로 두드려 살짝 으깬다.
+2. 손질한 오이는 꽃소금 1큰술를 넣고 15분간 절인 후 물기를 제거한다.
+3. 생은이버섯, 생흑목이버섯은 끓는 물에 1분~1분 30초간 데친 뒤, 찬물에 헹궈 물기를 제거한다.
+4. 데친 버섯은 뿌리를 제거하고 먹기 좋은 크기로 썬다.
+5. 볼에 절인 오이, 버섯, 설탕 1큰술, 간 참깨 1큰술, 식초 3큰술, 참기름 0.5큰술, 라오간마 2큰술를 넣고 버무리면 완성!","건버섯을 사용할 경우 미지근한 물에 30분간 불린 후 사용해주세요!
+은이버섯이 더 얇기 때문에 먼저 건져주시면 좋습니다!
+식초 대신 흑초를 사용하면 더욱 맛있습니다!"
+85343653,신상출시 편스토랑,kbs,308회 ,260206,오상진,연두부비냉,누구나 쉽게 따라하는 30분 완성 오집사의 초간단 레시피.,"[{""foodName"": ""소면"", ""amount"": 100.0, ""unit"": ""g"", ""noServing"": 100.0, ""amountPerNoServing"": 100.0}, {""foodName"": ""연두부"", ""amount"": 2.0, ""unit"": ""팩"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소금"", ""amount"": 1.0, ""unit"": ""티스푼"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""치킨파우더"", ""amount"": 1.0, ""unit"": ""티스푼"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""후추"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""낫토"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""쪽파 1줄"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 끓는 물에 소면 100g을 3분간 삶은 뒤 찬물로 헹궈 물기를 제거한다.
+2. 삶은 소면을 볼에 담고 볼에 소금 1티스푼, 치킨파우더 1티스푼, 참기름 1큰술, 연두부 2팩을 넣고 섞는다.
+3. 3 접시에 옮긴 뒤 낫토를 올려주면 완성!",기호에 따라 후추를 뿌려주세요!
+64826305,신상출시 편스토랑,kbs,307회,260130,이정현,만능크림소스,"밥, 면, 빵 다 어울리는 얼려두고 쓰는 만능소스","[{""foodName"": ""돼지고기 다짐육"", ""amount"": 300.0, ""unit"": ""g"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""생크림"", ""amount"": 500.0, ""unit"": ""ml"", ""noServing"": 500.0, ""amountPerNoServing"": 500.0}, {""foodName"": ""어린이 치즈 4장\r\n\r\n표고버섯 2개(*양송이버섯"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""팽이버섯"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""느타리버섯 등 모든 버섯 종류 사용 가능)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""버터"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""올리브오일(*식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""아보카도오일 대체 가능)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""건조 마늘가루"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]",[],"1. 돼지고기 다짐육은 키친타월로 눌러 핏물을 제거한다.
+2. 표고버섯, 양파는 잘게 다진다.
+3. 팬에 오일을 두르고 버터를 넣어 중약불로 녹인다.
+4. 다진 양파를 넣고 약불에서 천천히 볶는다.
+5. 양파의 숨이 죽으면, 돼지고기 다짐육, 다진 표고버섯, 건조 마늘가루 1큰술를 넣고 강불로 5분 볶는다.
+6. 생크림 500ml를 넣고 중불로 은근하게 끓인다.
+7. 생크림이 졸아들기 시작하면, 어린이 치즈 4장을 넣고 약불로 녹이면 완성.","고기를 꾹꾹 눌러주면 수분이 빠져 더 빠르고 노릇하게 익어요!
+돼지고기가 진한 갈색이 될 때까지 노릇노릇 볶아주세요!
+치즈를 넣으면 풍미가 올라가고 크림의 농도를 쉽게 조절할 수 있어요!,
+걸쭉하고 진한 농도를 원하면, 치즈를 더 추가해주세요!
+어른용은 마지막에 <소금 2꼬집> <후추 2꼬집> 넣고 간을 올려 한소끔 끓여주세요!
+만능 크림소스로 파스타, 리소또, 스테이크 소스, 떡볶이 등으로 다양하게 활용해보세요!
+냉장 2~3일 보관, 냉동 1~2개월 보관 가능하며, 재가열할 땐 우유 약간 넣고 한소끔 끓이세요!"
+37293958,신상출시 편스토랑,kbs,307회,260130,이정현,10분 닭고기전골,닭갈비와 동시에 요리 가능한 초간단 요리,"[{""foodName"": ""닭다리살"", ""amount"": 350.0, ""unit"": ""g"", ""noServing"": 350.0, ""amountPerNoServing"": 350.0}, {""foodName"": ""닭 손질 물"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""양조식초 닭 밑간 소금 톡톡"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""후추 톡톡"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""청주"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""양배추"", ""amount"": 0.25, ""unit"": ""통"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""깐마늘"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""청양고추"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""부추"", ""amount"": 50.0, ""unit"": ""g"", ""noServing"": 50.0, ""amountPerNoServing"": 50.0}, {""foodName"": ""홍고추"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""표고버섯"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""물"", ""amount"": 3.0, ""unit"": ""컵"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""양조간장"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""까나리액젓"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""청주"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금"", ""amount"": 3.0, ""unit"": ""꼬집"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""참기름"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}]",[],"1. 닭고기에 식초를 뿌려 씻는다.
+2. 닭고기를 깨끗한 물로 헹구고 체에 밭쳐 물기를 뺀다.
+3. 닭고기에 소금 톡톡, 후추 톡톡, 청주 2큰술를 넣어 밑간하고 10분 재운다.
+4. 닭고기와 양배추는 한입 크기로 자른다.
+5. 마늘은 편 썬다. / 부추는 듬성듬성 자른다. / 청양고추와 홍고추는 어슷 썬다.
+6. 표고버섯은 밑동을 떼고 얇게 썬다.
+7. 냄비에 물 3컵(600ml), 양조간장 1/2큰술, 까나리액젓 1큰술, 청주 1큰술, 닭고기를 넣고 강불로 끓인다.
+8. 국물이 끓어오르면 거품을 걷어내고 양배추, 편 마늘, 청양고추를 넣고 중약불로 낮춰 5분 끓인다.
+9. 소금 3꼬집과 참기름을 추가하고 부추, 홍고추, 표고버섯 올려 1분 더 끓이면 완성","간이 심심하다면, 소금 몇 꼬집을 더 추가해주세요!"
+94752743,,,,,,크림김치볶음밥,핫한 인스타 틱톡푸드 꿀조합 박홍 레시피,"[{""foodName"": ""밥 1공기"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""김치"", ""amount"": 1.0, ""unit"": ""인분"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""스팸"", ""amount"": 0.5, ""unit"": """", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""고춧가루"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""모짜렐라치즈"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""생크림"", ""amount"": 200.0, ""unit"": ""ml"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}]",[],"1. 식용유를 두르고 대파를 1~2분 볶아줍니다. 2. 스팸을 넣고 기름이 나올 때까지 볶아줍니다. 3. 김치와 고추가루, 설탕을 넣고 볶아줍니다. 4. 밥을 넣어 재료들과 섞이도록 볶아줍니다. 5. 볶음밥 가운데를 살짝 파준 후 생크림과 치즈를 1~2 국자 넣어주고 뚜껑을 닫아 치즈가 녹을 때까지 약불로 기다립니다.  ※ 선호하는 볶음밥 재료 (옥수수콘, 비엔나소시지, 김가루 등)를 추가해보세요! ※ 생크림이 없다면 우유로 대체 가능합니다.",
+40773719,신상출시 편스토랑,kbs,307회,260130,이정현,알싸한 철판 닭갈비,맛집에서 먹던 그 맛 그대로,"[{""foodName"": ""<<ver. 3인분 기준>>\n\n순살 닭다리살 500g 닭 손질 물"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""양조식초 닭 밑간 소금 톡톡"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""후추 톡톡"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""청주 3큰술 \n\n양배추"", ""amount"": 0.16666666666666666, ""unit"": ""통"", ""noServing"": 0.16666666666666666, ""amountPerNoServing"": 0.16666666666666666}, {""foodName"": ""고구마"", ""amount"": 0.3333333333333333, ""unit"": ""개"", ""noServing"": 0.3333333333333333, ""amountPerNoServing"": 0.3333333333333333}, {""foodName"": ""깻잎 6~"", ""amount"": 7.0, ""unit"": ""장"", ""noServing"": 7.0, ""amountPerNoServing"": 7.0}, {""foodName"": ""청양고추"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""대파"", ""amount"": 0.6666666666666666, ""unit"": ""대"", ""noServing"": 0.6666666666666666, ""amountPerNoServing"": 0.6666666666666666}, {""foodName"": ""양파"", ""amount"": 0.3333333333333333, ""unit"": ""개"", ""noServing"": 0.3333333333333333, ""amountPerNoServing"": 0.3333333333333333}, {""foodName"": ""떡볶이 떡 6~9개 아보카도오일(*식용유 대체 가능)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""양념장 고추장"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""고춧가루"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""양조간장"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""청주"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""프락토 올리고당"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""다진 마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""카레가루"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""고추냉이"", ""amount"": 0.3333333333333333, ""unit"": ""큰술"", ""noServing"": 0.3333333333333333, ""amountPerNoServing"": 0.3333333333333333}]","1. 닭고기에 식초를 뿌려 씻는다.
+2. 닭고기를 깨끗한 물로 헹구고 체에 밭쳐 물기를 뺀다.
+3. 닭고기에 소금 톡톡, 후추 톡톡, 청주 3큰술를 넣어 밑간하고 10분 재운다.
+4. 양배추, 양파, 대파를 듬성 듬성 썬다. / 고구마는 스틱모양으로 얇고 길게 썬다.
+5. 깻잎은 반으로 자른다. / 청양고추는 어슷썬다. / 떡볶이 떡은 물에 10분 정도 담가 불려둔다.
+6. 볼에 고추장 2큰술, 고춧가루 4큰술, 양조간장 4큰술, 청주 3큰술, 프락토 올리고당 3큰술,
+7. 다진 마늘 1큰술, 참기름 1큰술, 카레가루 1큰술, 고추냉이 1/3큰술를 넣고 섞는다.
+8. 팬에 기름을 두르고 약불로 예열한다.
+9. 닭고기를 껍질 쪽부터 올려 중불에서 앞뒤로 노릇하게 굽는다.
+10. 닭고기가 노릇하게 구워지면 가위로 작게 자른다.
+11. 구운 닭고기에서 나온 닭기름에 [양념장]을 볶는다.
+12. 이 바르르 끓으면, 구운 닭고기와 함께 볶는다.
+13. 닭고기에 [양념장]이 충분히 입혀지면, 양배추, 고구마, 양파, 대파, 떡볶이 떡을 넣고 함께 볶는다.
+14. 채소의 숨이 죽으면, 깻잎, 청양고추를 넣고 한소끔 더 볶아주면 완성","철판 사용 시 닭고기가 달라붙지 않도록 충분히 예열
+철판은 160~ 170도로 구워주세요!
+양념장과 닭기름이 만나 감칠맛이 진해져요!
+양념장이 빨리 타기 때문에 기름에 빠르게 볶고 닭고기와 섞어주세요!"
+39297771,신상출시 편스토랑,kbs,308회 ,260206,이정현,명란찌개,10분 완성 명란 한상 차림,"[{""foodName"": ""백명란 3~4덩어리(200g)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""명란 손질 소금물(물"", ""amount"": 500.0, ""unit"": ""ml"", ""noServing"": 500.0, ""amountPerNoServing"": 500.0}, {""foodName"": ""소금 1큰술)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""청주 1컵 \r\n\r\n두부"", ""amount"": 0.5, ""unit"": ""모"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""감자"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""애호박"", ""amount"": 0.3333333333333333, ""unit"": ""개"", ""noServing"": 0.3333333333333333, ""amountPerNoServing"": 0.3333333333333333}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""대파"", ""amount"": 0.5, ""unit"": ""대"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""청양고추"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""홍고추"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""육수 물"", ""amount"": 1.0, ""unit"": ""L"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다시마"", ""amount"": 4.0, ""unit"": ""장"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""국물용멸치 한 줌(10마리)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""마른표고버섯조각 반줌(6조각)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""새우젓"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진 마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]",[],"1. 물 500ml에 소금 1큰술를 풀고, 명란을 소금물에 가볍게 헹궈 표면의 염분을 제거한다.
+2. 소금물에 헹군 명란을 꺼내 청주에 10분간 담가 놓는다.
+3. 명란을 2cm 길이로 듬성듬성 자른다.
+4. 두부를 깍둑썰기한다. / 애호박, 감자를 한입 크기로 썬다. / 양파를 잘게 썬다. / 대파, 청양고추, 홍고추를 어슷썬다.
+5. 냄비에 물 1L, 다시마 4장, 국물용멸치 한 줌(10마리), 마른표고버섯 조각 반줌(6조각)을 넣고 5분간 강불로 끓인다.
+6. 5분 뒤, 다시마, 멸치, 표고버섯을 모두 건져낸다.
+7. 육수에 양파, 애호박, 감자, 새우젓 1큰술, 다진 마늘 1큰술를 넣고 5분간 강불로 끓인다.
+8. 5분 뒤, 대파, 청양고추, 홍고추, 명란, 두부를 넣고 한소끔 끓이면 완성
+9. 고운 고춧가루 3큰술, 국간장 1.5큰술, 청주 1.5큰술, 참기름 1큰술, 후추 4꼬집을 섞는다.","명란젓은 염장된 식품이라 소금물에 씻어야 명란 표면의 염분을 씻어낼 수 있어요!
+청주에 담가야 비린내, 잡내가 제거되고 청주의 쌀향과 감칠맛이 배어 풍미가 올라가고 식감이 살아나요!
+얼큰하고 칼칼한 맛을 원하시면 [양념장]을 풀어 넣어 즐기세요!"
+98504037,신상출시 편스토랑,kbs,295회,251031,이정현,1석3조 닭곰탕,닭다리살로 만드는 30분 초간단 가성비 닭 요리,"[{""foodName"": ""닭다리살"", ""amount"": 1.0, ""unit"": ""kg"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""양파"", ""amount"": 2.0, ""unit"": ""개"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""대파"", ""amount"": 2.0, ""unit"": ""개"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""다진 마늘"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""올리브유 약간"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식초"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""숙주"", ""amount"": 200.0, ""unit"": ""g"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}]",[],"1. 양파 2개, 대파 2개는 큼직하게 썬다.
+2. 쪽파 반 줌은 송송 썬다.
+3. 닭다리살은 식초 뿌린 물에 10분 정도 담갔다가, 깨끗한 물로 헹군다.
+4. 달군 냄비에 올리브유를 약간 두르고, 닭다리살을 껍질이 아래로 가게 넣어 굽는다.
+5. 닭기름이 나오면, 썰어둔 양파와 대파, 다진 마늘 2큰술를 넣고 볶아 향을 낸다.
+6. 물 2L를 붓고 센불에 한 번 끓인 뒤, 뚜껑을 덮고 중약불로 줄여 30분간 끓인다.
+7. 30분 후, 대파, 양파, 닭고기를 건져낸다.
+8. 마지막으로 숙주 200g을 넣고 약 3분간 더 끓여주면 완성!","육수용 채소는 적당한 크기로 잘라서 넣어야 향이 더 잘 우러나요!
+식초를 뿌리면 잡내 제거에 더욱 효과적입니다!
+기호에 따라 액젓으로 간을 더해주세요!"
+52913643,신상출시 편스토랑,kbs,295회,251031,이정현,오렌지깍두기,노설탕 이색김치 실패없이 김치 담그는 법,"[{""foodName"": ""무"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""굵은소금"", ""amount"": 10.0, ""unit"": ""큰술"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}, {""foodName"": ""쪽파 2단\r\n\r\n밀가루풀 뜨거운 물"", ""amount"": 200.0, ""unit"": ""ml"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}, {""foodName"": ""밀가루"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}]","[{""foodName"": ""양념 홍고추"", ""amount"": 12.0, ""unit"": ""개"", ""noServing"": 12.0, ""amountPerNoServing"": 12.0}, {""foodName"": ""양파"", ""amount"": 1.5, ""unit"": ""개"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""마늘"", ""amount"": 20.0, ""unit"": ""개"", ""noServing"": 20.0, ""amountPerNoServing"": 20.0}, {""foodName"": ""생강"", ""amount"": 2.0, ""unit"": ""쪽"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""새우젓"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""까나리액젓"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""오렌지"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""고운고춧가루"", ""amount"": 10.0, ""unit"": ""큰술"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}]","1. 뜨거운 물 200ml에 밀가루 3큰술를 넣고 덩어리 없이 잘 풀어준다.
+2. 무 3개는 사방 2~3cm 크기로 깍둑썰기한다.
+3. 썬 무에 굵은소금 10큰술를 넣고 잘 섞은 뒤 1시간 30분간 절인다.
+4. 절인 무는 찬물에 헹군 후 물기를 제거한다.
+5. 믹서기에 홍고추 12개, 양파 1.5개, 마늘 20개, 생강 2쪽, 새우젓 3큰술, 까나리액젓 3큰술, 밀가루풀, 오렌지 3개를 넣고 간다.
+6. 절인 무에 고운 고춧가루 10큰술를 넣어 색을 먼저 입힌 뒤, 양념장을 넣고 버무린다.
+7. 밀폐 용기 바닥에 절이지 않은 쪽파를 깔고, 그 위에 깍두기와 양념을 담아 숙성시킨다.","뜨거운 물로 풀면 발효가 더 잘돼서 김치가 맛있게 익어요!
+중간 중간 뒤집어가며 골고루 절여주세요!
+양념을 넣기 전 고춧가루를 먼저 섞으면 양념이 뭉치지 않고, 깍두기에 색을 입혀줍니다!
+하루 상온에 두고, 이후엔 냉장 보관을 하면 더욱 숙성이 잘 됩니다!"
+40298839,신상출시 편스토랑,kbs,295회,251031,이정현,양파절임,30분 초간단 밑반찬 걱정 끝,"[{""foodName"": ""양파"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""물"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""식초"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""설탕"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""소금 두 꼬집"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 양파 1개는 채 썰어 찬물에 10분간 담가 매운맛을 빼준다.
+2. 물 3큰술, 식초 3큰술, 설탕 3큰술, 소금 두 꼬집을 넣고 잘 섞는다. (1:1:1 비율)
+3. 물기를 제거한 양파에 소스를 붓고 30분간 숙성해주면 완성!",
+58467367,신상출시 편스토랑,kbs,295회,251031,이정현,누룽지 닭곰탕,30분 닭곰탕으로 만드는 1석 3조 가성비 닭요리,"[{""foodName"": ""닭곰탕"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""닭다리살"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""누룽지 한 줌"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""쪽파 2줄"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 냄비에 곰탕 육수를 덜어 담는다.
+2. 누룽지 크게 한 줌(150g)을 넣고 약 15분간 끓인다.
+3. 찢은 닭다리살과 송송 썬 쪽파를 고명으로 올려주면 완성!","곰탕육수는 이정현의 <1석3조 닭곰탕> 레시피를 참고해주세요!
+누룽지는 이정현의 <철판 누룽지> 레시피를 참고해주세요!
+시판 누룽지를 넣어주셔도 됩니다!"
+41128156,신상출시 편스토랑,kbs,287회,250905,이정현,김치냉국,황금비율 김치말이국수 국물로도 활용 가능한 만능양념 만능육수,"[{""foodName"": ""열무김치국물"", ""amount"": 175.0, ""unit"": ""g"", ""noServing"": 175.0, ""amountPerNoServing"": 175.0}, {""foodName"": ""물"", ""amount"": 175.0, ""unit"": ""g"", ""noServing"": 175.0, ""amountPerNoServing"": 175.0}, {""foodName"": ""동치미국물 625g  \r\n\r\n양조식초"", ""amount"": 3.5, ""unit"": ""큰술"", ""noServing"": 3.5, ""amountPerNoServing"": 3.5}, {""foodName"": ""매실액"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""설탕"", ""amount"": 3.5, ""unit"": ""큰술"", ""noServing"": 3.5, ""amountPerNoServing"": 3.5}, {""foodName"": ""연겨자 3.5티스푼 \r\n\r\n배"", ""amount"": 0.25, ""unit"": ""개"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""홍고추"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""얼음"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 배를 얇게 썰고 모양틀로 찍어낸다. / 홍고추를 얇게 썬다.
+2. 열무김치국물과 동치미국물을 각각 체에 걸러 건더기를 제거한다.
+3. 열무김치국물, 동치미국물, 물, 양조식초 3.5큰술, 매실액 1.5큰술, 설탕 3.5큰술, 연겨자 3.5티스푼를 섞는다.
+4. 김치냉국에 배, 홍고추, 얼음을 넣으면 완성!",연겨자는 체를 이용해 풀면 국물에 고르게 섞여요~!
+48706277,신상출시 편스토랑,kbs,287회,250905,이정현,참깨오이김밥,고소한 참깨옷 듬뿍 특별한 날 먹기 좋은 이색 김밥,"[{""foodName"": ""밥 3공기(640g)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""소금"", ""amount"": 0.5, ""unit"": ""티스푼"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""참기름"", ""amount"": 4.0, ""unit"": ""티스푼"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""깨\r\n김밥김"", ""amount"": 4.0, ""unit"": ""장"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""라이스페이퍼 4장\r\n오이"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""게맛살"", ""amount"": 12.0, ""unit"": ""개"", ""noServing"": 12.0, ""amountPerNoServing"": 12.0}, {""foodName"": ""마요네즈"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""고추냉이"", ""amount"": 2.0, ""unit"": ""티스푼"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소금"", ""amount"": 0.5, ""unit"": ""티스푼"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]",[],"1. 밥에 소금, 참기름, 깨을 넣고 섞는다.
+2. 오이는 양 끝을 자르고 반으로 갈라 씨를 긁어낸다.
+3. 오이 반쪽당 소금 두 꼬집씩 뿌려 10분간 절인다.
+4. 게맛살을 잘게 찢고 마요네즈 4큰술, 고추냉이 2티스푼, 소금 1/2티스푼, 설탕 1큰술를 넣고 섞는다.
+5. 절인 오이에 [게살고추마요] 속을 채우고 다른 오이 반쪽도 [게살고추마요] 속을 채운 다음 합친다.
+6. 김 위에 밥을 넓게 펼치고 오이를 올려 돌돌 만다.
+7. 라이스페이퍼를 물에 적셔 오이김밥을 올린 뒤 다시 말아 감싼다.
+8. 마른 팬에 깨를 살짝 볶아 향을 살린다.
+9. 김밥 겉면에 볶은 깨를 골고루 묻혀주면 완성","오이의 씨를 제거하고 절이면 오이가 무르지 않고 아삭아삭한 식감을 유지할 수 있어요!
+볶은 깨가 떨어지지 않도록 꾹꾹 눌러주세요~!"
+84772123,신상출시 편스토랑,kbs,286회,250829,이정현,간장홍게장,저렴 내장이 일품인 초간단 가성비,"[{""foodName"": ""홍게"", ""amount"": 2.0, ""unit"": ""마리"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""양파"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""마늘 한 줌"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""청양고추"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}]","[{""foodName"": ""양념장 물"", ""amount"": 1.2, ""unit"": ""L"", ""noServing"": 1.2, ""amountPerNoServing"": 1.2}, {""foodName"": ""양조간장"", ""amount"": 300.0, ""unit"": ""ml"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""소주"", ""amount"": 150.0, ""unit"": ""ml"", ""noServing"": 150.0, ""amountPerNoServing"": 150.0}, {""foodName"": ""설탕"", ""amount"": 210.0, ""unit"": ""ml"", ""noServing"": 210.0, ""amountPerNoServing"": 210.0}]","1. 홍게는 깨끗이 씻은 후, 물기를 꼼꼼하게 닦는다.
+2. 밀폐용기에 홍게를 배 뚜껑이 위로 향하도록 넣고, 냉동실에 1시간 얼린다.
+3. 1시간 뒤, 얼린 홍게를 꺼내고 홍게 다리 한마디를 잘라 양념이 잘 배일 수 있게 준비한다.
+4. 물 1.2L, 양조간장 300ml, 소주 150ml, 설탕 210ml를 섞는다.
+5. 양파, 청양고추를 듬성듬성 썬다. / 마늘을 편썬다.
+6. 얼린 홍게에 [간장양념장]을 붓고 양파, 마늘, 청양고추를 넣는다.
+7. 무거운 누름틀(생수병, 그릇 등)을 올려 홍게가 공기 노출되지 않도록 완전히 잠기게 해주세요!
+8. 공기에 홍게가 노출되면 빨리 상할 수 있습니다!","물기를 깨끗이 닦아야 비린 맛이 줄어듭니다!
+얼리면 살이 탱탱해져요! 홍게 다리를 만졌을 때, 단단하면 잘 얼린 상태입니다!
+위생봉투를 깔고 뚜껑을 덮어 공기를 차단하거나,
+냉장 숙성 3일 후 바로 섭취해주세요! 장기간 보관 시(약 6개월) 처음부터 냉동 보관하고, 냉장 해동 후 섭취해주세요!
+먹기 직전에는 아가미와 내장을 제거해주세요!
+게장을 먹고 남은 간장양념은 한번 끓인 뒤, 새우장이나 장조림 등 다양한 요리에 활용할 수 있습니다 :"
+55234276,신상출시 편스토랑,kbs,284회,250815,이정현,평양냉밥,"집에서 만드는 평양냉면 육수, 맛집보다 맛있는 맛","[{""foodName"": ""평양냉면육수"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""쌀밥"", ""amount"": 130.0, ""unit"": ""g"", ""noServing"": 130.0, ""amountPerNoServing"": 130.0}, {""foodName"": ""고명 김치"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""대파 약간"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""삶은 달걀"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""삶은 고기(사태"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""양지)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 김치는 물에 헹군 다음 물기를 꽉 짜준다. / 대파를 송송 썬다.
+2. 냉면육수에 밥, 씻은 김치, 대파 고명, 삶은 고기를 올리면 완성",냉면육수는 밥이 잠길정도로 부어주세요~!
+18204875,신상출시 편스토랑,kbs,287회,250905,이정현,철판계란말이김밥,"철판여신 초대형 김밥, 특별한 날 손님용 음식 추천","[{""foodName"": ""밥 1.5공기(320g)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""소금"", ""amount"": 4.0, ""unit"": ""꼬집"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""참기름"", ""amount"": 2.0, ""unit"": ""티스푼"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""깨\r\n\r\n김밥김"", ""amount"": 4.0, ""unit"": ""장"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""계란"", ""amount"": 8.0, ""unit"": ""개"", ""noServing"": 8.0, ""amountPerNoServing"": 8.0}, {""foodName"": ""소금"", ""amount"": 0.5, ""unit"": ""티스푼"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""무말랭이김치 두줌(80개 정도)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""깻잎"", ""amount"": 8.0, ""unit"": ""장"", ""noServing"": 8.0, ""amountPerNoServing"": 8.0}]",[],"1. 밥에 소금, 참기름, 깨를 넣고 섞는다.
+2. 무말랭이김치는 김치 양념을 꼭 짜서, 김밥에 양념이 묻지 않도록 준비한다.
+3. 김밥김은 2/3 크기로 자르고, 깻잎은 반으로 접는다.
+4. 김 위에 밥을 얇게 펼치고 깻잎을 2장을 올린 뒤, 무말랭이김치를 올려 돌돌 만다.
+5. 계란물을 만든다.
+6. 달군 팬에 계란물을 붓고, 반쯤 익으면 무말랭이김밥을 올리고 계란을 말아주면 완성","팬은 중약불, 철판은 150℃로 맞춰 계란이 타지 않도록 천천히 익혀주세요~!"
+55233843,신상출시 편스토랑,kbs,284회,250815,이정현,평양냉면,"집에서 만드는 평양냉면 육수, 맛집보다 맛있는 맛","[{""foodName"": ""한우 사태"", ""amount"": 500.0, ""unit"": ""g"", ""noServing"": 500.0, ""amountPerNoServing"": 500.0}, {""foodName"": ""한우 양지"", ""amount"": 500.0, ""unit"": ""g"", ""noServing"": 500.0, ""amountPerNoServing"": 500.0}, {""foodName"": ""대파"", ""amount"": 1.0, ""unit"": ""대"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""얼음"", ""amount"": 2.0, ""unit"": ""kg"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""가는 소금"", ""amount"": 1.3, ""unit"": ""g"", ""noServing"": 1.3, ""amountPerNoServing"": 1.3}, {""foodName"": ""메밀면 150g \r\n\r\n고명 삶은 달걀"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""무절임"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""오이절임 (*고명은 취향껏 준비해주세요~)"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 사태와 양지를 찬물을 담가 3시간 핏물을 뺀다.
+2. 냄비에 물 3L에 핏물 뺀 소고기를 넣고 중불로 2시간 끓인다.
+3. 2시간 뒤, 대파를 넣고 물 1L를 추가해서 중불로 1시간 더 끓인다.
+4. 1시간 뒤, 대파와 고기는 건져낸다.
+5. 끓인 육수에 얼음 2kg을 넣고 10분간 기다린다.
+6. 10분 뒤, 하얗게 굳은 기름을 체로 걷어낸 다음, 육수를 면포로 걸러낸다.
+7. 건져낸 고기는 한 김 식힌 후, 랩으로 감싸고 얼음물에 30분간 담가둔다.
+8. 30분 뒤, 고기를 얇게 썬다.
+9. 육수 250g에 소금 1.3g을 푼다.
+10. 끓는 물에 메밀면을 4분간 삶고 찬물에 박박 씻는다.
+11. 메밀면에 냉면 육수를 붓고 삶은 고기, 삶은 달걀, 무절임, 오이 절임을 올리면 완성","맑은 육수 만드는 법 ➀ 핏물을 꼭 빼주세요. (안 빼면 국물이 탁해집니다
+맑은 육수 만드는 법 ➁ 끓으면서 생기는 거품은 체로 계속 걷어낸다. (거품은 고기에서 나온 핏물이 뭉친 거예요~
+맑은 육수 만드는 법 ➂ 중불에서 뭉근하게 끓여주세요. (팔팔 끓이면 국물이 탁해집니다
+맑은 육수 만드는 법 ➃ 육수 거를 때, 면포를 꾹꾹 누르면 기름까지 빠져나와 육수가 탁해집니다! 절대 누르지 마세요.
+냉면 육수는 냉장보관 시 3~5일 이내 섭취, 냉장보관 시 한달 보관 가능합니다!
+간이 부족하다면, 소금을 조금씩 넣어가며 맞춰주세요!
+고명은 취향껏 준비해주세요~"
+78433363,신상출시 편스토랑,kbs,255회,250117,어남선생 류슈영,15분 깍두기,"밀폐용기에 넣고 흔들면 끝, 깍두기 김치 맛있게 담그는 법","[{""foodName"": ""무"", ""amount"": 2.0, ""unit"": ""kg"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""굵은소금"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""대파"", ""amount"": 2.0, ""unit"": ""대"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}]","[{""foodName"": ""밀가루"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""굴소스 듬뿍"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""배음료 1캔\r\n\r\n고춧가루"", ""amount"": 6.0, ""unit"": ""큰술"", ""noServing"": 6.0, ""amountPerNoServing"": 6.0}, {""foodName"": ""새우젓"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""새우젓 국물"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진마늘"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""다진생강"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}]","1. 무 2kg의 껍질을 벗기고 2~3CM 두께로 썬 뒤, 큼직하게 깍둑썰기한다.
+2. 김치통에 1의 무, 굵은소금 2큰술를 넣고 뚜껑을 닫아 흔든 뒤, 1시간 동안 절인 뒤 물을 뺀다.
+3. 냄비에 밀가루 3큰술, 굴소스 듬뿍 2큰술, 설탕 1큰술, 배음료 1캔(238ml)를 넣어 섞는다.
+4. 밀가루가 섞이면 불을 켜 저어가며 강불로 끓인다.
+5. 끓기 시작하면 약불로 낮추고 걸쭉해질 때까지 저어가며 끓인다.
+6. 냄비 바닥에 길이 생기면 불을 꺼 식힌다.
+7. 통에 절인 무, 고춧가루 6큰술를 넣고 뚜껑을 닫아 흔들어 섞는다.
+8. 대파 2대의 반을 가루고 쫑쫑썬다.
+9. 썰어둔 대파, 새우젓 3큰술, 새우젓 국물 1큰술, 다진마늘 4큰술, 다진생강 1/2큰술, 식힌 배풀을 넣어 섞으면 완성!","1시간~1시간 30분 정도 절이면 됩니다!
+바닥을 쳐서 공기를 빼주세요!
+실온에서 24시간 보관 후 냉장고에서 일주일 숙성시켜주세요!"
+62334087,신상출시 편스토랑,kbs,254회,250110,어남선생 류슈영,진미채덮밥,부드러운 대국민 반찬 필수 밑반찬 실패없이 만들기,"[{""foodName"": ""진미채"", ""amount"": 200.0, ""unit"": ""g"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}]","[{""foodName"": ""진간장"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식초 1큰술\r\n\r\n케첩"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""고추장 듬뿍"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""참기름"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""식용유"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""물"", ""amount"": 200.0, ""unit"": ""ml"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}, {""foodName"": ""참깨"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 팬에 진미채 200g, 설탕 1큰술, 진간장 1큰술, 식초 1큰술, 다진마늘 1큰술, 고추장 듬뿍 2큰술, 식용유 4큰술, 물 200ml를 넣어 섞고, 강불로 불을 켜 볶는다.
+2. 물이 끓으면 뚜껑을 닫고 약불로 5분 졸인다.
+3. 케첩 1큰술, 참기름 2큰술를 넣어 강불로 30초 볶고, 참깨를 뿌리면 완성!","김, 깻잎, 마요네즈를 곁들여 먹으면 더욱 맛있습니다!"
+,신상출시 편스토랑,kbs,254회,250110,어남선생 류슈영,진미채볶음,부드러운 대국민 반찬 필수 밑반찬 실패없이 만들기,"[{""foodName"": ""진미채볶음"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""깻잎"", ""amount"": 10.0, ""unit"": ""장"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}, {""foodName"": ""즉석밥"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""달걀"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","[{""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""참기름"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""마요네즈"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 깻잎 10장을 채 썬다.
+2. 달걀 1개를 튀기듯 프라이한다.
+3. 즉석밥 1개를 데운다.
+4. 진미채볶음을 잘게 자른다.
+5. 그릇에 데운 즉석밥 1개를 담고 1)의 깻잎을 가장자리에 두른다.
+6. 자른 진미채볶음 듬뿍 1큰술 → 달걀프라이 순으로 올리고 참기름을 뿌린다.
+7. 마요네즈를 두 번 총총 짜주면 완성!",진미채볶음 레시피는 류수영의 <진미채볶음> 레시피를 참고하세요!
+83716856,신상출시 편스토랑,kbs,251회,241206,어남선생 류슈영,경양식 만능소스,집에서 누구나 쉽게 만드는 식당에서 먹던 그 맛,"[{""foodName"": ""시판 돈가스소스"", ""amount"": 10.0, ""unit"": ""큰술"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}, {""foodName"": ""케첩"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""버터"", ""amount"": 60.0, ""unit"": ""g"", ""noServing"": 60.0, ""amountPerNoServing"": 60.0}, {""foodName"": ""밀가루"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""설탕"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금"", ""amount"": 3.0, ""unit"": ""꼬집"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""물"", ""amount"": 300.0, ""unit"": ""ml"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}]",[],"1. 양파 1/2개를 다진다.
+2. 달군 냄비에 1)의 양파, 버터 60g, 설탕 1큰술, 소금 3꼬집을 넣고 중불로 볶는다.
+3. 양파가 노르스름해지고 단 냄새가 나면, 밀가루 4큰술를 넣어 약불로 볶는다.
+4. 밀가루가 잘 섞이면, 불을 끄고 시판 돈가스소스 10큰술, 케첩 5큰술를 넣어 섞는다.
+5. 물 300ml를 조금씩 나눠 부어가며 섞는다.
+6. 다시 불을 켜고 강불로 걸쭉해질 때까지 짧게 볶는다.","시판 소스마다 맛이 다르니 간을 보고, 돈가스 소스와 케첩을 2:1 비율에 맞춰 추가해주세요!
+약간 싱거운 정도로 간을 맞춰야 질리지 않고 먹을 수 있습니다!"
+68769953,신상출시 편스토랑,kbs,251회,241206,어남선생 류슈영,기사식당 왕돈가스,집에서 누구나 쉽게 만드는 식당에서 먹던 그 맛,"[{""foodName"": ""돼지 안심"", ""amount"": 400.0, ""unit"": ""g"", ""noServing"": 400.0, ""amountPerNoServing"": 400.0}, {""foodName"": ""빵가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""밀가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""달걀"", ""amount"": 2.0, ""unit"": ""개"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소금"", ""amount"": 2.0, ""unit"": ""꼬집"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""돼지 안심"", ""amount"": 400.0, ""unit"": ""g"", ""noServing"": 400.0, ""amountPerNoServing"": 400.0}, {""foodName"": ""빵가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""밀가루"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""달걀"", ""amount"": 2.0, ""unit"": ""개"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소금"", ""amount"": 2.0, ""unit"": ""꼬집"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 안심 400g의 겉면 물기를 키친타올로 닦는다.
+2. 안심을 3등분하고 중앙에 가로로 깊게 칼집을 낸다.
+3. 칼집 낸 안심을 펼치고 꾹꾹 눌러 넓게 편다.
+4. 볼에 달걀 2개, 소금 2꼬집을 넣고 섞어 달걀물을 만든다.
+5. 볼에 우유 100ml, 소금 1/3큰술, 다진생강 0.5티스푼, 후추 20바퀴, 3)의 안심을 넣어 냉장고에서 20분 이상 재운다.
+6. 재운 안심 앞뒷면에 밀가루 → 4)의 달걀물 → 빵가루 순으로 골고루 묻힌다.
+7. 팬에 식용유를 넉넉히 부어 달구고 160˚가 되면 돈가스를 넣어 중약불로 7분 튀긴다.
+8. 강불로 올려 짧게 튀겨 색을 낸 뒤, 건져내 기름을 뺀다.","반 가르듯 칼집을 깊게 내주세요!
+고기에 묻은 우유를 잘 털어준 뒤, 밀가루를 묻혀야 손에 달라붙지 않습니다!
+밀가루, 달걀물은 최대한 얇게! 빵가루는 두툼하게 묻혀주세요!
+빵가루를 묻히고 꾹꾹 눌러주면 돈가스가 더욱 커집니다!
+식용유는 최소 1cm 이상 높이로 넣어주세요!
+튀김 부스러기를 만들어 떨어뜨렸을 때 3초 뒤에 떠오르면 약 160˚입니다!
+튀김옷이 분리될 수 있으니, 처음 1~2분은 건들지 말아주세요!
+튀김옷이 황금빛이 될 때까지 색을 확인하며 튀겨주세요!
+소스를 곁들여 먹으면 더욱 맛있습니다!
+소스 레시피는 류수영의 <경양식 만능소스> 레시피를 참고하세요!"
+73989187,신상출시 편스토랑,kbs,,241025,어남선생 류슈영,오징어회무침,저렴한 냉동 오징어로 만드는 매콤새콤 가성비 요리,"[{""foodName"": ""손질냉동오징어"", ""amount"": 2.0, ""unit"": ""마리"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""무"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""미나리"", ""amount"": 1.0, ""unit"": ""단"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식초"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""설탕"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""맛소금"", ""amount"": 3.0, ""unit"": ""꼬집"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""깨"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소면"", ""amount"": 100.0, ""unit"": ""g"", ""noServing"": 100.0, ""amountPerNoServing"": 100.0}]","[{""foodName"": ""양념 고춧가루"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""설탕"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""참기름"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""양조간장"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""식초"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""고추장"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""무절임 채수"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""케첩"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""까나리액젓"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","1. 무 1/2개를 채 썬다.
+2. 볼에 채 썬 무, 식초 5큰술, 설탕 2큰술, 맛소금 3꼬집을 넣고 섞어 냉장고에 두고 30분 이상 절인다.
+3. 미나리 1단의 줄기를 3~4cm 길이로 썬다.
+4. 손질냉동오징어를 물로 씻고 반 가른 뒤 얇게 썬다.
+5. 팬에 물 50ml를 붓고 강불로 끓인 뒤,
+6. 물이 끓으면 손질한 오징어를 넣고 뚜껑을 덮어 1분 익히고 찬물로 헹군다.
+7. 볼에 고춧가루 4큰술, 설탕 4큰술, 참기름 4큰술, 양조간장 3큰술, 식초 3큰술,
+8. 고추장 2큰술, 무절임 채수 2큰술, 케첩 1큰술, 까나리액젓 1큰술를 넣고 섞어 양념장을 만든다.
+9. 볼에 삶은 오징어, 절인 무, 미나리 줄기, 깨 2큰술, 양념장 7큰술를 넣고 버무린다.
+10. 팬에 물을 받아 끓인 뒤, 소면 100g을 넣어 2분 30초 삶고 찬물에 헹군다.
+11. 그릇에 소면과 오징어회무침을 담고 깨를 뿌리면 완성!","무는 초록 부분을 사용해주세요!
+15분이 지나면 한번 뒤집어 골고루 절여지게 해주세요!
+껍질을 위로 향하게 두고 썰면 더욱 쉽게 썰립니다!
+깻잎전에 싸 먹으면 더욱 맛있습니다!
+깻잎전은 류수영의 <천원 깻잎전> 레시피를 참고하세요!"
+67407881,신상출시 편스토랑,kbs,,241004,어남선생 류슈영,설마고추장비빔면,유퀴즈 유재석이 반한 최강 매콤새콤 비빔면,"[{""foodName"": ""오이"", ""amount"": 1.0, ""unit"": """", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""중면"", ""amount"": 3.0, ""unit"": ""인분"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}]","[{""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""식초"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""설탕"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""맛소금"", ""amount"": 3.0, ""unit"": ""꼬집"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""양조간장"", ""amount"": 6.0, ""unit"": ""큰술"", ""noServing"": 6.0, ""amountPerNoServing"": 6.0}, {""foodName"": ""오이양파절임액"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""참기름"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""식초"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""설탕"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""고춧가루"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""참깨 2큰술.\r\n고추장 듬뿍"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""케첩"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진마늘"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""조미김"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 오이 1개, 양파 1/2개를 얇게 슬라이스 한다.
+2. 볼에 1의 오이와 양파, 식초 4큰술, 설탕 2큰술, 맛소금 3꼬집을 넣고 섞어 냉장고에서 30분 절인다.
+3. 꼬들꼬들한 식감이 되도록 오이양파절임의 물기를 짜낸다.
+4. 볼에 양조간장 6큰술, 오이양파절임액 4큰술, 참기름 4큰술, 식초 4큰술, 설탕 4큰술, 고춧가루 2큰술, 참깨 2큰술,
+5. 고추장 듬뿍 1큰술, 케찹 1큰술, 다진마늘 1/2큰술를 넣고 섞는다.
+6. 팬에 물을 받아 끓이고, 물이 끓으면 중면을 넣어 3분 익힌 뒤 건져내 찬물에 헹군다.
+7. 볼에 삶은 면과 1의 비빔면 양념장 9큰술를 넣어 섞는다.
+8. 조미김을 얇게 썬다.
+9. 그릇에 비빔면을 담고 만들어둔 오이양파절임, 4의 김을 올리고 깨를 뿌리면 완성!","절일 때 나온 물을 비빔면 소스에 넣어야 하니 버리지 말아주세요!
+비빔면 양념장은 맛을 보고 추가해주세요!"
+79082092,신상출시 편스토랑,kbs,238회,,어남선생 류슈영,참간초파스타,매콤새콤 초간단 황금비율 비법 양념장 파스타,"[{""foodName"": ""파스타면"", ""amount"": 2.0, ""unit"": ""인분"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""신김치"", ""amount"": 0.25, ""unit"": ""포기"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""오이"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""빨간 파프리카"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""조미김"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""참기름"", ""amount"": 6.0, ""unit"": ""큰술"", ""noServing"": 6.0, ""amountPerNoServing"": 6.0}, {""foodName"": ""양조간장"", ""amount"": 6.0, ""unit"": ""큰술"", ""noServing"": 6.0, ""amountPerNoServing"": 6.0}, {""foodName"": ""식초"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""설탕"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""고춧가루"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""통깨"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""물 2큰술\n\n물"", ""amount"": 2.0, ""unit"": ""L"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""굵은소금 듬뿍"", ""amount"": 1.0, ""unit"": """", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","1. 신김치 1/4포기를 찬물에 헹군 뒤 세로로 길게 썬다.
+2. 오이 1/2개, 양파 1/2개를 채 썬다.
+3. 빨간 파프리카 1/2개는 씨를 뺀 뒤 잘게 썬다.
+4. 조미김을 얇게 자른다.
+5. 웍에 물 2L, 굵은소금 듬뿍 1큰술를 넣어 끓이고,  물이 끓으면 파스타면 2인분을 넣어 삶은 뒤, 찬물에 헹구고 체에 밭쳐 물기를 뺀다.
+6. 볼에 참기름 6큰술, 양조간장 6큰술, 식초 2큰술, 설탕 4큰술, 고춧가루 2큰술, 통깨 2큰술, 물 2큰술를 넣어 섞고 냉장고에 넣어둔다.
+7. 그릇에 삶은 면을 담은 뒤 썰어둔 양파와 파프리카를 뿌리고 2)의 오이 → 1)의 신김치 → 4)의 조미김을 순서대로 올린다.
+8. 가장자리에 2의 소스를 붓고 깨를 뿌리면 완성!","면 포장지 뒷면에 적힌 시간대로 삶으면 됩니다!
+냉파스타는 면을 충분히 익혀야 식감이 딱딱하지 않습니다!
+소스는 참기름이 분리되지 않도록 붓기 전 충분히 섞어주세요!"
+45892205,신상출시 편스토랑,kbs,237회,,어남선생 류슈영,긴급제육 119,10분 완성 초간단 황금비율 비법 만능양념장,"[{""foodName"": ""삼겹살"", ""amount"": 300.0, ""unit"": ""g"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""대파"", ""amount"": 1.0, ""unit"": ""대"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""마늘 한 줌"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""깻잎"", ""amount"": 10.0, ""unit"": ""장"", ""noServing"": 10.0, ""amountPerNoServing"": 10.0}]","[{""foodName"": ""고추장 듬뿍"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""진간장"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""설탕"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""식초"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""후추 10바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""통깨"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 대파 1대를 반으로 가르고 3~4cm 길이로 썬다.
+2. 양파 1/2개를 채 썬다.
+3. 깻잎 10장을 먹기 좋은 크기로 썬다.
+4. 예열된 팬에 삼겹살 300g을 올려 강불로 굽는다.
+5. 아랫면이 익으면 뒤집고, 중불로 낮춰 마늘 한 줌을 넣어 굽는다.
+6. 삼겹살이 80% 정도 익으면 한입 크기로 자른다.
+7. 불을 끄고 설탕 1.5큰술, 진간장 1큰술, 고추장 듬뿍 2큰술를 넣은 뒤 강불로 불을 켜 볶는다.
+8. 양념이 끓으면 중불로 낮춰 썰어둔 대파와 양파를 넣어 1분 볶고
+9. 식초 1큰술, 참기름 1큰술, 후추 10바퀴를 넣어 1분 볶는다.
+10. 의 깻잎을 넣고 섞어준 뒤, 뚜껑을 덮어 약불로 10초 뜸 들인 후 통깨를 뿌린다.","눌어붙은 양념들을 섞어가며 볶아주세요!
+매운맛을 원할 경우, 청양고추를 추가해 드시면 됩니다!"
+35264012,신상출시 편스토랑,kbs,235회,,어남선생 류슈영,어묵국수,"감칠맛 폭발 끝내주는 국물, 저렴한 사각어묵으로 만드는 가성비 초간단 잔치국수 맛집 그맛","[{""foodName"": ""사각어묵"", ""amount"": 4.0, ""unit"": ""장"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""소면"", ""amount"": 2.0, ""unit"": ""인분"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""대파"", ""amount"": 1.0, ""unit"": ""대"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","[{""foodName"": ""참치액"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""물"", ""amount"": 1.0, ""unit"": ""L"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""후추 10바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 대파 1대를 2등분 하고 4cm 길이로 자른다.
+2. 사각어묵 4장(200g)을 돌돌 말아 면처럼 얇게 썬다.
+3. 냄비에 물 1L, 1의 대파를 넣어 강불로 끓인다.
+4. 파의 숨이 죽으면 참치액 3큰술를 넣는다.
+5. 물이 끓으면 2의 어묵을 넣어 끓인다.
+6. 어묵이 국물을 머금어 부풀면 후추 10바퀴로 간을 한 후 불을 끈다.
+7. 팬에 물을 받아 끓이고, 소면 2인분(200g)을 넣어 2분 30초 삶은 뒤 찬물에 헹군다.
+8. 면을 토렴한 뒤, 그릇에 국물과 함께 담는다.","면을 찬물에 빨래하듯 비벼 전분기를 없애주세요!
+헹군 뒤 물기를 잘 제거해주세요!
+취향에 따라 고춧가루를 추가해 드시면 더욱 맛있습니다!"
+33081469,신상출시 편스토랑,kbs,233회,,어남선생 류슈영,쟁반막국수,족발 짝궁 초간단 매콤새콤 요리,"[{""foodName"": ""메밀면"", ""amount"": 300.0, ""unit"": ""g"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""양파"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""상추"", ""amount"": 5.0, ""unit"": ""장"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""오이"", ""amount"": 0.5, ""unit"": ""개"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""양배추"", ""amount"": 0.25, ""unit"": ""개"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""조미김"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""고춧가루"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""설탕"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""식초"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""양조간장"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""물"", ""amount"": 5.0, ""unit"": ""큰술"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""다진마늘"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""고추장 듬뿍"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""연겨자 도토리 크기만큼"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""통깨 듬뿍"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","1. 양파 1/2개를 채 썬다.
+2. 상추 5장을 2~3cm 두께로 썬다.
+3. 오이 1/2개를 채 썬다.
+4. 양배추 1/4개를 채 썬다.
+5. 조미김을 채 썬다.
+6. 볼에 고춧가루 3큰술, 설탕 3큰술, 식초 3큰술, 양조간장 5큰술, 물 5큰술, 다진마늘 1/2큰술, 고추장 듬뿍 1큰술,
+7. 연겨자 도토리 크기만큼, 통깨 듬뿍 1큰술를 넣어 섞는다.
+8. 냄비에 물을 넣어 끓이고, 메밀면 300g을 넣어 4분 삶은 뒤 찬물에 헹군다.
+9. 그릇에 썰어둔 양배추, 양파, 상추를 깔고 2의 면을 올린 뒤 1의 소스를 뿌린다.
+10. 잘라둔 오이, 조미김을 올리고 통깨를 뿌리면 완성!","면을 찬물에 빨래하듯 비벼 전분기를 없애주세요!
+헹군 뒤 물기를 잘 제거해주세요!"
+50003768,신상출시 편스토랑,kbs,232회,,어남선생 류슈영,무침만두,분식집 맛집보다 맛있는 당장 레시피,"[{""foodName"": ""냉동만두 1~2봉"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""고춧가루"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""설탕"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""물"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""고추장 듬뿍"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""굴소스"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""케첩"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""깨"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 볼에 고춧가루 4큰술, 설탕 4큰술, 물 4큰술를 넣어 섞는다.
+2. 고추장 듬뿍 1큰술, 굴소스 1큰술, 케첩 2큰술, 깨 1큰술를 넣어 섞는다.
+3. 강불로 예열한 팬에 냉동만두를 올린 뒤 식용유를 부어 굽는다.
+4. 기름이 달아오르면 중불로 낮춰 노릇노릇하게 굽는다.
+5. 볼에 구워진 만두, 2의 양념장 3큰술를 넣어 버무린다.
+6. 통깨를 뿌려 마무리!","고춧가루가 불고 설탕이 녹을 때까지 섞어주세요!
+군만두용 냉동만두를 쓰면 더욱 맛있습니다!
+요리 시작 전 냉동만두를 상온에서 해동시키면 더욱 조리가 쉽습니다!
+만두를 먼저 올린 뒤 식용유를 부어야 기름이 튀지 않습니다!
+만두 날개 부분이 잠길 정도로 식용유를 넉넉히 넣어주세요!
+구워진 만두는 채반에 밭쳐 기름을 빼주세요!
+양념장은 간을 보고 추가해주세요!"
+91484337,신상출시 편스토랑,kbs,232회,,어남선생 류슈영,크림떡볶이,생크림 없이 만드는 감칠맛 폭탄,"[{""foodName"": ""밀떡볶이 떡"", ""amount"": 300.0, ""unit"": ""g"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""대파"", ""amount"": 2.0, ""unit"": ""대"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""사각어묵"", ""amount"": 4.0, ""unit"": ""장"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}]","[{""foodName"": ""다진마늘"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""우유"", ""amount"": 400.0, ""unit"": ""ml"", ""noServing"": 400.0, ""amountPerNoServing"": 400.0}, {""foodName"": ""참치액"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""물"", ""amount"": 200.0, ""unit"": ""ml"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}, {""foodName"": ""버터"", ""amount"": 40.0, ""unit"": ""g"", ""noServing"": 40.0, ""amountPerNoServing"": 40.0}, {""foodName"": ""후추"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 물에 밀떡볶이 떡 300g을 담가 불린다.
+2. 사각어묵 4장을 삼각형 모양으로 8등분한다.
+3. 대파 2대를 반으로 가르고 4~5cm 두께로 자른다.
+4. 예열된 팬에 썰어둔 파를 올를 올려 강불로 태우듯 2분 굽는다.
+5. 우유 400ml, 물 200ml, 참치액 1큰술, 다진마늘 1/2큰술, 2)의 어묵, 1)의 떡을 넣어 끓인다.
+6. 우유가 끓으면 중불로 낮춰 10분 끓인다.
+7. 약불로 줄이고 버터 40g, 후추 20바퀴를 뿌린다.
+8. 그릇에 담아내고 후추를 뿌리면 완성!","파를 뒤적거리지 말고 충분히 구워주세요!
+바닥에 눌어붙지 않도록 저어가며 끓여주세요!
+농도를 보며 취향에 맞게 졸여주세요!"
+35477062,신상출시 편스토랑,kbs,230회,240621,어남선생 류슈영,어묵제육,천원레시피 천원으로 만드는 가성비 초간단 한끼,"[{""foodName"": ""사각어묵"", ""amount"": 4.0, ""unit"": ""장"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""대파"", ""amount"": 1.0, ""unit"": ""대"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""청양고추"", ""amount"": 4.0, ""unit"": ""개"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}]","[{""foodName"": ""다진마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""진간장"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""설탕"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""고춧가루"", ""amount"": 1.5, ""unit"": ""큰술"", ""noServing"": 1.5, ""amountPerNoServing"": 1.5}, {""foodName"": ""참기름"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""후추 10바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""통깨"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식용유 3바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","1. 사각어묵 4장을 정사각형 모양으로 6등분한다.
+2. 대파 1대를 송송 썬다.
+3. 청양고추 4개를 송송 썬다.
+4. 예열된 팬에 2)의 파를 넣어 강불로 굽는다.
+5. 파가 거뭇거뭇해지면 3)의 청양고추, 식용유 3바퀴를 넣어 볶는다.
+6. 파, 고추가 어느 정도 익으면 중불로 줄이고, 다진마늘 1큰술를 넣어 볶는다.
+7. 마늘이 노르스름해지면 불을 끄고 고춧가루 1.5큰술를 넣어 고추기름을 낸다.
+8. 재료를 한 곳으로 몰고 빈 부분에 진간장 1.5큰술를 넣어 잔열로 바르르 끓인 뒤, 설탕 1.5큰술를 넣어 섞는다.
+9. 중불로 불을 켜고 1)의 어묵을 넣어 볶는다.
+10. 참기름 1큰술, 후추 10바퀴를 넣고 약불로 줄여 볶는다.
+11. 어묵이 거뭇거뭇해지면 어묵을 잘 펼쳐주고 뚜껑을 닫아 약불로 1분간 뜸 들인다.
+12. 뚜껑을 열어 어묵을 잘 섞어준 뒤 통깨를 뿌리면 완성!","기름을 넉넉하게 넣어주세요!
+채 썬 양파와 같이 곁들여 먹으면 더욱 맛있습니다!"
+37555797,신상출시 편스토랑,kbs,230회,240621,어남선생 류슈영,만원찜닭,찜닭 맛집 그 맛,"[{""foodName"": ""닭볶음탕용 닭"", ""amount"": 1.0, ""unit"": ""kg"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""대파"", ""amount"": 1.0, ""unit"": ""대"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""양파"", ""amount"": 1.0, ""unit"": ""개"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""감자"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""당면"", ""amount"": 100.0, ""unit"": ""g"", ""noServing"": 100.0, ""amountPerNoServing"": 100.0}, {""foodName"": ""베트남 건고추 한 줌"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""진간장"", ""amount"": 60.0, ""unit"": ""ml"", ""noServing"": 60.0, ""amountPerNoServing"": 60.0}, {""foodName"": ""짜장가루"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""굴소스"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""설탕"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""다진마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진생강"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""고춧가루"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""식초"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""후추 20바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""소금"", ""amount"": 3.0, ""unit"": ""꼬집"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""물 800ml+"", ""amount"": 100.0, ""unit"": ""ml"", ""noServing"": 100.0, ""amountPerNoServing"": 100.0}]","1. 당면 100g을 미지근한 물에 불린다.
+2. 닭의 내장을 제거하고 물에 씻은 후 칼집을 내 물에 담가둔다..
+3. 대파 1대를 송송 썬다.
+4. 양파 1개를 채 썬다.
+5. 감자 3개를 4등분한다.
+6. 예열된 웍에 3)의 닭을 올리고 소금 3꼬집을 뿌린 뒤, 강불로 4~5분 굽는다.
+7. 닭에서 기름이 나오면 닭을 뒤집고, 베트남고추 한 줌을 넣어 1~2분 볶는다.
+8. 진간장 60ml(8큰술)를 넣어 바르르 끓이고, 짜장가루 2큰술, 굴소스 2큰술, 설탕 3큰술를 넣어 볶는다.
+9. 썰어둔 파, 양파, 다진마늘 1큰술, 다진생강 1/2큰술를 넣어 볶는다.
+10. 양파의 숨이 죽으면 물 800ml, 식초 1큰술, 후추 20바퀴를 넣어 끓인다.
+11. 물이 끓으면 5)의 감자를 넣고 뚜껑을 닫아 중불로 15분 끓인다.
+12. 뚜껑을 열어 강불로 5분 졸인다.
+13. 의 당면, 물 100ml를 넣고 3~4분 강불로 끓인다.
+14. 그릇에 담고 고춧가루 1큰술를 뿌리면 완성!","뒤적이지 말고 그대로 구워주세요!
+껍질 부분을 아랫면으로 가게 올려주세요!
+감자는 웍 가장자리에 빙 둘러 넣어야 모양이 흐트러지지 않습니다!
+취향에 맞춰 국물 농도를 맞춰주세요!
+맵지 않게 먹으려면 이 과정을 생략해주세요!
+남은 양념에 밥, 조미김, 참기름을 넣어 비벼 먹으면 맛있습니다!"
+47983921,신상출시 편스토랑,kbs,228회,240607,어남선생 류슈영,치킨떡볶이,맵단맵단 닭다리와 기름떡볶이,"[{""foodName"": ""닭다리"", ""amount"": 5.0, ""unit"": ""개"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""밀 떡볶이떡"", ""amount"": 300.0, ""unit"": ""g"", ""noServing"": 300.0, ""amountPerNoServing"": 300.0}, {""foodName"": ""대파"", ""amount"": 2.0, ""unit"": ""대"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""소금"", ""amount"": 3.0, ""unit"": ""꼬집"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""통깨"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식용유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""고추장"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""진간장"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""참기름"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""케첩"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""고춧가루"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""설탕"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""다진마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""물 2큰술\n마요네즈"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""연유"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""꿀"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","1. 대파 2대를 반으로 가르고 4cm 길이로 썬다.
+2. 밀 떡볶이떡 300g을 찬물에 불린다.
+3. 예열된 팬에 닭다리 5개(400g)를 올리고 강불로 2분 굽는다.
+4. 닭다리를 뒤집고 소금 3꼬집, 식용유 1바퀴를 두른 후 뚜껑을 닫아 약불로 15분 익힌다.
+5. 볼에 고추장 2큰술, 진간장 2큰술, 참기름 2큰술, 케첩 3큰술, 고춧가루 2큰술, 설탕 4큰술, 다진마늘 1큰술, 물 2큰술를 넣고 섞는다.
+6. 의 대파를 넣어 강불로 볶는다.
+7. 파가 거뭇거뭇해지면 2)의 떡을 넣어 볶는다.
+8. 떡 표면이 바삭하게 구워지면 기름 1바퀴, 3의 양념장 5큰술를 넣고 약불로 2분 볶는다.
+9. 소스가 꾸덕해지면 뚜껑을 닫고 1분 뜸들인다.
+10. 치킨떡볶이를 그릇에 담고 통깨를 뿌린다.
+11. 볼에 마요네즈 4큰술, 연유 2큰술, 꿀 1큰술를 넣고 섞는다.","뒤적이지 말고 구워주세요!
+중간중간 닭다리를 뒤집어 타지 않게 해주세요!
+소스는 간을 보고 추가해주세요!
+연유마요 소스를 뿌려 먹으면 더 맛있습니다!"
+88900588,신상출시 편스토랑,kbs,223회,250503,어남선생 류슈영,만원 반반치킨,초간단 바삭바삭 어린이날 간식 홈메이드 치킨 실패없이 튀기는 법,"[{""foodName"": ""닭봉"", ""amount"": 1.0, ""unit"": ""kg"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""튀김가루"", ""amount"": 400.0, ""unit"": ""g"", ""noServing"": 400.0, ""amountPerNoServing"": 400.0}, {""foodName"": ""카레가루"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""후추 20바퀴"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""식용유 1.5L\r\n\r\n 카레가루"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""우유"", ""amount"": 200.0, ""unit"": ""ml"", ""noServing"": 200.0, ""amountPerNoServing"": 200.0}]","[{""foodName"": ""진간장"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""고추장"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""케첩"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""설탕"", ""amount"": 4.0, ""unit"": ""큰술"", ""noServing"": 4.0, ""amountPerNoServing"": 4.0}, {""foodName"": ""다진마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""다진생강"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""깨 1큰술\r\n\r\n튀김가루"", ""amount"": 0.5, ""unit"": ""큰술"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""물"", ""amount"": 100.0, ""unit"": ""ml"", ""noServing"": 100.0, ""amountPerNoServing"": 100.0}, {""foodName"": ""식용유"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}]","1. 닭봉을 흐르는 물에 씻는다.
+2. 지퍼백에 닭봉 1kg, 카레가루 3큰술, 우유 200ml를 넣어 섞은 뒤 냉장고에 재운다.
+3. 볼에 튀김가루 400g, 카레가루 4큰술, 후추 20바퀴를 뿌려 섞는다.
+4. 의 닭봉을 3)의 튀김가루에 넣고 섞어 30분간 둔다.
+5. 냄비에 식용유 1.5L를 붓고 강불로 예열한다.
+6. 기름 온도가 180˚가 되면 닭봉 절반을 넣은 뒤, 약불로 줄여 6분 튀긴다.
+7. 강불로 2분 더 튀긴 후 건져내 채반에 밭쳐 기름을 뺀다.
+8. 나머지 절반도 튀긴 뒤 건져낸다.
+9. 볼에 튀김가루 1/2큰술, 물 100ml를 섞어 전분물을 만든다.
+10. 팬에 진간장 1큰술, 고추장 1큰술, 케첩 2큰술, 설탕 4큰술, 다진마늘 1큰술, 다진생강 1/2큰술,
+11. 깨 1큰술, 1의 전분물, 식용유 1큰술를 넣어 저어가며 강불로 끓인다.
+12. 끓으면 약불로 줄이고 30초 정도 더 졸이면 양념치킨 소스 완성!
+13. 양념소스에 튀겨둔 치킨을 묻히고, 깨를 뿌리면 양념치킨 완성!","2시간 이상 재워주세요!
+닭봉이 충분히 잠길 정도 사이즈의 냄비를 사용해주세요! (24CM 스테인리스 냄비를 추천합니다!
+튀김 부스러기를 만들어 떨어뜨렸을 때 3초 뒤에 떠오르면 약 180˚입니다!
+닭 끝부분만 살짝 담근 채 흔들며 넣어야 바닥에 달라붙지 않습니다!
+튀김옷이 분리될 수 있으니, 처음 1~2분은 건들지 말아주세요!
+튀김옷이 황금빛이 될 때까지 색을 확인하며 튀겨주세요!
+위와 동일한 방식으로 튀겨주세요!
+기름에 남은 잔여물을 걸러낸 뒤 튀기면 더욱 좋습니다!
+색이 진해지고, 팬 바닥을 긁었을 때 길이 생길 때까지 졸여주세요!
+양배추샐러드와 곁들여 먹으면 더욱 맛있습니다! (마요네즈3 : 케첩1 비율"
+21290410,신상출시 편스토랑,kbs,223회,,어남선생 류슈영,설마간장 비빔국수,집에 있는 재료로만 누구나 만드는 당장 레시피 ,"[{""foodName"": ""김치"", ""amount"": 0.25, ""unit"": ""포기"", ""noServing"": 0.25, ""amountPerNoServing"": 0.25}, {""foodName"": ""중면"", ""amount"": 2.0, ""unit"": ""인분"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""설탕"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""다진마늘"", ""amount"": 1.0, ""unit"": ""큰술"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""양조간장"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""참기름"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""조미김"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}, {""foodName"": ""통깨"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]",[],"1. 끓는 물에 중면 2인분을 넣어 3분간 삶고 찬물에 헹군다.
+2. 김치 1/4포기(300g)를 물에 헹구고 세로로 얇게 썬다.
+3. 조미김을 얇게 썬다.
+4. 볼에 설탕 2큰술, 다진마늘 1큰술, 양조간장 3큰술, 참기름 3큰술를 넣어 섞는다.
+5. 삶은 면을 두 그릇에 나눠 담고 2)의 김치를 올린 뒤 1의 소스를 2큰술씩 뿌린다.
+6. 의 김을 올리고 통깨를 뿌리면 완성!","익은김치 or 묵은지를 사용해주세요!
+설탕이 녹을 때까지 섞어주세요!
+층 분리가 생길 수 있으니 뿌리기 전에 소스를 한 번 섞어주세요!
+간을 보고 싱거울 경우, 취향에 맞게 소스를 추가해드시면 됩니다!"
+40982786,,,,,,"강릉 길감자 집에서 '이것' 넣어 만들기 소스 에어프라이기 야매 레시피, 바삭 쫀득 원조보다 맛있게 후기","에어프라이어, 전자레인지로 집에서 간단하게 강릉맛집 강릉길감자 감자튀김 만드는 법! 재료부터 맛집보다 맛있게 만드는 꿀팁까지 알려드려요. 바삭하고 쫄깃한 식감으로 웨이팅 1시간 이상 발생하는 컵길감자, 소세지 길감자가 유명한 SNS 핫한 인기 음식 아이 방학 간식으로 준비해보세요. ","[{""foodName"": ""감자"", ""amount"": 5.0, ""unit"": ""개"", ""noServing"": 5.0, ""amountPerNoServing"": 5.0}, {""foodName"": ""감자전분"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""물"", ""amount"": 1.0, ""unit"": ""컵"", ""noServing"": 1.0, ""amountPerNoServing"": 1.0}, {""foodName"": ""소금"", ""amount"": 0.5, ""unit"": ""티스푼"", ""noServing"": 0.5, ""amountPerNoServing"": 0.5}, {""foodName"": ""식용유"", ""amount"": 3.0, ""unit"": ""컵"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}]","[{""foodName"": ""불닭 소스"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}, {""foodName"": ""마요네즈"", ""amount"": 2.0, ""unit"": ""큰술"", ""noServing"": 2.0, ""amountPerNoServing"": 2.0}]","1. 주먹 크기 정도 감자 5개를 준비해주세요
+2. 흐르는 물에 씻어주고 감자칼로 껍질을 벗겨주세요.
+3. 깍두기 무 정도 크기로 잘라주고 물을 조금씩 넣어가며 믹서에 갈아주세요.
+4. 전자레인지용 용기에 갈아준 감자 반죽에 소금과 전분을 넣어 섞어주세요.
+5. 전자레인지로 30초씩 끊어가며 5회((총 약 3분 간) 돌려주세요.
+6. 냄비에 기름을 부어 예열해주세요.
+7. 한 김 식혀준 후 숟가락에 식용유를 살짝 묻혀 반죽을 한 입 크기로 떼어내줍니다.
+8. 바삭한 식감과 노릇한 색감을 위해 중강불에서 4분 동안 익혀줍니다.
+9. 바삭함을 더 살리기 위해 한 김 식혀주세요.
+10. 식히는 동안 불닭 소스와 마요네즈를 섞어 불닭마요 소스를 만들어줍니다.
+11. 적당히 식은 길감자 위에 불닭마요를 뿌리거나 찍어 먹으면 끝!","반죽 농도만 맞추면 되니 넉넉하게 준비해도 좋아요
+30초씩 돌리고 한 번 섞어주세요!
+에어프라이어를 사용할 경우 떼어 낸 반죽 위에 식용유를 충분히 발라준 후 180도에 25분 정도 조리해주세요
+마요네즈를 더하거나 빼서 맵기를 조절해보세요. 시판 불닭마요 소스를 사용해주셔도 좋아요!"
+45931863,,,,,,10분 완성 제주도 딸기주물럭 만들기 냉동딸기 비율 초간단 알룰로스 저당 설탕 후기,"수제 딸기청 딸기라떼보다 맛있는 제주도민 딸기주물럭 레시피. 뭐랭하맨 유튜버 레시피 참고해 알룰로스, 스테비아, 설탕 양부터 빠르게 만드는 법까지 알려드려요.","[{""foodName"": ""딸기"", ""amount"": 500.0, ""unit"": ""g"", ""noServing"": 500.0, ""amountPerNoServing"": 500.0}, {""foodName"": ""설탕"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""우유"", ""amount"": 0, ""unit"": """", ""noServing"": 0, ""amountPerNoServing"": 0}]","[{""foodName"": ""알룰로스"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""스테비아"", ""amount"": 3.0, ""unit"": ""큰술"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}]","1. 딸기는 꼭지를 제거하고 세척해주세요.
+2. 큰 볼에 딸기를 담아주고 설탕 또는 알룰로스, 스테비아를 넣어주세요.
+3. 비닐 장갑으로 주물러 알갱이 입자가 있는 딸기청처럼 만들어주세요.
+4. 맛을 본 후 딸기를 더 넣거나 설탕, 알룰로스, 스테비아를 넣어 당도를 조절해주세요.
+5. 지퍼백에 넣어 평평하게 펴준 후 냉동실에 얼려주세요.
+6. 언 주물럭을 먹고 싶은 만큼 부셔 떼어낸 후 컵에 담아주세요.
+7. 우유를 넣어 딸기청을 으깨주면 진한 한 딸기 주물럭 완성!","냉동 딸기를 사용해도 괜찮아요. 다만 손으로 으깨야 하니 꼭 전부 해동해주세요!
+알룰로스와 스테비아는 당도가 더 세고 특유의 쓴 맛이 날 수 있으니 꼭 간을 봐주세요"
+59412025,,,,,,딸기 마시멜로우 실타래 탕후루 만들기 요즘 유행 간식 후기,"젼언니, 아누누, 먹스나, 지현쿡 요즘 틱톡 인스타 먹방으로 핫한 디저트 레시피 만드는 법. 최근 유행 30초 초간단 간식 꼭 만들어보세요!","[{""foodName"": ""딸기"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}, {""foodName"": ""마시멜로우"", ""amount"": 3.0, ""unit"": ""개"", ""noServing"": 3.0, ""amountPerNoServing"": 3.0}]",[],"1. 딸기는 꼭지를 제거해 세척해주세요.
+2. 후라이팬을 약불에 달궈주세요.
+3. 달궈진 후라이팬에 마시멜로우를 녹여주세요.
+4. 딸기를 마시멜로에 콕 찍어 마시멜로우를 딸기에 돌돌 감아주세요.
+5. 먹고 싶은 만큼 만들면 끝!",
