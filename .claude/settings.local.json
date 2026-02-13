@@ -14,7 +14,8 @@
       "Bash(npx tsc:*)",
       "WebFetch(domain:ev.or.kr)",
       "Bash(dir:*)",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "Bash(curl:*)"
     ]
   }
 }

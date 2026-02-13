@@ -140,13 +140,15 @@ function cleanHtml(text: string): string {
         .trim();
 }
 
-// 페이지에서 og:image 썸네일 추출
-async function fetchThumbnail(url: string): Promise<string> {
+// Google News 리다이렉트 URL에서 원본 URL 추출
+async function resolveGoogleNewsUrl(url: string): Promise<string> {
+    if (!url.includes('news.google.com')) return url;
     try {
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 5000); // 5초 타임아웃
+        const timeoutId = setTimeout(() => controller.abort(), 5000);
 
         const response = await fetch(url, {
+            redirect: 'follow',
             signal: controller.signal,
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
@@ -154,7 +156,31 @@ async function fetchThumbnail(url: string): Promise<string> {
         });
         clearTimeout(timeoutId);
 
-        if (!response.ok) return '';
+        // 리다이렉트를 따라간 최종 URL 반환
+        return response.url || url;
+    } catch {
+        return url;
+    }
+}
+
+// 페이지에서 og:image 썸네일 추출
+async function fetchThumbnail(url: string): Promise<{ thumbnail: string; resolvedUrl: string }> {
+    try {
+        // Google News URL이면 원본 URL로 변환
+        const resolvedUrl = await resolveGoogleNewsUrl(url);
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000);
+
+        const response = await fetch(resolvedUrl, {
+            signal: controller.signal,
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            },
+        });
+        clearTimeout(timeoutId);
+
+        if (!response.ok) return { thumbnail: '', resolvedUrl };
 
         const html = await response.text();
 
@@ -163,7 +189,7 @@ async function fetchThumbnail(url: string): Promise<string> {
             html.match(/<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:image["']/i);
 
         if (ogImageMatch && ogImageMatch[1]) {
-            return ogImageMatch[1];
+            return { thumbnail: ogImageMatch[1], resolvedUrl };
         }
 
         // twitter:image 폴백
@@ -171,12 +197,12 @@ async function fetchThumbnail(url: string): Promise<string> {
             html.match(/<meta[^>]*content=["']([^"']+)["'][^>]*name=["']twitter:image["']/i);
 
         if (twitterImageMatch && twitterImageMatch[1]) {
-            return twitterImageMatch[1];
+            return { thumbnail: twitterImageMatch[1], resolvedUrl };
         }
 
-        return '';
+        return { thumbnail: '', resolvedUrl };
     } catch {
-        return '';
+        return { thumbnail: '', resolvedUrl: url };
     }
 }
 
@@ -402,12 +428,16 @@ export async function POST(request: Request) {
         const batchSize = 10;
         for (let i = 0; i < allNews.length; i += batchSize) {
             const batch = allNews.slice(i, i + batchSize);
-            const thumbnails = await Promise.all(
+            const results = await Promise.all(
                 batch.map((news) => fetchThumbnail(news.link))
             );
-            thumbnails.forEach((thumb, idx) => {
-                if (thumb) {
-                    allNews[i + idx].thumbnail = thumb;
+            results.forEach((result, idx) => {
+                if (result.thumbnail) {
+                    allNews[i + idx].thumbnail = result.thumbnail;
+                }
+                // Google News 리다이렉트 URL을 원본 URL로 교체
+                if (result.resolvedUrl && result.resolvedUrl !== allNews[i + idx].link) {
+                    allNews[i + idx].link = result.resolvedUrl;
                 }
             });
         }
