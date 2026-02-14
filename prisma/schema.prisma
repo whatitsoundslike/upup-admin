@@ -15,37 +15,45 @@ model Member {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @default(now())
   uid       String    @unique
+  isDeleted Boolean   @default(false)
   gameSave  GameSave?
+  Inquiry   Inquiry[]
   rooms     Room[]
 }
 
 model Room {
-  id          BigInt   @id @default(autoincrement())
+  id          BigInt    @id @default(autoincrement())
   memberId    BigInt
   name        String?
   description String?
   images      Json
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @default(now())
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @default(now())
+  category    String    @default("tesla") @db.VarChar(50)
+  isLocked    Boolean   @default(false)
   items       Item[]
   records     Record[]
-  member      Member   @relation(fields: [memberId], references: [id])
+  member      Member    @relation(fields: [memberId], references: [id])
+  RoomKey     RoomKey[]
 
   @@index([memberId], map: "Room_memberId_fkey")
+  @@index([category])
 }
 
 model Item {
-  id        BigInt   @id @default(autoincrement())
-  roomId    BigInt
-  memberId  BigInt
-  name      String?
-  images    Json
-  sale      Boolean
-  price     BigInt
-  buyUrl    String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @default(now())
-  room      Room     @relation(fields: [roomId], references: [id])
+  id          BigInt    @id @default(autoincrement())
+  roomId      BigInt
+  memberId    BigInt
+  name        String?
+  images      Json
+  sale        Boolean   @default(false)
+  price       BigInt    @default(0)
+  buyUrl      String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @default(now())
+  description String?   @db.Text
+  purchasedAt DateTime?
+  room        Room      @relation(fields: [roomId], references: [id])
 
   @@index([roomId], map: "Item_roomId_fkey")
 }
@@ -182,4 +190,40 @@ model News {
   @@index([category])
   @@index([category, publishedAt])
   @@index([publishedAt])
+}
+
+model Inquiry {
+  id        BigInt   @id @default(autoincrement())
+  memberId  BigInt
+  title     String   @db.VarChar(200)
+  content   String   @db.Text
+  answer    String?  @db.Text
+  status    String   @default("pending") @db.VarChar(20)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  Member    Member   @relation(fields: [memberId], references: [id])
+
+  @@index([memberId])
+}
+
+model RoomKey {
+  id                  BigInt                @id @default(autoincrement())
+  roomId              BigInt
+  code                String                @unique @db.VarChar(20)
+  createdAt           DateTime              @default(now())
+  Room                Room                  @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  RoomKeyRegistration RoomKeyRegistration[]
+
+  @@index([roomId])
+}
+
+model RoomKeyRegistration {
+  id        BigInt   @id @default(autoincrement())
+  roomKeyId BigInt
+  memberId  BigInt
+  createdAt DateTime @default(now())
+  RoomKey   RoomKey  @relation(fields: [roomKeyId], references: [id], onDelete: Cascade)
+
+  @@unique([roomKeyId, memberId])
+  @@index([memberId])
 }

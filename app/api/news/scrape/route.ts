@@ -140,39 +140,96 @@ function cleanHtml(text: string): string {
         .trim();
 }
 
-// Google News 리다이렉트 URL에서 원본 URL 추출
-async function resolveGoogleNewsUrl(url: string): Promise<string> {
-    if (!url.includes('news.google.com')) return url;
+// Google News URL에서 base64 문자열 추출
+function getGoogleNewsBase64(url: string): string | null {
     try {
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 5000);
+        const parsed = new URL(url);
+        if (parsed.hostname !== 'news.google.com') return null;
+        const parts = parsed.pathname.split('/');
+        const idx = parts.findIndex((p) => p === 'articles' || p === 'read');
+        if (idx >= 0 && parts[idx + 1]) return parts[idx + 1];
+        return null;
+    } catch {
+        return null;
+    }
+}
 
-        const response = await fetch(url, {
-            redirect: 'follow',
-            signal: controller.signal,
+// Google News batchexecute API로 원본 URL 디코딩
+// 성공 시 원본 URL, 429 rate limit 시 null (스킵 대상), 기타 실패 시 원본 google URL 반환
+async function resolveGoogleNewsUrl(url: string): Promise<string | null> {
+    const base64Str = getGoogleNewsBase64(url);
+    if (!base64Str) return url;
+
+    try {
+        // 1단계: Google News 페이지에서 서명/타임스탬프 추출
+        const pageRes = await fetch(`https://news.google.com/articles/${base64Str}`, {
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
             },
         });
-        clearTimeout(timeoutId);
 
-        // 리다이렉트를 따라간 최종 URL 반환
-        return response.url || url;
+        if (pageRes.status === 429) return null;
+        if (!pageRes.ok) return url;
+
+        const html = await pageRes.text();
+        const sigMatch = html.match(/data-n-a-sg="([^"]+)"/);
+        const tsMatch = html.match(/data-n-a-ts="([^"]+)"/);
+        if (!sigMatch || !tsMatch) return url;
+
+        const signature = sigMatch[1];
+        const timestamp = tsMatch[1];
+
+        // 2단계: batchexecute API로 원본 URL 획득
+        const payload = [
+            'Fbv4je',
+            `["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"${base64Str}",${timestamp},"${signature}"]`,
+        ];
+        const body = `f.req=${encodeURIComponent(JSON.stringify([[payload]]))}`;
+
+        const decodeRes = await fetch('https://news.google.com/_/DotsSplashUi/data/batchexecute', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+            },
+            body,
+        });
+
+        if (decodeRes.status === 429) return null;
+        if (!decodeRes.ok) return url;
+
+        const text = await decodeRes.text();
+        const parts = text.split('\n\n');
+        if (parts.length < 2) return url;
+
+        const parsed = JSON.parse(parts[1]);
+        const decodedUrl = JSON.parse(parsed[0][2])[1];
+        if (decodedUrl && decodedUrl.startsWith('http')) return decodedUrl;
+
+        return url;
     } catch {
         return url;
     }
 }
 
-// 페이지에서 og:image 썸네일 추출
-async function fetchThumbnail(url: string): Promise<{ thumbnail: string; resolvedUrl: string }> {
-    try {
-        // Google News URL이면 원본 URL로 변환
-        const resolvedUrl = await resolveGoogleNewsUrl(url);
+// 핫링크 차단 도메인 (외부에서 직접 이미지 로드 불가)
+const BLOCKED_THUMBNAIL_DOMAINS = [
+    'nateimg.co.kr',
+    'nate.com',
+    'daumcdn.net',
+];
 
+function isBlockedThumbnail(imageUrl: string): boolean {
+    return BLOCKED_THUMBNAIL_DOMAINS.some((domain) => imageUrl.includes(domain));
+}
+
+// 페이지에서 og:image 썸네일만 추출
+async function fetchThumbnailOnly(url: string): Promise<string> {
+    try {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 5000);
 
-        const response = await fetch(resolvedUrl, {
+        const response = await fetch(url, {
             signal: controller.signal,
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
@@ -180,7 +237,7 @@ async function fetchThumbnail(url: string): Promise<{ thumbnail: string; resolve
         });
         clearTimeout(timeoutId);
 
-        if (!response.ok) return { thumbnail: '', resolvedUrl };
+        if (!response.ok) return '';
 
         const html = await response.text();
 
@@ -188,21 +245,21 @@ async function fetchThumbnail(url: string): Promise<{ thumbnail: string; resolve
         const ogImageMatch = html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i) ||
             html.match(/<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:image["']/i);
 
-        if (ogImageMatch && ogImageMatch[1]) {
-            return { thumbnail: ogImageMatch[1], resolvedUrl };
+        if (ogImageMatch && ogImageMatch[1] && !isBlockedThumbnail(ogImageMatch[1])) {
+            return ogImageMatch[1];
         }
 
         // twitter:image 폴백
         const twitterImageMatch = html.match(/<meta[^>]*name=["']twitter:image["'][^>]*content=["']([^"']+)["']/i) ||
             html.match(/<meta[^>]*content=["']([^"']+)["'][^>]*name=["']twitter:image["']/i);
 
-        if (twitterImageMatch && twitterImageMatch[1]) {
-            return { thumbnail: twitterImageMatch[1], resolvedUrl };
+        if (twitterImageMatch && twitterImageMatch[1] && !isBlockedThumbnail(twitterImageMatch[1])) {
+            return twitterImageMatch[1];
         }
 
-        return { thumbnail: '', resolvedUrl };
+        return '';
     } catch {
-        return { thumbnail: '', resolvedUrl: url };
+        return '';
     }
 }
 
@@ -423,41 +480,59 @@ export async function POST(request: Request) {
         // 5. 최대 40개로 제한
         allNews = allNews.slice(0, 40);
 
-        // 6. 썸네일 가져오기 (병렬 처리, 최대 10개씩)
-        console.log(`[${category}] Fetching thumbnails...`);
-        const batchSize = 10;
-        for (let i = 0; i < allNews.length; i += batchSize) {
-            const batch = allNews.slice(i, i + batchSize);
-            const results = await Promise.all(
-                batch.map((news) => fetchThumbnail(news.link))
-            );
-            results.forEach((result, idx) => {
-                if (result.thumbnail) {
-                    allNews[i + idx].thumbnail = result.thumbnail;
-                }
-                // Google News 리다이렉트 URL을 원본 URL로 교체
-                if (result.resolvedUrl && result.resolvedUrl !== allNews[i + idx].link) {
-                    allNews[i + idx].link = result.resolvedUrl;
-                }
-            });
-        }
-        console.log(`[${category}] Thumbnails fetched`);
-
-        // 7. DB에 저장 (중복 제목은 건너뛰기)
-        let insertedCount = 0;
+        // 6. DB 중복 체크 먼저 수행 (제목 기준)
+        const newNews: NewsItem[] = [];
         let skippedCount = 0;
 
         for (const news of allNews) {
-            // 제목으로 중복 체크
             const existing = await prisma.news.findUnique({
                 where: { title: news.title },
             });
-
             if (existing) {
                 skippedCount++;
-                continue;
+            } else {
+                newNews.push(news);
             }
+        }
+        console.log(`[${category}] New articles: ${newNews.length} (${skippedCount} duplicates skipped)`);
 
+        // 7. 새 뉴스에 대해서만 Google News URL 디코딩 + 썸네일 가져오기
+        // 429 rate limit 발생 시 해당 뉴스는 스킵, 나머지는 계속 처리
+        const processedNews: NewsItem[] = [];
+        let rateLimitedCount = 0;
+
+        if (newNews.length > 0) {
+            console.log(`[${category}] Resolving URLs & fetching thumbnails for ${newNews.length} new articles...`);
+            for (let i = 0; i < newNews.length; i++) {
+                const isGoogleUrl = newNews[i].link.includes('news.google.com');
+
+                if (isGoogleUrl) {
+                    if (i > 0) await new Promise((r) => setTimeout(r, 1000));
+                    const resolvedUrl = await resolveGoogleNewsUrl(newNews[i].link);
+                    if (resolvedUrl === null) {
+                        // 429 rate limit → 이 뉴스는 스킵
+                        rateLimitedCount++;
+                        console.log(`  [decode] Rate limited, skipping: ${newNews[i].title.slice(0, 40)}...`);
+                        continue;
+                    }
+                    if (resolvedUrl !== newNews[i].link) {
+                        newNews[i].link = resolvedUrl;
+                    }
+                }
+
+                const thumbResult = await fetchThumbnailOnly(newNews[i].link);
+                if (thumbResult) {
+                    newNews[i].thumbnail = thumbResult;
+                }
+                processedNews.push(newNews[i]);
+            }
+            console.log(`[${category}] Done: ${processedNews.length} processed, ${rateLimitedCount} rate-limited`);
+        }
+
+        // 8. DB에 저장
+        let insertedCount = 0;
+
+        for (const news of processedNews) {
             try {
                 await prisma.news.create({
                     data: {
@@ -479,7 +554,7 @@ export async function POST(request: Request) {
 
         return NextResponse.json({
             success: true,
-            message: `${insertedCount}개 뉴스가 추가되었습니다. (${skippedCount}개 중복 건너뜀)`,
+            message: `${insertedCount}개 뉴스가 추가되었습니다. (${skippedCount}개 중복 건너뜀${rateLimitedCount > 0 ? `, ${rateLimitedCount}개 rate limit 스킵` : ''})`,
             inserted: insertedCount,
             skipped: skippedCount,
         });

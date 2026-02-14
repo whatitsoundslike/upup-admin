@@ -15,7 +15,13 @@
       "WebFetch(domain:ev.or.kr)",
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(node test_decode.mjs:*)"
     ]
   }
 }
