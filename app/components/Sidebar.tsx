@@ -20,6 +20,7 @@ const navItems: NavItem[] = [
   { href: '/products', label: '상품 리스트 관리', icon: '🛒' },
   { href: '/subsidies', label: '전기차 보조금 현황', icon: '🚗', superOnly: true },
   { href: '/charging-stations', label: '전기차 충전소 위치 관리', icon: '⚡' },
+  { href: '/community', label: '커뮤니티 스크래핑', icon: '🌐' },
   { href: '/inquiries', label: '고객 문의 관리', icon: '💬' },
   { href: '/shortcut', label: '단축 메뉴', icon: '⚙️' },
 ];
