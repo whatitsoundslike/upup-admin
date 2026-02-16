@@ -21,7 +21,8 @@
       "WebFetch(domain:gist.github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:api.github.com)",
-      "Bash(node test_decode.mjs:*)"
+      "Bash(node test_decode.mjs:*)",
+      "Bash(npm install:*)"
     ]
   }
 }
