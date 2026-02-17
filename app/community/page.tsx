@@ -56,6 +56,7 @@ export default function CommunityPage() {
           ? [filterCategory]
           : allowedCategories.map((c) => c.value);
 
+      const sourceToScrape = filterSource || 'dcinside';
       const results: string[] = [];
 
       for (const cat of categoriesToScrape) {
@@ -63,13 +64,13 @@ export default function CommunityPage() {
         const res = await fetch('/api/community/scrape', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ category: cat, source: 'dcinside' }),
+          body: JSON.stringify({ category: cat, source: sourceToScrape }),
         });
         const data = await res.json();
         if (res.ok) {
-          results.push(`${getCategoryLabel(cat)}: ${data.message}`);
+          results.push(`${getCategoryLabel(cat)} (${sourceToScrape}): ${data.message}`);
         } else {
-          results.push(`${getCategoryLabel(cat)}: ${data.error || '실패'}`);
+          results.push(`${getCategoryLabel(cat)} (${sourceToScrape}): ${data.error || '실패'}`);
         }
       }
 
@@ -218,7 +219,7 @@ export default function CommunityPage() {
                   {scrapingCategory ? `${getCategoryLabel(scrapingCategory)} 수집 중...` : '수집 중...'}
                 </>
               ) : (
-                '🔍 DC인사이드 스크래핑'
+                `🔍 ${filterSource ? SOURCE_BADGES[filterSource]?.label : '전체'} 스크래핑`
               )}
             </button>
           </div>

@@ -9,8 +9,6 @@ const pageTitles: { [key: string]: string } = {
   '/news': '뉴스 관리',
   '/tips': '팁 게시물 관리',
   '/products': '상품 리스트 관리',
-  '/charging-stations': '전기차 충전소 위치 관리',
-  '/shortcut': '단축 메뉴',
 };
 
 interface HeaderProps {

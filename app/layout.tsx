@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ZROOM Admin - 관리자 페이지",
-  description: "뉴스, 팁, 상품, 충전소 관리를 위한 어드민 대시보드",
+  description: "뉴스, 팁, 상품 관리를 위한 어드민 대시보드",
 };
 
 export default function RootLayout({

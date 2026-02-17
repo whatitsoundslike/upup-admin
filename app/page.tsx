@@ -37,13 +37,6 @@ export default function Home() {
       description: '상품 목록 및 정보를 관리합니다.',
       color: 'yellow'
     },
-    {
-      href: '/charging-stations',
-      label: '전기차 충전소 위치 관리',
-      icon: '⚡',
-      description: '전기차 충전소 위치 정보를 관리합니다.',
-      color: 'red'
-    },
   ];
 
   return (
