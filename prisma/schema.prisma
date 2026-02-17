@@ -156,22 +156,6 @@ model Product {
   @@index([category, sortOrder])
 }
 
-model Subsidy {
-  id            BigInt   @id @default(autoincrement())
-  locationName1 String   @db.VarChar(50)
-  locationName2 String   @db.VarChar(100)
-  totalCount    Int      @default(0)
-  recievedCount Int      @default(0)
-  releaseCount  Int      @default(0)
-  remainCount   Int      @default(0)
-  etc           String?  @db.Text
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @default(now()) @updatedAt
-
-  @@unique([locationName1, locationName2])
-  @@index([locationName1])
-}
-
 model News {
   id           BigInt    @id @default(autoincrement())
   category     String    @db.VarChar(50)
@@ -215,29 +199,6 @@ model RoomKey {
   RoomKeyRegistration RoomKeyRegistration[]
 
   @@index([roomId])
-}
-
-model CommunityPost {
-  id          BigInt    @id @default(autoincrement())
-  category    String    @db.VarChar(50)
-  source      String    @db.VarChar(50)
-  title       String    @db.VarChar(500)
-  content     String?   @db.Text
-  url         String    @unique @db.VarChar(500)
-  views       Int       @default(0)
-  likes       Int       @default(0)
-  comments    Int       @default(0)
-  hotScore    Float     @default(0)
-  imageUrl    String?   @db.VarChar(1000)
-  publishedAt DateTime?
-  crawledAt   DateTime  @default(now())
-  aiVerified  Boolean   @default(false)
-  isActive    Boolean   @default(true)
-
-  @@index([category])
-  @@index([hotScore(sort: Desc)])
-  @@index([source])
-  @@index([crawledAt])
 }
 
 model RoomKeyRegistration {
